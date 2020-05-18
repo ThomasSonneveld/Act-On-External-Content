@@ -1,0 +1,17 @@
+headlinesButton.style.width = "25%"
+headlinesButton.style.height = '49px';
+headlinesButton.style.backgroundColor = "#fafafa";
+headlinesButton.style.color = "#000";
+headlinesButton.style.display = "block";
+headlinesButton.style.cssFloat="left"
+headlinesButton.id = "headlinesButton"
+headlinesButtonImg.textContent = "Headlines";
+headlinesButtonImg.style.textAlign = "center";
+headlinesButtonImg.src = chrome.runtime.getURL("Artikelengrooticon.png");
+headlinesButtonImg.style.display = "block";
+headlinesButtonImg.className = "ButtonImg";
+headlinesButtonImg.style.width = "100%";
+headlinesButtonImg.style.height = "49px";
+headlinesButtonImg.style.marginLeft="auto";
+headlinesButtonImg.style.marginRight="auto";
+headlinesButtonImg.style.verticalAlign = "center";

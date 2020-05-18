@@ -1,0 +1,58 @@
+.draggeble {
+  font-size: 12px;
+  color: #2d2d2d;
+  padding: 5px;
+  background-color: #FFF;
+};
+
+.headline {
+  draggable: false
+}
+
+.kleinArtikel .tableDivider1 .tdDiv .imgKleinArtikel{
+  max-height: 80px !important;
+  max-width: 80px !important;
+  overflow: hidden;
+}
+
+.kleinArtikel .tableDivider2 .titleKleinArtikel{
+  font-size: 9px !important;
+};
+
+.kleinArtikel .tableDivider2 .DescriptionKleinArtikel{
+  font-size: 7px !important;
+};
+
+.imgKleinArtikel12 {
+  display: none !important;
+};
+
+.tableDivider1 {
+  max-width: 80px;
+};
+
+
+.grootArtikel {
+  border: 1px solid #2d2d2d;
+}
+
+.grootArtikelAuthor {
+  font-size: 7pt;
+}
+
+.grootArtikelDescription {
+  font-size: 7pt;
+}
+
+.grootArtikelTitle {
+  font-size: 9pt;
+}
+
+.ButtonImg {
+
+}
+
+.ButtonImgPressd {
+  border-bottom: 5px solid #1483C6;
+  color: #474747 !important;
+}

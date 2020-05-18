@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Act-On external content",
+  "version": "0.3",
+  "web_accessible_resources": ["Headlinesicon.png", "Artikelengrooticon.png", "Agendaicon.png", "Artikelenkleinicon.png"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.actonsoftware.com/acton/_compose/*"
+      ],
+
+      "js": ["LoadCanvas.js", "Append.js", "DefineIndexStyle.js", "content.js"],
+       "css" : ["main.css"]
+    }
+  ],
+  "background": {
+      "scripts": ["browser.js"]
+  },
+  "browser_action": {
+    "default_icon": "ActOnPlusIcon.png"
+  }
+}
