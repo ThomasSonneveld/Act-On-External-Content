@@ -29,7 +29,7 @@ choises.className = "choises";
 choises.cssFloat = "left";
 choises.style.display = "inline";
 
-headlinesButton.style.width = "25%"
+headlinesButton.style.width = "20%"
 headlinesButton.style.height = '49px';
 headlinesButton.style.backgroundColor = "#fafafa";
 headlinesButton.style.color = "#000";
@@ -52,7 +52,7 @@ headlinesButtonImg.style.top= "0px";
 headlinesButtonImg.style.height= "29px"
 
 
-artikelGrootButton.style.width = "25%"
+artikelGrootButton.style.width = "20%"
 artikelGrootButton.style.height = '49px';
 artikelGrootButton.style.backgroundColor = "#fafafa";
 artikelGrootButton.style.color = "#000";
@@ -74,7 +74,7 @@ artikelGrootButtonImg.style.fontWeight= "bold";
 artikelGrootButtonImg.style.top= "0px";
 artikelGrootButtonImg.style.height= "29px"
 
-agendaAcademyButton.style.width = "25%";
+agendaAcademyButton.style.width = "20%";
 agendaAcademyButton.style.height = '49px';
 agendaAcademyButton.style.backgroundColor = "#fafafa";
 agendaAcademyButton.style.color = "#000";
@@ -97,7 +97,7 @@ agendaAcademyButtonImg.style.top= "0px";
 agendaAcademyButtonImg.style.height= "29px"
 
 
-artikelKleinButton.style.width = "25%"
+artikelKleinButton.style.width = "20%"
 artikelKleinButton.style.height = '49px';
 artikelKleinButton.style.backgroundColor = "#fafafa";
 artikelKleinButton.style.color = "#000";
@@ -118,6 +118,28 @@ artikelKleinButtonImg.style.fontSize= "14px";
 artikelKleinButtonImg.style.fontWeight= "bold";
 artikelKleinButtonImg.style.top= "0px";
 artikelKleinButtonImg.style.height= "29px"
+
+vacatureButton.style.width = "20%"
+vacatureButton.style.height = '49px';
+vacatureButton.style.backgroundColor = "#fafafa";
+vacatureButton.style.color = "#000";
+vacatureButton.style.display = "block";
+vacatureButton.style.cssFloat="left"
+vacatureButton.id = "vacatureButton"
+vacatureButtonImg.textContent = "Vacatures";
+vacatureButtonImg.style.textAlign = "center";
+vacatureButtonImg.style.display = "block";
+vacatureButtonImg.className = "ButtonImg";
+vacatureButtonImg.style.width = "100%";
+vacatureButtonImg.style.marginLeft="auto";
+vacatureButtonImg.style.marginRight="auto";
+vacatureButtonImg.style.verticalAlign = "center";
+vacatureButtonImg.style.color = "#cccccc";
+vacatureButtonImg.style.fontFamily = "Helvetiva, Arial";
+vacatureButtonImg.style.fontSize= "14px";
+vacatureButtonImg.style.fontWeight= "bold";
+vacatureButtonImg.style.top= "0px";
+vacatureButtonImg.style.height= "29px"
 
 
 contentIndex.id = 'contentIndex';
@@ -148,34 +170,73 @@ agendaOverlay.style.zIndex = "19300";
 
   aa1.id = "agendaAcademy1";
   aa1.style.display = "block";
-  aa1.className = "headline";
+  aa1.className = "agendaItem";
   aa1.style.margin = "0px";
+  saa1a.style.color = "#21759B"
+  saa1a.id = "saa1a";
+  saa1b.style.color = "#9e9e9e";
+  saa1b.id = "saa1b";
 
   aa2.id = "agendaAcademy2";
   aa2.style.display = "block";
-  aa2.className = "headline";
+  aa2.className = "agendaItem";
   aa2.style.margin = "0px";
+  saa2a.style.color = "#21759B"
+  saa2a.id = "saa2a";
+  saa2b.style.color = "#9e9e9e";
+  saa2b.id = "saa2b";
 
   aa3.id = "agendaAcademy3";
   aa3.style.display = "block";
-  aa3.className = "headline";
+  aa3.className = "agendaItem";
   aa3.style.margin = "0px";
+  saa3a.style.color = "#21759B"
+  saa3a.id = "saa3a";
+  saa3b.style.color = "#9e9e9e";
+  saa3b.id = "saa3b";
 
   aa4.id = "agendaAcademy4";
   aa4.style.display = "block";
-  aa4.className = "headline";
+  aa4.className = "agendaItem";
   aa4.style.margin = "0px";
+  saa4a.style.color = "#21759B"
+  saa4a.id = "saa4a";
+  saa4b.style.color = "#9e9e9e";
+  saa4b.id = "saa4b";
 
   aa5.id = "agendaAcademy5";
   aa5.style.display = "block";
-  aa5.className = "headline";
+  aa5.className = "agendaItem";
   aa5.style.margin = "0px";
+  saa5a.style.color = "#21759B"
+  saa5a.id = "saa5a";
+  saa5b.style.color = "#9e9e9e";
+  saa5b.id = "saa5b";
+
+  aa6.id = "agendaAcademy6";
+  aa6.style.display = "block";
+  aa6.className = "agendaItem";
+  aa6.style.margin = "0px";
+  saa6a.style.color = "#21759B"
+  saa6a.id = "saa6a";
+  saa6b.style.color = "#9e9e9e";
+  saa6b.id = "saa6b";
+
+  aa7.id = "agendaAcademy7";
+  aa7.style.display = "block";
+  aa7.className = "agendaItem";
+  aa7.style.margin = "0px";
+  saa7a.style.color = "#21759B"
+  saa7a.id = "saa7a";
+  saa7b.style.color = "#9e9e9e";
+  saa7b.id = "saa7b";
 
 
 artikelenKleinContainer.style.position = "absolute";
 artikelenKleinContainer.style.display = "none";
 artikelenGrootContainer.style.position = "absolute";
 artikelenGrootContainer.style.display = "none";
+vacatureContainer.style.display = "none";
 
 //changable style
 contentIndex.style.color = "2d2d2d";
@@ -218,14 +279,22 @@ headlinesOverlay.style.zIndex = "19300";
   phl1.style.margin = "0px";
 
   hl2.id = "headline2";
-  hl2.style.display = "block";
+  hl2.style.display = "inline";
   hl2.className = "headline";
   hl2.style.margin = "0px";
 
   phl2.id = "pheadline2";
-  phl2.style.display = "block";
+  phl2.style.display = "inline";
   phl2.className = "headline";
   phl2.style.margin = "0px";
+
+  shl2b.id = "sheadline2b";
+  shl2b.style.display = "inline";
+  shl2b.style.alignContent= "right";
+  shl2b.style.border="1px solid #666666"
+  shl2b.style.color="#666666"
+  shl2b.style.cssFloat="right"
+  shl2b.style.fontSize="9px"
 
   hl3.id = "headline3";
   hl3.style.display = "block";
@@ -248,14 +317,23 @@ headlinesOverlay.style.zIndex = "19300";
   phl4.style.margin = "0px";
 
   hl5.id = "headline5";
-  hl5.style.display = "block";
+  hl5.style.display = "inline";
   hl5.className = "headline";
   hl5.style.margin = "0px";
 
   phl5.id = "pheadline5";
-  phl5.style.display = "block";
+  phl5.style.display = "inline";
   phl5.className = "headline";
   phl5.style.margin = "0px";
+
+  shl5b.id = "sheadline5b";
+  shl5b.style.display = "inline";
+  shl5b.style.alignContent= "right";
+  shl5b.style.border="1px solid #666666"
+  shl5b.style.color="#666666"
+  shl5b.style.cssFloat="right"
+  shl5b.style.fontSize="9px"
+
 
   hl6.id = "headline6";
   hl6.style.display = "block";
@@ -273,30 +351,25 @@ headlinesOverlay.style.zIndex = "19300";
 artikelKlein1.id = "kleinArtikel1";
 artikelKlein1.className = 'kleinArtikel';
 artikelKlein1.draggable = "true";
-artikelKlein1.ondragstart ='onDragStart(event);';
 artikelKlein1.position - "absolute"
 
-  artikelKleinTable1.className = "table"
-  artikelKleinTable1.style.tableLayout="fixed"
-  artikelKleinTable1.style.overflow = "hidden";
-
-    artikelKleinImg12.id = "imgKleinArtikel12";
-    artikelKleinImg12.className = "imgArtikel";
-    artikelKleinImg12.style.height = "auto";
-    artikelKleinImg12.style.width = "600px";
+    artikelKlein1TD1a.className = "tableDivider1a";
 
     artikelKlein1TD1.className = "tableDivider1";
     artikelKlein1TD1.display = "block";
     artikelKlein1TD1.width = "30%";
     artikelKlein1TD1.height = "150px";
-    artikelKlein1TD1.style.overflow = "hidden";
-    artikelKlein1TD1.style.tableLayout="fixed"
 
       artikelKlein1TDDiv.className = "tdDiv";
       artikelKlein1TDDiv.width = "150px";
       artikelKlein1TDDiv.height = "150px";
-      artikelKlein1TDDiv.style.overflow = "hidden";
-      artikelKlein1TDDiv.style.position = "relative";
+
+        artikelKleinImg1a.id = "imgKleinArtikel1a";
+        artikelKleinImg1a.style.height = "150px";
+        artikelKleinImg1a.style.width = "100%";
+        artikelKleinImg1a.draggable="true";
+        artikelKleinImg1a.className = "imgKleinArtikela"
+        artikelKleinImg1a.style.display = "none";
 
         artikelKleinImg1.id = "imgKleinArtikel1";
         artikelKleinImg1.style.display = "block";
@@ -307,22 +380,25 @@ artikelKlein1.position - "absolute"
       artikelKlein1TD2.className= "tableDivider2";
       artikelKlein1TD2.height = "150px";
       artikelKlein1TD2.width = "auto";
+      artikelKlein1TD2.style.verticalAlign="top";
 
         artikelKleinTitle1.id = "titleKleinArtikel1";
         artikelKleinTitle1.style.display = "block";
         artikelKleinTitle1.className = "titleKleinArtikel";
         artikelKleinTitle1.style.top = "0px";
-        artikelKleinTitle1.style.display = "block";
-        artikelKleinTitle1.style.fontSize = "14pt";
-        artikelKleinTitle1.style.fontWeight = "regular";
-        artikelKleinTitle1.style.fontFamily = "Arial";
+        artikelKleinTitle1.style.verticalAlign="top"
+        artikelKleinTitle1.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
 
         artikelKleinDescription1.id = "DescriptionKleinArtikel1";
         artikelKleinDescription1.style.display = "block";
         artikelKleinDescription1.className = "DescriptionKleinArtikel";
-        artikelKleinDescription1.style.fontSize = "10pt";
-        artikelKleinDescription1.style.fontWeight = "regular";
-        artikelKleinDescription1.style.fontFamily = "Arial";
+        artikelKleinDescription1.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+        artikelKleinCTA1.id = "KleinArtikelCTA1";
+        artikelKleinCTA1.className = "KleinArtikelCTA";
+        artikelKleinCTA1.style.display = "inline";
+        artikelKleinCTA1.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
+
 
 artikelKlein2.id = "kleinArtikel2";
 artikelKlein2.className = 'kleinArtikel';
@@ -330,11 +406,7 @@ artikelKlein2.draggable = "true";
 artikelKlein2.ondragstart ='onDragStart(event);';
 artikelKlein2.position - "absolute"
 
-artikelKleinImg22.id = "imgKleinArtikel22";
-artikelKleinImg22.style.display = "block";
-artikelKleinImg22.className = "imgKleinArtike22";
-artikelKleinImg22.style.height = "auto";
-artikelKleinImg22.style.width = "600px";
+  artikelKlein2TD2a.className = "tableDivider1a";
 
     artikelKlein2TD1.className = "tableDivider1";
     artikelKlein2TD1.display = "block";
@@ -344,6 +416,13 @@ artikelKleinImg22.style.width = "600px";
       artikelKlein2TDDiv.className = "tdDiv";
       artikelKlein2TDDiv.width = "150px";
       artikelKlein2TDDiv.height = "150px";
+
+      artikelKleinImg2a.id = "imgKleinArtikel2a";
+      artikelKleinImg2a.style.height = "150px";
+      artikelKleinImg2a.style.width = "100%";
+      artikelKleinImg2a.draggable="true";
+      artikelKleinImg2a.className = "imgKleinArtikela"
+      artikelKleinImg2a.style.display = "none";
 
         artikelKleinImg2.id = "imgKleinArtikel2";
         artikelKleinImg2.style.display = "block";
@@ -366,12 +445,18 @@ artikelKleinImg22.style.width = "600px";
         artikelKleinDescription2.className = "DescriptionKleinArtikel";
         artikelKleinDescription2.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
 
+        artikelKleinCTA2.id = "KleinArtikelCTA2";
+        artikelKleinCTA2.className = "KleinArtikelCTA";
+        artikelKleinCTA2.style.display = "block";
+        artikelKleinCTA2.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein3.id = "kleinArtikel3";
 artikelKlein3.className = 'kleinArtikel';
 artikelKlein3.draggable = "true";
 artikelKlein3.ondragstart ='onDragStart(event);';
 artikelKlein3.position - "absolute"
+
+  artikelKlein3TD3a.className = "tableDivider1a";
 
     artikelKlein3TD1.className = "tableDivider1";
     artikelKlein3TD1.display = "block";
@@ -381,6 +466,13 @@ artikelKlein3.position - "absolute"
       artikelKlein3TDDiv.className = "tdDiv";
       artikelKlein3TDDiv.width = "150px";
       artikelKlein3TDDiv.height = "150px";
+
+      artikelKleinImg3a.id = "imgKleinArtikel3a";
+      artikelKleinImg3a.style.height = "150px";
+      artikelKleinImg3a.style.width = "100%";
+      artikelKleinImg3a.draggable="true";
+      artikelKleinImg3a.className = "imgKleinArtikela"
+      artikelKleinImg3a.style.display = "none";
 
         artikelKleinImg3.id = "imgKleinArtikel3";
         artikelKleinImg3.style.display = "block";
@@ -403,11 +495,18 @@ artikelKlein3.position - "absolute"
         artikelKleinDescription3.className = "DescriptionKleinArtikel";
         artikelKleinDescription3.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
 
+        artikelKleinCTA3.id = "KleinArtikelCTA3";
+        artikelKleinCTA3.className = "KleinArtikelCTA";
+        artikelKleinCTA3.style.display = "block";
+        artikelKleinCTA3.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
+
 artikelKlein4.id = "kleinArtikel4";
 artikelKlein4.className = 'kleinArtikel';
 artikelKlein4.draggable = "true";
 artikelKlein4.ondragstart ='onDragStart(event);';
 artikelKlein4.position - "absolute"
+
+  artikelKlein4TD4a.className = "tableDivider1a";
 
     artikelKlein4TD1.className = "tableDivider1";
     artikelKlein4TD1.display = "block";
@@ -417,6 +516,13 @@ artikelKlein4.position - "absolute"
       artikelKlein4TDDiv.className = "tdDiv";
       artikelKlein4TDDiv.width = "150px";
       artikelKlein4TDDiv.height = "150px";
+
+      artikelKleinImg4a.id = "imgKleinArtikel4a";
+      artikelKleinImg4a.style.height = "150px";
+      artikelKleinImg4a.style.width = "100%";
+      artikelKleinImg4a.draggable="true";
+      artikelKleinImg4a.className = "imgKleinArtikela"
+      artikelKleinImg4a.style.display = "none";
 
         artikelKleinImg4.id = "imgKleinArtikel4";
         artikelKleinImg4.style.display = "block";
@@ -439,13 +545,18 @@ artikelKlein4.position - "absolute"
       artikelKleinDescription4.className = "DescriptionKleinArtikel";
       artikelKleinDescription4.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
 
-
+      artikelKleinCTA4.id = "KleinArtikelCTA4";
+      artikelKleinCTA4.className = "KleinArtikelCTA";
+      artikelKleinCTA4.style.display = "block";
+      artikelKleinCTA4.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein5.id = "kleinArtikel5";
 artikelKlein5.className = 'kleinArtikel';
 artikelKlein5.draggable = "true";
 artikelKlein5.ondragstart ='onDragStart(event);';
 artikelKlein5.position - "absolute"
+
+  artikelKlein5TD5a.className = "tableDivider1a";
 
     artikelKlein5TD1.className = "tableDivider1";
     artikelKlein5TD1.display = "block";
@@ -455,6 +566,13 @@ artikelKlein5.position - "absolute"
       artikelKlein5TDDiv.className = "tdDiv";
       artikelKlein5TDDiv.width = "150px";
       artikelKlein5TDDiv.height = "150px";
+
+      artikelKleinImg5a.id = "imgKleinArtikel5a";
+      artikelKleinImg5a.style.height = "150px";
+      artikelKleinImg5a.style.width = "100%";
+      artikelKleinImg5a.draggable="true";
+      artikelKleinImg5a.className = "imgKleinArtikela"
+      artikelKleinImg5a.style.display = "none";
 
         artikelKleinImg5.id = "imgKleinArtikel5";
         artikelKleinImg5.style.display = "block";
@@ -478,12 +596,18 @@ artikelKlein5.position - "absolute"
       artikelKleinDescription5.className = "DescriptionKleinArtikel";
       artikelKleinDescription5.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
 
+      artikelKleinCTA5.id = "KleinArtikelCTA5";
+      artikelKleinCTA5.className = "KleinArtikelCTA";
+      artikelKleinCTA5.style.display = "block";
+      artikelKleinCTA5.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein6.id = "kleinArtikel6";
 artikelKlein6.className = 'kleinArtikel';
 artikelKlein6.draggable = "true";
 artikelKlein6.ondragstart ='onDragStart(event);';
 artikelKlein6.position - "absolute"
+
+  artikelKlein6TD6a.className = "tableDivider1a";
 
     artikelKlein6TD1.className = "tableDivider1";
     artikelKlein6TD1.display = "block";
@@ -493,6 +617,13 @@ artikelKlein6.position - "absolute"
       artikelKlein6TDDiv.className = "tdDiv";
       artikelKlein6TDDiv.width = "150px";
       artikelKlein6TDDiv.height = "150px";
+
+      artikelKleinImg6a.id = "imgKleinArtikel6a";
+      artikelKleinImg6a.style.height = "150px";
+      artikelKleinImg6a.style.width = "100%";
+      artikelKleinImg6a.draggable="true";
+      artikelKleinImg6a.className = "imgKleinArtikela"
+      artikelKleinImg6a.style.display = "none";
 
         artikelKleinImg6.id = "imgKleinArtikel6";
         artikelKleinImg6.style.display = "block";
@@ -515,7 +646,462 @@ artikelKlein6.position - "absolute"
       artikelKleinDescription6.className = "DescriptionKleinArtikel";
       artikelKleinDescription6.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
 
+      artikelKleinCTA6.id = "KleinArtikelCTA6";
+      artikelKleinCTA6.className = "KleinArtikelCTA";
+      artikelKleinCTA6.style.display = "block";
+      artikelKleinCTA6.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
+artikelKlein7.id = "kleinArtikel7";
+artikelKlein7.className = 'kleinArtikel';
+artikelKlein7.draggable = "true";
+artikelKlein7.ondragstart ='onDragStart(event);';
+artikelKlein7.position - "absolute"
+
+  artikelKlein7TD7a.className = "tableDivider1a";
+
+    artikelKlein7TD1.className = "tableDivider1";
+    artikelKlein7TD1.display = "block";
+    artikelKlein7TD1.width = "30%";
+    artikelKlein7TD1.height = "150px";
+
+      artikelKlein7TDDiv.className = "tdDiv";
+      artikelKlein7TDDiv.width = "150px";
+      artikelKlein7TDDiv.height = "150px";
+
+      artikelKleinImg7a.id = "imgKleinArtikel7a";
+      artikelKleinImg7a.style.height = "150px";
+      artikelKleinImg7a.style.width = "100%";
+      artikelKleinImg7a.draggable="true";
+      artikelKleinImg7a.className = "imgKleinArtikela"
+      artikelKleinImg7a.style.display = "none";
+
+        artikelKleinImg7.id = "imgKleinArtikel7";
+        artikelKleinImg7.style.display = "block";
+        artikelKleinImg7.className = "imgKleinArtikel";
+        artikelKleinImg7.style.height = "150px";
+        artikelKleinImg7.style.width = "150px";
+
+    artikelKlein7TD2.className= "tableDivider2";
+    artikelKlein7TD2.height = "150px";
+    artikelKlein7TD2.width = "auto";
+
+      artikelKleinTitle7.id = "titleKleinArtikel7";
+      artikelKleinTitle7.style.display = "block";
+      artikelKleinTitle7.className = "titleKleinArtikel";
+      artikelKleinTitle7.style.top = "0px";
+      artikelKleinTitle7.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinDescription7.id = "DescriptionKleinArtikel7";
+      artikelKleinDescription7.style.display = "block";
+      artikelKleinDescription7.className = "DescriptionKleinArtikel";
+      artikelKleinDescription7.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinCTA7.id = "KleinArtikelCTA7";
+      artikelKleinCTA7.className = "KleinArtikelCTA";
+      artikelKleinCTA7.style.display = "block";
+      artikelKleinCTA7.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
+
+artikelKlein8.id = "kleinArtikel8";
+artikelKlein8.className = 'kleinArtikel';
+artikelKlein8.draggable = "true";
+artikelKlein8.ondragstart ='onDragStart(event);';
+artikelKlein8.position - "absolute"
+
+  artikelKlein8TD8a.className = "tableDivider1a";
+
+    artikelKlein8TD1.className = "tableDivider1";
+    artikelKlein8TD1.display = "block";
+    artikelKlein8TD1.width = "30%";
+    artikelKlein8TD1.height = "150px";
+
+      artikelKlein8TDDiv.className = "tdDiv";
+      artikelKlein8TDDiv.width = "150px";
+      artikelKlein8TDDiv.height = "150px";
+
+      artikelKleinImg8a.id = "imgKleinArtikel8a";
+      artikelKleinImg8a.style.height = "150px";
+      artikelKleinImg8a.style.width = "100%";
+      artikelKleinImg8a.draggable="true";
+      artikelKleinImg8a.className = "imgKleinArtikela"
+      artikelKleinImg8a.style.display = "none";
+
+        artikelKleinImg8.id = "imgKleinArtikel8";
+        artikelKleinImg8.style.display = "block";
+        artikelKleinImg8.className = "imgKleinArtikel";
+        artikelKleinImg8.style.height = "150px";
+        artikelKleinImg8.style.width = "150px";
+
+    artikelKlein8TD2.className= "tableDivider2";
+    artikelKlein8TD2.height = "150px";
+    artikelKlein8TD2.width = "auto";
+
+      artikelKleinTitle8.id = "titleKleinArtikel8";
+      artikelKleinTitle8.style.display = "block";
+      artikelKleinTitle8.className = "titleKleinArtikel";
+      artikelKleinTitle8.style.top = "0px";
+      artikelKleinTitle8.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinDescription8.id = "DescriptionKleinArtikel8";
+      artikelKleinDescription8.style.display = "block";
+      artikelKleinDescription8.className = "DescriptionKleinArtikel";
+      artikelKleinDescription8.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinCTA8.id = "KleinArtikelCTA8";
+      artikelKleinCTA8.className = "KleinArtikelCTA";
+      artikelKleinCTA8.style.display = "block";
+      artikelKleinCTA8.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
+
+artikelKlein9.id = "kleinArtikel9";
+artikelKlein9.className = 'kleinArtikel';
+artikelKlein9.draggable = "true";
+artikelKlein9.ondragstart ='onDragStart(event);';
+artikelKlein9.position - "absolute"
+
+  artikelKlein9TD9a.className = "tableDivider1a";
+
+    artikelKlein9TD1.className = "tableDivider1";
+    artikelKlein9TD1.display = "block";
+    artikelKlein9TD1.width = "30%";
+    artikelKlein9TD1.height = "150px";
+
+      artikelKlein9TDDiv.className = "tdDiv";
+      artikelKlein9TDDiv.width = "150px";
+      artikelKlein9TDDiv.height = "150px";
+
+      artikelKleinImg9a.id = "imgKleinArtikel9a";
+      artikelKleinImg9a.style.height = "150px";
+      artikelKleinImg9a.style.width = "100%";
+      artikelKleinImg9a.draggable="true";
+      artikelKleinImg9a.className = "imgKleinArtikela"
+      artikelKleinImg9a.style.display = "none";
+
+        artikelKleinImg9.id = "imgKleinArtikel9";
+        artikelKleinImg9.style.display = "block";
+        artikelKleinImg9.className = "imgKleinArtikel";
+        artikelKleinImg9.style.height = "150px";
+        artikelKleinImg9.style.width = "150px";
+
+    artikelKlein9TD2.className= "tableDivider2";
+    artikelKlein9TD2.height = "150px";
+    artikelKlein9TD2.width = "auto";
+
+      artikelKleinTitle9.id = "titleKleinArtikel9";
+      artikelKleinTitle9.style.display = "block";
+      artikelKleinTitle9.className = "titleKleinArtikel";
+      artikelKleinTitle9.style.top = "0px";
+      artikelKleinTitle9.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinDescription9.id = "DescriptionKleinArtikel9";
+      artikelKleinDescription9.style.display = "block";
+      artikelKleinDescription9.className = "DescriptionKleinArtikel";
+      artikelKleinDescription9.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinCTA9.id = "KleinArtikelCTA9";
+      artikelKleinCTA9.className = "KleinArtikelCTA";
+      artikelKleinCTA9.style.display = "block";
+      artikelKleinCTA9.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
+
+artikelKlein10.id = "kleinArtikel10";
+artikelKlein10.className = 'kleinArtikel';
+artikelKlein10.draggable = "true";
+artikelKlein10.ondragstart ='onDragStart(event);';
+artikelKlein10.position - "absolute"
+
+  artikelKlein10TD10a.className = "tableDivider1a";
+
+    artikelKlein10TD1.className = "tableDivider1";
+    artikelKlein10TD1.display = "block";
+    artikelKlein10TD1.width = "30%";
+    artikelKlein10TD1.height = "150px";
+
+      artikelKlein10TDDiv.className = "tdDiv";
+      artikelKlein10TDDiv.width = "150px";
+      artikelKlein10TDDiv.height = "150px";
+
+      artikelKleinImg10a.id = "imgKleinArtikel10a";
+      artikelKleinImg10a.style.height = "150px";
+      artikelKleinImg10a.style.width = "100%";
+      artikelKleinImg10a.draggable="true";
+      artikelKleinImg10a.className = "imgKleinArtikela"
+      artikelKleinImg10a.style.display = "none";
+
+        artikelKleinImg10.id = "imgKleinArtikel10";
+        artikelKleinImg10.style.display = "block";
+        artikelKleinImg10.className = "imgKleinArtikel";
+        artikelKleinImg10.style.height = "150px";
+        artikelKleinImg10.style.width = "150px";
+
+    artikelKlein10TD2.className= "tableDivider2";
+    artikelKlein10TD2.height = "150px";
+    artikelKlein10TD2.width = "auto";
+
+      artikelKleinTitle10.id = "titleKleinArtikel10";
+      artikelKleinTitle10.style.display = "block";
+      artikelKleinTitle10.className = "titleKleinArtikel";
+      artikelKleinTitle10.style.top = "0px";
+      artikelKleinTitle10.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinDescription10.id = "DescriptionKleinArtikel10";
+      artikelKleinDescription10.style.display = "block";
+      artikelKleinDescription10.className = "DescriptionKleinArtikel";
+      artikelKleinDescription10.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinCTA10.id = "KleinArtikelCTA10";
+      artikelKleinCTA10.className = "KleinArtikelCTA";
+      artikelKleinCTA10.style.display = "block";
+      artikelKleinCTA10.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
+
+artikelKlein11.id = "kleinArtikel11";
+artikelKlein11.className = 'kleinArtikel';
+artikelKlein11.draggable = "true";
+artikelKlein11.ondragstart ='onDragStart(event);';
+artikelKlein11.position - "absolute"
+
+  artikelKlein11TD11a.className = "tableDivider1a";
+
+    artikelKlein11TD1.className = "tableDivider1";
+    artikelKlein11TD1.display = "block";
+    artikelKlein11TD1.width = "30%";
+    artikelKlein11TD1.height = "150px";
+
+      artikelKlein11TDDiv.className = "tdDiv";
+      artikelKlein11TDDiv.width = "150px";
+      artikelKlein11TDDiv.height = "150px";
+
+      artikelKleinImg11a.id = "imgKleinArtikel11a";
+      artikelKleinImg11a.style.height = "150px";
+      artikelKleinImg11a.style.width = "100%";
+      artikelKleinImg11a.draggable="true";
+      artikelKleinImg11a.className = "imgKleinArtikela"
+      artikelKleinImg11a.style.display = "none";
+
+        artikelKleinImg11.id = "imgKleinArtikel11";
+        artikelKleinImg11.style.display = "block";
+        artikelKleinImg11.className = "imgKleinArtikel";
+        artikelKleinImg11.style.height = "150px";
+        artikelKleinImg11.style.width = "150px";
+
+    artikelKlein11TD2.className= "tableDivider2";
+    artikelKlein11TD2.height = "150px";
+    artikelKlein11TD2.width = "auto";
+
+      artikelKleinTitle11.id = "titleKleinArtikel11";
+      artikelKleinTitle11.style.display = "block";
+      artikelKleinTitle11.className = "titleKleinArtikel";
+      artikelKleinTitle11.style.top = "0px";
+      artikelKleinTitle11.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinDescription11.id = "DescriptionKleinArtikel11";
+      artikelKleinDescription11.style.display = "block";
+      artikelKleinDescription11.className = "DescriptionKleinArtikel";
+      artikelKleinDescription11.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinCTA11.id = "KleinArtikelCTA11";
+      artikelKleinCTA11.className = "KleinArtikelCTA";
+      artikelKleinCTA11.style.display = "block";
+      artikelKleinCTA11.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
+
+artikelKlein12.id = "kleinArtikel12";
+artikelKlein12.className = 'kleinArtikel';
+artikelKlein12.draggable = "true";
+artikelKlein12.ondragstart ='onDragStart(event);';
+artikelKlein12.position - "absolute"
+
+  artikelKlein12TD12a.className = "tableDivider1a";
+
+    artikelKlein12TD1.className = "tableDivider1";
+    artikelKlein12TD1.display = "block";
+    artikelKlein12TD1.width = "30%";
+    artikelKlein12TD1.height = "150px";
+
+      artikelKlein12TDDiv.className = "tdDiv";
+      artikelKlein12TDDiv.width = "150px";
+      artikelKlein12TDDiv.height = "150px";
+
+      artikelKleinImg12a.id = "imgKleinArtikel12a";
+      artikelKleinImg12a.style.height = "150px";
+      artikelKleinImg12a.style.width = "100%";
+      artikelKleinImg12a.draggable="true";
+      artikelKleinImg12a.className = "imgKleinArtikela"
+      artikelKleinImg12a.style.display = "none";
+
+        artikelKleinImg12.id = "imgKleinArtikel12";
+        artikelKleinImg12.style.display = "block";
+        artikelKleinImg12.className = "imgKleinArtikel";
+        artikelKleinImg12.style.height = "150px";
+        artikelKleinImg12.style.width = "150px";
+
+    artikelKlein12TD2.className= "tableDivider2";
+    artikelKlein12TD2.height = "150px";
+    artikelKlein12TD2.width = "auto";
+
+      artikelKleinTitle12.id = "titleKleinArtikel12";
+      artikelKleinTitle12.style.display = "block";
+      artikelKleinTitle12.className = "titleKleinArtikel";
+      artikelKleinTitle12.style.top = "0px";
+      artikelKleinTitle12.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinDescription12.id = "DescriptionKleinArtikel12";
+      artikelKleinDescription12.style.display = "block";
+      artikelKleinDescription12.className = "DescriptionKleinArtikel";
+      artikelKleinDescription12.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinCTA12.id = "KleinArtikelCTA12";
+      artikelKleinCTA12.className = "KleinArtikelCTA";
+      artikelKleinCTA12.style.display = "block";
+      artikelKleinCTA12.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
+
+artikelKlein13.id = "kleinArtikel13";
+artikelKlein13.className = 'kleinArtikel';
+artikelKlein13.draggable = "true";
+artikelKlein13.ondragstart ='onDragStart(event);';
+artikelKlein13.position - "absolute"
+
+  artikelKlein13TD13a.className = "tableDivider1a";
+
+    artikelKlein13TD1.className = "tableDivider1";
+    artikelKlein13TD1.display = "block";
+    artikelKlein13TD1.width = "30%";
+    artikelKlein13TD1.height = "150px";
+
+      artikelKlein13TDDiv.className = "tdDiv";
+      artikelKlein13TDDiv.width = "150px";
+      artikelKlein13TDDiv.height = "150px";
+
+      artikelKleinImg13a.id = "imgKleinArtikel13a";
+      artikelKleinImg13a.style.height = "150px";
+      artikelKleinImg13a.style.width = "100%";
+      artikelKleinImg13a.draggable="true";
+      artikelKleinImg13a.className = "imgKleinArtikela"
+      artikelKleinImg13a.style.display = "none";
+
+        artikelKleinImg13.id = "imgKleinArtikel13";
+        artikelKleinImg13.style.display = "block";
+        artikelKleinImg13.className = "imgKleinArtikel";
+        artikelKleinImg13.style.height = "150px";
+        artikelKleinImg13.style.width = "150px";
+
+    artikelKlein13TD2.className= "tableDivider2";
+    artikelKlein13TD2.height = "150px";
+    artikelKlein13TD2.width = "auto";
+
+      artikelKleinTitle13.id = "titleKleinArtikel13";
+      artikelKleinTitle13.style.display = "block";
+      artikelKleinTitle13.className = "titleKleinArtikel";
+      artikelKleinTitle13.style.top = "0px";
+      artikelKleinTitle13.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinDescription13.id = "DescriptionKleinArtikel13";
+      artikelKleinDescription13.style.display = "block";
+      artikelKleinDescription13.className = "DescriptionKleinArtikel";
+      artikelKleinDescription13.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinCTA13.id = "KleinArtikelCTA13";
+      artikelKleinCTA13.className = "KleinArtikelCTA";
+      artikelKleinCTA13.style.display = "block";
+      artikelKleinCTA13.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
+
+artikelKlein14.id = "kleinArtikel14";
+artikelKlein14.className = 'kleinArtikel';
+artikelKlein14.draggable = "true";
+artikelKlein14.ondragstart ='onDragStart(event);';
+artikelKlein14.position - "absolute"
+
+  artikelKlein14TD14a.className = "tableDivider1a";
+
+    artikelKlein14TD1.className = "tableDivider1";
+    artikelKlein14TD1.display = "block";
+    artikelKlein14TD1.width = "30%";
+    artikelKlein14TD1.height = "150px";
+
+      artikelKlein14TDDiv.className = "tdDiv";
+      artikelKlein14TDDiv.width = "150px";
+      artikelKlein14TDDiv.height = "150px";
+
+      artikelKleinImg14a.id = "imgKleinArtikel14a";
+      artikelKleinImg14a.style.height = "150px";
+      artikelKleinImg14a.style.width = "100%";
+      artikelKleinImg14a.dragable="true";
+      artikelKleinImg14a.className = "imgKleinArtikela"
+      artikelKleinImg14a.style.display = "none";
+
+        artikelKleinImg14.id = "imgKleinArtikel14";
+        artikelKleinImg14.style.display = "block";
+        artikelKleinImg14.className = "imgKleinArtikel";
+        artikelKleinImg14.style.height = "150px";
+        artikelKleinImg14.style.width = "150px";
+
+    artikelKlein14TD2.className= "tableDivider2";
+    artikelKlein14TD2.height = "150px";
+    artikelKlein14TD2.width = "auto";
+
+      artikelKleinTitle14.id = "titleKleinArtikel14";
+      artikelKleinTitle14.style.display = "block";
+      artikelKleinTitle14.className = "titleKleinArtikel";
+      artikelKleinTitle14.style.top = "0px";
+      artikelKleinTitle14.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinDescription14.id = "DescriptionKleinArtikel14";
+      artikelKleinDescription14.style.display = "block";
+      artikelKleinDescription14.className = "DescriptionKleinArtikel";
+      artikelKleinDescription14.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinCTA14.id = "KleinArtikelCTA14";
+      artikelKleinCTA14.className = "KleinArtikelCTA";
+      artikelKleinCTA14.style.display = "block";
+      artikelKleinCTA14.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
+
+artikelKlein15.id = "kleinArtikel15";
+artikelKlein15.className = 'kleinArtikel';
+artikelKlein15.draggable = "true";
+artikelKlein15.ondragstart ='onDragStart(event);';
+artikelKlein15.position - "absolute"
+
+  artikelKlein15TD15a.className = "tableDivider1a";
+
+    artikelKlein15TD1.className = "tableDivider1";
+    artikelKlein15TD1.display = "block";
+    artikelKlein15TD1.width = "30%";
+    artikelKlein15TD1.height = "150px";
+
+      artikelKlein15TDDiv.className = "tdDiv";
+      artikelKlein15TDDiv.width = "150px";
+      artikelKlein15TDDiv.height = "150px";
+
+      artikelKleinImg15a.id = "imgKleinArtikel15a";
+      artikelKleinImg15a.style.height = "150px";
+      artikelKleinImg15a.style.width = "100%";
+      artikelKleinImg15a.draggable="true";
+      artikelKleinImg15a.className = "imgKleinArtikela"
+      artikelKleinImg15a.style.display = "none";
+
+        artikelKleinImg15.id = "imgKleinArtikel15";
+        artikelKleinImg15.style.display = "block";
+        artikelKleinImg15.className = "imgKleinArtikel";
+        artikelKleinImg15.style.height = "150px";
+        artikelKleinImg15.style.width = "150px";
+
+    artikelKlein15TD2.className= "tableDivider2";
+    artikelKlein15TD2.height = "150px";
+    artikelKlein15TD2.width = "auto";
+
+      artikelKleinTitle15.id = "titleKleinArtikel15";
+      artikelKleinTitle15.style.display = "block";
+      artikelKleinTitle15.className = "titleKleinArtikel";
+      artikelKleinTitle15.style.top = "0px";
+      artikelKleinTitle15.setAttribute("style", "top: 0px; display: block; font-size: 15pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinDescription15.id = "DescriptionKleinArtikel15";
+      artikelKleinDescription15.style.display = "block";
+      artikelKleinDescription15.className = "DescriptionKleinArtikel";
+      artikelKleinDescription15.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+      artikelKleinCTA15.id = "KleinArtikelCTA15";
+      artikelKleinCTA15.className = "KleinArtikelCTA";
+      artikelKleinCTA15.style.display = "block";
+      artikelKleinCTA15.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
+
+//Artikelen groot
 
 artikelGroot1.id = "grootArtikel1";
 artikelGroot1.className = 'grootArtikel';
@@ -673,6 +1259,512 @@ artikelGroot6.style.border="1px solid #b8b8b8";
   artikelGrootDescription6.style.display = "block";
   artikelGrootDescription6.style.fontSize = "10pt";
   artikelGrootDescription6.setAttribute("style", "display: block; padding: 0px 15px 0px 15px; ");
+
+//Vacatures
+
+vacature1.id = "vacature1";
+vacature1.className = 'vacature';
+vacature1.draggable = "true";
+vacature1.position - "absolute"
+
+    vacature1TDa.className = "tableDivider1";
+    vacature1TDa.display = "block";
+    vacature1TDa.width = "30%";
+    vacature1TDa.height = "150px";
+
+      vacature1TDDiv.className = "tdDiv";
+      vacature1TDDiv.width = "150px";
+      vacature1TDDiv.height = "150px";
+
+        vacatureImg1.id = "imgVacatureArtikel1";
+        vacatureImg1.style.display = "block";
+        vacatureImg1.className = "imgVacature";
+        vacatureImg1.style.height = "auto";
+        vacatureImg1.style.width = "150px";
+
+      vacature1TDb.className= "tableDivider2";
+      vacature1TDb.height = "150px";
+      vacature1TDb.width = "auto";
+      vacature1TDb.style.verticalAlign="top";
+
+        vacatureMeta1.id = "metaVacature1"
+        vacatureMeta1.style.display = "block";
+        vacatureMeta1.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta1.className = "metaVacature";
+
+        vacatureTitle1.id = "titleVacature1";
+        vacatureTitle1.style.display = "block";
+        vacatureTitle1.className = "titleVacature";
+        vacatureTitle1.style.top = "0px";
+        vacatureTitle1.style.verticalAlign="top"
+        vacatureTitle1.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+        vacatureDescription1.id = "DescriptionVacature1";
+        vacatureDescription1.style.display = "block";
+        vacatureDescription1.className = "DescriptionVacature";
+        vacatureDescription1.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+vacature2.id = "vacature2";
+vacature2.className = 'vacature';
+vacature2.draggable = "true";
+vacature2.position - "absolute"
+
+      vacature2TDa.className = "tableDivider2";
+      vacature2TDa.display = "block";
+      vacature2TDa.width = "30%";
+      vacature2TDa.height = "150px";
+
+      vacature2TDDiv.className = "tdDiv";
+      vacature2TDDiv.width = "150px";
+      vacature2TDDiv.height = "150px";
+
+        vacatureImg2.id = "imgVacatureArtikel2";
+        vacatureImg2.style.display = "block";
+        vacatureImg2.className = "imgVacature";
+        vacatureImg2.style.height = "auto";
+        vacatureImg2.style.width = "150px";
+
+      vacature2TDb.className= "tableDivider2";
+      vacature2TDb.height = "150px";
+      vacature2TDb.width = "auto";
+      vacature2TDb.style.verticalAlign="top";
+
+        vacatureMeta2.id = "metaVacature2"
+        vacatureMeta2.style.display = "block";
+        vacatureMeta2.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta2.className = "metaVacature";
+
+        vacatureTitle2.id = "titleVacature2";
+        vacatureTitle2.style.display = "block";
+        vacatureTitle2.className = "titleVacature";
+        vacatureTitle2.style.top = "0px";
+        vacatureTitle2.style.verticalAlign="top"
+        vacatureTitle2.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+        vacatureDescription2.id = "DescriptionVacature2";
+        vacatureDescription2.style.display = "block";
+        vacatureDescription2.className = "DescriptionVacature";
+        vacatureDescription2.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+vacature3.id = "vacature3";
+vacature3.className = 'vacature';
+vacature3.draggable = "true";
+vacature3.position - "absolute"
+
+  vacature3TDa.className = "tableDivider3";
+  vacature3TDa.display = "block";
+  vacature3TDa.width = "30%";
+  vacature3TDa.height = "150px";
+
+      vacature3TDDiv.className = "tdDiv";
+      vacature3TDDiv.width = "150px";
+      vacature3TDDiv.height = "150px";
+
+          vacatureImg3.id = "imgVacatureArtikel3";
+          vacatureImg3.style.display = "block";
+          vacatureImg3.className = "imgVacature";
+          vacatureImg3.style.height = "auto";
+          vacatureImg3.style.width = "150px";
+
+      vacature3TDb.className= "tableDivider3";
+      vacature3TDb.height = "150px";
+      vacature3TDb.width = "auto";
+      vacature3TDb.style.verticalAlign="top";
+
+          vacatureMeta3.id = "metaVacature3"
+          vacatureMeta3.style.display = "block";
+          vacatureMeta3.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+          vacatureMeta3.className = "metaVacature";
+
+            vacatureTitle3.id = "titleVacature3";
+                vacatureTitle3.style.display = "block";
+                vacatureTitle3.className = "titleVacature";
+                vacatureTitle3.style.top = "0px";
+                vacatureTitle3.style.verticalAlign="top"
+                vacatureTitle3.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+                vacatureDescription3.id = "DescriptionVacature3";
+                vacatureDescription3.style.display = "block";
+                vacatureDescription3.className = "DescriptionVacature";
+                vacatureDescription3.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+vacature4.id = "vacature4";
+vacature4.className = 'vacature';
+vacature4.draggable = "true";
+vacature4.position - "absolute"
+
+    vacature4TDa.className = "tableDivider4";
+    vacature4TDa.display = "block";
+    vacature4TDa.width = "30%";
+    vacature4TDa.height = "150px";
+
+      vacature4TDDiv.className = "tdDiv";
+      vacature4TDDiv.width = "150px";
+      vacature4TDDiv.height = "150px";
+
+        vacatureImg4.id = "imgVacatureArtikel4";
+        vacatureImg4.style.display = "block";
+        vacatureImg4.className = "imgVacature";
+        vacatureImg4.style.height = "auto";
+        vacatureImg4.style.width = "150px";
+
+      vacature4TDb.className= "tableDivider4";
+      vacature4TDb.height = "150px";
+      vacature4TDb.width = "auto";
+      vacature4TDb.style.verticalAlign="top";
+
+        vacatureMeta4.id = "metaVacature4"
+        vacatureMeta4.style.display = "block";
+        vacatureMeta4.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta4.className = "metaVacature";
+
+        vacatureTitle4.id = "titleVacature4";
+        vacatureTitle4.style.display = "block";
+        vacatureTitle4.className = "titleVacature";
+        vacatureTitle4.style.top = "0px";
+        vacatureTitle4.style.verticalAlign="top"
+        vacatureTitle4.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+
+        vacatureDescription4.id = "DescriptionVacature4";
+        vacatureDescription4.style.display = "block";
+        vacatureDescription4.className = "DescriptionVacature";
+        vacatureDescription4.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+vacature5.id = "vacature5";
+vacature5.className = 'vacature';
+vacature5.draggable = "true";
+vacature5.position - "absolute"
+
+    vacature5TDa.className = "tableDivider5";
+    vacature5TDa.display = "block";
+    vacature5TDa.width = "30%";
+    vacature5TDa.height = "150px";
+
+      vacature5TDDiv.className = "tdDiv";
+      vacature5TDDiv.width = "150px";
+      vacature5TDDiv.height = "150px";
+
+        vacatureImg5.id = "imgVacatureArtikel5";
+        vacatureImg5.style.display = "block";
+        vacatureImg5.className = "imgVacature";
+        vacatureImg5.style.height = "auto";
+        vacatureImg5.style.width = "150px";
+
+      vacature5TDb.className= "tableDivider5";
+      vacature5TDb.height = "150px";
+      vacature5TDb.width = "auto";
+      vacature5TDb.style.verticalAlign="top";
+
+        vacatureMeta5.id = "metaVacature5"
+        vacatureMeta5.style.display = "block";
+        vacatureMeta5.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta5.className = "metaVacature";
+
+        vacatureTitle5.id = "titleVacature5";
+        vacatureTitle5.style.display = "block";
+        vacatureTitle5.className = "titleVacature";
+        vacatureTitle5.style.top = "0px";
+        vacatureTitle5.style.verticalAlign="top"
+        vacatureTitle5.setAttribute("style", "top: 0px; display: block; font-size: 15pt; font-weight: regular; font-familyL: Arial; ");
+
+        vacatureDescription5.id = "DescriptionVacature5";
+        vacatureDescription5.style.display = "block";
+        vacatureDescription5.className = "DescriptionVacature";
+        vacatureDescription5.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+vacature6.id = "vacature6";
+vacature6.className = 'vacature';
+vacature6.draggable = "true";
+vacature6.position - "absolute"
+
+    vacature6TDa.className = "tableDivider6";
+    vacature6TDa.display = "block";
+    vacature6TDa.width = "30%";
+    vacature6TDa.height = "150px";
+
+      vacature6TDDiv.className = "tdDiv";
+      vacature6TDDiv.width = "150px";
+      vacature6TDDiv.height = "150px";
+
+        vacatureImg6.id = "imgVacatureArtikel6";
+        vacatureImg6.style.display = "block";
+        vacatureImg6.className = "imgVacature";
+        vacatureImg6.style.height = "auto";
+        vacatureImg6.style.width = "150px";
+
+      vacature6TDb.className= "tableDivider6";
+      vacature6TDb.height = "150px";
+      vacature6TDb.width = "auto";
+      vacature6TDb.style.verticalAlign="top";
+
+        vacatureMeta6.id = "metaVacature6"
+        vacatureMeta6.style.display = "block";
+        vacatureMeta6.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta6.className = "metaVacature";
+
+        vacatureTitle6.id = "titleVacature6";
+        vacatureTitle6.style.display = "block";
+        vacatureTitle6.className = "titleVacature";
+        vacatureTitle6.style.top = "0px";
+        vacatureTitle6.style.verticalAlign="top"
+        vacatureTitle6.setAttribute("style", "top: 0px; display: block; font-size: 16pt; font-weight: regular; font-familyL: Arial; ");
+
+        vacatureDescription6.id = "DescriptionVacature6";
+        vacatureDescription6.style.display = "block";
+        vacatureDescription6.className = "DescriptionVacature";
+        vacatureDescription6.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+vacature7.id = "vacature7";
+vacature7.className = 'vacature';
+vacature7.draggable = "true";
+vacature7.position - "absolute"
+
+    vacature7TDa.className = "tableDivider7";
+    vacature7TDa.display = "block";
+    vacature7TDa.width = "30%";
+    vacature7TDa.height = "150px";
+
+      vacature7TDDiv.className = "tdDiv";
+      vacature7TDDiv.width = "150px";
+      vacature7TDDiv.height = "150px";
+
+        vacatureImg7.id = "imgVacatureArtikel7";
+        vacatureImg7.style.display = "block";
+        vacatureImg7.className = "imgVacature";
+        vacatureImg7.style.height = "auto";
+        vacatureImg7.style.width = "150px";
+
+      vacature7TDb.className= "tableDivider7";
+      vacature7TDb.height = "150px";
+      vacature7TDb.width = "auto";
+      vacature7TDb.style.verticalAlign="top";
+
+        vacatureMeta7.id = "metaVacature7"
+        vacatureMeta7.style.display = "block";
+        vacatureMeta7.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta7.className = "metaVacature";
+
+        vacatureTitle7.id = "titleVacature7";
+        vacatureTitle7.style.display = "block";
+        vacatureTitle7.className = "titleVacature";
+        vacatureTitle7.style.top = "0px";
+        vacatureTitle7.style.verticalAlign="top"
+        vacatureTitle7.setAttribute("style", "top: 0px; display: block; font-size: 17pt; font-weight: regular; font-familyL: Arial; ");
+
+        vacatureDescription7.id = "DescriptionVacature7";
+        vacatureDescription7.style.display = "block";
+        vacatureDescription7.className = "DescriptionVacature";
+        vacatureDescription7.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+vacature8.id = "vacature8";
+vacature8.className = 'vacature';
+vacature8.draggable = "true";
+vacature8.position - "absolute"
+
+    vacature8TDa.className = "tableDivider8";
+    vacature8TDa.display = "block";
+    vacature8TDa.width = "30%";
+    vacature8TDa.height = "150px";
+
+      vacature8TDDiv.className = "tdDiv";
+      vacature8TDDiv.width = "150px";
+      vacature8TDDiv.height = "150px";
+
+        vacatureImg8.id = "imgVacatureArtikel8";
+        vacatureImg8.style.display = "block";
+        vacatureImg8.className = "imgVacature";
+        vacatureImg8.style.height = "auto";
+        vacatureImg8.style.width = "150px";
+
+      vacature8TDb.className= "tableDivider8";
+      vacature8TDb.height = "150px";
+      vacature8TDb.width = "auto";
+      vacature8TDb.style.verticalAlign="top";
+
+        vacatureMeta8.id = "metaVacature8"
+        vacatureMeta8.style.display = "block";
+        vacatureMeta8.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta8.className = "metaVacature";
+
+        vacatureTitle8.id = "titleVacature8";
+        vacatureTitle8.style.display = "block";
+        vacatureTitle8.className = "titleVacature";
+        vacatureTitle8.style.top = "0px";
+        vacatureTitle8.style.verticalAlign="top"
+        vacatureTitle8.setAttribute("style", "top: 0px; display: block; font-size: 18pt; font-weight: regular; font-familyL: Arial; ");
+
+        vacatureDescription8.id = "DescriptionVacature8";
+        vacatureDescription8.style.display = "block";
+        vacatureDescription8.className = "DescriptionVacature";
+        vacatureDescription8.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+vacature9.id = "vacature9";
+vacature9.className = 'vacature';
+vacature9.draggable = "true";
+vacature9.position - "absolute"
+
+    vacature9TDa.className = "tableDivider9";
+    vacature9TDa.display = "block";
+    vacature9TDa.width = "30%";
+    vacature9TDa.height = "150px";
+
+      vacature9TDDiv.className = "tdDiv";
+      vacature9TDDiv.width = "150px";
+      vacature9TDDiv.height = "150px";
+
+        vacatureImg9.id = "imgVacatureArtikel9";
+        vacatureImg9.style.display = "block";
+        vacatureImg9.className = "imgVacature";
+        vacatureImg9.style.height = "auto";
+        vacatureImg9.style.width = "150px";
+
+      vacature9TDb.className= "tableDivider9";
+      vacature9TDb.height = "150px";
+      vacature9TDb.width = "auto";
+      vacature9TDb.style.verticalAlign="top";
+
+        vacatureMeta9.id = "metaVacature9"
+        vacatureMeta9.style.display = "block";
+        vacatureMeta9.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta9.className = "metaVacature";
+
+        vacatureTitle9.id = "titleVacature9";
+        vacatureTitle9.style.display = "block";
+        vacatureTitle9.className = "titleVacature";
+        vacatureTitle9.style.top = "0px";
+        vacatureTitle9.style.verticalAlign="top"
+        vacatureTitle9.setAttribute("style", "top: 0px; display: block; font-size: 19pt; font-weight: regular; font-familyL: Arial; ");
+
+        vacatureDescription9.id = "DescriptionVacature9";
+        vacatureDescription9.style.display = "block";
+        vacatureDescription9.className = "DescriptionVacature";
+        vacatureDescription9.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+vacature10.id = "vacature10";
+vacature10.className = 'vacature';
+vacature10.draggable = "true";
+vacature10.position - "absolute"
+
+    vacature10TDa.className = "tableDivider10";
+    vacature10TDa.display = "block";
+    vacature10TDa.width = "30%";
+    vacature10TDa.height = "150px";
+
+      vacature10TDDiv.className = "tdDiv";
+      vacature10TDDiv.width = "150px";
+      vacature10TDDiv.height = "150px";
+
+        vacatureImg10.id = "imgVacatureArtikel10";
+        vacatureImg10.style.display = "block";
+        vacatureImg10.className = "imgVacature";
+        vacatureImg10.style.height = "auto";
+        vacatureImg10.style.width = "150px";
+
+      vacature10TDb.className= "tableDivider10";
+      vacature10TDb.height = "150px";
+      vacature10TDb.width = "auto";
+      vacature10TDb.style.verticalAlign="top";
+
+        vacatureMeta10.id = "metaVacature10"
+        vacatureMeta10.style.display = "block";
+        vacatureMeta10.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta10.className = "metaVacature";
+
+        vacatureTitle10.id = "titleVacature10";
+        vacatureTitle10.style.display = "block";
+        vacatureTitle10.className = "titleVacature";
+        vacatureTitle10.style.top = "0px";
+        vacatureTitle10.style.verticalAlign="top"
+        vacatureTitle10.setAttribute("style", "top: 0px; display: block; font-size: 110pt; font-weight: regular; font-familyL: Arial; ");
+
+        vacatureDescription10.id = "DescriptionVacature10";
+        vacatureDescription10.style.display = "block";
+        vacatureDescription10.className = "DescriptionVacature";
+        vacatureDescription10.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+vacature11.id = "vacature11";
+vacature11.className = 'vacature';
+vacature11.draggable = "true";
+vacature11.position - "absolute"
+
+    vacature11TDa.className = "tableDivider11";
+    vacature11TDa.display = "block";
+    vacature11TDa.width = "30%";
+    vacature11TDa.height = "150px";
+
+      vacature11TDDiv.className = "tdDiv";
+      vacature11TDDiv.width = "150px";
+      vacature11TDDiv.height = "150px";
+
+        vacatureImg11.id = "imgVacatureArtikel11";
+        vacatureImg11.style.display = "block";
+        vacatureImg11.className = "imgVacature";
+        vacatureImg11.style.height = "auto";
+        vacatureImg11.style.width = "150px";
+
+      vacature11TDb.className= "tableDivider11";
+      vacature11TDb.height = "150px";
+      vacature11TDb.width = "auto";
+      vacature11TDb.style.verticalAlign="top";
+
+        vacatureMeta11.id = "metaVacature11"
+        vacatureMeta11.style.display = "block";
+        vacatureMeta11.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta11.className = "metaVacature";
+
+        vacatureTitle11.id = "titleVacature11";
+        vacatureTitle11.style.display = "block";
+        vacatureTitle11.className = "titleVacature";
+        vacatureTitle11.style.top = "0px";
+        vacatureTitle11.style.verticalAlign="top"
+        vacatureTitle11.setAttribute("style", "top: 0px; display: block; font-size: 110pt; font-weight: regular; font-familyL: Arial; ");
+
+        vacatureDescription11.id = "DescriptionVacature11";
+        vacatureDescription11.style.display = "block";
+        vacatureDescription11.className = "DescriptionVacature";
+        vacatureDescription11.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+
+vacature12.id = "vacature12";
+vacature12.className = 'vacature';
+vacature12.draggable = "true";
+vacature12.position - "absolute"
+
+    vacature12TDa.className = "tableDivider12";
+    vacature12TDa.display = "block";
+    vacature12TDa.width = "30%";
+    vacature12TDa.height = "150px";
+
+      vacature12TDDiv.className = "tdDiv";
+      vacature12TDDiv.width = "150px";
+      vacature12TDDiv.height = "150px";
+
+        vacatureImg12.id = "imgVacatureArtikel12";
+        vacatureImg12.style.display = "block";
+        vacatureImg12.className = "imgVacature";
+        vacatureImg12.style.height = "auto";
+        vacatureImg12.style.width = "150px";
+
+      vacature12TDb.className= "tableDivider12";
+      vacature12TDb.height = "150px";
+      vacature12TDb.width = "auto";
+      vacature12TDb.style.verticalAlign="top";
+
+        vacatureMeta12.id = "metaVacature12"
+        vacatureMeta12.style.display = "block";
+        vacatureMeta12.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta12.className = "metaVacature";
+
+        vacatureTitle12.id = "titleVacature12";
+        vacatureTitle12.style.display = "block";
+        vacatureTitle12.className = "titleVacature";
+        vacatureTitle12.style.top = "0px";
+        vacatureTitle12.style.verticalAlign="top"
+        vacatureTitle12.setAttribute("style", "top: 0px; display: block; font-size: 120pt; font-weight: regular; font-familyL: Arial; ");
+
+        vacatureDescription12.id = "DescriptionVacature12";
+        vacatureDescription12.style.display = "block";
+        vacatureDescription12.className = "DescriptionVacature";
+        vacatureDescription12.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
 
 
 categorySEO.id = "categroySEO";

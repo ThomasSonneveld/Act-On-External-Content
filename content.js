@@ -19,7 +19,6 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let allItems = xmlDoc.getElementsByTagName("item");
 
     let allImages = xmlDoc.getElementsByTagName("enclosure");
-    console.log(allImages);
     let allSmallImages = xmlDoc.getElementsByTagName("dc:foto");
     let allTitles = xmlDoc.getElementsByTagName("title");
     let allDescriptions = xmlDoc.getElementsByTagName("description");
@@ -165,28 +164,32 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     document.getElementById("headline5").setAttribute("href", allLinks[5]);
     document.getElementById("headline6").setAttribute("href", allLinks[6]);
 
+    let headerline2adv = document.getElementById('sheadline2b');
+    headerline2adv.textContent=" ADV ";
+    let headerline5tip = document.getElementById('sheadline5b');
+    headerline5tip.textContent=" TIP ";
+
 
     let headerline1 = document.getElementById('headline1');
-    headerline1.textContent = "▶" + " " + allTitles[1].firstChild.nodeValue;
+    headerline1.textContent = "►" + " " + allTitles[1].firstChild.nodeValue;
     headerline1.setAttribute("href", allLinks[1].textContent );
     let headerline2 = document.getElementById('headline2');
-    headerline2.textContent = "▶" + " " + allTitles[2].firstChild.nodeValue;
+    headerline2.textContent = "►" + " " + allTitles[2].firstChild.nodeValue;
     headerline2.setAttribute("href", allLinks[2].textContent );
     let headerline3 = document.getElementById('headline3');
-    headerline3.textContent = "▶" + " " + allTitles[3].firstChild.nodeValue;
+    headerline3.textContent = "►" + " " + allTitles[3].firstChild.nodeValue;
     headerline3.setAttribute("href", allLinks[3].textContent );
     let headerline4 = document.getElementById('headline4');
-    headerline4.textContent = "▶" + " " + allTitles[4].firstChild.nodeValue;
+    headerline4.textContent = "►" + " " + allTitles[4].firstChild.nodeValue;
     headerline4.setAttribute("href", allLinks[4].textContent );
     let headerline5 = document.getElementById('headline5');
-    headerline5.textContent = "▶" + " "  + allTitles[5].firstChild.nodeValue;
+    headerline5.textContent = "►" + " "  + allTitles[5].firstChild.nodeValue;
     headerline5.setAttribute("href", allLinks[5].textContent );
     let headerline6 = document.getElementById('headline6');
-    headerline6.textContent = "▶" + " " + allTitles[6].firstChild.nodeValue;
+    headerline6.textContent = "►" + " " + allTitles[6].firstChild.nodeValue;
     headerline6.setAttribute("href", allLinks[6].textContent );
 
 
-    console.log(allSmallImages);
 
     let imgKlein1 = document.getElementById('imgKleinArtikel1');
     imgKlein1.src = allSmallImages[0].textContent;
@@ -194,8 +197,11 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     titleKlein1.textContent = allTitles[1].firstChild.nodeValue;
     let descriptionKlein1 = document.getElementById('DescriptionKleinArtikel1');
     descriptionKlein1.textContent = allDescriptions[1].firstChild.nodeValue;
-    let imgKlein12 = document.getElementById('imgKleinArtikel12');
-    imgKlein12.src = allImages[0].attributes.url.nodeValue;
+    let imgKlein1a = document.getElementById('imgKleinArtikel1a');
+    imgKlein1a.src = allImages[0].attributes.url.nodeValue;
+    let ctaKlein1 = document.getElementById('KleinArtikelCTA1');
+    ctaKlein1.textContent = "Lees meer►";
+    ctaKlein1.setAttribute("href", allLinks[1].textContent );
 
     let imgKlein2 = document.getElementById('imgKleinArtikel2');
     imgKlein2.src =  allSmallImages[1].textContent;
@@ -203,6 +209,11 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     titleKlein2.textContent = allTitles[2].firstChild.nodeValue;
     let descriptionKlein2 = document.getElementById('DescriptionKleinArtikel2');
     descriptionKlein2.textContent = allDescriptions[2].firstChild.nodeValue;
+    let imgKlein2a = document.getElementById('imgKleinArtikel2a');
+    imgKlein2a.src = allImages[1].attributes.url.nodeValue;
+    let ctaKlein2 = document.getElementById('KleinArtikelCTA2');
+    ctaKlein2.textContent = "Lees meer►";
+    ctaKlein2.setAttribute("href", allLinks[2].textContent );
 
     let imgKlein3 = document.getElementById('imgKleinArtikel3');
     imgKlein3.src =  allSmallImages[2].textContent;
@@ -210,6 +221,11 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     titleKlein3.textContent = allTitles[3].firstChild.nodeValue;
     let descriptionKlein3 = document.getElementById('DescriptionKleinArtikel3');
     descriptionKlein3.textContent = allDescriptions[3].firstChild.nodeValue;
+    let imgKlein3a = document.getElementById('imgKleinArtikel3a');
+    imgKlein3a.src = allImages[2].attributes.url.nodeValue;
+    let ctaKlein3 = document.getElementById('KleinArtikelCTA3');
+    ctaKlein3.textContent = "Lees meer►";
+    ctaKlein3.setAttribute("href", allLinks[3].textContent );
 
     let imgKlein4 = document.getElementById('imgKleinArtikel4');
     imgKlein4.src =  allSmallImages[3].textContent;
@@ -217,6 +233,11 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     titleKlein4.textContent = allTitles[4].firstChild.nodeValue;
     let descriptionKlein4 = document.getElementById('DescriptionKleinArtikel4');
     descriptionKlein4.textContent = allDescriptions[4].firstChild.nodeValue;
+    let imgKlein4a = document.getElementById('imgKleinArtikel4a');
+    imgKlein4a.src = allImages[3].attributes.url.nodeValue;
+    let ctaKlein4 = document.getElementById('KleinArtikelCTA4');
+    ctaKlein4.textContent = "Lees meer►";
+    ctaKlein4.setAttribute("href", allLinks[4].textContent );
 
     let imgKlein5 = document.getElementById('imgKleinArtikel5');
     imgKlein5.src =  allSmallImages[4].textContent;
@@ -224,6 +245,11 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     titleKlein5.textContent = allTitles[5].firstChild.nodeValue;
     let descriptionKlein5 = document.getElementById('DescriptionKleinArtikel5');
     descriptionKlein5.textContent = allDescriptions[5].firstChild.nodeValue;
+    let imgKlein5a = document.getElementById('imgKleinArtikel5a');
+    imgKlein5a.src = allImages[4].attributes.url.nodeValue;
+    let ctaKlein5 = document.getElementById('KleinArtikelCTA5');
+    ctaKlein5.textContent = "Lees meer►";
+    ctaKlein5.setAttribute("href", allLinks[5].textContent );
 
     let imgKlein6 = document.getElementById('imgKleinArtikel6');
     imgKlein6.src =  allSmallImages[5].textContent;
@@ -231,7 +257,122 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     titleKlein6.textContent = allTitles[6].firstChild.nodeValue;
     let descriptionKlein6 = document.getElementById('DescriptionKleinArtikel6');
     descriptionKlein6.textContent = allDescriptions[6].firstChild.nodeValue;
+    let imgKlein6a = document.getElementById('imgKleinArtikel6a');
+    imgKlein6a.src = allImages[5].attributes.url.nodeValue;
+    let ctaKlein6 = document.getElementById('KleinArtikelCTA6');
+    ctaKlein6.textContent = "Lees meer►";
+    ctaKlein6.setAttribute("href", allLinks[6].textContent );
 
+    let imgKlein7 = document.getElementById('imgKleinArtikel7');
+    imgKlein7.src =  allSmallImages[6].textContent;
+    let titleKlein7 = document.getElementById('titleKleinArtikel7');
+    titleKlein7.textContent = allTitles[7].firstChild.nodeValue;
+    let descriptionKlein7 = document.getElementById('DescriptionKleinArtikel7');
+    descriptionKlein7.textContent = allDescriptions[7].firstChild.nodeValue;
+    let imgKlein7a = document.getElementById('imgKleinArtikel7a');
+    imgKlein7a.src = allImages[6].attributes.url.nodeValue;
+    let ctaKlein7 = document.getElementById('KleinArtikelCTA7');
+    ctaKlein7.textContent = "Lees meer►";
+    ctaKlein7.setAttribute("href", allLinks[7].textContent );
+
+    let imgKlein8 = document.getElementById('imgKleinArtikel8');
+    imgKlein8.src =  allSmallImages[7].textContent;
+    let titleKlein8 = document.getElementById('titleKleinArtikel8');
+    titleKlein8.textContent = allTitles[8].firstChild.nodeValue;
+    let descriptionKlein8 = document.getElementById('DescriptionKleinArtikel8');
+    descriptionKlein8.textContent = allDescriptions[8].firstChild.nodeValue;
+    let imgKlein8a = document.getElementById('imgKleinArtikel8a');
+    imgKlein8a.src = allImages[7].attributes.url.nodeValue;
+    let ctaKlein8 = document.getElementById('KleinArtikelCTA8');
+    ctaKlein8.textContent = "Lees meer►";
+    ctaKlein8.setAttribute("href", allLinks[8].textContent );
+
+    let imgKlein9 = document.getElementById('imgKleinArtikel9');
+    imgKlein9.src =  allSmallImages[8].textContent;
+    let titleKlein9 = document.getElementById('titleKleinArtikel9');
+    titleKlein9.textContent = allTitles[9].firstChild.nodeValue;
+    let descriptionKlein9 = document.getElementById('DescriptionKleinArtikel9');
+    descriptionKlein9.textContent = allDescriptions[9].firstChild.nodeValue;
+    let imgKlein9a = document.getElementById('imgKleinArtikel9a');
+    imgKlein9a.src = allImages[8].attributes.url.nodeValue;
+    let ctaKlein9 = document.getElementById('KleinArtikelCTA9');
+    ctaKlein9.textContent = "Lees meer►";
+    ctaKlein9.setAttribute("href", allLinks[9].textContent );
+
+    let imgKlein10 = document.getElementById('imgKleinArtikel10');
+    imgKlein10.src =  allSmallImages[9].textContent;
+    let titleKlein10 = document.getElementById('titleKleinArtikel10');
+    titleKlein10.textContent = allTitles[10].firstChild.nodeValue;
+    let descriptionKlein10 = document.getElementById('DescriptionKleinArtikel10');
+    descriptionKlein10.textContent = allDescriptions[10].firstChild.nodeValue;
+    let imgKlein10a = document.getElementById('imgKleinArtikel10a');
+    imgKlein10a.src = allImages[9].attributes.url.nodeValue;
+    let ctaKlein10 = document.getElementById('KleinArtikelCTA10');
+    ctaKlein10.textContent = "Lees meer►";
+    ctaKlein10.setAttribute("href", allLinks[10].textContent );
+
+    let imgKlein11 = document.getElementById('imgKleinArtikel11');
+    imgKlein11.src =  allSmallImages[10].textContent;
+    let titleKlein11 = document.getElementById('titleKleinArtikel11');
+    titleKlein11.textContent = allTitles[11].firstChild.nodeValue;
+    let descriptionKlein11 = document.getElementById('DescriptionKleinArtikel11');
+    descriptionKlein11.textContent = allDescriptions[11].firstChild.nodeValue;
+    let imgKlein11a = document.getElementById('imgKleinArtikel11a');
+    imgKlein11a.src = allImages[10].attributes.url.nodeValue;
+    let ctaKlein11 = document.getElementById('KleinArtikelCTA11');
+    ctaKlein11.textContent = "Lees meer►";
+    ctaKlein11.setAttribute("href", allLinks[11].textContent );
+
+    let imgKlein12 = document.getElementById('imgKleinArtikel12');
+    imgKlein12.src =  allSmallImages[11].textContent;
+    let titleKlein12 = document.getElementById('titleKleinArtikel12');
+    titleKlein12.textContent = allTitles[12].firstChild.nodeValue;
+    let descriptionKlein12 = document.getElementById('DescriptionKleinArtikel12');
+    descriptionKlein12.textContent = allDescriptions[12].firstChild.nodeValue;
+    let imgKlein12a = document.getElementById('imgKleinArtikel12a');
+    imgKlein12a.src = allImages[11].attributes.url.nodeValue;
+    let ctaKlein12 = document.getElementById('KleinArtikelCTA12');
+    ctaKlein12.textContent = "Lees meer►";
+    ctaKlein12.setAttribute("href", allLinks[12].textContent );
+
+    let imgKlein13 = document.getElementById('imgKleinArtikel13');
+    imgKlein13.src =  allSmallImages[12].textContent;
+    let titleKlein13 = document.getElementById('titleKleinArtikel13');
+    titleKlein13.textContent = allTitles[13].firstChild.nodeValue;
+    let descriptionKlein13 = document.getElementById('DescriptionKleinArtikel13');
+    descriptionKlein13.textContent = allDescriptions[13].firstChild.nodeValue;
+    let imgKlein13a = document.getElementById('imgKleinArtikel13a');
+    imgKlein13a.src = allImages[12].attributes.url.nodeValue;
+    let ctaKlein13 = document.getElementById('KleinArtikelCTA13');
+    ctaKlein13.textContent = "Lees meer►";
+    ctaKlein13.setAttribute("href", allLinks[13].textContent );
+
+    let imgKlein14 = document.getElementById('imgKleinArtikel14');
+    imgKlein14.src =  allSmallImages[13].textContent;
+    let titleKlein14 = document.getElementById('titleKleinArtikel14');
+    titleKlein14.textContent = allTitles[14].firstChild.nodeValue;
+    let descriptionKlein14 = document.getElementById('DescriptionKleinArtikel14');
+    descriptionKlein14.textContent = allDescriptions[14].firstChild.nodeValue;
+    let imgKlein14a = document.getElementById('imgKleinArtikel14a');
+    imgKlein14a.src = allImages[13].attributes.url.nodeValue;
+    let ctaKlein14 = document.getElementById('KleinArtikelCTA14');
+    ctaKlein14.textContent = "Lees meer►";
+    ctaKlein14.setAttribute("href", allLinks[14].textContent );
+
+    let imgKlein15 = document.getElementById('imgKleinArtikel15');
+    imgKlein15.src =  allSmallImages[14].textContent;
+    let titleKlein15 = document.getElementById('titleKleinArtikel15');
+    titleKlein15.textContent = allTitles[15].firstChild.nodeValue;
+    let descriptionKlein15 = document.getElementById('DescriptionKleinArtikel15');
+    descriptionKlein15.textContent = allDescriptions[15].firstChild.nodeValue;
+    let imgKlein15a = document.getElementById('imgKleinArtikel15a');
+    imgKlein15a.src = allImages[14].attributes.url.nodeValue;
+    let ctaKlein15 = document.getElementById('KleinArtikelCTA15');
+    ctaKlein15.textContent = "Lees meer►";
+    ctaKlein15.setAttribute("href", allLinks[15].textContent );
+
+
+    //Artekelen Groot
 
     let authorGroot1 = document.getElementById('grootArtikelAuthor1');
     authorGroot1.textContent = allAuthors[0].firstChild.nodeValue;
@@ -290,6 +431,8 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
 }, 2000);
 
 
+
+
 "use strict";
 setTimeout(() => {
 fetch("https://www.frankwatching.com/feed/academy/upcoming/")
@@ -309,24 +452,188 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
     let allAgendaLinks = xmlDoc.getElementsByTagName("link");
 
 
-    let agenda1 = document.getElementById('agendaAcademy1');
-    agenda1.textContent = "▶" + " " + allAgendas[1].firstChild.nodeValue + " " + allDays[0].firstChild.nodeValue + " " + allMonths[0].firstChild.nodeValue + " | " + allLocations[0].firstChild.nodeValue + " | " + allDurations[0].firstChild.nodeValue;
-    agenda1.setAttribute("href", allAgendaLinks[1].textContent );
-    let agenda2 = document.getElementById('agendaAcademy2');
-    agenda2.textContent = "▶" + " " + allAgendas[2].firstChild.nodeValue + " " + allDays[1].firstChild.nodeValue + " " + allMonths[1].firstChild.nodeValue + " | " + allLocations[1].firstChild.nodeValue + " | " + allDurations[1].firstChild.nodeValue;
-    agenda2.setAttribute("href", allAgendaLinks[2].textContent );
-    let agenda3 = document.getElementById('agendaAcademy3');
-    agenda3.textContent = "▶" + " " + allAgendas[3].firstChild.nodeValue + " " + allDays[2].firstChild.nodeValue + " " + allMonths[2].firstChild.nodeValue + " | " + allLocations[2].firstChild.nodeValue + " | " + allDurations[2].firstChild.nodeValue;
-    agenda3.setAttribute("href", allAgendaLinks[3].textContent );
-    let agenda4 = document.getElementById('agendaAcademy4');
-    agenda4.textContent = "▶" + " " + allAgendas[4].firstChild.nodeValue + " " + allDays[3].firstChild.nodeValue + " " + allMonths[3].firstChild.nodeValue + " | " + allLocations[3].firstChild.nodeValue + " | " + allDurations[3].firstChild.nodeValue;
-    agenda4.setAttribute("href", allAgendaLinks[4].textContent );
-    let agenda5 = document.getElementById('agendaAcademy5');
-    agenda5.textContent = "▶" + " " + allAgendas[5].firstChild.nodeValue + " " + allDays[4].firstChild.nodeValue + " " + allMonths[4].firstChild.nodeValue + " | " + allLocations[4].firstChild.nodeValue + " | " + allDurations[4].firstChild.nodeValue;
-    agenda5.setAttribute("href", allAgendaLinks[5].textContent );
+    let agenda1a = document.getElementById('saa1a');
+    let agenda1b = document.getElementById('saa1b');
+    agenda1a.textContent = "►" + " " + allAgendas[1].firstChild.nodeValue;
+    agenda1a.setAttribute("href", allAgendaLinks[1].textContent );
+    agenda1b.textContent = " " + allDays[0].firstChild.nodeValue + " " + allMonths[0].firstChild.nodeValue + " | " + allLocations[0].firstChild.nodeValue + " | " + allDurations[0].firstChild.nodeValue;
+    agenda1b.setAttribute("href", allAgendaLinks[1].textContent );
+
+    let agenda2a = document.getElementById('saa2a');
+    let agenda2b = document.getElementById('saa2b');
+    agenda2a.textContent = "►" + " " + allAgendas[2].firstChild.nodeValue;
+    agenda2a.setAttribute("href", allAgendaLinks[2].textContent );
+    agenda2b.textContent = " " + allDays[1].firstChild.nodeValue + " " + allMonths[1].firstChild.nodeValue + " | " + allLocations[1].firstChild.nodeValue + " | " + allDurations[1].firstChild.nodeValue;
+    agenda2b.setAttribute("href", allAgendaLinks[2].textContent );
+
+    let agenda3a = document.getElementById('saa3a');
+    let agenda3b = document.getElementById('saa3b');
+    agenda3a.textContent = "►" + " " + allAgendas[3].firstChild.nodeValue;
+    agenda3a.setAttribute("href", allAgendaLinks[3].textContent );
+    agenda3b.textContent = " " + allDays[2].firstChild.nodeValue + " " + allMonths[2].firstChild.nodeValue + " | " + allLocations[2].firstChild.nodeValue + " | " + allDurations[2].firstChild.nodeValue;
+    agenda3b.setAttribute("href", allAgendaLinks[3].textContent );
+
+    let agenda4a = document.getElementById('saa4a');
+    let agenda4b = document.getElementById('saa4b');
+    agenda4a.textContent = "►" + " " + allAgendas[4].firstChild.nodeValue;
+    agenda4a.setAttribute("href", allAgendaLinks[4].textContent );
+    agenda4b.textContent = " " + allDays[3].firstChild.nodeValue + " " + allMonths[3].firstChild.nodeValue + " | " + allLocations[3].firstChild.nodeValue + " | " + allDurations[3].firstChild.nodeValue;
+    agenda4b.setAttribute("href", allAgendaLinks[4].textContent );
+
+    let agenda5a = document.getElementById('saa5a');
+    let agenda5b = document.getElementById('saa5b');
+    agenda5a.textContent = "►" + " " + allAgendas[5].firstChild.nodeValue;
+    agenda5a.setAttribute("href", allAgendaLinks[5].textContent );
+    agenda5b.textContent = " " + allDays[4].firstChild.nodeValue + " " + allMonths[4].firstChild.nodeValue + " | " + allLocations[4].firstChild.nodeValue + " | " + allDurations[4].firstChild.nodeValue;
+    agenda5b.setAttribute("href", allAgendaLinks[5].textContent );
+
+    let agenda6a = document.getElementById('saa6a');
+    let agenda6b = document.getElementById('saa6b');
+    agenda6a.textContent = "►" + " " + allAgendas[6].firstChild.nodeValue;
+    agenda6a.setAttribute("href", allAgendaLinks[6].textContent );
+    agenda6b.textContent = " " + allDays[5].firstChild.nodeValue + " " + allMonths[5].firstChild.nodeValue + " | " + allLocations[5].firstChild.nodeValue + " | " + allDurations[5].firstChild.nodeValue;
+    agenda6b.setAttribute("href", allAgendaLinks[6].textContent );
+
+    let agenda7a = document.getElementById('saa7a');
+    let agenda7b = document.getElementById('saa7b');
+    agenda7a.textContent = "►" + " " + allAgendas[7].firstChild.nodeValue;
+    agenda7a.setAttribute("href", allAgendaLinks[7].textContent );
+    agenda7b.textContent = " " + allDays[6].firstChild.nodeValue + " " + allMonths[6].firstChild.nodeValue + " | " + allLocations[6].firstChild.nodeValue + " | " + allDurations[6].firstChild.nodeValue;
+    agenda7b.setAttribute("href", allAgendaLinks[7].textContent );
+
 });
 }, 2000);
 
+
+"use strict";
+setTimeout(() => {
+fetch("https://www.frankwatching.com/feed/?post_type=vacature")
+.then(function(respons) {
+  return respons.text();
+})
+.then(function(data) {
+  let parser = new DOMParser(),
+    xmlDoc = parser.parseFromString(data, 'text/xml');
+
+    let allVacatureImages = xmlDoc.getElementsByTagName("enclosure");
+    let allVacatureTitles = xmlDoc.getElementsByTagName("title");
+    let allVacatureDescriptions = xmlDoc.getElementsByTagName("description");
+    let allPoster = xmlDoc.getElementsByTagName("postmeta:vac_org_naam");
+    let allDuur = xmlDoc.getElementsByTagName("postmeta:vac_uur");
+    let allVacatureLocations = xmlDoc.getElementsByTagName("postmeta:vac_standplaats");
+    let allVacatureLinks = xmlDoc.getElementsByTagName("link");
+
+    let imgVacature1 = document.getElementById("imgVacatureArtikel1");
+    imgVacature1.src = allVacatureImages[0].attributes[0].nodeValue;
+    let metaVacature1 = document.getElementById("metaVacature1")
+    metaVacature1.textContent = allPoster[0].textContent + " • " + allVacatureLocations[0].textContent + " • " + allDuur[0].textContent;
+    let titleVacature1 = document.getElementById("titleVacature1");
+    titleVacature1.textContent = allVacatureTitles[1].textContent;
+    let descriptionVacature1 = document.getElementById("DescriptionVacature1");
+    descriptionVacature1.textContent = allVacatureDescriptions[1].textContent;
+
+    let imgVacature2 = document.getElementById("imgVacatureArtikel2");
+    imgVacature2.src = allVacatureImages[1].attributes[0].nodeValue;
+    let metaVacature2 = document.getElementById("metaVacature2")
+    metaVacature2.textContent = allPoster[1].textContent + " • " + allVacatureLocations[1].textContent + " • " + allDuur[1].textContent;
+    let titleVacature2 = document.getElementById("titleVacature2");
+    titleVacature2.textContent = allVacatureTitles[2].textContent;
+    let descriptionVacature2 = document.getElementById("DescriptionVacature2");
+    descriptionVacature2.textContent = allVacatureDescriptions[2].textContent;
+
+    let imgVacature3 = document.getElementById("imgVacatureArtikel3");
+    imgVacature3.src = allVacatureImages[2].attributes[0].nodeValue;
+    let metaVacature3 = document.getElementById("metaVacature3")
+    metaVacature3.textContent = allPoster[2].textContent + " • " + allVacatureLocations[2].textContent + " • " + allDuur[2].textContent;
+    let titleVacature3 = document.getElementById("titleVacature3");
+    titleVacature3.textContent = allVacatureTitles[3].textContent;
+    let descriptionVacature3 = document.getElementById("DescriptionVacature3");
+    descriptionVacature3.textContent = allVacatureDescriptions[3].textContent;
+
+    let imgVacature4 = document.getElementById("imgVacatureArtikel4");
+    imgVacature4.src = allVacatureImages[3].attributes[0].nodeValue;
+    let metaVacature4 = document.getElementById("metaVacature4")
+    metaVacature4.textContent = allPoster[3].textContent + " • " + allVacatureLocations[3].textContent + " • " + allDuur[3].textContent;
+    let titleVacature4 = document.getElementById("titleVacature4");
+    titleVacature4.textContent = allVacatureTitles[4].textContent;
+    let descriptionVacature4 = document.getElementById("DescriptionVacature4");
+    descriptionVacature4.textContent = allVacatureDescriptions[4].textContent;
+
+    let imgVacature5 = document.getElementById("imgVacatureArtikel5");
+    imgVacature5.src = allVacatureImages[4].attributes[0].nodeValue;
+    let metaVacature5 = document.getElementById("metaVacature5")
+    metaVacature5.textContent = allPoster[4].textContent + " • " + allVacatureLocations[4].textContent + " • " + allDuur[4].textContent;
+    let titleVacature5 = document.getElementById("titleVacature5");
+    titleVacature5.textContent = allVacatureTitles[5].textContent;
+    let descriptionVacature5 = document.getElementById("DescriptionVacature5");
+    descriptionVacature5.textContent = allVacatureDescriptions[5].textContent;
+
+    let imgVacature6 = document.getElementById("imgVacatureArtikel6");
+    imgVacature6.src = allVacatureImages[5].attributes[0].nodeValue;
+    let metaVacature6 = document.getElementById("metaVacature6")
+    metaVacature6.textContent = allPoster[5].textContent + " • " + allVacatureLocations[5].textContent + " • " + allDuur[5].textContent;
+    let titleVacature6 = document.getElementById("titleVacature6");
+    titleVacature6.textContent = allVacatureTitles[6].textContent;
+    let descriptionVacature6 = document.getElementById("DescriptionVacature6");
+    descriptionVacature6.textContent = allVacatureDescriptions[6].textContent;
+
+    let imgVacature7 = document.getElementById("imgVacatureArtikel7");
+    imgVacature7.src = allVacatureImages[6].attributes[0].nodeValue;
+    let metaVacature7 = document.getElementById("metaVacature7")
+    metaVacature7.textContent = allPoster[6].textContent + " • " + allVacatureLocations[6].textContent + " • " + allDuur[6].textContent;
+    let titleVacature7 = document.getElementById("titleVacature7");
+    titleVacature7.textContent = allVacatureTitles[7].textContent;
+    let descriptionVacature7 = document.getElementById("DescriptionVacature7");
+    descriptionVacature7.textContent = allVacatureDescriptions[7].textContent;
+
+    let imgVacature8 = document.getElementById("imgVacatureArtikel8");
+    imgVacature8.src = allVacatureImages[7].attributes[0].nodeValue;
+    let metaVacature8 = document.getElementById("metaVacature8")
+    metaVacature8.textContent = allPoster[7].textContent + " • " + allVacatureLocations[7].textContent + " • " + allDuur[7].textContent;
+    let titleVacature8 = document.getElementById("titleVacature8");
+    titleVacature8.textContent = allVacatureTitles[8].textContent;
+    let descriptionVacature8 = document.getElementById("DescriptionVacature8");
+    descriptionVacature8.textContent = allVacatureDescriptions[8].textContent;
+
+    let imgVacature9 = document.getElementById("imgVacatureArtikel9");
+    imgVacature9.src = allVacatureImages[8].attributes[0].nodeValue;
+    let metaVacature9 = document.getElementById("metaVacature9")
+    metaVacature9.textContent = allPoster[8].textContent + " • " + allVacatureLocations[8].textContent + " • " + allDuur[8].textContent;
+    let titleVacature9 = document.getElementById("titleVacature9");
+    titleVacature9.textContent = allVacatureTitles[9].textContent;
+    let descriptionVacature9 = document.getElementById("DescriptionVacature9");
+    descriptionVacature9.textContent = allVacatureDescriptions[9].textContent;
+
+    let imgVacature10 = document.getElementById("imgVacatureArtikel10");
+    imgVacature10.src = allVacatureImages[9].attributes[0].nodeValue;
+    let metaVacature10 = document.getElementById("metaVacature10")
+    metaVacature10.textContent = allPoster[9].textContent + " • " + allVacatureLocations[9].textContent + " • " + allDuur[9].textContent;
+    let titleVacature10 = document.getElementById("titleVacature10");
+    titleVacature10.textContent = allVacatureTitles[10].textContent;
+    let descriptionVacature10 = document.getElementById("DescriptionVacature10");
+    descriptionVacature10.textContent = allVacatureDescriptions[10].textContent;
+
+    let imgVacature11 = document.getElementById("imgVacatureArtikel11");
+    imgVacature11.src = allVacatureImages[10].attributes[0].nodeValue;
+    let metaVacature11 = document.getElementById("metaVacature11")
+    metaVacature11.textContent = allPoster[10].textContent + " • " + allVacatureLocations[10].textContent + " • " + allDuur[10].textContent;
+    let titleVacature11 = document.getElementById("titleVacature11");
+    titleVacature11.textContent = allVacatureTitles[11].textContent;
+    let descriptionVacature11 = document.getElementById("DescriptionVacature11");
+    descriptionVacature11.textContent = allVacatureDescriptions[11].textContent;
+
+    let imgVacature12 = document.getElementById("imgVacatureArtikel12");
+    imgVacature12.src = allVacatureImages[11].attributes[0].nodeValue;
+    let metaVacature12 = document.getElementById("metaVacature12")
+    metaVacature12.textContent = allPoster[11].textContent + " • " + allVacatureLocations[11].textContent + " • " + allDuur[11].textContent;
+    let titleVacature12 = document.getElementById("titleVacature12");
+    titleVacature12.textContent = allVacatureTitles[12].textContent;
+    let descriptionVacature12 = document.getElementById("DescriptionVacature12");
+    descriptionVacature12.textContent = allVacatureDescriptions[12].textContent;
+
+
+});
+}, 2000);
 
 /*
 //Copy functionality
@@ -368,7 +675,7 @@ document.getElementById('kleinArtikel1').ondragstart = function (event) {
   event
     .dataTransfer
     .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
+    console.log(event.target.innerHTML);
 }
 document.getElementById('kleinArtikel2').ondragstart = function (event) {
   event
@@ -395,6 +702,60 @@ document.getElementById('kleinArtikel5').ondragstart = function (event) {
     console.log('dragstart');
 }
 document.getElementById('kleinArtikel6').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel7').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel8').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel9').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel10').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel11').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel12').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel13').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel14').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel5').ondragstart = function (event) {
   event
     .dataTransfer
     .setData('text/html', event.target.innerHTML);
@@ -451,6 +812,100 @@ document.getElementById('agendaOverlay').ondragstart = function (event) {
         console.log('dragstart');
 }
 
+document.getElementById('vacature1').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature2').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature3').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature4').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature5').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature6').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature7').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature8').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature9').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature9').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature10').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature11').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature12').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+
+
+/*
 function onDragStart(event) {
   event.preventDefault();
   console.log("dragover");
@@ -471,7 +926,7 @@ function onDrop(event) {
     .dataTransfer
     .clearData();
 }
-
+*/
 //buttons
 
 document.getElementById('headlinesButton').onclick = function (event2) {
@@ -481,11 +936,13 @@ document.getElementById('headlinesButton').onclick = function (event2) {
       agendaAcademyContainer.style.display = "none";
       artikelenKleinContainer.style.display = "none";
       agendaOverlay.style.display = "none";
+      vacatureContainer.style.display = "none";
 
       headlinesButtonImg.className = "ButtonImgPressd";
       artikelGrootButtonImg.className = "ButtonImg";
       agendaAcademyButtonImg.className = "ButtonImg";
       artikelKleinButtonImg.className = "ButtonImg";
+      vacatureButtonImg.className = "ButtonImg"
 }
 
 document.getElementById("artikelGrootButton").onclick = function (event3) {
@@ -495,11 +952,13 @@ document.getElementById("artikelGrootButton").onclick = function (event3) {
       agendaAcademyContainer.style.display = "none";
       artikelenKleinContainer.style.display = "none";
       agendaOverlay.style.display = "none";
+      vacatureContainer.style.display = "none";
 
       headlinesButtonImg.className = "ButtonImg";
       artikelGrootButtonImg.className = "ButtonImgPressd";
       agendaAcademyButtonImg.className = "ButtonImg";
       artikelKleinButtonImg.className = "ButtonImg";
+      vacatureButtonImg.className = "ButtonImg"
 }
 
 document.getElementById('agendaAcademyButton').onclick = function (event4) {
@@ -509,11 +968,13 @@ document.getElementById('agendaAcademyButton').onclick = function (event4) {
       agendaAcademyContainer.style.display = "block";
       artikelenKleinContainer.style.display = "none";
       agendaOverlay.style.display = "block";
+      vacatureContainer.style.display = "none";
 
       headlinesButtonImg.className = "ButtonImg";
       artikelGrootButtonImg.className = "ButtonImg";
       agendaAcademyButtonImg.className = "ButtonImgPressd";
       artikelKleinButtonImg.className = "ButtonImg";
+      vacatureButtonImg.className = "ButtonImg"
 }
 
 document.getElementById('artikelKleinButton').onclick = function (event5) {
@@ -523,11 +984,29 @@ document.getElementById('artikelKleinButton').onclick = function (event5) {
       agendaAcademyContainer.style.display = "none";
       artikelenKleinContainer.style.display = "block";
       agendaOverlay.style.display = "none";
+      vacatureContainer.style.display = "none";
 
       headlinesButtonImg.className = "ButtonImg";
       artikelGrootButtonImg.className = "ButtonImg";
       agendaAcademyButtonImg.className = "ButtonImg";
       artikelKleinButtonImg.className = "ButtonImgPressd";
+      vacatureButtonImg.className = "ButtonImg"
+}
+
+document.getElementById('vacatureButton').onclick = function (event5) {
+      headlinesContainer.style.display = "none";
+      headlinesOverlay.style.display = "none";
+      artikelenGrootContainer.style.display = "none";
+      agendaAcademyContainer.style.display = "none";
+      artikelenKleinContainer.style.display = "none";
+      agendaOverlay.style.display = "none";
+      vacatureContainer.style.display = "block";
+
+      headlinesButtonImg.className = "ButtonImg";
+      artikelGrootButtonImg.className = "ButtonImg";
+      agendaAcademyButtonImg.className = "ButtonImg";
+      artikelKleinButtonImg.className = "ButtonImg";
+      vacatureButtonImg.className = "ButtonImgPressd"
 }
 
 document.getElementById('grootArtikel1').onmousehover = function () {

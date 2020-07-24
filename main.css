@@ -9,28 +9,52 @@
   draggable: false
 }
 
-.kleinArtikel .tableDivider1 .tdDiv .imgKleinArtikel{
-  max-height: 80px !important;
-  max-width: 80px !important;
-  overflow: hidden;
+/*Styling Vacatures*/
+.vacature .imgVacature {
+  width: 80% !important;
+  height: auto !important;
 }
 
-.kleinArtikel .tableDivider2 .titleKleinArtikel{
-  font-size: 9px !important;
-};
+.vacature .titleVacature {
+  font-Size: 10px !important;
+}
 
-.kleinArtikel .tableDivider2 .DescriptionKleinArtikel{
-  font-size: 7px !important;
-};
+.vacature .DescriptionVacature{
+  font-size: 8px !important;
+}
 
-.imgKleinArtikel12 {
-  display: none !important;
-};
+.vacature .metaVacature {
+  font-size: 8px !important;
+}
 
-.tableDivider1 {
-  max-width: 80px;
-};
+/*Styling Artikel Klein*/
 
+.kleinArtikel .imgKleinArtikel {
+  width: 80% !important;
+  height: 80% !important;
+}
+
+.kleinArtikel .titleKleinArtikel {
+  font-size: 10px !important;
+}
+
+.kleinArtikel .DescriptionKleinArtikel {
+  font-size: 8px !important;
+}
+
+.kleinArtikel .KleinArtikelCTA {
+  font-size: 8px !important;
+}
+
+.kleinArtikel .tableDivider1 {
+  height: 90px !important;
+}
+
+.kleinArtikel .tableDivider2 {
+  height: 90px !important;
+}
+
+/*Styling Artikel Groot*/
 
 .grootArtikel {
   border: 1px solid #2d2d2d;
