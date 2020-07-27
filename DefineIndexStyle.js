@@ -345,13 +345,12 @@ headlinesOverlay.style.zIndex = "19300";
   phl6.className = "headline";
   phl6.style.margin = "0px";
 
-
-
-
 artikelKlein1.id = "kleinArtikel1";
 artikelKlein1.className = 'kleinArtikel';
 artikelKlein1.draggable = "true";
 artikelKlein1.position - "absolute"
+
+  artikelKleinTable1a.className = "table1a";
 
     artikelKlein1TD1a.className = "tableDivider1a";
 
@@ -365,11 +364,10 @@ artikelKlein1.position - "absolute"
       artikelKlein1TDDiv.height = "150px";
 
         artikelKleinImg1a.id = "imgKleinArtikel1a";
-        artikelKleinImg1a.style.height = "150px";
-        artikelKleinImg1a.style.width = "100%";
         artikelKleinImg1a.draggable="true";
         artikelKleinImg1a.className = "imgKleinArtikela"
-        artikelKleinImg1a.style.display = "none";
+        artikelKleinImg1a.setAttribute("style", "height: 150px; width:100%; display: none;")
+
 
         artikelKleinImg1.id = "imgKleinArtikel1";
         artikelKleinImg1.style.display = "block";
@@ -378,21 +376,20 @@ artikelKlein1.position - "absolute"
         artikelKleinImg1.style.width = "150px";
 
       artikelKlein1TD2.className= "tableDivider2";
-      artikelKlein1TD2.height = "150px";
+      artikelKlein1TD2.height = "auto";
       artikelKlein1TD2.width = "auto";
-      artikelKlein1TD2.style.verticalAlign="top";
 
         artikelKleinTitle1.id = "titleKleinArtikel1";
         artikelKleinTitle1.style.display = "block";
         artikelKleinTitle1.className = "titleKleinArtikel";
         artikelKleinTitle1.style.top = "0px";
         artikelKleinTitle1.style.verticalAlign="top"
-        artikelKleinTitle1.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+        artikelKleinTitle1.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
         artikelKleinDescription1.id = "DescriptionKleinArtikel1";
-        artikelKleinDescription1.style.display = "block";
+        artikelKleinDescription1.style.display = "inline";
         artikelKleinDescription1.className = "DescriptionKleinArtikel";
-        artikelKleinDescription1.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        artikelKleinDescription1.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
         artikelKleinCTA1.id = "KleinArtikelCTA1";
         artikelKleinCTA1.className = "KleinArtikelCTA";
@@ -405,6 +402,8 @@ artikelKlein2.className = 'kleinArtikel';
 artikelKlein2.draggable = "true";
 artikelKlein2.ondragstart ='onDragStart(event);';
 artikelKlein2.position - "absolute"
+
+  artikelKleinTable2a.className = "table1a";
 
   artikelKlein2TD2a.className = "tableDivider1a";
 
@@ -438,16 +437,16 @@ artikelKlein2.position - "absolute"
         artikelKleinTitle2.style.display = "block";
         artikelKleinTitle2.className = "titleKleinArtikel";
         artikelKleinTitle2.style.top = "0px";
-        artikelKleinTitle2.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+        artikelKleinTitle2.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
         artikelKleinDescription2.id = "DescriptionKleinArtikel2";
-        artikelKleinDescription2.style.display = "block";
+        artikelKleinDescription2.style.display = "inline";
         artikelKleinDescription2.className = "DescriptionKleinArtikel";
-        artikelKleinDescription2.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        artikelKleinDescription2.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
         artikelKleinCTA2.id = "KleinArtikelCTA2";
         artikelKleinCTA2.className = "KleinArtikelCTA";
-        artikelKleinCTA2.style.display = "block";
+        artikelKleinCTA2.style.display = "inline";
         artikelKleinCTA2.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein3.id = "kleinArtikel3";
@@ -455,6 +454,8 @@ artikelKlein3.className = 'kleinArtikel';
 artikelKlein3.draggable = "true";
 artikelKlein3.ondragstart ='onDragStart(event);';
 artikelKlein3.position - "absolute"
+
+  artikelKleinTable3a.className = "table1a";
 
   artikelKlein3TD3a.className = "tableDivider1a";
 
@@ -488,16 +489,16 @@ artikelKlein3.position - "absolute"
         artikelKleinTitle3.style.display = "block";
         artikelKleinTitle3.className = "titleKleinArtikel";
         artikelKleinTitle3.style.top = "0px";
-        artikelKleinTitle3.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+        artikelKleinTitle3.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
         artikelKleinDescription3.id = "DescriptionKleinArtikel3";
-        artikelKleinDescription3.style.display = "block";
+        artikelKleinDescription3.style.display = "inline";
         artikelKleinDescription3.className = "DescriptionKleinArtikel";
-        artikelKleinDescription3.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        artikelKleinDescription3.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
         artikelKleinCTA3.id = "KleinArtikelCTA3";
         artikelKleinCTA3.className = "KleinArtikelCTA";
-        artikelKleinCTA3.style.display = "block";
+        artikelKleinCTA3.style.display = "inline";
         artikelKleinCTA3.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein4.id = "kleinArtikel4";
@@ -505,6 +506,9 @@ artikelKlein4.className = 'kleinArtikel';
 artikelKlein4.draggable = "true";
 artikelKlein4.ondragstart ='onDragStart(event);';
 artikelKlein4.position - "absolute"
+
+  artikelKleinTable4.className = "table1a";
+
 
   artikelKlein4TD4a.className = "tableDivider1a";
 
@@ -538,16 +542,16 @@ artikelKlein4.position - "absolute"
       artikelKleinTitle4.style.display = "block";
       artikelKleinTitle4.className = "titleKleinArtikel";
       artikelKleinTitle4.style.top = "0px";
-      artikelKleinTitle4.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle4.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription4.id = "DescriptionKleinArtikel4";
-      artikelKleinDescription4.style.display = "block";
+      artikelKleinDescription4.style.display = "inline";
       artikelKleinDescription4.className = "DescriptionKleinArtikel";
-      artikelKleinDescription4.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription4.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA4.id = "KleinArtikelCTA4";
       artikelKleinCTA4.className = "KleinArtikelCTA";
-      artikelKleinCTA4.style.display = "block";
+      artikelKleinCTA4.style.display = "inline";
       artikelKleinCTA4.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein5.id = "kleinArtikel5";
@@ -555,6 +559,8 @@ artikelKlein5.className = 'kleinArtikel';
 artikelKlein5.draggable = "true";
 artikelKlein5.ondragstart ='onDragStart(event);';
 artikelKlein5.position - "absolute"
+
+  artikelKleinTable5a.className = "table1a";
 
   artikelKlein5TD5a.className = "tableDivider1a";
 
@@ -589,16 +595,16 @@ artikelKlein5.position - "absolute"
       artikelKleinTitle5.style.display = "block";
       artikelKleinTitle5.className = "titleKleinArtikel";
       artikelKleinTitle5.style.top = "0px";
-      artikelKleinTitle5.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle5.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription5.id = "DescriptionKleinArtikel5";
-      artikelKleinDescription5.style.display = "block";
+      artikelKleinDescription5.style.display = "inline";
       artikelKleinDescription5.className = "DescriptionKleinArtikel";
-      artikelKleinDescription5.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription5.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA5.id = "KleinArtikelCTA5";
       artikelKleinCTA5.className = "KleinArtikelCTA";
-      artikelKleinCTA5.style.display = "block";
+      artikelKleinCTA5.style.display = "inline";
       artikelKleinCTA5.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein6.id = "kleinArtikel6";
@@ -606,6 +612,8 @@ artikelKlein6.className = 'kleinArtikel';
 artikelKlein6.draggable = "true";
 artikelKlein6.ondragstart ='onDragStart(event);';
 artikelKlein6.position - "absolute"
+
+  artikelKleinTable6a.className = "table1a";
 
   artikelKlein6TD6a.className = "tableDivider1a";
 
@@ -639,16 +647,16 @@ artikelKlein6.position - "absolute"
       artikelKleinTitle6.style.display = "block";
       artikelKleinTitle6.className = "titleKleinArtikel";
       artikelKleinTitle6.style.top = "0px";
-      artikelKleinTitle6.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle6.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription6.id = "DescriptionKleinArtikel6";
-      artikelKleinDescription6.style.display = "block";
+      artikelKleinDescription6.style.display = "inline";;
       artikelKleinDescription6.className = "DescriptionKleinArtikel";
-      artikelKleinDescription6.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription6.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA6.id = "KleinArtikelCTA6";
       artikelKleinCTA6.className = "KleinArtikelCTA";
-      artikelKleinCTA6.style.display = "block";
+      artikelKleinCTA6.style.display = "inline";
       artikelKleinCTA6.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein7.id = "kleinArtikel7";
@@ -656,6 +664,8 @@ artikelKlein7.className = 'kleinArtikel';
 artikelKlein7.draggable = "true";
 artikelKlein7.ondragstart ='onDragStart(event);';
 artikelKlein7.position - "absolute"
+
+  artikelKleinTable7a.className = "table1a";
 
   artikelKlein7TD7a.className = "tableDivider1a";
 
@@ -689,16 +699,16 @@ artikelKlein7.position - "absolute"
       artikelKleinTitle7.style.display = "block";
       artikelKleinTitle7.className = "titleKleinArtikel";
       artikelKleinTitle7.style.top = "0px";
-      artikelKleinTitle7.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle7.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription7.id = "DescriptionKleinArtikel7";
-      artikelKleinDescription7.style.display = "block";
+      artikelKleinDescription7.style.display = "inline";
       artikelKleinDescription7.className = "DescriptionKleinArtikel";
-      artikelKleinDescription7.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription7.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA7.id = "KleinArtikelCTA7";
       artikelKleinCTA7.className = "KleinArtikelCTA";
-      artikelKleinCTA7.style.display = "block";
+      artikelKleinCTA7.style.display = "inline";
       artikelKleinCTA7.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein8.id = "kleinArtikel8";
@@ -706,6 +716,8 @@ artikelKlein8.className = 'kleinArtikel';
 artikelKlein8.draggable = "true";
 artikelKlein8.ondragstart ='onDragStart(event);';
 artikelKlein8.position - "absolute"
+
+  artikelKleinTable8a.className = "table1a";
 
   artikelKlein8TD8a.className = "tableDivider1a";
 
@@ -739,16 +751,16 @@ artikelKlein8.position - "absolute"
       artikelKleinTitle8.style.display = "block";
       artikelKleinTitle8.className = "titleKleinArtikel";
       artikelKleinTitle8.style.top = "0px";
-      artikelKleinTitle8.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle8.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription8.id = "DescriptionKleinArtikel8";
-      artikelKleinDescription8.style.display = "block";
+      artikelKleinDescription8.style.display = "inline";
       artikelKleinDescription8.className = "DescriptionKleinArtikel";
-      artikelKleinDescription8.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription8.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA8.id = "KleinArtikelCTA8";
       artikelKleinCTA8.className = "KleinArtikelCTA";
-      artikelKleinCTA8.style.display = "block";
+      artikelKleinCTA8.style.display = "inline";
       artikelKleinCTA8.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein9.id = "kleinArtikel9";
@@ -756,6 +768,8 @@ artikelKlein9.className = 'kleinArtikel';
 artikelKlein9.draggable = "true";
 artikelKlein9.ondragstart ='onDragStart(event);';
 artikelKlein9.position - "absolute"
+
+  artikelKleinTable9a.className = "table1a";
 
   artikelKlein9TD9a.className = "tableDivider1a";
 
@@ -789,16 +803,16 @@ artikelKlein9.position - "absolute"
       artikelKleinTitle9.style.display = "block";
       artikelKleinTitle9.className = "titleKleinArtikel";
       artikelKleinTitle9.style.top = "0px";
-      artikelKleinTitle9.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle9.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription9.id = "DescriptionKleinArtikel9";
-      artikelKleinDescription9.style.display = "block";
+      artikelKleinDescription9.style.display = "inline";
       artikelKleinDescription9.className = "DescriptionKleinArtikel";
-      artikelKleinDescription9.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription9.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA9.id = "KleinArtikelCTA9";
       artikelKleinCTA9.className = "KleinArtikelCTA";
-      artikelKleinCTA9.style.display = "block";
+      artikelKleinCTA9.style.display = "inline";
       artikelKleinCTA9.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein10.id = "kleinArtikel10";
@@ -808,6 +822,8 @@ artikelKlein10.ondragstart ='onDragStart(event);';
 artikelKlein10.position - "absolute"
 
   artikelKlein10TD10a.className = "tableDivider1a";
+
+  artikelKleinTable10a.className = "table1a";
 
     artikelKlein10TD1.className = "tableDivider1";
     artikelKlein10TD1.display = "block";
@@ -839,16 +855,16 @@ artikelKlein10.position - "absolute"
       artikelKleinTitle10.style.display = "block";
       artikelKleinTitle10.className = "titleKleinArtikel";
       artikelKleinTitle10.style.top = "0px";
-      artikelKleinTitle10.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle10.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription10.id = "DescriptionKleinArtikel10";
-      artikelKleinDescription10.style.display = "block";
+      artikelKleinDescription10.style.display = "inline";
       artikelKleinDescription10.className = "DescriptionKleinArtikel";
-      artikelKleinDescription10.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription10.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA10.id = "KleinArtikelCTA10";
       artikelKleinCTA10.className = "KleinArtikelCTA";
-      artikelKleinCTA10.style.display = "block";
+      artikelKleinCTA10.style.display = "inline";
       artikelKleinCTA10.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein11.id = "kleinArtikel11";
@@ -856,6 +872,8 @@ artikelKlein11.className = 'kleinArtikel';
 artikelKlein11.draggable = "true";
 artikelKlein11.ondragstart ='onDragStart(event);';
 artikelKlein11.position - "absolute"
+
+  artikelKleinTable11a.className = "table1a";
 
   artikelKlein11TD11a.className = "tableDivider1a";
 
@@ -889,16 +907,16 @@ artikelKlein11.position - "absolute"
       artikelKleinTitle11.style.display = "block";
       artikelKleinTitle11.className = "titleKleinArtikel";
       artikelKleinTitle11.style.top = "0px";
-      artikelKleinTitle11.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle11.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription11.id = "DescriptionKleinArtikel11";
-      artikelKleinDescription11.style.display = "block";
+      artikelKleinDescription11.style.display = "inline";
       artikelKleinDescription11.className = "DescriptionKleinArtikel";
-      artikelKleinDescription11.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription11.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA11.id = "KleinArtikelCTA11";
       artikelKleinCTA11.className = "KleinArtikelCTA";
-      artikelKleinCTA11.style.display = "block";
+      artikelKleinCTA11.style.display = "inline";
       artikelKleinCTA11.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein12.id = "kleinArtikel12";
@@ -906,6 +924,8 @@ artikelKlein12.className = 'kleinArtikel';
 artikelKlein12.draggable = "true";
 artikelKlein12.ondragstart ='onDragStart(event);';
 artikelKlein12.position - "absolute"
+
+  artikelKleinTable12a.className = "table1a";
 
   artikelKlein12TD12a.className = "tableDivider1a";
 
@@ -939,16 +959,16 @@ artikelKlein12.position - "absolute"
       artikelKleinTitle12.style.display = "block";
       artikelKleinTitle12.className = "titleKleinArtikel";
       artikelKleinTitle12.style.top = "0px";
-      artikelKleinTitle12.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle12.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription12.id = "DescriptionKleinArtikel12";
-      artikelKleinDescription12.style.display = "block";
+      artikelKleinDescription12.style.display = "inline";
       artikelKleinDescription12.className = "DescriptionKleinArtikel";
-      artikelKleinDescription12.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription12.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA12.id = "KleinArtikelCTA12";
       artikelKleinCTA12.className = "KleinArtikelCTA";
-      artikelKleinCTA12.style.display = "block";
+      artikelKleinCTA12.style.display = "inline";
       artikelKleinCTA12.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein13.id = "kleinArtikel13";
@@ -956,6 +976,8 @@ artikelKlein13.className = 'kleinArtikel';
 artikelKlein13.draggable = "true";
 artikelKlein13.ondragstart ='onDragStart(event);';
 artikelKlein13.position - "absolute"
+
+  artikelKleinTable13a.className = "table1a";
 
   artikelKlein13TD13a.className = "tableDivider1a";
 
@@ -989,16 +1011,16 @@ artikelKlein13.position - "absolute"
       artikelKleinTitle13.style.display = "block";
       artikelKleinTitle13.className = "titleKleinArtikel";
       artikelKleinTitle13.style.top = "0px";
-      artikelKleinTitle13.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle13.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription13.id = "DescriptionKleinArtikel13";
-      artikelKleinDescription13.style.display = "block";
+      artikelKleinDescription13.style.display = "inline";
       artikelKleinDescription13.className = "DescriptionKleinArtikel";
-      artikelKleinDescription13.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription13.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA13.id = "KleinArtikelCTA13";
       artikelKleinCTA13.className = "KleinArtikelCTA";
-      artikelKleinCTA13.style.display = "block";
+      artikelKleinCTA13.style.display = "inline";
       artikelKleinCTA13.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein14.id = "kleinArtikel14";
@@ -1006,6 +1028,8 @@ artikelKlein14.className = 'kleinArtikel';
 artikelKlein14.draggable = "true";
 artikelKlein14.ondragstart ='onDragStart(event);';
 artikelKlein14.position - "absolute"
+
+  artikelKleinTable14a.className = "table1a";
 
   artikelKlein14TD14a.className = "tableDivider1a";
 
@@ -1039,16 +1063,16 @@ artikelKlein14.position - "absolute"
       artikelKleinTitle14.style.display = "block";
       artikelKleinTitle14.className = "titleKleinArtikel";
       artikelKleinTitle14.style.top = "0px";
-      artikelKleinTitle14.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle14.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription14.id = "DescriptionKleinArtikel14";
-      artikelKleinDescription14.style.display = "block";
+      artikelKleinDescription14.style.display = "inline";
       artikelKleinDescription14.className = "DescriptionKleinArtikel";
-      artikelKleinDescription14.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription14.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA14.id = "KleinArtikelCTA14";
       artikelKleinCTA14.className = "KleinArtikelCTA";
-      artikelKleinCTA14.style.display = "block";
+      artikelKleinCTA14.style.display = "inline";
       artikelKleinCTA14.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 artikelKlein15.id = "kleinArtikel15";
@@ -1056,6 +1080,8 @@ artikelKlein15.className = 'kleinArtikel';
 artikelKlein15.draggable = "true";
 artikelKlein15.ondragstart ='onDragStart(event);';
 artikelKlein15.position - "absolute"
+
+  artikelKleinTable15a.className = "table1a";
 
   artikelKlein15TD15a.className = "tableDivider1a";
 
@@ -1089,16 +1115,16 @@ artikelKlein15.position - "absolute"
       artikelKleinTitle15.style.display = "block";
       artikelKleinTitle15.className = "titleKleinArtikel";
       artikelKleinTitle15.style.top = "0px";
-      artikelKleinTitle15.setAttribute("style", "top: 0px; display: block; font-size: 15pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinTitle15.setAttribute("style", "top: 0px; display: block; font-size: 15pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription15.id = "DescriptionKleinArtikel15";
-      artikelKleinDescription15.style.display = "block";
+      artikelKleinDescription15.style.display = "inline";
       artikelKleinDescription15.className = "DescriptionKleinArtikel";
-      artikelKleinDescription15.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+      artikelKleinDescription15.setAttribute("style", "font-size: 10pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA15.id = "KleinArtikelCTA15";
       artikelKleinCTA15.className = "KleinArtikelCTA";
-      artikelKleinCTA15.style.display = "block";
+      artikelKleinCTA15.style.display = "inline";
       artikelKleinCTA15.setAttribute("style", "text-decoration: none; color: #2b7ea4; font-size: 10pt;")
 
 //Artikelen groot
@@ -1271,38 +1297,49 @@ vacature1.position - "absolute"
     vacature1TDa.display = "block";
     vacature1TDa.width = "30%";
     vacature1TDa.height = "150px";
+    vacature1TDa.style.verticalAlign="top"
 
       vacature1TDDiv.className = "tdDiv";
       vacature1TDDiv.width = "150px";
       vacature1TDDiv.height = "150px";
+      vacature1TDDiv.style.verticalAlign="top"
 
         vacatureImg1.id = "imgVacatureArtikel1";
         vacatureImg1.style.display = "block";
         vacatureImg1.className = "imgVacature";
         vacatureImg1.style.height = "auto";
         vacatureImg1.style.width = "150px";
+        vacatureImg1.style.verticalAlign="top"
 
       vacature1TDb.className= "tableDivider2";
       vacature1TDb.height = "150px";
       vacature1TDb.width = "auto";
       vacature1TDb.style.verticalAlign="top";
 
-        vacatureMeta1.id = "metaVacature1"
-        vacatureMeta1.style.display = "block";
-        vacatureMeta1.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta1.id = "metaVacature1";
+        vacatureMeta1.style.display = "inline";
+        vacatureMeta1.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial;");
         vacatureMeta1.className = "metaVacature";
+
+          vspan1a.id="vacatureMeta1a"
+          vspan1a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+          vspan1a.className = "metaVacature";
+
+          vspan1b.id="vacatureMeta1b"
+          vspan1b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+          vspan1b.className = "metaVacature";
 
         vacatureTitle1.id = "titleVacature1";
         vacatureTitle1.style.display = "block";
         vacatureTitle1.className = "titleVacature";
         vacatureTitle1.style.top = "0px";
         vacatureTitle1.style.verticalAlign="top"
-        vacatureTitle1.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureTitle1.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
 
         vacatureDescription1.id = "DescriptionVacature1";
         vacatureDescription1.style.display = "block";
         vacatureDescription1.className = "DescriptionVacature";
-        vacatureDescription1.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureDescription1.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
 
 vacature2.id = "vacature2";
 vacature2.className = 'vacature';
@@ -1313,6 +1350,7 @@ vacature2.position - "absolute"
       vacature2TDa.display = "block";
       vacature2TDa.width = "30%";
       vacature2TDa.height = "150px";
+      vacature2TDa.style.verticalAlign="top"
 
       vacature2TDDiv.className = "tdDiv";
       vacature2TDDiv.width = "150px";
@@ -1331,20 +1369,28 @@ vacature2.position - "absolute"
 
         vacatureMeta2.id = "metaVacature2"
         vacatureMeta2.style.display = "block";
-        vacatureMeta2.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta2.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
         vacatureMeta2.className = "metaVacature";
+
+          vspan2a.id="vacatureMeta2a"
+          vspan2a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+          vspan2a.className = "metaVacature";
+
+          vspan2b.id="vacatureMeta2b"
+          vspan2b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+          vspan2b.className = "metaVacature";
 
         vacatureTitle2.id = "titleVacature2";
         vacatureTitle2.style.display = "block";
         vacatureTitle2.className = "titleVacature";
         vacatureTitle2.style.top = "0px";
         vacatureTitle2.style.verticalAlign="top"
-        vacatureTitle2.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureTitle2.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
 
         vacatureDescription2.id = "DescriptionVacature2";
         vacatureDescription2.style.display = "block";
         vacatureDescription2.className = "DescriptionVacature";
-        vacatureDescription2.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureDescription2.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
 
 vacature3.id = "vacature3";
 vacature3.className = 'vacature';
@@ -1355,6 +1401,7 @@ vacature3.position - "absolute"
   vacature3TDa.display = "block";
   vacature3TDa.width = "30%";
   vacature3TDa.height = "150px";
+  vacature3TDa.style.verticalAlign="top"
 
       vacature3TDDiv.className = "tdDiv";
       vacature3TDDiv.width = "150px";
@@ -1373,20 +1420,28 @@ vacature3.position - "absolute"
 
           vacatureMeta3.id = "metaVacature3"
           vacatureMeta3.style.display = "block";
-          vacatureMeta3.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+          vacatureMeta3.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
           vacatureMeta3.className = "metaVacature";
 
-            vacatureTitle3.id = "titleVacature3";
-                vacatureTitle3.style.display = "block";
-                vacatureTitle3.className = "titleVacature";
-                vacatureTitle3.style.top = "0px";
-                vacatureTitle3.style.verticalAlign="top"
-                vacatureTitle3.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+            vspan3a.id="vacatureMeta3a"
+            vspan3a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+            vspan3a.className = "metaVacature";
+
+            vspan3b.id="vacatureMeta3b"
+            vspan3b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+            vspan3b.className = "metaVacature";
+
+          vacatureTitle3.id = "titleVacature3";
+          vacatureTitle3.style.display = "block";
+          vacatureTitle3.className = "titleVacature";
+          vacatureTitle3.style.top = "0px";
+          vacatureTitle3.style.verticalAlign="top"
+          vacatureTitle3.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
 
                 vacatureDescription3.id = "DescriptionVacature3";
                 vacatureDescription3.style.display = "block";
                 vacatureDescription3.className = "DescriptionVacature";
-                vacatureDescription3.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+                vacatureDescription3.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
 
 vacature4.id = "vacature4";
 vacature4.className = 'vacature';
@@ -1397,6 +1452,7 @@ vacature4.position - "absolute"
     vacature4TDa.display = "block";
     vacature4TDa.width = "30%";
     vacature4TDa.height = "150px";
+    vacature4TDa.style.verticalAlign="top"
 
       vacature4TDDiv.className = "tdDiv";
       vacature4TDDiv.width = "150px";
@@ -1415,20 +1471,28 @@ vacature4.position - "absolute"
 
         vacatureMeta4.id = "metaVacature4"
         vacatureMeta4.style.display = "block";
-        vacatureMeta4.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta4.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
         vacatureMeta4.className = "metaVacature";
+
+          vspan4a.id="vacatureMeta4a"
+          vspan4a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+          vspan4a.className = "metaVacature";
+
+          vspan4b.id="vacatureMeta4b"
+          vspan4b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+          vspan4b.className = "metaVacature";
 
         vacatureTitle4.id = "titleVacature4";
         vacatureTitle4.style.display = "block";
         vacatureTitle4.className = "titleVacature";
         vacatureTitle4.style.top = "0px";
         vacatureTitle4.style.verticalAlign="top"
-        vacatureTitle4.setAttribute("style", "top: 0px; display: block; font-size: 14pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureTitle4.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
 
         vacatureDescription4.id = "DescriptionVacature4";
         vacatureDescription4.style.display = "block";
         vacatureDescription4.className = "DescriptionVacature";
-        vacatureDescription4.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureDescription4.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
 
 vacature5.id = "vacature5";
 vacature5.className = 'vacature';
@@ -1439,6 +1503,7 @@ vacature5.position - "absolute"
     vacature5TDa.display = "block";
     vacature5TDa.width = "30%";
     vacature5TDa.height = "150px";
+    vacature5TDa.style.verticalAlign="top"
 
       vacature5TDDiv.className = "tdDiv";
       vacature5TDDiv.width = "150px";
@@ -1457,20 +1522,28 @@ vacature5.position - "absolute"
 
         vacatureMeta5.id = "metaVacature5"
         vacatureMeta5.style.display = "block";
-        vacatureMeta5.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta5.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
         vacatureMeta5.className = "metaVacature";
+
+          vspan5a.id="vacatureMeta5a"
+          vspan5a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+          vspan5a.className = "metaVacature";
+
+          vspan5b.id="vacatureMeta5b"
+          vspan5b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+          vspan5b.className = "metaVacature";
 
         vacatureTitle5.id = "titleVacature5";
         vacatureTitle5.style.display = "block";
         vacatureTitle5.className = "titleVacature";
         vacatureTitle5.style.top = "0px";
         vacatureTitle5.style.verticalAlign="top"
-        vacatureTitle5.setAttribute("style", "top: 0px; display: block; font-size: 15pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureTitle5.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
 
         vacatureDescription5.id = "DescriptionVacature5";
         vacatureDescription5.style.display = "block";
         vacatureDescription5.className = "DescriptionVacature";
-        vacatureDescription5.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureDescription5.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
 
 vacature6.id = "vacature6";
 vacature6.className = 'vacature';
@@ -1481,6 +1554,7 @@ vacature6.position - "absolute"
     vacature6TDa.display = "block";
     vacature6TDa.width = "30%";
     vacature6TDa.height = "150px";
+    vacature6TDa.style.verticalAlign="top"
 
       vacature6TDDiv.className = "tdDiv";
       vacature6TDDiv.width = "150px";
@@ -1499,20 +1573,27 @@ vacature6.position - "absolute"
 
         vacatureMeta6.id = "metaVacature6"
         vacatureMeta6.style.display = "block";
-        vacatureMeta6.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta6.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
         vacatureMeta6.className = "metaVacature";
+
+          vspan6a.id="vacatureMeta6a"
+          vspan6a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+          vspan6a.className = "metaVacature";
+
+          vspan6b.id="vacatureMeta6b"
+          vspan6b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+          vspan6b.className = "metaVacature";
 
         vacatureTitle6.id = "titleVacature6";
         vacatureTitle6.style.display = "block";
         vacatureTitle6.className = "titleVacature";
         vacatureTitle6.style.top = "0px";
         vacatureTitle6.style.verticalAlign="top"
-        vacatureTitle6.setAttribute("style", "top: 0px; display: block; font-size: 16pt; font-weight: regular; font-familyL: Arial; ");
-
+        vacatureTitle6.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
         vacatureDescription6.id = "DescriptionVacature6";
         vacatureDescription6.style.display = "block";
         vacatureDescription6.className = "DescriptionVacature";
-        vacatureDescription6.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureDescription6.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666;");
 
 vacature7.id = "vacature7";
 vacature7.className = 'vacature';
@@ -1523,6 +1604,7 @@ vacature7.position - "absolute"
     vacature7TDa.display = "block";
     vacature7TDa.width = "30%";
     vacature7TDa.height = "150px";
+    vacature7TDa.style.verticalAlign="top"
 
       vacature7TDDiv.className = "tdDiv";
       vacature7TDDiv.width = "150px";
@@ -1541,20 +1623,28 @@ vacature7.position - "absolute"
 
         vacatureMeta7.id = "metaVacature7"
         vacatureMeta7.style.display = "block";
-        vacatureMeta7.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta7.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
         vacatureMeta7.className = "metaVacature";
+
+          vspan7a.id="vacatureMeta7a"
+          vspan7a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+          vspan7a.className = "metaVacature";
+
+          vspan7b.id="vacatureMeta7b"
+          vspan7b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+          vspan7b.className = "metaVacature";
 
         vacatureTitle7.id = "titleVacature7";
         vacatureTitle7.style.display = "block";
         vacatureTitle7.className = "titleVacature";
         vacatureTitle7.style.top = "0px";
         vacatureTitle7.style.verticalAlign="top"
-        vacatureTitle7.setAttribute("style", "top: 0px; display: block; font-size: 17pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureTitle7.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
 
         vacatureDescription7.id = "DescriptionVacature7";
         vacatureDescription7.style.display = "block";
         vacatureDescription7.className = "DescriptionVacature";
-        vacatureDescription7.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureDescription7.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
 
 vacature8.id = "vacature8";
 vacature8.className = 'vacature';
@@ -1565,6 +1655,7 @@ vacature8.position - "absolute"
     vacature8TDa.display = "block";
     vacature8TDa.width = "30%";
     vacature8TDa.height = "150px";
+    vacature8TDa.style.verticalAlign="top"
 
       vacature8TDDiv.className = "tdDiv";
       vacature8TDDiv.width = "150px";
@@ -1583,20 +1674,28 @@ vacature8.position - "absolute"
 
         vacatureMeta8.id = "metaVacature8"
         vacatureMeta8.style.display = "block";
-        vacatureMeta8.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta8.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
         vacatureMeta8.className = "metaVacature";
+
+          vspan8a.id="vacatureMeta8a"
+          vspan8a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+          vspan8a.className = "metaVacature";
+
+          vspan8b.id="vacatureMeta8b"
+          vspan8b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+          vspan8b.className = "metaVacature";
 
         vacatureTitle8.id = "titleVacature8";
         vacatureTitle8.style.display = "block";
         vacatureTitle8.className = "titleVacature";
         vacatureTitle8.style.top = "0px";
         vacatureTitle8.style.verticalAlign="top"
-        vacatureTitle8.setAttribute("style", "top: 0px; display: block; font-size: 18pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureTitle8.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
 
         vacatureDescription8.id = "DescriptionVacature8";
         vacatureDescription8.style.display = "block";
         vacatureDescription8.className = "DescriptionVacature";
-        vacatureDescription8.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureDescription8.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
 
 vacature9.id = "vacature9";
 vacature9.className = 'vacature';
@@ -1607,6 +1706,7 @@ vacature9.position - "absolute"
     vacature9TDa.display = "block";
     vacature9TDa.width = "30%";
     vacature9TDa.height = "150px";
+    vacature9TDa.style.verticalAlign="top"
 
       vacature9TDDiv.className = "tdDiv";
       vacature9TDDiv.width = "150px";
@@ -1625,20 +1725,28 @@ vacature9.position - "absolute"
 
         vacatureMeta9.id = "metaVacature9"
         vacatureMeta9.style.display = "block";
-        vacatureMeta9.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta9.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
         vacatureMeta9.className = "metaVacature";
+
+          vspan9a.id="vacatureMeta9a"
+          vspan9a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+          vspan9a.className = "metaVacature";
+
+          vspan9b.id="vacatureMeta9b"
+          vspan9b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+          vspan9b.className = "metaVacature";
 
         vacatureTitle9.id = "titleVacature9";
         vacatureTitle9.style.display = "block";
         vacatureTitle9.className = "titleVacature";
         vacatureTitle9.style.top = "0px";
         vacatureTitle9.style.verticalAlign="top"
-        vacatureTitle9.setAttribute("style", "top: 0px; display: block; font-size: 19pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureTitle9.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
 
         vacatureDescription9.id = "DescriptionVacature9";
         vacatureDescription9.style.display = "block";
         vacatureDescription9.className = "DescriptionVacature";
-        vacatureDescription9.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureDescription9.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
 
 vacature10.id = "vacature10";
 vacature10.className = 'vacature';
@@ -1649,6 +1757,8 @@ vacature10.position - "absolute"
     vacature10TDa.display = "block";
     vacature10TDa.width = "30%";
     vacature10TDa.height = "150px";
+    vacature10TDa.style.verticalAlign="top"
+
 
       vacature10TDDiv.className = "tdDiv";
       vacature10TDDiv.width = "150px";
@@ -1667,20 +1777,28 @@ vacature10.position - "absolute"
 
         vacatureMeta10.id = "metaVacature10"
         vacatureMeta10.style.display = "block";
-        vacatureMeta10.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta10.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
         vacatureMeta10.className = "metaVacature";
+
+          vspan10a.id="vacatureMeta10a"
+          vspan10a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+          vspan10a.className = "metaVacature";
+
+          vspan10b.id="vacatureMeta10b"
+          vspan10b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+          vspan10b.className = "metaVacature";
 
         vacatureTitle10.id = "titleVacature10";
         vacatureTitle10.style.display = "block";
         vacatureTitle10.className = "titleVacature";
         vacatureTitle10.style.top = "0px";
         vacatureTitle10.style.verticalAlign="top"
-        vacatureTitle10.setAttribute("style", "top: 0px; display: block; font-size: 110pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureTitle10.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
 
         vacatureDescription10.id = "DescriptionVacature10";
         vacatureDescription10.style.display = "block";
         vacatureDescription10.className = "DescriptionVacature";
-        vacatureDescription10.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureDescription10.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
 
 vacature11.id = "vacature11";
 vacature11.className = 'vacature';
@@ -1691,6 +1809,7 @@ vacature11.position - "absolute"
     vacature11TDa.display = "block";
     vacature11TDa.width = "30%";
     vacature11TDa.height = "150px";
+    vacature11TDa.style.verticalAlign="top";
 
       vacature11TDDiv.className = "tdDiv";
       vacature11TDDiv.width = "150px";
@@ -1709,20 +1828,28 @@ vacature11.position - "absolute"
 
         vacatureMeta11.id = "metaVacature11"
         vacatureMeta11.style.display = "block";
-        vacatureMeta11.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta11.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
         vacatureMeta11.className = "metaVacature";
+
+        vspan11a.id="vacatureMeta11a"
+        vspan11a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+        vspan11a.className = "metaVacature";
+
+        vspan11b.id="vacatureMeta11b"
+        vspan11b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+        vspan11b.className = "metaVacature";
 
         vacatureTitle11.id = "titleVacature11";
         vacatureTitle11.style.display = "block";
         vacatureTitle11.className = "titleVacature";
         vacatureTitle11.style.top = "0px";
         vacatureTitle11.style.verticalAlign="top"
-        vacatureTitle11.setAttribute("style", "top: 0px; display: block; font-size: 110pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureTitle11.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
 
         vacatureDescription11.id = "DescriptionVacature11";
         vacatureDescription11.style.display = "block";
         vacatureDescription11.className = "DescriptionVacature";
-        vacatureDescription11.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureDescription11.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
 
 vacature12.id = "vacature12";
 vacature12.className = 'vacature';
@@ -1733,6 +1860,7 @@ vacature12.position - "absolute"
     vacature12TDa.display = "block";
     vacature12TDa.width = "30%";
     vacature12TDa.height = "150px";
+    vacature12TDa.style.verticalAlign="top"
 
       vacature12TDDiv.className = "tdDiv";
       vacature12TDDiv.width = "150px";
@@ -1751,20 +1879,28 @@ vacature12.position - "absolute"
 
         vacatureMeta12.id = "metaVacature12"
         vacatureMeta12.style.display = "block";
-        vacatureMeta12.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureMeta12.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
         vacatureMeta12.className = "metaVacature";
+
+        vspan12a.id="vacatureMeta12a"
+        vspan12a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+        vspan12a.className = "metaVacature";
+
+        vspan12b.id="vacatureMeta12b"
+        vspan12b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+        vspan12b.className = "metaVacature";
 
         vacatureTitle12.id = "titleVacature12";
         vacatureTitle12.style.display = "block";
         vacatureTitle12.className = "titleVacature";
         vacatureTitle12.style.top = "0px";
         vacatureTitle12.style.verticalAlign="top"
-        vacatureTitle12.setAttribute("style", "top: 0px; display: block; font-size: 120pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureTitle12.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
 
         vacatureDescription12.id = "DescriptionVacature12";
         vacatureDescription12.style.display = "block";
         vacatureDescription12.className = "DescriptionVacature";
-        vacatureDescription12.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-familyL: Arial; ");
+        vacatureDescription12.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
 
 
 categorySEO.id = "categroySEO";

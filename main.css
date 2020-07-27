@@ -51,7 +51,9 @@
 }
 
 .kleinArtikel .tableDivider2 {
-  height: 90px !important;
+  max-height: 90px !important;
+  line-height: 1;
+
 }
 
 /*Styling Artikel Groot*/

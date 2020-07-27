@@ -200,7 +200,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein1a = document.getElementById('imgKleinArtikel1a');
     imgKlein1a.src = allImages[0].attributes.url.nodeValue;
     let ctaKlein1 = document.getElementById('KleinArtikelCTA1');
-    ctaKlein1.textContent = "Lees meer►";
+    ctaKlein1.textContent = " Lees meer►";
     ctaKlein1.setAttribute("href", allLinks[1].textContent );
 
     let imgKlein2 = document.getElementById('imgKleinArtikel2');
@@ -212,7 +212,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein2a = document.getElementById('imgKleinArtikel2a');
     imgKlein2a.src = allImages[1].attributes.url.nodeValue;
     let ctaKlein2 = document.getElementById('KleinArtikelCTA2');
-    ctaKlein2.textContent = "Lees meer►";
+    ctaKlein2.textContent = " Lees meer►";
     ctaKlein2.setAttribute("href", allLinks[2].textContent );
 
     let imgKlein3 = document.getElementById('imgKleinArtikel3');
@@ -224,7 +224,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein3a = document.getElementById('imgKleinArtikel3a');
     imgKlein3a.src = allImages[2].attributes.url.nodeValue;
     let ctaKlein3 = document.getElementById('KleinArtikelCTA3');
-    ctaKlein3.textContent = "Lees meer►";
+    ctaKlein3.textContent = " Lees meer►";
     ctaKlein3.setAttribute("href", allLinks[3].textContent );
 
     let imgKlein4 = document.getElementById('imgKleinArtikel4');
@@ -236,7 +236,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein4a = document.getElementById('imgKleinArtikel4a');
     imgKlein4a.src = allImages[3].attributes.url.nodeValue;
     let ctaKlein4 = document.getElementById('KleinArtikelCTA4');
-    ctaKlein4.textContent = "Lees meer►";
+    ctaKlein4.textContent = " Lees meer►";
     ctaKlein4.setAttribute("href", allLinks[4].textContent );
 
     let imgKlein5 = document.getElementById('imgKleinArtikel5');
@@ -248,7 +248,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein5a = document.getElementById('imgKleinArtikel5a');
     imgKlein5a.src = allImages[4].attributes.url.nodeValue;
     let ctaKlein5 = document.getElementById('KleinArtikelCTA5');
-    ctaKlein5.textContent = "Lees meer►";
+    ctaKlein5.textContent = " Lees meer►";
     ctaKlein5.setAttribute("href", allLinks[5].textContent );
 
     let imgKlein6 = document.getElementById('imgKleinArtikel6');
@@ -260,7 +260,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein6a = document.getElementById('imgKleinArtikel6a');
     imgKlein6a.src = allImages[5].attributes.url.nodeValue;
     let ctaKlein6 = document.getElementById('KleinArtikelCTA6');
-    ctaKlein6.textContent = "Lees meer►";
+    ctaKlein6.textContent = " Lees meer►";
     ctaKlein6.setAttribute("href", allLinks[6].textContent );
 
     let imgKlein7 = document.getElementById('imgKleinArtikel7');
@@ -272,7 +272,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein7a = document.getElementById('imgKleinArtikel7a');
     imgKlein7a.src = allImages[6].attributes.url.nodeValue;
     let ctaKlein7 = document.getElementById('KleinArtikelCTA7');
-    ctaKlein7.textContent = "Lees meer►";
+    ctaKlein7.textContent = " Lees meer►";
     ctaKlein7.setAttribute("href", allLinks[7].textContent );
 
     let imgKlein8 = document.getElementById('imgKleinArtikel8');
@@ -284,7 +284,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein8a = document.getElementById('imgKleinArtikel8a');
     imgKlein8a.src = allImages[7].attributes.url.nodeValue;
     let ctaKlein8 = document.getElementById('KleinArtikelCTA8');
-    ctaKlein8.textContent = "Lees meer►";
+    ctaKlein8.textContent = " Lees meer►";
     ctaKlein8.setAttribute("href", allLinks[8].textContent );
 
     let imgKlein9 = document.getElementById('imgKleinArtikel9');
@@ -296,7 +296,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein9a = document.getElementById('imgKleinArtikel9a');
     imgKlein9a.src = allImages[8].attributes.url.nodeValue;
     let ctaKlein9 = document.getElementById('KleinArtikelCTA9');
-    ctaKlein9.textContent = "Lees meer►";
+    ctaKlein9.textContent = " Lees meer►";
     ctaKlein9.setAttribute("href", allLinks[9].textContent );
 
     let imgKlein10 = document.getElementById('imgKleinArtikel10');
@@ -308,7 +308,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein10a = document.getElementById('imgKleinArtikel10a');
     imgKlein10a.src = allImages[9].attributes.url.nodeValue;
     let ctaKlein10 = document.getElementById('KleinArtikelCTA10');
-    ctaKlein10.textContent = "Lees meer►";
+    ctaKlein10.textContent = " Lees meer►";
     ctaKlein10.setAttribute("href", allLinks[10].textContent );
 
     let imgKlein11 = document.getElementById('imgKleinArtikel11');
@@ -320,7 +320,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein11a = document.getElementById('imgKleinArtikel11a');
     imgKlein11a.src = allImages[10].attributes.url.nodeValue;
     let ctaKlein11 = document.getElementById('KleinArtikelCTA11');
-    ctaKlein11.textContent = "Lees meer►";
+    ctaKlein11.textContent = " Lees meer►";
     ctaKlein11.setAttribute("href", allLinks[11].textContent );
 
     let imgKlein12 = document.getElementById('imgKleinArtikel12');
@@ -332,7 +332,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein12a = document.getElementById('imgKleinArtikel12a');
     imgKlein12a.src = allImages[11].attributes.url.nodeValue;
     let ctaKlein12 = document.getElementById('KleinArtikelCTA12');
-    ctaKlein12.textContent = "Lees meer►";
+    ctaKlein12.textContent = " Lees meer►";
     ctaKlein12.setAttribute("href", allLinks[12].textContent );
 
     let imgKlein13 = document.getElementById('imgKleinArtikel13');
@@ -344,7 +344,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein13a = document.getElementById('imgKleinArtikel13a');
     imgKlein13a.src = allImages[12].attributes.url.nodeValue;
     let ctaKlein13 = document.getElementById('KleinArtikelCTA13');
-    ctaKlein13.textContent = "Lees meer►";
+    ctaKlein13.textContent = " Lees meer►";
     ctaKlein13.setAttribute("href", allLinks[13].textContent );
 
     let imgKlein14 = document.getElementById('imgKleinArtikel14');
@@ -356,7 +356,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein14a = document.getElementById('imgKleinArtikel14a');
     imgKlein14a.src = allImages[13].attributes.url.nodeValue;
     let ctaKlein14 = document.getElementById('KleinArtikelCTA14');
-    ctaKlein14.textContent = "Lees meer►";
+    ctaKlein14.textContent = " Lees meer►";
     ctaKlein14.setAttribute("href", allLinks[14].textContent );
 
     let imgKlein15 = document.getElementById('imgKleinArtikel15');
@@ -368,7 +368,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let imgKlein15a = document.getElementById('imgKleinArtikel15a');
     imgKlein15a.src = allImages[14].attributes.url.nodeValue;
     let ctaKlein15 = document.getElementById('KleinArtikelCTA15');
-    ctaKlein15.textContent = "Lees meer►";
+    ctaKlein15.textContent = " Lees meer►";
     ctaKlein15.setAttribute("href", allLinks[15].textContent );
 
 
@@ -525,8 +525,11 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
 
     let imgVacature1 = document.getElementById("imgVacatureArtikel1");
     imgVacature1.src = allVacatureImages[0].attributes[0].nodeValue;
-    let metaVacature1 = document.getElementById("metaVacature1")
-    metaVacature1.textContent = allPoster[0].textContent + " • " + allVacatureLocations[0].textContent + " • " + allDuur[0].textContent;
+    let metaVacature1 = document.getElementById("metaVacature1");
+    let vacatureMeta1a = document.getElementById("vacatureMeta1a");
+    let vacatureMeta1b = document.getElementById("vacatureMeta1b");
+    vacatureMeta1a.textContent = allPoster[0].textContent;
+    vacatureMeta1b.textContent = " • " + allVacatureLocations[0].textContent + " • " + allDuur[0].textContent;
     let titleVacature1 = document.getElementById("titleVacature1");
     titleVacature1.textContent = allVacatureTitles[1].textContent;
     let descriptionVacature1 = document.getElementById("DescriptionVacature1");
@@ -535,7 +538,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let imgVacature2 = document.getElementById("imgVacatureArtikel2");
     imgVacature2.src = allVacatureImages[1].attributes[0].nodeValue;
     let metaVacature2 = document.getElementById("metaVacature2")
-    metaVacature2.textContent = allPoster[1].textContent + " • " + allVacatureLocations[1].textContent + " • " + allDuur[1].textContent;
+    let vacatureMeta2a = document.getElementById("vacatureMeta2a");
+    let vacatureMeta2b = document.getElementById("vacatureMeta2b");
+    vacatureMeta2a.textContent = allPoster[1].textContent;
+    vacatureMeta2b.textContent = " • " + allVacatureLocations[1].textContent + " • " + allDuur[1].textContent;
     let titleVacature2 = document.getElementById("titleVacature2");
     titleVacature2.textContent = allVacatureTitles[2].textContent;
     let descriptionVacature2 = document.getElementById("DescriptionVacature2");
@@ -544,7 +550,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let imgVacature3 = document.getElementById("imgVacatureArtikel3");
     imgVacature3.src = allVacatureImages[2].attributes[0].nodeValue;
     let metaVacature3 = document.getElementById("metaVacature3")
-    metaVacature3.textContent = allPoster[2].textContent + " • " + allVacatureLocations[2].textContent + " • " + allDuur[2].textContent;
+    let vacatureMeta3a = document.getElementById("vacatureMeta3a");
+    let vacatureMeta3b = document.getElementById("vacatureMeta3b");
+    vacatureMeta3a.textContent = allPoster[2].textContent;
+    vacatureMeta3b.textContent = " • " + allVacatureLocations[2].textContent + " • " + allDuur[2].textContent;
     let titleVacature3 = document.getElementById("titleVacature3");
     titleVacature3.textContent = allVacatureTitles[3].textContent;
     let descriptionVacature3 = document.getElementById("DescriptionVacature3");
@@ -553,7 +562,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let imgVacature4 = document.getElementById("imgVacatureArtikel4");
     imgVacature4.src = allVacatureImages[3].attributes[0].nodeValue;
     let metaVacature4 = document.getElementById("metaVacature4")
-    metaVacature4.textContent = allPoster[3].textContent + " • " + allVacatureLocations[3].textContent + " • " + allDuur[3].textContent;
+    let vacatureMeta4a = document.getElementById("vacatureMeta4a");
+    let vacatureMeta4b = document.getElementById("vacatureMeta4b");
+    vacatureMeta4a.textContent = allPoster[3].textContent;
+    vacatureMeta4b.textContent = " • " + allVacatureLocations[3].textContent + " • " + allDuur[3].textContent;
     let titleVacature4 = document.getElementById("titleVacature4");
     titleVacature4.textContent = allVacatureTitles[4].textContent;
     let descriptionVacature4 = document.getElementById("DescriptionVacature4");
@@ -562,7 +574,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let imgVacature5 = document.getElementById("imgVacatureArtikel5");
     imgVacature5.src = allVacatureImages[4].attributes[0].nodeValue;
     let metaVacature5 = document.getElementById("metaVacature5")
-    metaVacature5.textContent = allPoster[4].textContent + " • " + allVacatureLocations[4].textContent + " • " + allDuur[4].textContent;
+    let vacatureMeta5a = document.getElementById("vacatureMeta5a");
+    let vacatureMeta5b = document.getElementById("vacatureMeta5b");
+    vacatureMeta5a.textContent = allPoster[4].textContent;
+    vacatureMeta5b.textContent = " • " + allVacatureLocations[4].textContent + " • " + allDuur[4].textContent;
     let titleVacature5 = document.getElementById("titleVacature5");
     titleVacature5.textContent = allVacatureTitles[5].textContent;
     let descriptionVacature5 = document.getElementById("DescriptionVacature5");
@@ -571,7 +586,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let imgVacature6 = document.getElementById("imgVacatureArtikel6");
     imgVacature6.src = allVacatureImages[5].attributes[0].nodeValue;
     let metaVacature6 = document.getElementById("metaVacature6")
-    metaVacature6.textContent = allPoster[5].textContent + " • " + allVacatureLocations[5].textContent + " • " + allDuur[5].textContent;
+    let vacatureMeta6a = document.getElementById("vacatureMeta6a");
+    let vacatureMeta6b = document.getElementById("vacatureMeta6b");
+    vacatureMeta6a.textContent = allPoster[5].textContent;
+    vacatureMeta6b.textContent = " • " + allVacatureLocations[5].textContent + " • " + allDuur[5].textContent;
     let titleVacature6 = document.getElementById("titleVacature6");
     titleVacature6.textContent = allVacatureTitles[6].textContent;
     let descriptionVacature6 = document.getElementById("DescriptionVacature6");
@@ -580,7 +598,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let imgVacature7 = document.getElementById("imgVacatureArtikel7");
     imgVacature7.src = allVacatureImages[6].attributes[0].nodeValue;
     let metaVacature7 = document.getElementById("metaVacature7")
-    metaVacature7.textContent = allPoster[6].textContent + " • " + allVacatureLocations[6].textContent + " • " + allDuur[6].textContent;
+    let vacatureMeta7a = document.getElementById("vacatureMeta7a");
+    let vacatureMeta7b = document.getElementById("vacatureMeta7b");
+    vacatureMeta7a.textContent = allPoster[6].textContent;
+    vacatureMeta7b.textContent = " • " + allVacatureLocations[6].textContent + " • " + allDuur[6].textContent;
     let titleVacature7 = document.getElementById("titleVacature7");
     titleVacature7.textContent = allVacatureTitles[7].textContent;
     let descriptionVacature7 = document.getElementById("DescriptionVacature7");
@@ -589,7 +610,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let imgVacature8 = document.getElementById("imgVacatureArtikel8");
     imgVacature8.src = allVacatureImages[7].attributes[0].nodeValue;
     let metaVacature8 = document.getElementById("metaVacature8")
-    metaVacature8.textContent = allPoster[7].textContent + " • " + allVacatureLocations[7].textContent + " • " + allDuur[7].textContent;
+    let vacatureMeta8a = document.getElementById("vacatureMeta8a");
+    let vacatureMeta8b = document.getElementById("vacatureMeta8b");
+    vacatureMeta8a.textContent = allPoster[7].textContent;
+    vacatureMeta8b.textContent = " • " + allVacatureLocations[7].textContent + " • " + allDuur[7].textContent;
     let titleVacature8 = document.getElementById("titleVacature8");
     titleVacature8.textContent = allVacatureTitles[8].textContent;
     let descriptionVacature8 = document.getElementById("DescriptionVacature8");
@@ -598,7 +622,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let imgVacature9 = document.getElementById("imgVacatureArtikel9");
     imgVacature9.src = allVacatureImages[8].attributes[0].nodeValue;
     let metaVacature9 = document.getElementById("metaVacature9")
-    metaVacature9.textContent = allPoster[8].textContent + " • " + allVacatureLocations[8].textContent + " • " + allDuur[8].textContent;
+    let vacatureMeta9a = document.getElementById("vacatureMeta9a");
+    let vacatureMeta9b = document.getElementById("vacatureMeta9b");
+    vacatureMeta9a.textContent = allPoster[8].textContent;
+    vacatureMeta9b.textContent = " • " + allVacatureLocations[8].textContent + " • " + allDuur[8].textContent;
     let titleVacature9 = document.getElementById("titleVacature9");
     titleVacature9.textContent = allVacatureTitles[9].textContent;
     let descriptionVacature9 = document.getElementById("DescriptionVacature9");
@@ -607,7 +634,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let imgVacature10 = document.getElementById("imgVacatureArtikel10");
     imgVacature10.src = allVacatureImages[9].attributes[0].nodeValue;
     let metaVacature10 = document.getElementById("metaVacature10")
-    metaVacature10.textContent = allPoster[9].textContent + " • " + allVacatureLocations[9].textContent + " • " + allDuur[9].textContent;
+    let vacatureMeta10a = document.getElementById("vacatureMeta10a");
+    let vacatureMeta10b = document.getElementById("vacatureMeta10b");
+    vacatureMeta10a.textContent = allPoster[9].textContent;
+    vacatureMeta10b.textContent = " • " + allVacatureLocations[9].textContent + " • " + allDuur[9].textContent;
     let titleVacature10 = document.getElementById("titleVacature10");
     titleVacature10.textContent = allVacatureTitles[10].textContent;
     let descriptionVacature10 = document.getElementById("DescriptionVacature10");
@@ -616,7 +646,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let imgVacature11 = document.getElementById("imgVacatureArtikel11");
     imgVacature11.src = allVacatureImages[10].attributes[0].nodeValue;
     let metaVacature11 = document.getElementById("metaVacature11")
-    metaVacature11.textContent = allPoster[10].textContent + " • " + allVacatureLocations[10].textContent + " • " + allDuur[10].textContent;
+    let vacatureMeta11a = document.getElementById("vacatureMeta11a");
+    let vacatureMeta11b = document.getElementById("vacatureMeta11b");
+    vacatureMeta11a.textContent = allPoster[10].textContent;
+    vacatureMeta11b.textContent = " • " + allVacatureLocations[10].textContent + " • " + allDuur[10].textContent;
     let titleVacature11 = document.getElementById("titleVacature11");
     titleVacature11.textContent = allVacatureTitles[11].textContent;
     let descriptionVacature11 = document.getElementById("DescriptionVacature11");
@@ -625,7 +658,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let imgVacature12 = document.getElementById("imgVacatureArtikel12");
     imgVacature12.src = allVacatureImages[11].attributes[0].nodeValue;
     let metaVacature12 = document.getElementById("metaVacature12")
-    metaVacature12.textContent = allPoster[11].textContent + " • " + allVacatureLocations[11].textContent + " • " + allDuur[11].textContent;
+    let vacatureMeta12a = document.getElementById("vacatureMeta12a");
+    let vacatureMeta12b = document.getElementById("vacatureMeta12b");
+    vacatureMeta12a.textContent = allPoster[11].textContent;
+    vacatureMeta12b.textContent = " • " + allVacatureLocations[11].textContent + " • " + allDuur[11].textContent;
     let titleVacature12 = document.getElementById("titleVacature12");
     titleVacature12.textContent = allVacatureTitles[12].textContent;
     let descriptionVacature12 = document.getElementById("DescriptionVacature12");
