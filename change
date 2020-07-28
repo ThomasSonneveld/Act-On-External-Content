@@ -1,4 +1,4 @@
-let vacatureMeta1a = document.getElementById("vacatureMeta1a");
-let vacatureMeta1b = document.getElementById("vacatureMeta1b");
-vacatureMeta1a.textContent = allPoster[0].textContent;
-vacatureMeta1b.textContent = " • " + allVacatureLocations[0].textContent + " • " + allDuur[0].textContent;
+let vacatureMeta12a = document.getElementById("vacatureMeta12a");
+let vacatureMeta12b = document.getElementById("vacatureMeta12b");
+vacatureMeta12a.textContent = allPoster[11].textContent;
+vacatureMeta12b.textContent = " • " + allVacatureLocations[11].textContent + " • " + allDuur[11].textContent;

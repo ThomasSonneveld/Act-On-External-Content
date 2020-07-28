@@ -172,22 +172,22 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
 
     let headerline1 = document.getElementById('headline1');
     headerline1.textContent = "►" + " " + allTitles[1].firstChild.nodeValue;
-    headerline1.setAttribute("href", allLinks[1].textContent );
+    headerline1.setAttribute("href", allLinks[1].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=headline&utm_campaign=" campaign uit xml);
     let headerline2 = document.getElementById('headline2');
     headerline2.textContent = "►" + " " + allTitles[2].firstChild.nodeValue;
-    headerline2.setAttribute("href", allLinks[2].textContent );
+    headerline2.setAttribute("href", allLinks[2].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=headlineadv&utm_campaign=" campaign uit xml);
     let headerline3 = document.getElementById('headline3');
     headerline3.textContent = "►" + " " + allTitles[3].firstChild.nodeValue;
-    headerline3.setAttribute("href", allLinks[3].textContent );
+    headerline3.setAttribute("href", allLinks[3].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=headline&utm_campaign=" campaign uit xml );
     let headerline4 = document.getElementById('headline4');
     headerline4.textContent = "►" + " " + allTitles[4].firstChild.nodeValue;
-    headerline4.setAttribute("href", allLinks[4].textContent );
+    headerline4.setAttribute("href", allLinks[4].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=headline&utm_campaign=" campaign uit xml );
     let headerline5 = document.getElementById('headline5');
     headerline5.textContent = "►" + " "  + allTitles[5].firstChild.nodeValue;
-    headerline5.setAttribute("href", allLinks[5].textContent );
+    headerline5.setAttribute("href", allLinks[5].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=headlineadv&utm_campaign=" campaign uit xml);
     let headerline6 = document.getElementById('headline6');
     headerline6.textContent = "►" + " " + allTitles[6].firstChild.nodeValue;
-    headerline6.setAttribute("href", allLinks[6].textContent );
+    headerline6.setAttribute("href", allLinks[6].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=headline&utm_campaign=" campaign uit xml );
 
 
 
@@ -201,7 +201,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein1a.src = allImages[0].attributes.url.nodeValue;
     let ctaKlein1 = document.getElementById('KleinArtikelCTA1');
     ctaKlein1.textContent = " Lees meer►";
-    ctaKlein1.setAttribute("href", allLinks[1].textContent );
+    ctaKlein1.setAttribute("href", allLinks[1].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein2 = document.getElementById('imgKleinArtikel2');
     imgKlein2.src =  allSmallImages[1].textContent;
@@ -213,7 +213,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein2a.src = allImages[1].attributes.url.nodeValue;
     let ctaKlein2 = document.getElementById('KleinArtikelCTA2');
     ctaKlein2.textContent = " Lees meer►";
-    ctaKlein2.setAttribute("href", allLinks[2].textContent );
+    ctaKlein2.setAttribute("href", allLinks[2].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel");
 
     let imgKlein3 = document.getElementById('imgKleinArtikel3');
     imgKlein3.src =  allSmallImages[2].textContent;
@@ -225,7 +225,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein3a.src = allImages[2].attributes.url.nodeValue;
     let ctaKlein3 = document.getElementById('KleinArtikelCTA3');
     ctaKlein3.textContent = " Lees meer►";
-    ctaKlein3.setAttribute("href", allLinks[3].textContent );
+    ctaKlein3.setAttribute("href", allLinks[3].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein4 = document.getElementById('imgKleinArtikel4');
     imgKlein4.src =  allSmallImages[3].textContent;
@@ -237,7 +237,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein4a.src = allImages[3].attributes.url.nodeValue;
     let ctaKlein4 = document.getElementById('KleinArtikelCTA4');
     ctaKlein4.textContent = " Lees meer►";
-    ctaKlein4.setAttribute("href", allLinks[4].textContent );
+    ctaKlein4.setAttribute("href", allLinks[4].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein5 = document.getElementById('imgKleinArtikel5');
     imgKlein5.src =  allSmallImages[4].textContent;
@@ -249,7 +249,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein5a.src = allImages[4].attributes.url.nodeValue;
     let ctaKlein5 = document.getElementById('KleinArtikelCTA5');
     ctaKlein5.textContent = " Lees meer►";
-    ctaKlein5.setAttribute("href", allLinks[5].textContent );
+    ctaKlein5.setAttribute("href", allLinks[5].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein6 = document.getElementById('imgKleinArtikel6');
     imgKlein6.src =  allSmallImages[5].textContent;
@@ -261,7 +261,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein6a.src = allImages[5].attributes.url.nodeValue;
     let ctaKlein6 = document.getElementById('KleinArtikelCTA6');
     ctaKlein6.textContent = " Lees meer►";
-    ctaKlein6.setAttribute("href", allLinks[6].textContent );
+    ctaKlein6.setAttribute("href", allLinks[6].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein7 = document.getElementById('imgKleinArtikel7');
     imgKlein7.src =  allSmallImages[6].textContent;
@@ -273,7 +273,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein7a.src = allImages[6].attributes.url.nodeValue;
     let ctaKlein7 = document.getElementById('KleinArtikelCTA7');
     ctaKlein7.textContent = " Lees meer►";
-    ctaKlein7.setAttribute("href", allLinks[7].textContent );
+    ctaKlein7.setAttribute("href", allLinks[7].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein8 = document.getElementById('imgKleinArtikel8');
     imgKlein8.src =  allSmallImages[7].textContent;
@@ -285,7 +285,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein8a.src = allImages[7].attributes.url.nodeValue;
     let ctaKlein8 = document.getElementById('KleinArtikelCTA8');
     ctaKlein8.textContent = " Lees meer►";
-    ctaKlein8.setAttribute("href", allLinks[8].textContent );
+    ctaKlein8.setAttribute("href", allLinks[8].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein9 = document.getElementById('imgKleinArtikel9');
     imgKlein9.src =  allSmallImages[8].textContent;
@@ -297,7 +297,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein9a.src = allImages[8].attributes.url.nodeValue;
     let ctaKlein9 = document.getElementById('KleinArtikelCTA9');
     ctaKlein9.textContent = " Lees meer►";
-    ctaKlein9.setAttribute("href", allLinks[9].textContent );
+    ctaKlein9.setAttribute("href", allLinks[9].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein10 = document.getElementById('imgKleinArtikel10');
     imgKlein10.src =  allSmallImages[9].textContent;
@@ -309,7 +309,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein10a.src = allImages[9].attributes.url.nodeValue;
     let ctaKlein10 = document.getElementById('KleinArtikelCTA10');
     ctaKlein10.textContent = " Lees meer►";
-    ctaKlein10.setAttribute("href", allLinks[10].textContent );
+    ctaKlein10.setAttribute("href", allLinks[10].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein11 = document.getElementById('imgKleinArtikel11');
     imgKlein11.src =  allSmallImages[10].textContent;
@@ -321,7 +321,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein11a.src = allImages[10].attributes.url.nodeValue;
     let ctaKlein11 = document.getElementById('KleinArtikelCTA11');
     ctaKlein11.textContent = " Lees meer►";
-    ctaKlein11.setAttribute("href", allLinks[11].textContent );
+    ctaKlein11.setAttribute("href", allLinks[11].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein12 = document.getElementById('imgKleinArtikel12');
     imgKlein12.src =  allSmallImages[11].textContent;
@@ -333,7 +333,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein12a.src = allImages[11].attributes.url.nodeValue;
     let ctaKlein12 = document.getElementById('KleinArtikelCTA12');
     ctaKlein12.textContent = " Lees meer►";
-    ctaKlein12.setAttribute("href", allLinks[12].textContent );
+    ctaKlein12.setAttribute("href", allLinks[12].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein13 = document.getElementById('imgKleinArtikel13');
     imgKlein13.src =  allSmallImages[12].textContent;
@@ -345,7 +345,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein13a.src = allImages[12].attributes.url.nodeValue;
     let ctaKlein13 = document.getElementById('KleinArtikelCTA13');
     ctaKlein13.textContent = " Lees meer►";
-    ctaKlein13.setAttribute("href", allLinks[13].textContent );
+    ctaKlein13.setAttribute("href", allLinks[13].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein14 = document.getElementById('imgKleinArtikel14');
     imgKlein14.src =  allSmallImages[13].textContent;
@@ -357,7 +357,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein14a.src = allImages[13].attributes.url.nodeValue;
     let ctaKlein14 = document.getElementById('KleinArtikelCTA14');
     ctaKlein14.textContent = " Lees meer►";
-    ctaKlein14.setAttribute("href", allLinks[14].textContent );
+    ctaKlein14.setAttribute("href", allLinks[14].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let imgKlein15 = document.getElementById('imgKleinArtikel15');
     imgKlein15.src =  allSmallImages[14].textContent;
@@ -369,7 +369,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgKlein15a.src = allImages[14].attributes.url.nodeValue;
     let ctaKlein15 = document.getElementById('KleinArtikelCTA15');
     ctaKlein15.textContent = " Lees meer►";
-    ctaKlein15.setAttribute("href", allLinks[15].textContent );
+    ctaKlein15.setAttribute("href", allLinks[15].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
 
     //Artekelen Groot
@@ -454,52 +454,52 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
 
     let agenda1a = document.getElementById('saa1a');
     let agenda1b = document.getElementById('saa1b');
+    let agendaLink1 = document.getElementById('agendaAcademy1');
     agenda1a.textContent = "►" + " " + allAgendas[1].firstChild.nodeValue;
-    agenda1a.setAttribute("href", allAgendaLinks[1].textContent );
     agenda1b.textContent = " " + allDays[0].firstChild.nodeValue + " " + allMonths[0].firstChild.nodeValue + " | " + allLocations[0].firstChild.nodeValue + " | " + allDurations[0].firstChild.nodeValue;
-    agenda1b.setAttribute("href", allAgendaLinks[1].textContent );
+    agendaLink1.setAttribute("href", allAgendaLinks[1].textContent +"?utm_source=nieuwsbrief&utm_medium=email&utm_content=agenda&utm_campaign="+campaign uit xml );
 
     let agenda2a = document.getElementById('saa2a');
     let agenda2b = document.getElementById('saa2b');
+    let agendaLink2 = document.getElementById('agendaAcademy2');
     agenda2a.textContent = "►" + " " + allAgendas[2].firstChild.nodeValue;
-    agenda2a.setAttribute("href", allAgendaLinks[2].textContent );
     agenda2b.textContent = " " + allDays[1].firstChild.nodeValue + " " + allMonths[1].firstChild.nodeValue + " | " + allLocations[1].firstChild.nodeValue + " | " + allDurations[1].firstChild.nodeValue;
-    agenda2b.setAttribute("href", allAgendaLinks[2].textContent );
+    agendaLink2.setAttribute("href", allAgendaLinks[2].textContent );
 
     let agenda3a = document.getElementById('saa3a');
     let agenda3b = document.getElementById('saa3b');
+    let agendaLink3 = document.getElementById('agendaAcademy3');
     agenda3a.textContent = "►" + " " + allAgendas[3].firstChild.nodeValue;
-    agenda3a.setAttribute("href", allAgendaLinks[3].textContent );
     agenda3b.textContent = " " + allDays[2].firstChild.nodeValue + " " + allMonths[2].firstChild.nodeValue + " | " + allLocations[2].firstChild.nodeValue + " | " + allDurations[2].firstChild.nodeValue;
-    agenda3b.setAttribute("href", allAgendaLinks[3].textContent );
+    agendaLink3.setAttribute("href", allAgendaLinks[3].textContent );
 
     let agenda4a = document.getElementById('saa4a');
     let agenda4b = document.getElementById('saa4b');
+    let agendaLink4 = document.getElementById('agendaAcademy4');
     agenda4a.textContent = "►" + " " + allAgendas[4].firstChild.nodeValue;
-    agenda4a.setAttribute("href", allAgendaLinks[4].textContent );
     agenda4b.textContent = " " + allDays[3].firstChild.nodeValue + " " + allMonths[3].firstChild.nodeValue + " | " + allLocations[3].firstChild.nodeValue + " | " + allDurations[3].firstChild.nodeValue;
-    agenda4b.setAttribute("href", allAgendaLinks[4].textContent );
+    agendaLink4.setAttribute("href", allAgendaLinks[4].textContent );
 
     let agenda5a = document.getElementById('saa5a');
     let agenda5b = document.getElementById('saa5b');
+    let agendaLink5 = document.getElementById('agendaAcademy5');
     agenda5a.textContent = "►" + " " + allAgendas[5].firstChild.nodeValue;
-    agenda5a.setAttribute("href", allAgendaLinks[5].textContent );
     agenda5b.textContent = " " + allDays[4].firstChild.nodeValue + " " + allMonths[4].firstChild.nodeValue + " | " + allLocations[4].firstChild.nodeValue + " | " + allDurations[4].firstChild.nodeValue;
-    agenda5b.setAttribute("href", allAgendaLinks[5].textContent );
+    agendaLink5.setAttribute("href", allAgendaLinks[5].textContent );
 
     let agenda6a = document.getElementById('saa6a');
     let agenda6b = document.getElementById('saa6b');
+    let agendaLink6 = document.getElementById('agendaAcademy6');
     agenda6a.textContent = "►" + " " + allAgendas[6].firstChild.nodeValue;
-    agenda6a.setAttribute("href", allAgendaLinks[6].textContent );
     agenda6b.textContent = " " + allDays[5].firstChild.nodeValue + " " + allMonths[5].firstChild.nodeValue + " | " + allLocations[5].firstChild.nodeValue + " | " + allDurations[5].firstChild.nodeValue;
-    agenda6b.setAttribute("href", allAgendaLinks[6].textContent );
+    agendaLink6.setAttribute("href", allAgendaLinks[6].textContent);
 
     let agenda7a = document.getElementById('saa7a');
     let agenda7b = document.getElementById('saa7b');
+    let agendaLink7 = document.getElementById('agendaAcademy7');
     agenda7a.textContent = "►" + " " + allAgendas[7].firstChild.nodeValue;
-    agenda7a.setAttribute("href", allAgendaLinks[7].textContent );
     agenda7b.textContent = " " + allDays[6].firstChild.nodeValue + " " + allMonths[6].firstChild.nodeValue + " | " + allLocations[6].firstChild.nodeValue + " | " + allDurations[6].firstChild.nodeValue;
-    agenda7b.setAttribute("href", allAgendaLinks[7].textContent );
+    agendaLink7.setAttribute("href", allAgendaLinks[7].textContent );
 
 });
 }, 2000);
