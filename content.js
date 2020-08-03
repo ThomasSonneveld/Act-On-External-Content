@@ -382,6 +382,9 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgGroot1.src = allImages[0].attributes.url.nodeValue;
     let descriptionGroot1 = document.getElementById('grootArtikelDescription1');
     descriptionGroot1.textContent = allDescriptions[1].firstChild.nodeValue;
+    let ctaGroot1 = document.getElementById('GrootArtikelCTA1');
+    ctaGroot1.textContent = " Lees meer►";
+    ctaGroot1.setAttribute("href", allLinks[1].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let authorGroot2 = document.getElementById('grootArtikelAuthor2');
     authorGroot2.textContent = allAuthors[1].firstChild.nodeValue;
@@ -391,6 +394,9 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgGroot2.src = allImages[1].attributes.url.nodeValue;
     let descriptionGroot2 = document.getElementById('grootArtikelDescription2');
     descriptionGroot2.textContent = allDescriptions[2].firstChild.nodeValue;
+    let ctaGroot2 = document.getElementById('GrootArtikelCTA2');
+    ctaGroot2.textContent = " Lees meer►";
+    ctaGroot2.setAttribute("href", allLinks[2].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let authorGroot3 = document.getElementById('grootArtikelAuthor3');
     authorGroot3.textContent = allAuthors[2].firstChild.nodeValue;
@@ -400,6 +406,9 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgGroot3.src = allImages[2].attributes.url.nodeValue;
     let descriptionGroot3 = document.getElementById('grootArtikelDescription3');
     descriptionGroot3.textContent = allDescriptions[3].firstChild.nodeValue;
+    let ctaGroot3 = document.getElementById('GrootArtikelCTA3');
+    ctaGroot3.textContent = " Lees meer►";
+    ctaGroot3.setAttribute("href", allLinks[3].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let authorGroot4 = document.getElementById('grootArtikelAuthor4');
     authorGroot4.textContent = allAuthors[3].firstChild.nodeValue;
@@ -409,6 +418,9 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgGroot4.src = allImages[3].attributes.url.nodeValue;
     let descriptionGroot4 = document.getElementById('grootArtikelDescription4');
     descriptionGroot4.textContent = allDescriptions[4].firstChild.nodeValue;
+    let ctaGroot4 = document.getElementById('GrootArtikelCTA4');
+    ctaGroot4.textContent = " Lees meer►";
+    ctaGroot4.setAttribute("href", allLinks[4].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 
     let authorGroot5 = document.getElementById('grootArtikelAuthor5');
     authorGroot5.textContent = allAuthors[4].firstChild.nodeValue;
@@ -418,6 +430,10 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgGroot5.src = allImages[4].attributes.url.nodeValue;
     let descriptionGroot5 = document.getElementById('grootArtikelDescription5');
     descriptionGroot5.textContent = allDescriptions[5].firstChild.nodeValue;
+    let ctaGroot5 = document.getElementById('GrootArtikelCTA5');
+    ctaGroot5.textContent = " Lees meer►";
+    ctaGroot5.setAttribute("href", allLinks[5].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
+
 
     let authorGroot6 = document.getElementById('grootArtikelAuthor6');
     authorGroot6.textContent = allAuthors[5].firstChild.nodeValue;
@@ -427,6 +443,9 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     imgGroot6.src = allImages[5].attributes.url.nodeValue;
     let descriptionGroot6 = document.getElementById('grootArtikelDescription6');
     descriptionGroot6.textContent = allDescriptions[6].firstChild.nodeValue;
+    let ctaGroot6 = document.getElementById('GrootArtikelCTA6');
+    ctaGroot6.textContent = " Lees meer►";
+    ctaGroot6.setAttribute("href", allLinks[6].textContent + "?utm_source=nieuwsbrief-fw-"+dagWeek+"&utm_medium=email&utm_content=artikel&utm_campaign=artikel" );
 });
 }, 2000);
 
@@ -667,7 +686,162 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let descriptionVacature12 = document.getElementById("DescriptionVacature12");
     descriptionVacature12.textContent = allVacatureDescriptions[12].textContent;
 
+    let imgVacature13 = document.getElementById("imgVacatureArtikel13");
+    imgVacature13.src = allVacatureImages[12].attributes[0].nodeValue;
+    let metaVacature13 = document.getElementById("metaVacature13")
+    let vacatureMeta13a = document.getElementById("vacatureMeta13a");
+    let vacatureMeta13b = document.getElementById("vacatureMeta13b");
+    vacatureMeta13a.textContent = allPoster[12].textContent;
+    vacatureMeta13b.textContent = " • " + allVacatureLocations[12].textContent + " • " + allDuur[12].textContent;
+    let titleVacature13 = document.getElementById("titleVacature13");
+    titleVacature13.textContent = allVacatureTitles[13].textContent;
+    let descriptionVacature13 = document.getElementById("DescriptionVacature13");
+    descriptionVacature13.textContent = allVacatureDescriptions[13].textContent;
 
+    let imgVacature14 = document.getElementById("imgVacatureArtikel14");
+    imgVacature14.src = allVacatureImages[13].attributes[0].nodeValue;
+    let metaVacature14 = document.getElementById("metaVacature14")
+    let vacatureMeta14a = document.getElementById("vacatureMeta14a");
+    let vacatureMeta14b = document.getElementById("vacatureMeta14b");
+    vacatureMeta14a.textContent = allPoster[13].textContent;
+    vacatureMeta14b.textContent = " • " + allVacatureLocations[13].textContent + " • " + allDuur[13].textContent;
+    let titleVacature14 = document.getElementById("titleVacature14");
+    titleVacature14.textContent = allVacatureTitles[14].textContent;
+    let descriptionVacature14 = document.getElementById("DescriptionVacature14");
+    descriptionVacature14.textContent = allVacatureDescriptions[14].textContent;
+
+    let imgVacature15 = document.getElementById("imgVacatureArtikel15");
+    imgVacature15.src = allVacatureImages[14].attributes[0].nodeValue;
+    let metaVacature15 = document.getElementById("metaVacature15")
+    let vacatureMeta15a = document.getElementById("vacatureMeta15a");
+    let vacatureMeta15b = document.getElementById("vacatureMeta15b");
+    vacatureMeta15a.textContent = allPoster[14].textContent;
+    vacatureMeta15b.textContent = " • " + allVacatureLocations[14].textContent + " • " + allDuur[14].textContent;
+    let titleVacature15 = document.getElementById("titleVacature15");
+    titleVacature15.textContent = allVacatureTitles[15].textContent;
+    let descriptionVacature15 = document.getElementById("DescriptionVacature15");
+    descriptionVacature15.textContent = allVacatureDescriptions[15].textContent;
+
+    let imgVacature16 = document.getElementById("imgVacatureArtikel16");
+    imgVacature16.src = allVacatureImages[15].attributes[0].nodeValue;
+    let metaVacature16 = document.getElementById("metaVacature16")
+    let vacatureMeta16a = document.getElementById("vacatureMeta16a");
+    let vacatureMeta16b = document.getElementById("vacatureMeta16b");
+    vacatureMeta16a.textContent = allPoster[15].textContent;
+    vacatureMeta16b.textContent = " • " + allVacatureLocations[15].textContent + " • " + allDuur[15].textContent;
+    let titleVacature16 = document.getElementById("titleVacature16");
+    titleVacature16.textContent = allVacatureTitles[16].textContent;
+    let descriptionVacature16 = document.getElementById("DescriptionVacature16");
+    descriptionVacature16.textContent = allVacatureDescriptions[16].textContent;
+
+    let imgVacature17 = document.getElementById("imgVacatureArtikel17");
+    imgVacature17.src = allVacatureImages[16].attributes[0].nodeValue;
+    let metaVacature17 = document.getElementById("metaVacature17")
+    let vacatureMeta17a = document.getElementById("vacatureMeta17a");
+    let vacatureMeta17b = document.getElementById("vacatureMeta17b");
+    vacatureMeta17a.textContent = allPoster[16].textContent;
+    vacatureMeta17b.textContent = " • " + allVacatureLocations[16].textContent + " • " + allDuur[15].textContent;
+    let titleVacature17 = document.getElementById("titleVacature17");
+    titleVacature17.textContent = allVacatureTitles[17].textContent;
+    let descriptionVacature17 = document.getElementById("DescriptionVacature17");
+    descriptionVacature17.textContent = allVacatureDescriptions[17].textContent;
+
+    let imgVacature18 = document.getElementById("imgVacatureArtikel18");
+    imgVacature18.src = allVacatureImages[17].attributes[0].nodeValue;
+    let metaVacature18 = document.getElementById("metaVacature18")
+    let vacatureMeta18a = document.getElementById("vacatureMeta18a");
+    let vacatureMeta18b = document.getElementById("vacatureMeta18b");
+    vacatureMeta18a.textContent = allPoster[17].textContent;
+    vacatureMeta18b.textContent = " • " + allVacatureLocations[17].textContent + " • " + allDuur[15].textContent;
+    let titleVacature18 = document.getElementById("titleVacature18");
+    titleVacature18.textContent = allVacatureTitles[18].textContent;
+    let descriptionVacature18 = document.getElementById("DescriptionVacature18");
+    descriptionVacature18.textContent = allVacatureDescriptions[18].textContent;
+
+    let imgVacature19 = document.getElementById("imgVacatureArtikel19");
+    imgVacature19.src = allVacatureImages[18].attributes[0].nodeValue;
+    let metaVacature19 = document.getElementById("metaVacature19")
+    let vacatureMeta19a = document.getElementById("vacatureMeta19a");
+    let vacatureMeta19b = document.getElementById("vacatureMeta19b");
+    vacatureMeta19a.textContent = allPoster[18].textContent;
+    vacatureMeta19b.textContent = " • " + allVacatureLocations[18].textContent + " • " + allDuur[15].textContent;
+    let titleVacature19 = document.getElementById("titleVacature19");
+    titleVacature19.textContent = allVacatureTitles[19].textContent;
+    let descriptionVacature19 = document.getElementById("DescriptionVacature19");
+    descriptionVacature19.textContent = allVacatureDescriptions[19].textContent;
+/* NOG NIET IN FEED
+    let imgVacature20 = document.getElementById("imgVacatureArtikel20");
+    imgVacature20.src = allVacatureImages[19].attributes[0].nodeValue;
+    let metaVacature20 = document.getElementById("metaVacature20")
+    let vacatureMeta20a = document.getElementById("vacatureMeta20a");
+    let vacatureMeta20b = document.getElementById("vacatureMeta20b");
+    vacatureMeta20a.textContent = allPoster[19].textContent;
+    vacatureMeta20b.textContent = " • " + allVacatureLocations[19].textContent + " • " + allDuur[15].textContent;
+    let titleVacature20 = document.getElementById("titleVacature20");
+    titleVacature20.textContent = allVacatureTitles[20].textContent;
+    let descriptionVacature20 = document.getElementById("DescriptionVacature20");
+    descriptionVacature20.textContent = allVacatureDescriptions[20].textContent;
+
+    let imgVacature21 = document.getElementById("imgVacatureArtikel21");
+    imgVacature21.src = allVacatureImages[20].attributes[0].nodeValue;
+    let metaVacature21 = document.getElementById("metaVacature21")
+    let vacatureMeta21a = document.getElementById("vacatureMeta21a");
+    let vacatureMeta21b = document.getElementById("vacatureMeta21b");
+    vacatureMeta21a.textContent = allPoster[20].textContent;
+    vacatureMeta21b.textContent = " • " + allVacatureLocations[20].textContent + " • " + allDuur[15].textContent;
+    let titleVacature21 = document.getElementById("titleVacature21");
+    titleVacature21.textContent = allVacatureTitles[21].textContent;
+    let descriptionVacature21 = document.getElementById("DescriptionVacature21");
+    descriptionVacature21.textContent = allVacatureDescriptions[21].textContent;
+
+    let imgVacature22 = document.getElementById("imgVacatureArtikel22");
+    imgVacature22.src = allVacatureImages[21].attributes[0].nodeValue;
+    let metaVacature22 = document.getElementById("metaVacature22")
+    let vacatureMeta22a = document.getElementById("vacatureMeta22a");
+    let vacatureMeta22b = document.getElementById("vacatureMeta22b");
+    vacatureMeta22a.textContent = allPoster[21].textContent;
+    vacatureMeta22b.textContent = " • " + allVacatureLocations[21].textContent + " • " + allDuur[15].textContent;
+    let titleVacature22 = document.getElementById("titleVacature22");
+    titleVacature22.textContent = allVacatureTitles[22].textContent;
+    let descriptionVacature22 = document.getElementById("DescriptionVacature22");
+    descriptionVacature22.textContent = allVacatureDescriptions[22].textContent;
+
+    let imgVacature23 = document.getElementById("imgVacatureArtikel23");
+    imgVacature23.src = allVacatureImages[22].attributes[0].nodeValue;
+    let metaVacature23 = document.getElementById("metaVacature23")
+    let vacatureMeta23a = document.getElementById("vacatureMeta23a");
+    let vacatureMeta23b = document.getElementById("vacatureMeta23b");
+    vacatureMeta23a.textContent = allPoster[22].textContent;
+    vacatureMeta23b.textContent = " • " + allVacatureLocations[22].textContent + " • " + allDuur[15].textContent;
+    let titleVacature23 = document.getElementById("titleVacature23");
+    titleVacature23.textContent = allVacatureTitles[23].textContent;
+    let descriptionVacature23 = document.getElementById("DescriptionVacature23");
+    descriptionVacature23.textContent = allVacatureDescriptions[23].textContent;
+
+    let imgVacature24 = document.getElementById("imgVacatureArtikel24");
+    imgVacature24.src = allVacatureImages[23].attributes[0].nodeValue;
+    let metaVacature24 = document.getElementById("metaVacature24")
+    let vacatureMeta24a = document.getElementById("vacatureMeta24a");
+    let vacatureMeta24b = document.getElementById("vacatureMeta24b");
+    vacatureMeta24a.textContent = allPoster[23].textContent;
+    vacatureMeta24b.textContent = " • " + allVacatureLocations[23].textContent + " • " + allDuur[15].textContent;
+    let titleVacature24 = document.getElementById("titleVacature24");
+    titleVacature24.textContent = allVacatureTitles[24].textContent;
+    let descriptionVacature24 = document.getElementById("DescriptionVacature24");
+    descriptionVacature24.textContent = allVacatureDescriptions[24].textContent;
+
+    let imgVacature25 = document.getElementById("imgVacatureArtikel25");
+    imgVacature25.src = allVacatureImages[24].attributes[0].nodeValue;
+    let metaVacature25 = document.getElementById("metaVacature25")
+    let vacatureMeta25a = document.getElementById("vacatureMeta25a");
+    let vacatureMeta25b = document.getElementById("vacatureMeta25b");
+    vacatureMeta25a.textContent = allPoster[24].textContent;
+    vacatureMeta25b.textContent = " • " + allVacatureLocations[24].textContent + " • " + allDuur[15].textContent;
+    let titleVacature25 = document.getElementById("titleVacature25");
+    titleVacature25.textContent = allVacatureTitles[25].textContent;
+    let descriptionVacature25 = document.getElementById("DescriptionVacature25");
+    descriptionVacature25.textContent = allVacatureDescriptions[25].textContent;
+    */
 });
 }, 2000);
 
@@ -697,6 +871,10 @@ var allHeadlines = document.getElementById("headlinesContainer");
   selection.removeAllRanges();
   selection.addRange(range);
 
+//var actIframe= document.getElementsByClassName("tox-edit-area").firstChild;
+//var iframeText = actIframe.contentWindow.document.getElementsById("tinymce").firstChild;
+//iframeText.textContent="Test";
+
 document.getElementById('headline1').ondragstart = function(event){
   event.preventDefault();
 };
@@ -711,7 +889,12 @@ document.getElementById('kleinArtikel1').ondragstart = function (event) {
   event
     .dataTransfer
     .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
+    console.log("Dragstart");
+//}
+//document.getElementById('kleinArtikel1').ondrop = function (event) {
+  //console.log("drop");
+  //let kleinTD1 = actIframe.getElementsByClassName("tableDivider1");
+  //kleinTD1.setAttribute("style", "mso-hide: all;")
 }
 document.getElementById('kleinArtikel2').ondragstart = function (event) {
   event
@@ -787,6 +970,7 @@ document.getElementById('kleinArtikel13').ondragstart = function (event) {
 }
 document.getElementById('kleinArtikel14').ondragstart = function (event) {
   event
+
     .dataTransfer
     .setData('text/html', event.target.innerHTML);
     console.log('dragstart');
