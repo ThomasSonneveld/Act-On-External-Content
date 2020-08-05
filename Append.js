@@ -343,42 +343,48 @@ artikelGroot1.appendChild(artikelGrootAuthor1);
 artikelGroot1.appendChild(artikelGrootTitle1);
 artikelGroot1.appendChild(artikelGrootImg1);
 artikelGroot1.appendChild(artikelGrootDescription1);
-artikelGroot1.appendChild(artikelGrootCTA1);
+artikelGroot1.appendChild(artikelGrootCTA1C);
+artikelGrootCTA1C.appendChild(artikelGrootCTA1);
 
 artikelenGrootContainer.appendChild( artikelGroot2 );
 artikelGroot2.appendChild(artikelGrootAuthor2);
 artikelGroot2.appendChild(artikelGrootTitle2);
 artikelGroot2.appendChild(artikelGrootImg2);
 artikelGroot2.appendChild(artikelGrootDescription2);
-artikelGroot2.appendChild(artikelGrootCTA2);
+artikelGroot2.appendChild(artikelGrootCTA2C);
+artikelGrootCTA2C.appendChild(artikelGrootCTA2);
 
 artikelenGrootContainer.appendChild( artikelGroot3 );
 artikelGroot3.appendChild(artikelGrootAuthor3);
 artikelGroot3.appendChild(artikelGrootTitle3);
 artikelGroot3.appendChild(artikelGrootImg3);
 artikelGroot3.appendChild(artikelGrootDescription3);
-artikelGroot3.appendChild(artikelGrootCTA3);
+artikelGroot3.appendChild(artikelGrootCTA3C);
+artikelGrootCTA3C.appendChild(artikelGrootCTA3);
 
 artikelenGrootContainer.appendChild( artikelGroot4 );
 artikelGroot4.appendChild(artikelGrootAuthor4);
 artikelGroot4.appendChild(artikelGrootTitle4);
 artikelGroot4.appendChild(artikelGrootImg4);
 artikelGroot4.appendChild(artikelGrootDescription4);
-artikelGroot4.appendChild(artikelGrootCTA4);
+artikelGroot4.appendChild(artikelGrootCTA4C);
+artikelGrootCTA4C.appendChild(artikelGrootCTA4);
 
 artikelenGrootContainer.appendChild( artikelGroot5 );
 artikelGroot5.appendChild(artikelGrootAuthor5);
 artikelGroot5.appendChild(artikelGrootTitle5);
 artikelGroot5.appendChild(artikelGrootImg5);
 artikelGroot5.appendChild(artikelGrootDescription5);
-artikelGroot5.appendChild(artikelGrootCTA5);
+artikelGroot5.appendChild(artikelGrootCTA5C);
+artikelGrootCTA5C.appendChild(artikelGrootCTA5);
 
 artikelenGrootContainer.appendChild( artikelGroot6 );
 artikelGroot6.appendChild(artikelGrootAuthor6);
 artikelGroot6.appendChild(artikelGrootTitle6);
 artikelGroot6.appendChild(artikelGrootImg6);
 artikelGroot6.appendChild(artikelGrootDescription6);
-artikelGroot6.appendChild(artikelGrootCTA6);
+artikelGroot6.appendChild(artikelGrootCTA6C);
+artikelGrootCTA6C.appendChild(artikelGrootCTA6);
 
 
 //Vacatures
