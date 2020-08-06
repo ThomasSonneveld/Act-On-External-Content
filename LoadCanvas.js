@@ -7,6 +7,7 @@ document.body.style.width = '100%';
 
 var createCanvas = document.createElement( 'div' );
 var contentFeed = document.createElement( 'div' );
+var dagWeekSelect = document.createElement( 'div' );
 var contentIndex = document.createElement( 'div' );
 var credits = document.createElement( 'div' );
 
@@ -328,6 +329,13 @@ var artikelGrootDescription3 = document.createElement ( 'p' );
 var artikelGrootDescription4 = document.createElement ( 'p' );
 var artikelGrootDescription5 = document.createElement ( 'p' );
 var artikelGrootDescription6 = document.createElement ( 'p' );
+
+var artikelGrootCTA1C = document.createElement ( 'p' );
+var artikelGrootCTA2C = document.createElement ( 'p' );
+var artikelGrootCTA3C = document.createElement ( 'p' );
+var artikelGrootCTA4C = document.createElement ( 'p' );
+var artikelGrootCTA5C = document.createElement ( 'p' );
+var artikelGrootCTA6C = document.createElement ( 'p' );
 
 var artikelGrootCTA1 = document.createElement ( 'a' );
 var artikelGrootCTA2 = document.createElement ( 'a' );
@@ -820,9 +828,30 @@ categorySocialText.innerHTML = "Social media en conversational";
 categoryUXText.innerHTML = "UX en design";
 categoryTechText.innerHTML = "Digital Business en tech";
 categoryHRText.innerHTML = "Carrier en HR";
+
+var dagWeekForm = document.createElement('form');
+var dagWeekFormDiv = document.createElement('div');
+var dagWeekFormLabel = document.createElement('label');
+var dagWeekFormInput = document.createElement('input');
+var dagWeekFormSpan = document.createElement('span');
+var dagWeekFormText = document.createElement('span');
+
+
+let dagWeek = "dag";
+
 //append all elements
 
 document.body.appendChild( createCanvas );
 createCanvas.appendChild( contentFeed );
+createCanvas.appendChild( dagWeekSelect );
+dagWeekSelect.appendChild( dagWeekForm );
+dagWeekForm.appendChild( dagWeekFormDiv );
+dagWeekFormDiv.appendChild( dagWeekFormLabel );
+dagWeekFormDiv.appendChild( dagWeekFormText );
+dagWeekFormLabel.appendChild( dagWeekFormInput );
+dagWeekFormLabel.appendChild( dagWeekFormSpan );
+
+
+
 createCanvas.appendChild( contentIndex );
 createCanvas.appendChild( credits );
