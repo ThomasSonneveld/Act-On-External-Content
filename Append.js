@@ -65,7 +65,7 @@ artikelKleinTR1.appendChild(artikelKlein1TD1);
 artikelKleinTR1.appendChild(artikelKlein1TD2);
 artikelKlein1TD1.appendChild(artikelKlein1TDDiv);
 artikelKlein1TDDiv.appendChild(artikelKleinImg1);
-artikelKlein1TD2.appendChild(artikelKleinTitle1);
+artikelKlein1TD2.appendChild(artikelKleinTitle1Link);
 artikelKlein1TD2.appendChild(artikelKleinDescription1);
 artikelKlein1TD2.appendChild(artikelKleinCTA1);
 
@@ -84,7 +84,7 @@ artikelKleinTR2.appendChild(artikelKlein2TD1);
 artikelKleinTR2.appendChild(artikelKlein2TD2);
 artikelKlein2TD1.appendChild(artikelKlein2TDDiv);
 artikelKlein2TDDiv.appendChild(artikelKleinImg2);
-artikelKlein2TD2.appendChild(artikelKleinTitle2);
+artikelKlein2TD2.appendChild(artikelKleinTitle2Link);
 artikelKlein2TD2.appendChild(artikelKleinDescription2);
 artikelKlein2TD2.appendChild(artikelKleinCTA2);
 
@@ -103,7 +103,7 @@ artikelKleinTR3.appendChild(artikelKlein3TD1);
 artikelKleinTR3.appendChild(artikelKlein3TD2);
 artikelKlein3TD1.appendChild(artikelKlein3TDDiv);
 artikelKlein3TDDiv.appendChild(artikelKleinImg3);
-artikelKlein3TD2.appendChild(artikelKleinTitle3);
+artikelKlein3TD2.appendChild(artikelKleinTitle3Link);
 artikelKlein3TD2.appendChild(artikelKleinDescription3);
 artikelKlein3TD2.appendChild(artikelKleinCTA3);
 
@@ -122,7 +122,7 @@ artikelKleinTR4.appendChild(artikelKlein4TD1);
 artikelKleinTR4.appendChild(artikelKlein4TD2);
 artikelKlein4TD1.appendChild(artikelKlein4TDDiv);
 artikelKlein4TDDiv.appendChild(artikelKleinImg4);
-artikelKlein4TD2.appendChild(artikelKleinTitle4);
+artikelKlein4TD2.appendChild(artikelKleinTitle4Link);
 artikelKlein4TD2.appendChild(artikelKleinDescription4);
 artikelKlein4TD2.appendChild(artikelKleinCTA4);
 
@@ -141,7 +141,7 @@ artikelKleinTR5.appendChild(artikelKlein5TD1);
 artikelKleinTR5.appendChild(artikelKlein5TD2);
 artikelKlein5TD1.appendChild(artikelKlein5TDDiv);
 artikelKlein5TDDiv.appendChild(artikelKleinImg5);
-artikelKlein5TD2.appendChild(artikelKleinTitle5);
+artikelKlein5TD2.appendChild(artikelKleinTitle5Link);
 artikelKlein5TD2.appendChild(artikelKleinDescription5);
 artikelKlein5TD2.appendChild(artikelKleinCTA5);
 
@@ -160,7 +160,7 @@ artikelKleinTR6.appendChild(artikelKlein6TD1);
 artikelKleinTR6.appendChild(artikelKlein6TD2);
 artikelKlein6TD1.appendChild(artikelKlein6TDDiv);
 artikelKlein6TDDiv.appendChild(artikelKleinImg6);
-artikelKlein6TD2.appendChild(artikelKleinTitle6);
+artikelKlein6TD2.appendChild(artikelKleinTitle6Link);
 artikelKlein6TD2.appendChild(artikelKleinDescription6);
 artikelKlein6TD2.appendChild(artikelKleinCTA6);
 
@@ -179,7 +179,7 @@ artikelKleinTR7.appendChild(artikelKlein7TD1);
 artikelKleinTR7.appendChild(artikelKlein7TD2);
 artikelKlein7TD1.appendChild(artikelKlein7TDDiv);
 artikelKlein7TDDiv.appendChild(artikelKleinImg7);
-artikelKlein7TD2.appendChild(artikelKleinTitle7);
+artikelKlein7TD2.appendChild(artikelKleinTitle7Link);
 artikelKlein7TD2.appendChild(artikelKleinDescription7);
 artikelKlein7TD2.appendChild(artikelKleinCTA7);
 
@@ -198,7 +198,7 @@ artikelKleinTR8.appendChild(artikelKlein8TD1);
 artikelKleinTR8.appendChild(artikelKlein8TD2);
 artikelKlein8TD1.appendChild(artikelKlein8TDDiv);
 artikelKlein8TDDiv.appendChild(artikelKleinImg8);
-artikelKlein8TD2.appendChild(artikelKleinTitle8);
+artikelKlein8TD2.appendChild(artikelKleinTitle8Link);
 artikelKlein8TD2.appendChild(artikelKleinDescription8);
 artikelKlein8TD2.appendChild(artikelKleinCTA8);
 
@@ -217,7 +217,7 @@ artikelKleinTR9.appendChild(artikelKlein9TD1);
 artikelKleinTR9.appendChild(artikelKlein9TD2);
 artikelKlein9TD1.appendChild(artikelKlein9TDDiv);
 artikelKlein9TDDiv.appendChild(artikelKleinImg9);
-artikelKlein9TD2.appendChild(artikelKleinTitle9);
+artikelKlein9TD2.appendChild(artikelKleinTitle9Link);
 artikelKlein9TD2.appendChild(artikelKleinDescription9);
 artikelKlein9TD2.appendChild(artikelKleinCTA9);
 
@@ -236,7 +236,7 @@ artikelKleinTR10.appendChild(artikelKlein10TD1);
 artikelKleinTR10.appendChild(artikelKlein10TD2);
 artikelKlein10TD1.appendChild(artikelKlein10TDDiv);
 artikelKlein10TDDiv.appendChild(artikelKleinImg10);
-artikelKlein10TD2.appendChild(artikelKleinTitle10);
+artikelKlein10TD2.appendChild(artikelKleinTitle10Link);
 artikelKlein10TD2.appendChild(artikelKleinDescription10);
 artikelKlein10TD2.appendChild(artikelKleinCTA10);
 
@@ -255,7 +255,7 @@ artikelKleinTR11.appendChild(artikelKlein11TD1);
 artikelKleinTR11.appendChild(artikelKlein11TD2);
 artikelKlein11TD1.appendChild(artikelKlein11TDDiv);
 artikelKlein11TDDiv.appendChild(artikelKleinImg11);
-artikelKlein11TD2.appendChild(artikelKleinTitle11);
+artikelKlein11TD2.appendChild(artikelKleinTitle11Link);
 artikelKlein11TD2.appendChild(artikelKleinDescription11);
 artikelKlein11TD2.appendChild(artikelKleinCTA11);
 
@@ -274,7 +274,7 @@ artikelKleinTR12.appendChild(artikelKlein12TD1);
 artikelKleinTR12.appendChild(artikelKlein12TD2);
 artikelKlein12TD1.appendChild(artikelKlein12TDDiv);
 artikelKlein12TDDiv.appendChild(artikelKleinImg12);
-artikelKlein12TD2.appendChild(artikelKleinTitle12);
+artikelKlein12TD2.appendChild(artikelKleinTitle12Link);
 artikelKlein12TD2.appendChild(artikelKleinDescription12);
 artikelKlein12TD2.appendChild(artikelKleinCTA12);
 
@@ -293,7 +293,7 @@ artikelKleinTR13.appendChild(artikelKlein13TD1);
 artikelKleinTR13.appendChild(artikelKlein13TD2);
 artikelKlein13TD1.appendChild(artikelKlein13TDDiv);
 artikelKlein13TDDiv.appendChild(artikelKleinImg13);
-artikelKlein13TD2.appendChild(artikelKleinTitle13);
+artikelKlein13TD2.appendChild(artikelKleinTitle13Link);
 artikelKlein13TD2.appendChild(artikelKleinDescription13);
 artikelKlein13TD2.appendChild(artikelKleinCTA13);
 
@@ -312,7 +312,7 @@ artikelKleinTR14.appendChild(artikelKlein14TD1);
 artikelKleinTR14.appendChild(artikelKlein14TD2);
 artikelKlein14TD1.appendChild(artikelKlein14TDDiv);
 artikelKlein14TDDiv.appendChild(artikelKleinImg14);
-artikelKlein14TD2.appendChild(artikelKleinTitle14);
+artikelKlein14TD2.appendChild(artikelKleinTitle14Link);
 artikelKlein14TD2.appendChild(artikelKleinDescription14);
 artikelKlein14TD2.appendChild(artikelKleinCTA14);
 
@@ -331,7 +331,7 @@ artikelKleinTR15.appendChild(artikelKlein15TD1);
 artikelKleinTR15.appendChild(artikelKlein15TD2);
 artikelKlein15TD1.appendChild(artikelKlein15TDDiv);
 artikelKlein15TDDiv.appendChild(artikelKleinImg15);
-artikelKlein15TD2.appendChild(artikelKleinTitle15);
+artikelKlein15TD2.appendChild(artikelKleinTitle15Link);
 artikelKlein15TD2.appendChild(artikelKleinDescription15);
 artikelKlein15TD2.appendChild(artikelKleinCTA15);
 

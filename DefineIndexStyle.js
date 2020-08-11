@@ -411,18 +411,18 @@ artikelKlein1.position - "absolute"
       artikelKlein1TD2.width = "auto";
       artikelKlein1TD2.style.verticalAlign="top"
 
-        artikelKleinTitle1.id = "titleKleinArtikel1";
-        artikelKleinTitle1.style.display = "block";
-        artikelKleinTitle1.className = "titleKleinArtikel";
-        artikelKleinTitle1.style.top = "0px";
-        artikelKleinTitle1.style.marginTop = "0px";
-        artikelKleinTitle1.style.verticalAlign="top"
-        artikelKleinTitle1.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+        artikelKleinTitle1Link.id = "kleinTitleLink1";
+        artikelKleinTitle1Link.style.display = "block";
+        artikelKleinTitle1Link.className = "titleKleinArtikel";
+        artikelKleinTitle1Link.style.top = "0px";
+        artikelKleinTitle1Link.style.marginTop = "0px";
+        artikelKleinTitle1Link.style.verticalAlign="top"
+        artikelKleinTitle1Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
         artikelKleinDescription1.id = "DescriptionKleinArtikel1";
         artikelKleinDescription1.style.display = "inline";
         artikelKleinDescription1.className = "DescriptionKleinArtikel";
-        artikelKleinDescription1.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+        artikelKleinDescription1.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
         artikelKleinCTA1.id = "KleinArtikelCTA1";
         artikelKleinCTA1.className = "KleinArtikelCTA";
@@ -467,16 +467,18 @@ artikelKlein2.position - "absolute"
     artikelKlein2TD2.width = "auto";
     artikelKlein2TD2.style.verticalAlign="top"
 
-        artikelKleinTitle2.id = "titleKleinArtikel2";
-        artikelKleinTitle2.style.display = "block";
-        artikelKleinTitle2.className = "titleKleinArtikel";
-        artikelKleinTitle2.style.top = "0px";
-        artikelKleinTitle2.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle2Link.id = "kleinTitleLink2";
+    artikelKleinTitle2Link.style.display = "block";
+    artikelKleinTitle2Link.className = "titleKleinArtikel";
+    artikelKleinTitle2Link.style.top = "0px";
+    artikelKleinTitle2Link.style.marginTop = "0px";
+    artikelKleinTitle2Link.style.verticalAlign="top"
+    artikelKleinTitle2Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
         artikelKleinDescription2.id = "DescriptionKleinArtikel2";
         artikelKleinDescription2.style.display = "inline";
         artikelKleinDescription2.className = "DescriptionKleinArtikel";
-        artikelKleinDescription2.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+        artikelKleinDescription2.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
         artikelKleinCTA2.id = "KleinArtikelCTA2";
         artikelKleinCTA2.className = "KleinArtikelCTA";
@@ -520,16 +522,18 @@ artikelKlein3.position - "absolute"
       artikelKlein3TD2.width = "auto";
       artikelKlein3TD2.style.verticalAlign="top"
 
-        artikelKleinTitle3.id = "titleKleinArtikel3";
-        artikelKleinTitle3.style.display = "block";
-        artikelKleinTitle3.className = "titleKleinArtikel";
-        artikelKleinTitle3.style.top = "0px";
-        artikelKleinTitle3.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinTitle3Link.id = "kleinTitleLink3";
+      artikelKleinTitle3Link.style.display = "block";
+      artikelKleinTitle3Link.className = "titleKleinArtikel";
+      artikelKleinTitle3Link.style.top = "0px";
+      artikelKleinTitle3Link.style.marginTop = "0px";
+      artikelKleinTitle3Link.style.verticalAlign="top"
+      artikelKleinTitle3Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
         artikelKleinDescription3.id = "DescriptionKleinArtikel3";
         artikelKleinDescription3.style.display = "inline";
         artikelKleinDescription3.className = "DescriptionKleinArtikel";
-        artikelKleinDescription3.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+        artikelKleinDescription3.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
         artikelKleinCTA3.id = "KleinArtikelCTA3";
         artikelKleinCTA3.className = "KleinArtikelCTA";
@@ -542,8 +546,7 @@ artikelKlein4.draggable = "true";
 artikelKlein4.ondragstart ='onDragStart(event);';
 artikelKlein4.position - "absolute"
 
-  artikelKleinTable4.className = "table1a";
-
+  artikelKleinTable4a.className = "table1a";
 
   artikelKlein4TD4a.className = "tableDivider1a";
 
@@ -569,26 +572,28 @@ artikelKlein4.position - "absolute"
         artikelKleinImg4.style.height = "150px";
         artikelKleinImg4.style.width = "150px";
 
-    artikelKlein4TD2.className= "tableDivider2";
-    artikelKlein4TD2.height = "auto";
-    artikelKlein4TD2.width = "auto";
-    artikelKlein4TD2.style.verticalAlign="top"
+      artikelKlein4TD2.className= "tableDivider2";
+      artikelKlein4TD2.height = "auto";
+      artikelKlein4TD2.width = "auto";
+      artikelKlein4TD2.style.verticalAlign="top"
 
-      artikelKleinTitle4.id = "titleKleinArtikel4";
-      artikelKleinTitle4.style.display = "block";
-      artikelKleinTitle4.className = "titleKleinArtikel";
-      artikelKleinTitle4.style.top = "0px";
-      artikelKleinTitle4.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinTitle4Link.id = "kleinTitleLink4";
+      artikelKleinTitle4Link.style.display = "block";
+      artikelKleinTitle4Link.className = "titleKleinArtikel";
+      artikelKleinTitle4Link.style.top = "0px";
+      artikelKleinTitle4Link.style.marginTop = "0px";
+      artikelKleinTitle4Link.style.verticalAlign="top"
+      artikelKleinTitle4Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
-      artikelKleinDescription4.id = "DescriptionKleinArtikel4";
-      artikelKleinDescription4.style.display = "inline";
-      artikelKleinDescription4.className = "DescriptionKleinArtikel";
-      artikelKleinDescription4.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+        artikelKleinDescription4.id = "DescriptionKleinArtikel4";
+        artikelKleinDescription4.style.display = "inline";
+        artikelKleinDescription4.className = "DescriptionKleinArtikel";
+        artikelKleinDescription4.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
-      artikelKleinCTA4.id = "KleinArtikelCTA4";
-      artikelKleinCTA4.className = "KleinArtikelCTA";
-      artikelKleinCTA4.style.display = "inline";
-      artikelKleinCTA4.setAttribute("style", "text-decoration: none; color: #21759B; font-size: 12pt;")
+        artikelKleinCTA4.id = "KleinArtikelCTA4";
+        artikelKleinCTA4.className = "KleinArtikelCTA";
+        artikelKleinCTA4.style.display = "inline";
+        artikelKleinCTA4.setAttribute("style", "text-decoration: none; color: #21759B; font-size: 12pt;")
 
 artikelKlein5.id = "kleinArtikel5";
 artikelKlein5.className = 'kleinArtikel';
@@ -628,16 +633,18 @@ artikelKlein5.position - "absolute"
     artikelKlein5TD2.width = "auto";
     artikelKlein5TD2.style.verticalAlign="top"
 
-      artikelKleinTitle5.id = "titleKleinArtikel5";
-      artikelKleinTitle5.style.display = "block";
-      artikelKleinTitle5.className = "titleKleinArtikel";
-      artikelKleinTitle5.style.top = "0px";
-      artikelKleinTitle5.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle5Link.id = "kleinTitleLink5";
+    artikelKleinTitle5Link.style.display = "block";
+    artikelKleinTitle5Link.className = "titleKleinArtikel";
+    artikelKleinTitle5Link.style.top = "0px";
+    artikelKleinTitle5Link.style.marginTop = "0px";
+    artikelKleinTitle5Link.style.verticalAlign="top"
+    artikelKleinTitle5Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription5.id = "DescriptionKleinArtikel5";
       artikelKleinDescription5.style.display = "inline";
       artikelKleinDescription5.className = "DescriptionKleinArtikel";
-      artikelKleinDescription5.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription5.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA5.id = "KleinArtikelCTA5";
       artikelKleinCTA5.className = "KleinArtikelCTA";
@@ -681,16 +688,18 @@ artikelKlein6.position - "absolute"
     artikelKlein6TD2.width = "auto";
     artikelKlein6TD2.style.verticalAlign="top"
 
-      artikelKleinTitle6.id = "titleKleinArtikel6";
-      artikelKleinTitle6.style.display = "block";
-      artikelKleinTitle6.className = "titleKleinArtikel";
-      artikelKleinTitle6.style.top = "0px";
-      artikelKleinTitle6.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle6Link.id = "kleinTitleLink6";
+    artikelKleinTitle6Link.style.display = "block";
+    artikelKleinTitle6Link.className = "titleKleinArtikel";
+    artikelKleinTitle6Link.style.top = "0px";
+    artikelKleinTitle6Link.style.marginTop = "0px";
+    artikelKleinTitle6Link.style.verticalAlign="top"
+    artikelKleinTitle6Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription6.id = "DescriptionKleinArtikel6";
       artikelKleinDescription6.style.display = "inline";;
       artikelKleinDescription6.className = "DescriptionKleinArtikel";
-      artikelKleinDescription6.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription6.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA6.id = "KleinArtikelCTA6";
       artikelKleinCTA6.className = "KleinArtikelCTA";
@@ -734,16 +743,18 @@ artikelKlein7.position - "absolute"
     artikelKlein7TD2.width = "auto";
     artikelKlein7TD2.style.verticalAlign="top"
 
-      artikelKleinTitle7.id = "titleKleinArtikel7";
-      artikelKleinTitle7.style.display = "block";
-      artikelKleinTitle7.className = "titleKleinArtikel";
-      artikelKleinTitle7.style.top = "0px";
-      artikelKleinTitle7.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle7Link.id = "kleinTitleLink7";
+    artikelKleinTitle7Link.style.display = "block";
+    artikelKleinTitle7Link.className = "titleKleinArtikel";
+    artikelKleinTitle7Link.style.top = "0px";
+    artikelKleinTitle7Link.style.marginTop = "0px";
+    artikelKleinTitle7Link.style.verticalAlign="top"
+    artikelKleinTitle7Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription7.id = "DescriptionKleinArtikel7";
       artikelKleinDescription7.style.display = "inline";
       artikelKleinDescription7.className = "DescriptionKleinArtikel";
-      artikelKleinDescription7.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription7.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA7.id = "KleinArtikelCTA7";
       artikelKleinCTA7.className = "KleinArtikelCTA";
@@ -787,16 +798,18 @@ artikelKlein8.position - "absolute"
     artikelKlein8TD2.width = "auto";
     artikelKlein8TD2.style.verticalAlign="top"
 
-      artikelKleinTitle8.id = "titleKleinArtikel8";
-      artikelKleinTitle8.style.display = "block";
-      artikelKleinTitle8.className = "titleKleinArtikel";
-      artikelKleinTitle8.style.top = "0px";
-      artikelKleinTitle8.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle8Link.id = "kleinTitleLink8";
+    artikelKleinTitle8Link.style.display = "block";
+    artikelKleinTitle8Link.className = "titleKleinArtikel";
+    artikelKleinTitle8Link.style.top = "0px";
+    artikelKleinTitle8Link.style.marginTop = "0px";
+    artikelKleinTitle8Link.style.verticalAlign="top"
+    artikelKleinTitle8Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription8.id = "DescriptionKleinArtikel8";
       artikelKleinDescription8.style.display = "inline";
       artikelKleinDescription8.className = "DescriptionKleinArtikel";
-      artikelKleinDescription8.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription8.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA8.id = "KleinArtikelCTA8";
       artikelKleinCTA8.className = "KleinArtikelCTA";
@@ -840,16 +853,18 @@ artikelKlein9.position - "absolute"
     artikelKlein9TD2.width = "auto";
     artikelKlein9TD2.style.verticalAlign="top"
 
-      artikelKleinTitle9.id = "titleKleinArtikel9";
-      artikelKleinTitle9.style.display = "block";
-      artikelKleinTitle9.className = "titleKleinArtikel";
-      artikelKleinTitle9.style.top = "0px";
-      artikelKleinTitle9.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle9Link.id = "kleinTitleLink9";
+    artikelKleinTitle9Link.style.display = "block";
+    artikelKleinTitle9Link.className = "titleKleinArtikel";
+    artikelKleinTitle9Link.style.top = "0px";
+    artikelKleinTitle9Link.style.marginTop = "0px";
+    artikelKleinTitle9Link.style.verticalAlign="top"
+    artikelKleinTitle9Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription9.id = "DescriptionKleinArtikel9";
       artikelKleinDescription9.style.display = "inline";
       artikelKleinDescription9.className = "DescriptionKleinArtikel";
-      artikelKleinDescription9.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription9.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA9.id = "KleinArtikelCTA9";
       artikelKleinCTA9.className = "KleinArtikelCTA";
@@ -893,16 +908,18 @@ artikelKlein10.position - "absolute"
     artikelKlein10TD2.width = "auto";
     artikelKlein10TD2.style.verticalAlign="top"
 
-      artikelKleinTitle10.id = "titleKleinArtikel10";
-      artikelKleinTitle10.style.display = "block";
-      artikelKleinTitle10.className = "titleKleinArtikel";
-      artikelKleinTitle10.style.top = "0px";
-      artikelKleinTitle10.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle10Link.id = "kleinTitleLink10";
+    artikelKleinTitle10Link.style.display = "block";
+    artikelKleinTitle10Link.className = "titleKleinArtikel";
+    artikelKleinTitle10Link.style.top = "0px";
+    artikelKleinTitle10Link.style.marginTop = "0px";
+    artikelKleinTitle10Link.style.verticalAlign="top"
+    artikelKleinTitle10Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription10.id = "DescriptionKleinArtikel10";
       artikelKleinDescription10.style.display = "inline";
       artikelKleinDescription10.className = "DescriptionKleinArtikel";
-      artikelKleinDescription10.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription10.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA10.id = "KleinArtikelCTA10";
       artikelKleinCTA10.className = "KleinArtikelCTA";
@@ -946,16 +963,18 @@ artikelKlein11.position - "absolute"
     artikelKlein11TD2.width = "auto";
     artikelKlein11TD2.style.verticalAlign="top"
 
-      artikelKleinTitle11.id = "titleKleinArtikel11";
-      artikelKleinTitle11.style.display = "block";
-      artikelKleinTitle11.className = "titleKleinArtikel";
-      artikelKleinTitle11.style.top = "0px";
-      artikelKleinTitle11.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle11Link.id = "kleinTitleLink11";
+    artikelKleinTitle11Link.style.display = "block";
+    artikelKleinTitle11Link.className = "titleKleinArtikel";
+    artikelKleinTitle11Link.style.top = "0px";
+    artikelKleinTitle11Link.style.marginTop = "0px";
+    artikelKleinTitle11Link.style.verticalAlign="top"
+    artikelKleinTitle11Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription11.id = "DescriptionKleinArtikel11";
       artikelKleinDescription11.style.display = "inline";
       artikelKleinDescription11.className = "DescriptionKleinArtikel";
-      artikelKleinDescription11.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription11.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA11.id = "KleinArtikelCTA11";
       artikelKleinCTA11.className = "KleinArtikelCTA";
@@ -999,16 +1018,18 @@ artikelKlein12.position - "absolute"
     artikelKlein12TD2.width = "auto";
     artikelKlein12TD2.style.verticalAlign="top"
 
-      artikelKleinTitle12.id = "titleKleinArtikel12";
-      artikelKleinTitle12.style.display = "block";
-      artikelKleinTitle12.className = "titleKleinArtikel";
-      artikelKleinTitle12.style.top = "0px";
-      artikelKleinTitle12.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle12Link.id = "kleinTitleLink12";
+    artikelKleinTitle12Link.style.display = "block";
+    artikelKleinTitle12Link.className = "titleKleinArtikel";
+    artikelKleinTitle12Link.style.top = "0px";
+    artikelKleinTitle12Link.style.marginTop = "0px";
+    artikelKleinTitle12Link.style.verticalAlign="top"
+    artikelKleinTitle12Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription12.id = "DescriptionKleinArtikel12";
       artikelKleinDescription12.style.display = "inline";
       artikelKleinDescription12.className = "DescriptionKleinArtikel";
-      artikelKleinDescription12.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription12.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA12.id = "KleinArtikelCTA12";
       artikelKleinCTA12.className = "KleinArtikelCTA";
@@ -1052,16 +1073,18 @@ artikelKlein13.position - "absolute"
     artikelKlein13TD2.width = "auto";
     artikelKlein13TD2.style.verticalAlign="top"
 
-      artikelKleinTitle13.id = "titleKleinArtikel13";
-      artikelKleinTitle13.style.display = "block";
-      artikelKleinTitle13.className = "titleKleinArtikel";
-      artikelKleinTitle13.style.top = "0px";
-      artikelKleinTitle13.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle13Link.id = "kleinTitleLink13";
+    artikelKleinTitle13Link.style.display = "block";
+    artikelKleinTitle13Link.className = "titleKleinArtikel";
+    artikelKleinTitle13Link.style.top = "0px";
+    artikelKleinTitle13Link.style.marginTop = "0px";
+    artikelKleinTitle13Link.style.verticalAlign="top"
+    artikelKleinTitle13Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription13.id = "DescriptionKleinArtikel13";
       artikelKleinDescription13.style.display = "inline";
       artikelKleinDescription13.className = "DescriptionKleinArtikel";
-      artikelKleinDescription13.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription13.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA13.id = "KleinArtikelCTA13";
       artikelKleinCTA13.className = "KleinArtikelCTA";
@@ -1105,16 +1128,18 @@ artikelKlein14.position - "absolute"
     artikelKlein14TD2.width = "auto";
     artikelKlein14TD2.style.verticalAlign="top"
 
-      artikelKleinTitle14.id = "titleKleinArtikel14";
-      artikelKleinTitle14.style.display = "block";
-      artikelKleinTitle14.className = "titleKleinArtikel";
-      artikelKleinTitle14.style.top = "0px";
-      artikelKleinTitle14.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle14Link.id = "kleinTitleLink14";
+    artikelKleinTitle14Link.style.display = "block";
+    artikelKleinTitle14Link.className = "titleKleinArtikel";
+    artikelKleinTitle14Link.style.top = "0px";
+    artikelKleinTitle14Link.style.marginTop = "0px";
+    artikelKleinTitle14Link.style.verticalAlign="top"
+    artikelKleinTitle14Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription14.id = "DescriptionKleinArtikel14";
       artikelKleinDescription14.style.display = "inline";
       artikelKleinDescription14.className = "DescriptionKleinArtikel";
-      artikelKleinDescription14.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription14.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA14.id = "KleinArtikelCTA14";
       artikelKleinCTA14.className = "KleinArtikelCTA";
@@ -1158,16 +1183,18 @@ artikelKlein15.position - "absolute"
     artikelKlein15TD2.width = "auto";
     artikelKlein15TD2.style.verticalAlign="top"
 
-      artikelKleinTitle15.id = "titleKleinArtikel15";
-      artikelKleinTitle15.style.display = "block";
-      artikelKleinTitle15.className = "titleKleinArtikel";
-      artikelKleinTitle15.style.top = "0px";
-      artikelKleinTitle15.setAttribute("style", "margin-top: 0px; top: 0px; display: block; font-size: 15pt; font-weight: regular; font-family: Arial; ");
+    artikelKleinTitle15Link.id = "kleinTitleLink15";
+    artikelKleinTitle15Link.style.display = "block";
+    artikelKleinTitle15Link.className = "titleKleinArtikel";
+    artikelKleinTitle15Link.style.top = "0px";
+    artikelKleinTitle15Link.style.marginTop = "0px";
+    artikelKleinTitle15Link.style.verticalAlign="top"
+    artikelKleinTitle15Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
       artikelKleinDescription15.id = "DescriptionKleinArtikel15";
       artikelKleinDescription15.style.display = "inline";
       artikelKleinDescription15.className = "DescriptionKleinArtikel";
-      artikelKleinDescription15.setAttribute("style", "font-size: 12pt; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription15.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA15.id = "KleinArtikelCTA15";
       artikelKleinCTA15.className = "KleinArtikelCTA";
@@ -1189,7 +1216,7 @@ artikelGroot1.style.border="1px solid #b8b8b8";
 
   artikelGrootTitle1.id = "grootArtikelTitle1";
   artikelGrootTitle1.className = "grootArtikelTitle";
-  artikelGrootTitle1.setAttribute("style", "display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+  artikelGrootTitle1.setAttribute("style", "color: #1A1A1A; display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
 
   artikelGrootImg1.id =  "grootArtikelImg1";
   artikelGrootImg1.className =  "grootArtikelImg";
@@ -1200,7 +1227,7 @@ artikelGroot1.style.border="1px solid #b8b8b8";
   artikelGrootDescription1.className = "grootArtikelDescription";
   artikelGrootDescription1.style.display = "inline";
   artikelGrootDescription1.style.fontSize = "12pt";
-  artikelGrootDescription1.setAttribute("style", " display: inline; padding: 0px 15px 0px 0px;");
+  artikelGrootDescription1.setAttribute("style", " color: #666666; display: inline; padding: 0px 15px 0px 0px;");
 
   artikelGrootCTA1C.id = "GrootArtikelCTA1C";
   artikelGrootCTA1C.className = "GrootArtikelCTAC";
@@ -1226,7 +1253,7 @@ artikelGroot2.style.border="1px solid #b8b8b8";
 
   artikelGrootTitle2.id = "grootArtikelTitle2";
   artikelGrootTitle2.className = "grootArtikelTitle";
-  artikelGrootTitle2.setAttribute("style", "display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+  artikelGrootTitle2.setAttribute("style", "color: #1A1A1A; display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
 
   artikelGrootImg2.id =  "grootArtikelImg2";
   artikelGrootImg2.className =  "grootArtikelImg";
@@ -1237,7 +1264,7 @@ artikelGroot2.style.border="1px solid #b8b8b8";
   artikelGrootDescription2.className = "grootArtikelDescription";
   artikelGrootDescription2.style.display = "inline";
   artikelGrootDescription2.style.fontSize = "12pt";
-  artikelGrootDescription2.setAttribute("style", "display: inline; padding: 0px 15px 0px 0px; ");
+  artikelGrootDescription2.setAttribute("style", "color: #666666; display: inline; padding: 0px 15px 0px 0px;");
 
   artikelGrootCTA2C.id = "GrootArtikelCTA2C";
   artikelGrootCTA2C.className = "GrootArtikelCTAC";
@@ -1263,7 +1290,7 @@ artikelGroot3.onmousehover = "hoverColor();";
 
   artikelGrootTitle3.id = "grootArtikelTitle3";
   artikelGrootTitle3.className = "grootArtikelTitle";
-  artikelGrootTitle3.setAttribute("style", "display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+  artikelGrootTitle3.setAttribute("style", "color: #1A1A1A; display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
 
   artikelGrootImg3.id =  "grootArtikelImg3";
   artikelGrootImg3.className =  "grootArtikelImg";
@@ -1274,7 +1301,7 @@ artikelGroot3.onmousehover = "hoverColor();";
   artikelGrootDescription3.className = "grootArtikelDescription";
   artikelGrootDescription3.style.display = "inline";
   artikelGrootDescription3.style.fontSize = "12pt";
-  artikelGrootDescription3.setAttribute("style", "display: inline; padding: 0px 15px 0px 0px; ");
+  artikelGrootDescription3.setAttribute("style", "color: #666666; display: inline; padding: 0px 15px 0px 0px;");
 
   artikelGrootCTA3C.id = "GrootArtikelCTA3C";
   artikelGrootCTA3C.className = "GrootArtikelCTAC";
@@ -1300,7 +1327,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
 
   artikelGrootTitle4.id = "grootArtikelTitle4";
   artikelGrootTitle4.className = "grootArtikelTitle";
-  artikelGrootTitle4.setAttribute("style", "display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+  artikelGrootTitle4.setAttribute("style", "color: #1A1A1A; display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
 
   artikelGrootImg4.id =  "grootArtikelImg4";
   artikelGrootImg4.className =  "grootArtikelImg";
@@ -1311,7 +1338,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
   artikelGrootDescription4.className = "grootArtikelDescription";
   artikelGrootDescription4.style.display = "block";
   artikelGrootDescription4.style.fontSize = "12pt";
-  artikelGrootDescription4.setAttribute("style", "display: inline; padding: 0px 15px 0px 0px; ");
+  artikelGrootDescription4.setAttribute("style", "color: #666666; display: inline; padding: 0px 15px 0px 0px;");
 
   artikelGrootCTA4C.id = "GrootArtikelCTA4C";
   artikelGrootCTA4C.className = "GrootArtikelCTAC";
@@ -1336,7 +1363,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
 
     artikelGrootTitle5.id = "grootArtikelTitle5";
     artikelGrootTitle5.className = "grootArtikelTitle";
-    artikelGrootTitle5.setAttribute("style", "display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+    artikelGrootTitle5.setAttribute("style", "color: #1A1A1A; display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
 
     artikelGrootImg5.id =  "grootArtikelImg5";
     artikelGrootImg5.className =  "grootArtikelImg";
@@ -1347,7 +1374,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
     artikelGrootDescription5.className = "grootArtikelDescription";
     artikelGrootDescription5.style.display = "inline";
     artikelGrootDescription5.style.fontSize = "12pt";
-    artikelGrootDescription5.setAttribute("style", "display: inline; padding: 0px 15px 0px 0px; ");
+    artikelGrootDescription5.setAttribute("style", "color: #666666; display: inline; padding: 0px 15px 0px 0px;");
 
     artikelGrootCTA5C.id = "GrootArtikelCTA5C";
     artikelGrootCTA5C.className = "GrootArtikelCTAC";
@@ -1372,7 +1399,7 @@ artikelGroot6.style.border="1px solid #b8b8b8";
 
   artikelGrootTitle6.id = "grootArtikelTitle6";
   artikelGrootTitle6.className = "grootArtikelTitle";
-  artikelGrootTitle6.setAttribute("style", "display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+  artikelGrootTitle6.setAttribute("style", "color: #1A1A1A; display: block; font-size: 14pt; padding: 0px 15px 0px 0px; ");
 
   artikelGrootImg6.id =  "grootArtikelImg6";
   artikelGrootImg6.className =  "grootArtikelImg";
@@ -1383,7 +1410,7 @@ artikelGroot6.style.border="1px solid #b8b8b8";
   artikelGrootDescription6.className = "grootArtikelDescription";
   artikelGrootDescription6.style.display = "inline";
   artikelGrootDescription6.style.fontSize = "12pt";
-  artikelGrootDescription6.setAttribute("style", "display: inline; padding: 0px 15px 0px 0px; ");
+  artikelGrootDescription6.setAttribute("style", "color: #666666; display: inline; padding: 0px 15px 0px 0px;");
 
   artikelGrootCTA6C.id = "GrootArtikelCTA6C";
   artikelGrootCTA6C.className = "GrootArtikelCTAC";
@@ -2736,6 +2763,7 @@ dagWeekFormDiv.class = "switch-field"
 dagWeekFormInput.type = "checkbox";
 dagWeekFormInput.value = "week";
 dagWeekFormInput.id= "dagWeekSwitch";
+document.getElementById ("dagWeekSwitch").addEventListener ("click", switchFunction, false);
 dagWeekFormLabel.className = "switch";
 dagWeekFormSpan.className = "slider round";
 dagWeekFormText.id = "dagWeekText";
@@ -2744,3 +2772,33 @@ dagWeekFormText.width = "auto";
 dagWeekFormText.top = "0px";
 dagWeekFormText.color = "#CCCCCC";
 dagWeekFormText.margin = "7px 5px 5px 10px";
+
+
+function switchFunction()
+{
+  if (document.getElementById('dagWeekSwitch').checked)
+  {
+      dagWeek = 'week';
+      getAllContent();
+  } else {
+      dagWeek = 'dag';
+      getAllContent();
+  }
+}
+
+
+
+/*
+function switchDayWeek(){
+  if (document.getElementById('dagWeekSwitch').checked)
+  {
+      dagWeek = "week";
+      getAllContent();
+      console.log(dagWeek);
+  } else {
+      dagWeek = "dag";
+      getAllContent();
+      console.log(dagWeek);
+  }
+};
+*/

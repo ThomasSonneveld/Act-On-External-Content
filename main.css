@@ -36,10 +36,12 @@
 
 .kleinArtikel .titleKleinArtikel {
   font-size: 10px !important;
+  line-height: 13px !important;
 }
 
 .kleinArtikel .DescriptionKleinArtikel {
   font-size: 8px !important;
+  line-height: 13px !important;
 }
 
 .kleinArtikel .KleinArtikelCTA {
