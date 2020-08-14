@@ -50,6 +50,7 @@
 
 .kleinArtikel .tableDivider1 {
   height: 90px !important;
+  width: 30% !important;
 }
 
 .kleinArtikel .tableDivider2 {
@@ -74,6 +75,7 @@
 
 .grootArtikelTitle {
   font-size: 9pt;
+  line-height: 22px !important;
 }
 
 .ButtonImg {

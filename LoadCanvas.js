@@ -288,7 +288,7 @@ var artikelGroot4 = document.createElement( 'div' );
 var artikelGroot5 = document.createElement( 'div' );
 var artikelGroot6 = document.createElement( 'div' );
 
-var artikelGrootAuthor1 = document.createElement ( 'p' );
+/*var artikelGrootAuthor1 = document.createElement ( 'p' );
 var artikelGrootAuthor2 = document.createElement ( 'p' );
 var artikelGrootAuthor3 = document.createElement ( 'p' );
 var artikelGrootAuthor4 = document.createElement ( 'p' );
@@ -301,6 +301,7 @@ var artikelGrootAuthor3 = document.createElement ( 'p' );
 var artikelGrootAuthor4 = document.createElement ( 'p' );
 var artikelGrootAuthor5 = document.createElement ( 'p' );
 var artikelGrootAuthor6 = document.createElement ( 'p' );
+*/
 
 var artikelGrootTitle1 = document.createElement ( 'p' );
 var artikelGrootTitle2 = document.createElement ( 'p' );
@@ -361,6 +362,34 @@ var shl5b = document.createElement ( 'span' );
 var hl5 = document.createElement ( 'a' );
 var phl6 = document.createElement ( 'p' );
 var hl6 = document.createElement ( 'a' );
+
+var headlineTable = document.createElement( 'table' );
+var headlineTbody = document.createElement( 'tbody');
+var headlineTr1 = document.createElement( 'tr');
+var headlines1Td1 = document.createElement( 'td' );
+var headlines1Td2 = document.createElement( 'td' );
+var headlines1Td3 = document.createElement( 'td' );
+var headlineTr2 = document.createElement( 'tr');
+var headlines2Td1 = document.createElement( 'td' );
+var headlines2Td2 = document.createElement( 'td' );
+var headlines2Td3 = document.createElement( 'td' );
+var headlineTr3 = document.createElement( 'tr');
+var headlines3Td1 = document.createElement( 'td' );
+var headlines3Td2 = document.createElement( 'td' );
+var headlines3Td3 = document.createElement( 'td' );
+var headlineTr4 = document.createElement( 'tr');
+var headlines4Td1 = document.createElement( 'td' );
+var headlines4Td2 = document.createElement( 'td' );
+var headlines4Td3 = document.createElement( 'td' );
+var headlineTr5 = document.createElement( 'tr');
+var headlines5Td1 = document.createElement( 'td' );
+var headlines5Td2 = document.createElement( 'td' );
+var headlines5Td3 = document.createElement( 'td' );
+var headlineTr6 = document.createElement( 'tr');
+var headlines6Td1 = document.createElement( 'td' );
+var headlines6Td2 = document.createElement( 'td' );
+var headlines6Td3 = document.createElement( 'td' );
+
 
 var agendaOverlay = document.createElement ( "div" );
 var paa1 = document.createElement ( 'p' );
