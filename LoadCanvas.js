@@ -326,12 +326,12 @@ var artikelGrootTitle4 = document.createElement ( 'p' );
 var artikelGrootTitle5 = document.createElement ( 'p' );
 var artikelGrootTitle6 = document.createElement ( 'p' );
 
-var artikelGrootTitle1 = document.createElement ( 'p' );
-var artikelGrootTitle2 = document.createElement ( 'p' );
-var artikelGrootTitle3 = document.createElement ( 'p' );
-var artikelGrootTitle4 = document.createElement ( 'p' );
-var artikelGrootTitle5 = document.createElement ( 'p' );
-var artikelGrootTitle6 = document.createElement ( 'p' );
+var artikelGrootTitle1 = document.createElement ( 'a' );
+var artikelGrootTitle2 = document.createElement ( 'a' );
+var artikelGrootTitle3 = document.createElement ( 'a' );
+var artikelGrootTitle4 = document.createElement ( 'a' );
+var artikelGrootTitle5 = document.createElement ( 'a' );
+var artikelGrootTitle6 = document.createElement ( 'a' );
 
 var artikelGrootImg1 = document.createElement ( 'img' );
 var artikelGrootImg2 = document.createElement ( 'img' );
@@ -499,11 +499,11 @@ var vacature1TDa = document.createElement( 'td' );
 var vacature1TDb = document.createElement( 'td' );
 var vacature1TDDiv = document.createElement( 'div' );
 
-var vacatureMeta1 = document.createElement ( 'p' );
+var vacatureMeta1 = document.createElement ( 'a' );
 var vspan1a = document.createElement ( 'span' );
 var vspan1b = document.createElement ( 'span' );
-var vacatureTitle1 = document.createElement ( 'p' );
-var vacatureDescription1 = document.createElement ( 'p' );
+var vacatureTitle1 = document.createElement ( 'a' );
+var vacatureDescription1 = document.createElement ( 'a' );
 
 var vacatureTable2 = document.createElement( 'table' );
 var vacatureTBody2 = document.createElement( 'tbody');
@@ -512,11 +512,11 @@ var vacature2TDa = document.createElement( 'td' );
 var vacature2TDb = document.createElement( 'td' );
 var vacature2TDDiv = document.createElement( 'div' );
 
-var vacatureMeta2 = document.createElement ( 'p' );
+var vacatureMeta2 = document.createElement ( 'a' );
 var vspan2a = document.createElement ( 'span' );
 var vspan2b = document.createElement ( 'span' );
-var vacatureTitle2 = document.createElement ( 'p' );
-var vacatureDescription2 = document.createElement ( 'p' );
+var vacatureTitle2 = document.createElement ( 'a' );
+var vacatureDescription2 = document.createElement ( 'a' );
 
 var vacatureTable3 = document.createElement( 'table' );
 var vacatureTBody3 = document.createElement( 'tbody');
@@ -525,11 +525,11 @@ var vacature3TDa = document.createElement( 'td' );
 var vacature3TDb = document.createElement( 'td' );
 var vacature3TDDiv = document.createElement( 'div' );
 
-var vacatureMeta3 = document.createElement ( 'p' );
+var vacatureMeta3 = document.createElement ( 'a' );
 var vspan3a = document.createElement ( 'span' );
 var vspan3b = document.createElement ( 'span' );
-var vacatureTitle3 = document.createElement ( 'p' );
-var vacatureDescription3 = document.createElement ( 'p' );
+var vacatureTitle3 = document.createElement ( 'a' );
+var vacatureDescription3 = document.createElement ( 'a' );
 
 var vacatureTable4 = document.createElement( 'table' );
 var vacatureTBody4 = document.createElement( 'tbody');
@@ -538,11 +538,11 @@ var vacature4TDa = document.createElement( 'td' );
 var vacature4TDb = document.createElement( 'td' );
 var vacature4TDDiv = document.createElement( 'div' );
 
-var vacatureMeta4 = document.createElement ( 'p' );
+var vacatureMeta4 = document.createElement ( 'a' );
 var vspan4a = document.createElement ( 'span' );
 var vspan4b = document.createElement ( 'span' );
-var vacatureTitle4 = document.createElement ( 'p' );
-var vacatureDescription4 = document.createElement ( 'p' );
+var vacatureTitle4 = document.createElement ( 'a' );
+var vacatureDescription4 = document.createElement ( 'a' );
 
 var vacatureTable5 = document.createElement( 'table' );
 var vacatureTBody5 = document.createElement( 'tbody');
@@ -551,11 +551,11 @@ var vacature5TDa = document.createElement( 'td' );
 var vacature5TDb = document.createElement( 'td' );
 var vacature5TDDiv = document.createElement( 'div' );
 
-var vacatureMeta5 = document.createElement ( 'p' );
+var vacatureMeta5 = document.createElement ( 'a' );
 var vspan5a = document.createElement ( 'span' );
 var vspan5b = document.createElement ( 'span' );
-var vacatureTitle5 = document.createElement ( 'p' );
-var vacatureDescription5 = document.createElement ( 'p' );
+var vacatureTitle5 = document.createElement ( 'a' );
+var vacatureDescription5 = document.createElement ( 'a' );
 
 var vacatureTable6 = document.createElement( 'table' );
 var vacatureTBody6 = document.createElement( 'tbody');
@@ -564,11 +564,11 @@ var vacature6TDa = document.createElement( 'td' );
 var vacature6TDb = document.createElement( 'td' );
 var vacature6TDDiv = document.createElement( 'div' );
 
-var vacatureMeta6 = document.createElement ( 'p' );
+var vacatureMeta6 = document.createElement ( 'a' );
 var vspan6a = document.createElement ( 'span' );
 var vspan6b = document.createElement ( 'span' );
-var vacatureTitle6 = document.createElement ( 'p' );
-var vacatureDescription6 = document.createElement ( 'p' );
+var vacatureTitle6 = document.createElement ( 'a' );
+var vacatureDescription6 = document.createElement ( 'a' );
 
 var vacatureTable7 = document.createElement( 'table' );
 var vacatureTBody7 = document.createElement( 'tbody');
@@ -577,11 +577,11 @@ var vacature7TDa = document.createElement( 'td' );
 var vacature7TDb = document.createElement( 'td' );
 var vacature7TDDiv = document.createElement( 'div' );
 
-var vacatureMeta7 = document.createElement ( 'p' );
+var vacatureMeta7 = document.createElement ( 'a' );
 var vspan7a = document.createElement ( 'span' );
 var vspan7b = document.createElement ( 'span' );
-var vacatureTitle7 = document.createElement ( 'p' );
-var vacatureDescription7 = document.createElement ( 'p' );
+var vacatureTitle7 = document.createElement ( 'a' );
+var vacatureDescription7 = document.createElement ( 'a' );
 
 var vacatureTable8 = document.createElement( 'table' );
 var vacatureTBody8 = document.createElement( 'tbody');
@@ -590,11 +590,11 @@ var vacature8TDa = document.createElement( 'td' );
 var vacature8TDb = document.createElement( 'td' );
 var vacature8TDDiv = document.createElement( 'div' );
 
-var vacatureMeta8 = document.createElement ( 'p' );
+var vacatureMeta8 = document.createElement ( 'a' );
 var vspan8a = document.createElement ( 'span' );
 var vspan8b = document.createElement ( 'span' );
-var vacatureTitle8 = document.createElement ( 'p' );
-var vacatureDescription8 = document.createElement ( 'p' );
+var vacatureTitle8 = document.createElement ( 'a' );
+var vacatureDescription8 = document.createElement ( 'a' );
 
 var vacatureTable8 = document.createElement( 'table' );
 var vacatureTBody8 = document.createElement( 'tbody');
@@ -603,11 +603,11 @@ var vacature8TDa = document.createElement( 'td' );
 var vacature8TDb = document.createElement( 'td' );
 var vacature8TDDiv = document.createElement( 'div' );
 
-var vacatureMeta8 = document.createElement ( 'p' );
+var vacatureMeta8 = document.createElement ( 'a' );
 var vspan8a = document.createElement ( 'span' );
 var vspan8b = document.createElement ( 'span' );
-var vacatureTitle8 = document.createElement ( 'p' );
-var vacatureDescription8 = document.createElement ( 'p' );
+var vacatureTitle8 = document.createElement ( 'a' );
+var vacatureDescription8 = document.createElement ( 'a' );
 
 var vacatureTable9 = document.createElement( 'table' );
 var vacatureTBody9 = document.createElement( 'tbody');
@@ -616,11 +616,11 @@ var vacature9TDa = document.createElement( 'td' );
 var vacature9TDb = document.createElement( 'td' );
 var vacature9TDDiv = document.createElement( 'div' );
 
-var vacatureMeta9 = document.createElement ( 'p' );
+var vacatureMeta9 = document.createElement ( 'a' );
 var vspan9a = document.createElement ( 'span' );
 var vspan9b = document.createElement ( 'span' );
-var vacatureTitle9 = document.createElement ( 'p' );
-var vacatureDescription9 = document.createElement ( 'p' );
+var vacatureTitle9 = document.createElement ( 'a' );
+var vacatureDescription9 = document.createElement ( 'a' );
 
 var vacatureTable10 = document.createElement( 'table' );
 var vacatureTBody10 = document.createElement( 'tbody');
@@ -629,11 +629,11 @@ var vacature10TDa = document.createElement( 'td' );
 var vacature10TDb = document.createElement( 'td' );
 var vacature10TDDiv = document.createElement( 'div' );
 
-var vacatureMeta10 = document.createElement ( 'p' );
+var vacatureMeta10 = document.createElement ( 'a' );
 var vspan10a = document.createElement ( 'span' );
 var vspan10b = document.createElement ( 'span' );
-var vacatureTitle10 = document.createElement ( 'p' );
-var vacatureDescription10 = document.createElement ( 'p' );
+var vacatureTitle10 = document.createElement ( 'a' );
+var vacatureDescription10 = document.createElement ( 'a' );
 
 var vacatureTable11 = document.createElement( 'table' );
 var vacatureTBody11 = document.createElement( 'tbody');
@@ -642,11 +642,11 @@ var vacature11TDa = document.createElement( 'td' );
 var vacature11TDb = document.createElement( 'td' );
 var vacature11TDDiv = document.createElement( 'div' );
 
-var vacatureMeta11 = document.createElement ( 'p' );
+var vacatureMeta11 = document.createElement ( 'a' );
 var vspan11a = document.createElement ( 'span' );
 var vspan11b = document.createElement ( 'span' );
-var vacatureTitle11 = document.createElement ( 'p' );
-var vacatureDescription11 = document.createElement ( 'p' );
+var vacatureTitle11 = document.createElement ( 'a' );
+var vacatureDescription11 = document.createElement ( 'a' );
 
 var vacatureTable12 = document.createElement( 'table' );
 var vacatureTBody12 = document.createElement( 'tbody');
@@ -655,11 +655,11 @@ var vacature12TDa = document.createElement( 'td' );
 var vacature12TDb = document.createElement( 'td' );
 var vacature12TDDiv = document.createElement( 'div' );
 
-var vacatureMeta12 = document.createElement ( 'p' );
+var vacatureMeta12 = document.createElement ( 'a' );
 var vspan12a = document.createElement ( 'span' );
 var vspan12b = document.createElement ( 'span' );
-var vacatureTitle12 = document.createElement ( 'p' );
-var vacatureDescription12 = document.createElement ( 'p' );
+var vacatureTitle12 = document.createElement ( 'a' );
+var vacatureDescription12 = document.createElement ( 'a' );
 
 var vacatureTable13 = document.createElement( 'table' );
 var vacatureTBody13 = document.createElement( 'tbody');
@@ -668,11 +668,11 @@ var vacature13TDa = document.createElement( 'td' );
 var vacature13TDb = document.createElement( 'td' );
 var vacature13TDDiv = document.createElement( 'div' );
 
-var vacatureMeta13 = document.createElement ( 'p' );
+var vacatureMeta13 = document.createElement ( 'a' );
 var vspan13a = document.createElement ( 'span' );
 var vspan13b = document.createElement ( 'span' );
-var vacatureTitle13 = document.createElement ( 'p' );
-var vacatureDescription13 = document.createElement ( 'p' );
+var vacatureTitle13 = document.createElement ( 'a' );
+var vacatureDescription13 = document.createElement ( 'a' );
 
 var vacatureTable14 = document.createElement( 'table' );
 var vacatureTBody14 = document.createElement( 'tbody');
@@ -681,11 +681,11 @@ var vacature14TDa = document.createElement( 'td' );
 var vacature14TDb = document.createElement( 'td' );
 var vacature14TDDiv = document.createElement( 'div' );
 
-var vacatureMeta14 = document.createElement ( 'p' );
+var vacatureMeta14 = document.createElement ( 'a' );
 var vspan14a = document.createElement ( 'span' );
 var vspan14b = document.createElement ( 'span' );
-var vacatureTitle14 = document.createElement ( 'p' );
-var vacatureDescription14 = document.createElement ( 'p' );
+var vacatureTitle14 = document.createElement ( 'a' );
+var vacatureDescription14 = document.createElement ( 'a' );
 
 var vacatureTable15 = document.createElement( 'table' );
 var vacatureTBody15 = document.createElement( 'tbody');
@@ -694,11 +694,11 @@ var vacature15TDa = document.createElement( 'td' );
 var vacature15TDb = document.createElement( 'td' );
 var vacature15TDDiv = document.createElement( 'div' );
 
-var vacatureMeta15 = document.createElement ( 'p' );
+var vacatureMeta15 = document.createElement ( 'a' );
 var vspan15a = document.createElement ( 'span' );
 var vspan15b = document.createElement ( 'span' );
-var vacatureTitle15 = document.createElement ( 'p' );
-var vacatureDescription15 = document.createElement ( 'p' );
+var vacatureTitle15 = document.createElement ( 'a' );
+var vacatureDescription15 = document.createElement ( 'a' );
 
 var vacatureTable16 = document.createElement( 'table' );
 var vacatureTBody16 = document.createElement( 'tbody');
@@ -707,11 +707,11 @@ var vacature16TDa = document.createElement( 'td' );
 var vacature16TDb = document.createElement( 'td' );
 var vacature16TDDiv = document.createElement( 'div' );
 
-var vacatureMeta16 = document.createElement ( 'p' );
+var vacatureMeta16 = document.createElement ( 'a' );
 var vspan16a = document.createElement ( 'span' );
 var vspan16b = document.createElement ( 'span' );
-var vacatureTitle16 = document.createElement ( 'p' );
-var vacatureDescription16 = document.createElement ( 'p' );
+var vacatureTitle16 = document.createElement ( 'a' );
+var vacatureDescription16 = document.createElement ( 'a' );
 
 var vacatureTable17 = document.createElement( 'table' );
 var vacatureTBody17 = document.createElement( 'tbody');
@@ -720,11 +720,11 @@ var vacature17TDa = document.createElement( 'td' );
 var vacature17TDb = document.createElement( 'td' );
 var vacature17TDDiv = document.createElement( 'div' );
 
-var vacatureMeta17 = document.createElement ( 'p' );
+var vacatureMeta17 = document.createElement ( 'a' );
 var vspan17a = document.createElement ( 'span' );
 var vspan17b = document.createElement ( 'span' );
-var vacatureTitle17 = document.createElement ( 'p' );
-var vacatureDescription17 = document.createElement ( 'p' );
+var vacatureTitle17 = document.createElement ( 'a' );
+var vacatureDescription17 = document.createElement ( 'a' );
 
 var vacatureTable18 = document.createElement( 'table' );
 var vacatureTBody18 = document.createElement( 'tbody');
@@ -733,11 +733,11 @@ var vacature18TDa = document.createElement( 'td' );
 var vacature18TDb = document.createElement( 'td' );
 var vacature18TDDiv = document.createElement( 'div' );
 
-var vacatureMeta18 = document.createElement ( 'p' );
+var vacatureMeta18 = document.createElement ( 'a' );
 var vspan18a = document.createElement ( 'span' );
 var vspan18b = document.createElement ( 'span' );
-var vacatureTitle18 = document.createElement ( 'p' );
-var vacatureDescription18 = document.createElement ( 'p' );
+var vacatureTitle18 = document.createElement ( 'a' );
+var vacatureDescription18 = document.createElement ( 'a' );
 
 var vacatureTable19 = document.createElement( 'table' );
 var vacatureTBody19 = document.createElement( 'tbody');
@@ -746,11 +746,11 @@ var vacature19TDa = document.createElement( 'td' );
 var vacature19TDb = document.createElement( 'td' );
 var vacature19TDDiv = document.createElement( 'div' );
 
-var vacatureMeta19 = document.createElement ( 'p' );
+var vacatureMeta19 = document.createElement ( 'a' );
 var vspan19a = document.createElement ( 'span' );
 var vspan19b = document.createElement ( 'span' );
-var vacatureTitle19 = document.createElement ( 'p' );
-var vacatureDescription19 = document.createElement ( 'p' );
+var vacatureTitle19 = document.createElement ( 'a' );
+var vacatureDescription19 = document.createElement ( 'a' );
 
 var vacatureTable20 = document.createElement( 'table' );
 var vacatureTBody20 = document.createElement( 'tbody');
@@ -759,11 +759,11 @@ var vacature20TDa = document.createElement( 'td' );
 var vacature20TDb = document.createElement( 'td' );
 var vacature20TDDiv = document.createElement( 'div' );
 
-var vacatureMeta20 = document.createElement ( 'p' );
+var vacatureMeta20 = document.createElement ( 'a' );
 var vspan20a = document.createElement ( 'span' );
 var vspan20b = document.createElement ( 'span' );
-var vacatureTitle20 = document.createElement ( 'p' );
-var vacatureDescription20 = document.createElement ( 'p' );
+var vacatureTitle20 = document.createElement ( 'a' );
+var vacatureDescription20 = document.createElement ( 'a' );
 
 var vacatureTable21 = document.createElement( 'table' );
 var vacatureTBody21 = document.createElement( 'tbody');
@@ -772,11 +772,11 @@ var vacature21TDa = document.createElement( 'td' );
 var vacature21TDb = document.createElement( 'td' );
 var vacature21TDDiv = document.createElement( 'div' );
 
-var vacatureMeta21 = document.createElement ( 'p' );
+var vacatureMeta21 = document.createElement ( 'a' );
 var vspan21a = document.createElement ( 'span' );
 var vspan21b = document.createElement ( 'span' );
-var vacatureTitle21 = document.createElement ( 'p' );
-var vacatureDescription21 = document.createElement ( 'p' );
+var vacatureTitle21 = document.createElement ( 'a' );
+var vacatureDescription21 = document.createElement ( 'a' );
 
 var vacatureTable22 = document.createElement( 'table' );
 var vacatureTBody22 = document.createElement( 'tbody');
@@ -785,11 +785,11 @@ var vacature22TDa = document.createElement( 'td' );
 var vacature22TDb = document.createElement( 'td' );
 var vacature22TDDiv = document.createElement( 'div' );
 
-var vacatureMeta22 = document.createElement ( 'p' );
+var vacatureMeta22 = document.createElement ( 'a' );
 var vspan22a = document.createElement ( 'span' );
 var vspan22b = document.createElement ( 'span' );
-var vacatureTitle22 = document.createElement ( 'p' );
-var vacatureDescription22 = document.createElement ( 'p' );
+var vacatureTitle22 = document.createElement ( 'a' );
+var vacatureDescription22 = document.createElement ( 'a' );
 
 var vacatureTable23 = document.createElement( 'table' );
 var vacatureTBody23 = document.createElement( 'tbody');
@@ -798,11 +798,11 @@ var vacature23TDa = document.createElement( 'td' );
 var vacature23TDb = document.createElement( 'td' );
 var vacature23TDDiv = document.createElement( 'div' );
 
-var vacatureMeta23 = document.createElement ( 'p' );
+var vacatureMeta23 = document.createElement ( 'a' );
 var vspan23a = document.createElement ( 'span' );
 var vspan23b = document.createElement ( 'span' );
-var vacatureTitle23 = document.createElement ( 'p' );
-var vacatureDescription23 = document.createElement ( 'p' );
+var vacatureTitle23 = document.createElement ( 'a' );
+var vacatureDescription23 = document.createElement ( 'a' );
 
 var vacatureTable24 = document.createElement( 'table' );
 var vacatureTBody24 = document.createElement( 'tbody');
@@ -811,11 +811,11 @@ var vacature24TDa = document.createElement( 'td' );
 var vacature24TDb = document.createElement( 'td' );
 var vacature24TDDiv = document.createElement( 'div' );
 
-var vacatureMeta24 = document.createElement ( 'p' );
+var vacatureMeta24 = document.createElement ( 'a' );
 var vspan24a = document.createElement ( 'span' );
 var vspan24b = document.createElement ( 'span' );
-var vacatureTitle24 = document.createElement ( 'p' );
-var vacatureDescription24 = document.createElement ( 'p' );
+var vacatureTitle24 = document.createElement ( 'a' );
+var vacatureDescription24 = document.createElement ( 'a' );
 
 var vacatureTable25 = document.createElement( 'table' );
 var vacatureTBody25 = document.createElement( 'tbody');
@@ -824,11 +824,11 @@ var vacature25TDa = document.createElement( 'td' );
 var vacature25TDb = document.createElement( 'td' );
 var vacature25TDDiv = document.createElement( 'div' );
 
-var vacatureMeta25 = document.createElement ( 'p' );
+var vacatureMeta25 = document.createElement ( 'a' );
 var vspan25a = document.createElement ( 'span' );
 var vspan25b = document.createElement ( 'span' );
-var vacatureTitle25 = document.createElement ( 'p' );
-var vacatureDescription25 = document.createElement ( 'p' );
+var vacatureTitle25 = document.createElement ( 'a' );
+var vacatureDescription25 = document.createElement ( 'a' );
 
 var vacatureImg1 = document.createElement ( 'img' );
 var vacatureImg2 = document.createElement ( 'img' );

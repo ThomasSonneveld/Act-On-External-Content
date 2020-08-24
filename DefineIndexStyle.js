@@ -191,6 +191,7 @@ agendaOverlay.style.zIndex = "19300";
   saa1a.id = "saa1a";
   saa1a.style.margin = "0px";
   saa1b.style.color = "#9e9e9e";
+  saa1b.style.fontSize = "12px";
   saa1b.id = "saa1b";
   saa1b.style.margin = "0px";
 
@@ -202,6 +203,7 @@ agendaOverlay.style.zIndex = "19300";
   aa2.style.textDecoration = "none";
   saa2a.style.color = "#18608B"
   saa2a.id = "saa2a";
+  saa2b.style.fontSize = "12px";
   saa2b.style.color = "#9e9e9e";
   saa2b.id = "saa2b";
 
@@ -213,6 +215,7 @@ agendaOverlay.style.zIndex = "19300";
   aa3.style.textDecoration = "none";
   saa3a.style.color = "#18608B"
   saa3a.id = "saa3a";
+  saa3b.style.fontSize = "12px";
   saa3b.style.color = "#9e9e9e";
   saa3b.id = "saa3b";
 
@@ -224,6 +227,7 @@ agendaOverlay.style.zIndex = "19300";
   aa4.style.textDecoration = "none";
   saa4a.style.color = "#18608B"
   saa4a.id = "saa4a";
+  saa4b.style.fontSize = "12px";
   saa4b.style.color = "#9e9e9e";
   saa4b.id = "saa4b";
 
@@ -235,6 +239,7 @@ agendaOverlay.style.zIndex = "19300";
   aa5.style.textDecoration = "none";
   saa5a.style.color = "#18608B"
   saa5a.id = "saa5a";
+  saa5b.style.fontSize = "12px";
   saa5b.style.color = "#9e9e9e";
   saa5b.id = "saa5b";
 
@@ -246,6 +251,7 @@ agendaOverlay.style.zIndex = "19300";
   aa6.style.textDecoration = "none";
   saa6a.style.color = "#18608B"
   saa6a.id = "saa6a";
+  saa6b.style.fontSize = "12px";
   saa6b.style.color = "#9e9e9e";
   saa6b.id = "saa6b";
 
@@ -257,6 +263,7 @@ agendaOverlay.style.zIndex = "19300";
   aa7.style.textDecoration = "none";
   saa7a.style.color = "#18608B"
   saa7a.id = "saa7a";
+  saa7b.style.fontSize = "12px";
   saa7b.style.color = "#9e9e9e";
   saa7b.id = "saa7b";
 
@@ -1299,7 +1306,7 @@ artikelGroot1.style.border="1px solid #b8b8b8";
 
   artikelGrootTitle1.id = "grootArtikelTitle1";
   artikelGrootTitle1.className = "grootArtikelTitle";
-  artikelGrootTitle1.setAttribute("style", "color: #1A1A1A; display: block; line-height: 5px; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+  artikelGrootTitle1.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg1.id =  "grootArtikelImg1";
   artikelGrootImg1.className =  "grootArtikelImg";
@@ -1311,7 +1318,7 @@ artikelGroot1.style.border="1px solid #b8b8b8";
   artikelGrootDescription1.className = "grootArtikelDescription";
   artikelGrootDescription1.style.display = "inline";
   artikelGrootDescription1.style.fontSize = "12pt";
-  artikelGrootDescription1.setAttribute("style", " color: #666666; display: inline; padding: 0px 15px 0px 0px;");
+  artikelGrootDescription1.setAttribute("style", " color: #666666; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA1C.id = "GrootArtikelCTA1C";
   artikelGrootCTA1C.className = "GrootArtikelCTAC";
@@ -1337,7 +1344,7 @@ artikelGroot2.style.border="1px solid #b8b8b8";
 
   artikelGrootTitle2.id = "grootArtikelTitle2";
   artikelGrootTitle2.className = "grootArtikelTitle";
-  artikelGrootTitle2.setAttribute("style", "color: #1A1A1A; display: block; line-height: 5px; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+  artikelGrootTitle2.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg2.id =  "grootArtikelImg2";
   artikelGrootImg2.className =  "grootArtikelImg";
@@ -1349,7 +1356,7 @@ artikelGroot2.style.border="1px solid #b8b8b8";
   artikelGrootDescription2.className = "grootArtikelDescription";
   artikelGrootDescription2.style.display = "inline";
   artikelGrootDescription2.style.fontSize = "12pt";
-  artikelGrootDescription2.setAttribute("style", "color: #666666; display: inline; padding: 0px 15px 0px 0px;");
+  artikelGrootDescription2.setAttribute("style", "color: #666666; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA2C.id = "GrootArtikelCTA2C";
   artikelGrootCTA2C.className = "GrootArtikelCTAC";
@@ -1375,7 +1382,7 @@ artikelGroot3.onmousehover = "hoverColor();";
 
   artikelGrootTitle3.id = "grootArtikelTitle3";
   artikelGrootTitle3.className = "grootArtikelTitle";
-  artikelGrootTitle3.setAttribute("style", "color: #1A1A1A; display: block; line-height: 5px; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+  artikelGrootTitle3.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg3.id =  "grootArtikelImg3";
   artikelGrootImg3.className =  "grootArtikelImg";
@@ -1387,7 +1394,7 @@ artikelGroot3.onmousehover = "hoverColor();";
   artikelGrootDescription3.className = "grootArtikelDescription";
   artikelGrootDescription3.style.display = "inline";
   artikelGrootDescription3.style.fontSize = "12pt";
-  artikelGrootDescription3.setAttribute("style", "color: #666666; display: inline; padding: 5px 15px 0px 0px;");
+  artikelGrootDescription3.setAttribute("style", "color: #666666; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA3C.id = "GrootArtikelCTA3C";
   artikelGrootCTA3C.className = "GrootArtikelCTAC";
@@ -1413,7 +1420,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
 
   artikelGrootTitle4.id = "grootArtikelTitle4";
   artikelGrootTitle4.className = "grootArtikelTitle";
-  artikelGrootTitle4.setAttribute("style", "color: #1A1A1A; display: block; line-height: 5px; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+  artikelGrootTitle4.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg4.id =  "grootArtikelImg4";
   artikelGrootImg4.className =  "grootArtikelImg";
@@ -1425,7 +1432,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
   artikelGrootDescription4.className = "grootArtikelDescription";
   artikelGrootDescription4.style.display = "block";
   artikelGrootDescription4.style.fontSize = "12pt";
-  artikelGrootDescription4.setAttribute("style", "color: #666666; display: inline; padding: 0px 15px 0px 0px;");
+  artikelGrootDescription4.setAttribute("style", "color: #666666; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA4C.id = "GrootArtikelCTA4C";
   artikelGrootCTA4C.className = "GrootArtikelCTAC";
@@ -1450,7 +1457,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
 
     artikelGrootTitle5.id = "grootArtikelTitle5";
     artikelGrootTitle5.className = "grootArtikelTitle";
-    artikelGrootTitle5.setAttribute("style", "color: #1A1A1A; display: block; line-height: 5px; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+    artikelGrootTitle5.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
     artikelGrootImg5.id =  "grootArtikelImg5";
     artikelGrootImg5.className =  "grootArtikelImg";
@@ -1462,7 +1469,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
     artikelGrootDescription5.className = "grootArtikelDescription";
     artikelGrootDescription5.style.display = "inline";
     artikelGrootDescription5.style.fontSize = "12pt";
-    artikelGrootDescription5.setAttribute("style", "color: #666666; display: inline; padding: 0px 15px 0px 0px;");
+    artikelGrootDescription5.setAttribute("style", "color: #666666; display: inline; padding: 0px 0px 0px 0px;");
 
     artikelGrootCTA5C.id = "GrootArtikelCTA5C";
     artikelGrootCTA5C.className = "GrootArtikelCTAC";
@@ -1487,7 +1494,7 @@ artikelGroot6.style.border="1px solid #b8b8b8";
 
   artikelGrootTitle6.id = "grootArtikelTitle6";
   artikelGrootTitle6.className = "grootArtikelTitle";
-  artikelGrootTitle6.setAttribute("style", "color: #1A1A1A; display: block; line-height: 5px; font-size: 14pt; padding: 0px 15px 0px 0px; ");
+  artikelGrootTitle6.setAttribute("style", "color: #1A1A1A; display: block !important; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg6.id =  "grootArtikelImg6";
   artikelGrootImg6.className =  "grootArtikelImg";
@@ -1499,7 +1506,7 @@ artikelGroot6.style.border="1px solid #b8b8b8";
   artikelGrootDescription6.className = "grootArtikelDescription";
   artikelGrootDescription6.style.display = "inline";
   artikelGrootDescription6.style.fontSize = "12pt";
-  artikelGrootDescription6.setAttribute("style", "color: #666666; display: inline; padding: 0px 15px 0px 0px;");
+  artikelGrootDescription6.setAttribute("style", "color: #666666; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA6C.id = "GrootArtikelCTA6C";
   artikelGrootCTA6C.className = "GrootArtikelCTAC";
@@ -1540,7 +1547,7 @@ vacature1.position - "absolute"
         vacatureImg1.style.height = "auto";
         vacatureImg1.style.width = "150px";
         vacatureImg1.style.verticalAlign="top";
-        vacatureImg1.style.marginTop = "13px";
+        vacatureImg1.style.marginTop = "0px";
 
       vacature1TDb.className= "vacTableDivider2";
       vacature1TDb.height = "150px";
@@ -1570,7 +1577,7 @@ vacature1.position - "absolute"
         vacatureDescription1.id = "DescriptionVacature1";
         vacatureDescription1.style.display = "block";
         vacatureDescription1.className = "DescriptionVacature";
-        vacatureDescription1.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+        vacatureDescription1.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; padding: 5px 0px 0px 0px ");
 
 vacature2.id = "vacature2";
 vacature2.className = 'vacature';
