@@ -499,7 +499,6 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
     let allAgendaLinks = xmlDoc.getElementsByTagName("link");
     let allCategories = xmlDoc.getElementsByTagName("postmeta:campaign");
 
-    console.log(allCategories[].firstChild.nodeValue);
     let agendaCategory1 = allCategories[0].firstChild.nodeValue;
     let agendaCategory2 = allCategories[1].firstChild.nodeValue;
     let agendaCategory3 = allCategories[2].firstChild.nodeValue;
