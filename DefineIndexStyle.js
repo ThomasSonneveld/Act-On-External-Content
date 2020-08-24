@@ -180,6 +180,7 @@ agendaOverlay.ondragstart='onDragStart(event);'
 agendaOverlay.style.display = "none";
 agendaOverlay.style.zIndex = "19300";
 
+
   paa1.style.margin = "0px";
   aa1.id = "agendaAcademy1";
   aa1.style.display = "inline";
@@ -258,6 +259,32 @@ agendaOverlay.style.zIndex = "19300";
   saa7a.id = "saa7a";
   saa7b.style.color = "#9e9e9e";
   saa7b.id = "saa7b";
+
+  agendaTable.width="100%";
+  agendaTable.style.lineHeight="22px"
+  agendaTable.style.margin = "0px";
+
+  agenda1Td1.textContent = "▸ ";
+  agenda1Td1.style.verticalAlign = "top";
+  agenda1Td1.style.color = "#18608B";
+  agenda2Td1.textContent = "▸ ";
+  agenda2Td1.style.verticalAlign = "top";
+  agenda2Td1.style.color = "#18608B";
+  agenda3Td1.textContent = "▸ ";
+  agenda3Td1.style.verticalAlign = "top";
+  agenda3Td1.style.color = "#18608B";
+  agenda4Td1.textContent = "▸ ";
+  agenda4Td1.style.verticalAlign = "top";
+  agenda4Td1.style.color = "#18608B";
+  agenda5Td1.textContent = "▸ ";
+  agenda5Td1.style.verticalAlign = "top";
+  agenda5Td1.style.color = "#18608B";
+  agenda6Td1.textContent = "▸ ";
+  agenda6Td1.style.verticalAlign = "top";
+  agenda6Td1.style.color = "#18608B";
+  agenda7Td1.textContent = "▸ ";
+  agenda7Td1.style.verticalAlign = "top";
+  agenda7Td1.style.color = "#18608B";
 
 
 artikelenKleinContainer.style.position = "absolute";
@@ -362,7 +389,6 @@ headlinesOverlay.style.zIndex = "19300";
   shl5b.style.cssFloat="right"
   shl5b.style.fontSize="9px"
 
-
   hl6.id = "headline6";
   hl6.style.display = "block";
   hl6.className = "headline";
@@ -374,19 +400,29 @@ headlinesOverlay.style.zIndex = "19300";
   phl6.style.margin = "0px";
 
   headlineTable.width="100%";
+  headlineTable.style.lineHeight= "22px";
 
   headlines1Td1.textContent = "▸ ";
+  headlines1Td1.style.verticalAlign = "top";
   headlines1Td1.style.color = "#18608B";
   headlines2Td1.textContent = "▸ ";
+  headlines2Td1.style.verticalAlign = "top";
   headlines2Td1.style.color = "#18608B";
   headlines3Td1.textContent = "▸ ";
+  headlines3Td1.style.verticalAlign = "top";
   headlines3Td1.style.color = "#18608B";
   headlines4Td1.textContent = "▸ ";
+  headlines4Td1.style.verticalAlign = "top";
   headlines4Td1.style.color = "#18608B";
   headlines5Td1.textContent = "▸ ";
+  headlines5Td1.style.verticalAlign = "top";
   headlines5Td1.style.color = "#18608B";
   headlines6Td1.textContent = "▸ ";
+  headlines6Td1.style.verticalAlign = "top";
   headlines6Td1.style.color = "#18608B";
+
+  headlines2Td3.style.verticalAlign = "top";
+  headlines5Td3.style.verticalAlign = "top";
 
 artikelKlein1.id = "kleinArtikel1";
 artikelKlein1.className = 'kleinArtikel';
@@ -1119,6 +1155,7 @@ artikelKlein13.position - "absolute"
     artikelKleinTitle13Link.className = "titleKleinArtikel";
     artikelKleinTitle13Link.style.top = "0px";
     artikelKleinTitle13Link.style.marginTop = "0px";
+    artikelKleinTitle13Link.style.marginBottom = "0px";
     artikelKleinTitle13Link.style.verticalAlign="top"
     artikelKleinTitle13Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
@@ -1233,6 +1270,7 @@ artikelKlein15.position - "absolute"
     artikelKleinTitle15Link.className = "titleKleinArtikel";
     artikelKleinTitle15Link.style.top = "0px";
     artikelKleinTitle15Link.style.marginTop = "0px";
+    artikelKleinTitle15Link.style.marginBottom = "0px";
     artikelKleinTitle15Link.style.verticalAlign="top"
     artikelKleinTitle15Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial; ");
 
@@ -1480,11 +1518,16 @@ vacature1.className = 'vacature';
 vacature1.draggable = "true";
 vacature1.position - "absolute"
 
-    vacature1TDa.className = "tableDivider1";
+    vacature1TDa.className = "vacTableDivider1";
     vacature1TDa.display = "block";
     vacature1TDa.width = "30%";
     vacature1TDa.height = "150px";
     vacature1TDa.style.verticalAlign="top"
+
+    vacatureLink1TDa.id = "vacTableDividerlink1a";
+    vacatureLink1TDa.className = "vacTableDividerlink1";
+    vacatureLink1Meta.id = "vacTableDividerlink1b";
+    vacatureLink1Meta.className = "vacTableDividerlink2";
 
       vacature1TDDiv.className = "tdDiv";
       vacature1TDDiv.width = "150px";
@@ -1496,9 +1539,10 @@ vacature1.position - "absolute"
         vacatureImg1.className = "imgVacature";
         vacatureImg1.style.height = "auto";
         vacatureImg1.style.width = "150px";
-        vacatureImg1.style.verticalAlign="top"
+        vacatureImg1.style.verticalAlign="top";
+        vacatureImg1.style.marginTop = "13px";
 
-      vacature1TDb.className= "tableDivider2";
+      vacature1TDb.className= "vacTableDivider2";
       vacature1TDb.height = "150px";
       vacature1TDb.width = "auto";
       vacature1TDb.style.verticalAlign="top";
@@ -1521,7 +1565,7 @@ vacature1.position - "absolute"
         vacatureTitle1.className = "titleVacature";
         vacatureTitle1.style.top = "0px";
         vacatureTitle1.style.verticalAlign="top"
-        vacatureTitle1.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+        vacatureTitle1.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
         vacatureDescription1.id = "DescriptionVacature1";
         vacatureDescription1.style.display = "block";
@@ -1533,11 +1577,16 @@ vacature2.className = 'vacature';
 vacature2.draggable = "true";
 vacature2.position - "absolute"
 
-      vacature2TDa.className = "tableDivider2";
+      vacature2TDa.className = "vacTableDivider1";
       vacature2TDa.display = "block";
       vacature2TDa.width = "30%";
       vacature2TDa.height = "150px";
       vacature2TDa.style.verticalAlign="top"
+
+      vacatureLink2TDa.id = "vacTableDividerlink2a";
+      vacatureLink2TDa.className = "vacTableDividerlink1";
+      vacatureLink2Meta.id = "vacTableDividerlink2b";
+      vacatureLink2Meta.className = "vacTableDividerlink2";
 
       vacature2TDDiv.className = "tdDiv";
       vacature2TDDiv.width = "150px";
@@ -1548,8 +1597,9 @@ vacature2.position - "absolute"
         vacatureImg2.className = "imgVacature";
         vacatureImg2.style.height = "auto";
         vacatureImg2.style.width = "150px";
+        vacatureImg2.style.marginTop = "13px";
 
-      vacature2TDb.className= "tableDivider2";
+      vacature2TDb.className= "vacTableDivider2";
       vacature2TDb.height = "150px";
       vacature2TDb.width = "auto";
       vacature2TDb.style.verticalAlign="top";
@@ -1572,7 +1622,7 @@ vacature2.position - "absolute"
         vacatureTitle2.className = "titleVacature";
         vacatureTitle2.style.top = "0px";
         vacatureTitle2.style.verticalAlign="top"
-        vacatureTitle2.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+        vacatureTitle2.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
         vacatureDescription2.id = "DescriptionVacature2";
         vacatureDescription2.style.display = "block";
@@ -1584,11 +1634,16 @@ vacature3.className = 'vacature';
 vacature3.draggable = "true";
 vacature3.position - "absolute"
 
-  vacature3TDa.className = "tableDivider3";
+  vacature3TDa.className = "vacTableDivider1";
   vacature3TDa.display = "block";
   vacature3TDa.width = "30%";
   vacature3TDa.height = "150px";
   vacature3TDa.style.verticalAlign="top"
+
+      vacatureLink3TDa.id = "vacTableDividerlink3a";
+      vacatureLink3TDa.className = "vacTableDividerlink1";
+      vacatureLink3Meta.id = "vacTableDividerlink3b";
+      vacatureLink3Meta.className = "vacTableDividerlink2";
 
       vacature3TDDiv.className = "tdDiv";
       vacature3TDDiv.width = "150px";
@@ -1599,8 +1654,9 @@ vacature3.position - "absolute"
           vacatureImg3.className = "imgVacature";
           vacatureImg3.style.height = "auto";
           vacatureImg3.style.width = "150px";
+          vacatureImg3.style.marginTop = "13px";
 
-      vacature3TDb.className= "tableDivider3";
+      vacature3TDb.className= "vacTableDivider2";
       vacature3TDb.height = "150px";
       vacature3TDb.width = "auto";
       vacature3TDb.style.verticalAlign="top";
@@ -1623,7 +1679,7 @@ vacature3.position - "absolute"
           vacatureTitle3.className = "titleVacature";
           vacatureTitle3.style.top = "0px";
           vacatureTitle3.style.verticalAlign="top"
-          vacatureTitle3.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+          vacatureTitle3.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                 vacatureDescription3.id = "DescriptionVacature3";
                 vacatureDescription3.style.display = "block";
@@ -1635,11 +1691,16 @@ vacature4.className = 'vacature';
 vacature4.draggable = "true";
 vacature4.position - "absolute"
 
-    vacature4TDa.className = "tableDivider4";
+    vacature4TDa.className = "vacTableDivider1";
     vacature4TDa.display = "block";
     vacature4TDa.width = "30%";
     vacature4TDa.height = "150px";
     vacature4TDa.style.verticalAlign="top"
+
+      vacatureLink4TDa.id = "vacTableDividerlink4a";
+      vacatureLink4TDa.className = "vacTableDividerlink1";
+      vacatureLink4Meta.id = "vacTableDividerlink4b";
+      vacatureLink4Meta.className = "vacTableDividerlink2";
 
       vacature4TDDiv.className = "tdDiv";
       vacature4TDDiv.width = "150px";
@@ -1650,8 +1711,9 @@ vacature4.position - "absolute"
         vacatureImg4.className = "imgVacature";
         vacatureImg4.style.height = "auto";
         vacatureImg4.style.width = "150px";
+        vacatureImg4.style.marginTop = "13px";
 
-      vacature4TDb.className= "tableDivider4";
+      vacature4TDb.className= "vacTableDivider2";
       vacature4TDb.height = "150px";
       vacature4TDb.width = "auto";
       vacature4TDb.style.verticalAlign="top";
@@ -1674,7 +1736,7 @@ vacature4.position - "absolute"
         vacatureTitle4.className = "titleVacature";
         vacatureTitle4.style.top = "0px";
         vacatureTitle4.style.verticalAlign="top"
-        vacatureTitle4.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+        vacatureTitle4.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
         vacatureDescription4.id = "DescriptionVacature4";
         vacatureDescription4.style.display = "block";
@@ -1686,11 +1748,16 @@ vacature5.className = 'vacature';
 vacature5.draggable = "true";
 vacature5.position - "absolute"
 
-    vacature5TDa.className = "tableDivider5";
+    vacature5TDa.className = "vacTableDivider1";
     vacature5TDa.display = "block";
     vacature5TDa.width = "30%";
     vacature5TDa.height = "150px";
     vacature5TDa.style.verticalAlign="top"
+
+      vacatureLink5TDa.id = "vacTableDividerlink5a";
+      vacatureLink5TDa.className = "vacTableDividerlink1";
+      vacatureLink5Meta.id = "vacTableDividerlink5b";
+      vacatureLink5Meta.className = "vacTableDividerlink2";
 
       vacature5TDDiv.className = "tdDiv";
       vacature5TDDiv.width = "150px";
@@ -1701,8 +1768,9 @@ vacature5.position - "absolute"
         vacatureImg5.className = "imgVacature";
         vacatureImg5.style.height = "auto";
         vacatureImg5.style.width = "150px";
+        vacatureImg5.style.marginTop = "13px";
 
-      vacature5TDb.className= "tableDivider5";
+      vacature5TDb.className= "vacTableDivider2";
       vacature5TDb.height = "150px";
       vacature5TDb.width = "auto";
       vacature5TDb.style.verticalAlign="top";
@@ -1725,7 +1793,7 @@ vacature5.position - "absolute"
         vacatureTitle5.className = "titleVacature";
         vacatureTitle5.style.top = "0px";
         vacatureTitle5.style.verticalAlign="top"
-        vacatureTitle5.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+        vacatureTitle5.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
         vacatureDescription5.id = "DescriptionVacature5";
         vacatureDescription5.style.display = "block";
@@ -1737,7 +1805,7 @@ vacature6.className = 'vacature';
 vacature6.draggable = "true";
 vacature6.position - "absolute"
 
-    vacature6TDa.className = "tableDivider6";
+    vacature6TDa.className = "vacTableDivider1";
     vacature6TDa.display = "block";
     vacature6TDa.width = "30%";
     vacature6TDa.height = "150px";
@@ -1752,8 +1820,9 @@ vacature6.position - "absolute"
         vacatureImg6.className = "imgVacature";
         vacatureImg6.style.height = "auto";
         vacatureImg6.style.width = "150px";
+        vacatureImg6.style.marginTop = "13px";
 
-      vacature6TDb.className= "tableDivider6";
+      vacature6TDb.className= "vacTableDivider2";
       vacature6TDb.height = "150px";
       vacature6TDb.width = "auto";
       vacature6TDb.style.verticalAlign="top";
@@ -1776,7 +1845,7 @@ vacature6.position - "absolute"
         vacatureTitle6.className = "titleVacature";
         vacatureTitle6.style.top = "0px";
         vacatureTitle6.style.verticalAlign="top"
-        vacatureTitle6.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+        vacatureTitle6.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
         vacatureDescription6.id = "DescriptionVacature6";
         vacatureDescription6.style.display = "block";
         vacatureDescription6.className = "DescriptionVacature";
@@ -1787,7 +1856,7 @@ vacature7.className = 'vacature';
 vacature7.draggable = "true";
 vacature7.position - "absolute"
 
-    vacature7TDa.className = "tableDivider7";
+    vacature7TDa.className = "vacTableDivider1";
     vacature7TDa.display = "block";
     vacature7TDa.width = "30%";
     vacature7TDa.height = "150px";
@@ -1802,8 +1871,9 @@ vacature7.position - "absolute"
         vacatureImg7.className = "imgVacature";
         vacatureImg7.style.height = "auto";
         vacatureImg7.style.width = "150px";
+        vacatureImg7.style.marginTop = "13px";
 
-      vacature7TDb.className= "tableDivider7";
+      vacature7TDb.className= "vactableDivider2";
       vacature7TDb.height = "150px";
       vacature7TDb.width = "auto";
       vacature7TDb.style.verticalAlign="top";
@@ -1826,7 +1896,7 @@ vacature7.position - "absolute"
         vacatureTitle7.className = "titleVacature";
         vacatureTitle7.style.top = "0px";
         vacatureTitle7.style.verticalAlign="top"
-        vacatureTitle7.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+        vacatureTitle7.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
         vacatureDescription7.id = "DescriptionVacature7";
         vacatureDescription7.style.display = "block";
@@ -1838,7 +1908,7 @@ vacature8.className = 'vacature';
 vacature8.draggable = "true";
 vacature8.position - "absolute"
 
-    vacature8TDa.className = "tableDivider8";
+    vacature8TDa.className = "vacTableDivider1";
     vacature8TDa.display = "block";
     vacature8TDa.width = "30%";
     vacature8TDa.height = "150px";
@@ -1853,8 +1923,9 @@ vacature8.position - "absolute"
         vacatureImg8.className = "imgVacature";
         vacatureImg8.style.height = "auto";
         vacatureImg8.style.width = "150px";
+        vacatureImg8.style.marginTop = "13px";
 
-      vacature8TDb.className= "tableDivider8";
+      vacature8TDb.className= "vacTableDivider2";
       vacature8TDb.height = "150px";
       vacature8TDb.width = "auto";
       vacature8TDb.style.verticalAlign="top";
@@ -1877,7 +1948,7 @@ vacature8.position - "absolute"
         vacatureTitle8.className = "titleVacature";
         vacatureTitle8.style.top = "0px";
         vacatureTitle8.style.verticalAlign="top"
-        vacatureTitle8.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+        vacatureTitle8.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
         vacatureDescription8.id = "DescriptionVacature8";
         vacatureDescription8.style.display = "block";
@@ -1889,7 +1960,7 @@ vacature9.className = 'vacature';
 vacature9.draggable = "true";
 vacature9.position - "absolute"
 
-    vacature9TDa.className = "tableDivider9";
+    vacature9TDa.className = "vacTableDivider1";
     vacature9TDa.display = "block";
     vacature9TDa.width = "30%";
     vacature9TDa.height = "150px";
@@ -1904,8 +1975,9 @@ vacature9.position - "absolute"
         vacatureImg9.className = "imgVacature";
         vacatureImg9.style.height = "auto";
         vacatureImg9.style.width = "150px";
+        vacatureImg9.style.marginTop = "13px";
 
-      vacature9TDb.className= "tableDivider9";
+      vacature9TDb.className= "vacTableDivider2";
       vacature9TDb.height = "150px";
       vacature9TDb.width = "auto";
       vacature9TDb.style.verticalAlign="top";
@@ -1928,7 +2000,7 @@ vacature9.position - "absolute"
         vacatureTitle9.className = "titleVacature";
         vacatureTitle9.style.top = "0px";
         vacatureTitle9.style.verticalAlign="top"
-        vacatureTitle9.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+        vacatureTitle9.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
         vacatureDescription9.id = "DescriptionVacature9";
         vacatureDescription9.style.display = "block";
@@ -1940,7 +2012,7 @@ vacature10.className = 'vacature';
 vacature10.draggable = "true";
 vacature10.position - "absolute"
 
-    vacature10TDa.className = "tableDivider10";
+    vacature10TDa.className = "vacTableDivider1";
     vacature10TDa.display = "block";
     vacature10TDa.width = "30%";
     vacature10TDa.height = "150px";
@@ -1956,8 +2028,9 @@ vacature10.position - "absolute"
         vacatureImg10.className = "imgVacature";
         vacatureImg10.style.height = "auto";
         vacatureImg10.style.width = "150px";
+        vacatureImg10.style.marginTop = "13px";
 
-      vacature10TDb.className= "tableDivider10";
+      vacature10TDb.className= "vacTableDivider2";
       vacature10TDb.height = "150px";
       vacature10TDb.width = "auto";
       vacature10TDb.style.verticalAlign="top";
@@ -1980,7 +2053,7 @@ vacature10.position - "absolute"
         vacatureTitle10.className = "titleVacature";
         vacatureTitle10.style.top = "0px";
         vacatureTitle10.style.verticalAlign="top"
-        vacatureTitle10.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+        vacatureTitle10.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
         vacatureDescription10.id = "DescriptionVacature10";
         vacatureDescription10.style.display = "block";
@@ -1992,7 +2065,7 @@ vacature11.className = 'vacature';
 vacature11.draggable = "true";
 vacature11.position - "absolute"
 
-    vacature11TDa.className = "tableDivider11";
+    vacature11TDa.className = "vacTableDivider1";
     vacature11TDa.display = "block";
     vacature11TDa.width = "30%";
     vacature11TDa.height = "150px";
@@ -2007,8 +2080,9 @@ vacature11.position - "absolute"
         vacatureImg11.className = "imgVacature";
         vacatureImg11.style.height = "auto";
         vacatureImg11.style.width = "150px";
+        vacatureImg11.style.marginTop = "13px";
 
-      vacature11TDb.className= "tableDivider11";
+      vacature11TDb.className= "vacTableDivider2";
       vacature11TDb.height = "150px";
       vacature11TDb.width = "auto";
       vacature11TDb.style.verticalAlign="top";
@@ -2031,7 +2105,7 @@ vacature11.position - "absolute"
         vacatureTitle11.className = "titleVacature";
         vacatureTitle11.style.top = "0px";
         vacatureTitle11.style.verticalAlign="top"
-        vacatureTitle11.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+        vacatureTitle11.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
         vacatureDescription11.id = "DescriptionVacature11";
         vacatureDescription11.style.display = "block";
@@ -2043,7 +2117,7 @@ vacature12.className = 'vacature';
 vacature12.draggable = "true";
 vacature12.position - "absolute"
 
-    vacature12TDa.className = "tableDivider12";
+    vacature12TDa.className = "vacTableDivider1";
     vacature12TDa.display = "block";
     vacature12TDa.width = "30%";
     vacature12TDa.height = "150px";
@@ -2058,8 +2132,9 @@ vacature12.position - "absolute"
         vacatureImg12.className = "imgVacature";
         vacatureImg12.style.height = "auto";
         vacatureImg12.style.width = "150px";
+        vacatureImg12.style.marginTop = "13px";
 
-      vacature12TDb.className= "tableDivider12";
+      vacature12TDb.className= "vacTableDivider2";
       vacature12TDb.height = "150px";
       vacature12TDb.width = "auto";
       vacature12TDb.style.verticalAlign="top";
@@ -2082,7 +2157,7 @@ vacature12.position - "absolute"
         vacatureTitle12.className = "titleVacature";
         vacatureTitle12.style.top = "0px";
         vacatureTitle12.style.verticalAlign="top"
-        vacatureTitle12.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+        vacatureTitle12.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
         vacatureDescription12.id = "DescriptionVacature12";
         vacatureDescription12.style.display = "block";
@@ -2094,7 +2169,7 @@ vacature12.position - "absolute"
         vacature13.draggable = "true";
         vacature13.position - "absolute"
 
-            vacature13TDa.className = "tableDivider13";
+            vacature13TDa.className = "vacTableDivider1";
             vacature13TDa.display = "block";
             vacature13TDa.width = "30%";
             vacature13TDa.height = "150px";
@@ -2109,8 +2184,9 @@ vacature12.position - "absolute"
                 vacatureImg13.className = "imgVacature";
                 vacatureImg13.style.height = "auto";
                 vacatureImg13.style.width = "150px";
+                vacatureImg13.style.marginTop = "13px";
 
-              vacature13TDb.className= "tableDivider13";
+              vacature13TDb.className= "vacTableDivider2";
               vacature13TDb.height = "150px";
               vacature13TDb.width = "auto";
               vacature13TDb.style.verticalAlign="top";
@@ -2133,7 +2209,7 @@ vacature12.position - "absolute"
                 vacatureTitle13.className = "titleVacature";
                 vacatureTitle13.style.top = "0px";
                 vacatureTitle13.style.verticalAlign="top"
-                vacatureTitle13.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                vacatureTitle13.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                 vacatureDescription13.id = "DescriptionVacature13";
                 vacatureDescription13.style.display = "block";
@@ -2145,7 +2221,7 @@ vacature12.position - "absolute"
             vacature14.draggable = "true";
             vacature14.position - "absolute"
 
-                vacature14TDa.className = "tableDivider14";
+                vacature14TDa.className = "vacTableDivider1";
                 vacature14TDa.display = "block";
                 vacature14TDa.width = "30%";
                 vacature14TDa.height = "150px";
@@ -2160,8 +2236,9 @@ vacature12.position - "absolute"
                     vacatureImg14.className = "imgVacature";
                     vacatureImg14.style.height = "auto";
                     vacatureImg14.style.width = "150px";
+                    vacatureImg14.style.marginTop = "13px";
 
-                  vacature14TDb.className= "tableDivider14";
+                  vacature14TDb.className= "vacTableDivider1";
                   vacature14TDb.height = "150px";
                   vacature14TDb.width = "auto";
                   vacature14TDb.style.verticalAlign="top";
@@ -2184,7 +2261,7 @@ vacature12.position - "absolute"
                     vacatureTitle14.className = "titleVacature";
                     vacatureTitle14.style.top = "0px";
                     vacatureTitle14.style.verticalAlign="top"
-                    vacatureTitle14.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                    vacatureTitle14.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                     vacatureDescription14.id = "DescriptionVacature14";
                     vacatureDescription14.style.display = "block";
@@ -2196,7 +2273,7 @@ vacature12.position - "absolute"
               vacature15.draggable = "true";
               vacature12.position - "absolute"
 
-                  vacature15TDa.className = "tableDivider15";
+                  vacature15TDa.className = "vacTableDivider1";
                   vacature15TDa.display = "block";
                   vacature15TDa.width = "30%";
                   vacature15TDa.height = "150px";
@@ -2211,8 +2288,9 @@ vacature12.position - "absolute"
                       vacatureImg15.className = "imgVacature";
                       vacatureImg15.style.height = "auto";
                       vacatureImg15.style.width = "150px";
+                      vacatureImg15.style.marginTop = "13px";
 
-                    vacature15TDb.className= "tableDivider15";
+                    vacature15TDb.className= "vacTableDivider2";
                     vacature15TDb.height = "150px";
                     vacature15TDb.width = "auto";
                     vacature15TDb.style.verticalAlign="top";
@@ -2235,7 +2313,7 @@ vacature12.position - "absolute"
                       vacatureTitle15.className = "titleVacature";
                       vacatureTitle15.style.top = "0px";
                       vacatureTitle15.style.verticalAlign="top"
-                      vacatureTitle15.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                      vacatureTitle15.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                       vacatureDescription15.id = "DescriptionVacature15";
                       vacatureDescription15.style.display = "block";
@@ -2247,7 +2325,7 @@ vacature12.position - "absolute"
               vacature16.draggable = "true";
               vacature12.position - "absolute"
 
-                  vacature16TDa.className = "tableDivider16";
+                  vacature16TDa.className = "vacTableDivider1";
                   vacature16TDa.display = "block";
                   vacature16TDa.width = "30%";
                   vacature16TDa.height = "150px";
@@ -2262,8 +2340,9 @@ vacature12.position - "absolute"
                       vacatureImg16.className = "imgVacature";
                       vacatureImg16.style.height = "auto";
                       vacatureImg16.style.width = "150px";
+                      vacatureImg16.style.marginTop = "13px";
 
-                    vacature16TDb.className= "tableDivider16";
+                    vacature16TDb.className= "vacTableDivider2";
                     vacature16TDb.height = "150px";
                     vacature16TDb.width = "auto";
                     vacature16TDb.style.verticalAlign="top";
@@ -2286,7 +2365,7 @@ vacature12.position - "absolute"
                       vacatureTitle16.className = "titleVacature";
                       vacatureTitle16.style.top = "0px";
                       vacatureTitle16.style.verticalAlign="top"
-                      vacatureTitle16.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                      vacatureTitle16.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                       vacatureDescription16.id = "DescriptionVacature16";
                       vacatureDescription16.style.display = "block";
@@ -2298,7 +2377,7 @@ vacature12.position - "absolute"
               vacature17.draggable = "true";
               vacature12.position - "absolute"
 
-                  vacature17TDa.className = "tableDivider17";
+                  vacature17TDa.className = "vacTableDivider1";
                   vacature17TDa.display = "block";
                   vacature17TDa.width = "30%";
                   vacature17TDa.height = "150px";
@@ -2313,8 +2392,9 @@ vacature12.position - "absolute"
                       vacatureImg17.className = "imgVacature";
                       vacatureImg17.style.height = "auto";
                       vacatureImg17.style.width = "150px";
+                      vacatureImg17.style.marginTop = "13px";
 
-                    vacature17TDb.className= "tableDivider17";
+                    vacature17TDb.className= "vacTableDivider2";
                     vacature17TDb.height = "150px";
                     vacature17TDb.width = "auto";
                     vacature17TDb.style.verticalAlign="top";
@@ -2337,7 +2417,7 @@ vacature12.position - "absolute"
                       vacatureTitle17.className = "titleVacature";
                       vacatureTitle17.style.top = "0px";
                       vacatureTitle17.style.verticalAlign="top"
-                      vacatureTitle17.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                      vacatureTitle17.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                       vacatureDescription17.id = "DescriptionVacature17";
                       vacatureDescription17.style.display = "block";
@@ -2349,7 +2429,7 @@ vacature12.position - "absolute"
               vacature18.draggable = "true";
               vacature18.position - "absolute"
 
-                  vacature18TDa.className = "tableDivider18";
+                  vacature18TDa.className = "vacTableDivider1";
                   vacature18TDa.display = "block";
                   vacature18TDa.width = "30%";
                   vacature18TDa.height = "150px";
@@ -2364,8 +2444,9 @@ vacature12.position - "absolute"
                       vacatureImg18.className = "imgVacature";
                       vacatureImg18.style.height = "auto";
                       vacatureImg18.style.width = "150px";
+                      vacatureImg18.style.marginTop = "13px";
 
-                    vacature18TDb.className= "tableDivider18";
+                    vacature18TDb.className= "vacTableDivider2";
                     vacature18TDb.height = "150px";
                     vacature18TDb.width = "auto";
                     vacature18TDb.style.verticalAlign="top";
@@ -2388,7 +2469,7 @@ vacature12.position - "absolute"
                       vacatureTitle18.className = "titleVacature";
                       vacatureTitle18.style.top = "0px";
                       vacatureTitle18.style.verticalAlign="top"
-                      vacatureTitle18.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                      vacatureTitle18.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                       vacatureDescription18.id = "DescriptionVacature18";
                       vacatureDescription18.style.display = "block";
@@ -2400,7 +2481,7 @@ vacature12.position - "absolute"
               vacature19.draggable = "true";
               vacature19.position - "absolute"
 
-                  vacature19TDa.className = "tableDivider19";
+                  vacature19TDa.className = "vacTableDivider1";
                   vacature19TDa.display = "block";
                   vacature19TDa.width = "30%";
                   vacature19TDa.height = "150px";
@@ -2415,8 +2496,9 @@ vacature12.position - "absolute"
                       vacatureImg19.className = "imgVacature";
                       vacatureImg19.style.height = "auto";
                       vacatureImg19.style.width = "150px";
+                      vacatureImg19.style.marginTop = "13px";
 
-                    vacature19TDb.className= "tableDivider19";
+                    vacature19TDb.className= "vacTableDivider2";
                     vacature19TDb.height = "150px";
                     vacature19TDb.width = "auto";
                     vacature19TDb.style.verticalAlign="top";
@@ -2439,7 +2521,7 @@ vacature12.position - "absolute"
                       vacatureTitle19.className = "titleVacature";
                       vacatureTitle19.style.top = "0px";
                       vacatureTitle19.style.verticalAlign="top"
-                      vacatureTitle19.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                      vacatureTitle19.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                       vacatureDescription19.id = "DescriptionVacature19";
                       vacatureDescription19.style.display = "block";
@@ -2451,7 +2533,7 @@ vacature12.position - "absolute"
               vacature20.draggable = "true";
               vacature20.position - "absolute"
 
-                  vacature20TDa.className = "tableDivider20";
+                  vacature20TDa.className = "vacTableDivider1";
                   vacature20TDa.display = "block";
                   vacature20TDa.width = "30%";
                   vacature20TDa.height = "150px";
@@ -2466,8 +2548,9 @@ vacature12.position - "absolute"
                       vacatureImg20.className = "imgVacature";
                       vacatureImg20.style.height = "auto";
                       vacatureImg20.style.width = "150px";
+                      vacatureImg20.style.marginTop = "13px";
 
-                    vacature20TDb.className= "tableDivider20";
+                    vacature20TDb.className= "vacTableDivider2";
                     vacature20TDb.height = "150px";
                     vacature20TDb.width = "auto";
                     vacature20TDb.style.verticalAlign="top";
@@ -2490,7 +2573,7 @@ vacature12.position - "absolute"
                       vacatureTitle20.className = "titleVacature";
                       vacatureTitle20.style.top = "0px";
                       vacatureTitle20.style.verticalAlign="top"
-                      vacatureTitle20.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                      vacatureTitle20.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                       vacatureDescription20.id = "DescriptionVacature20";
                       vacatureDescription20.style.display = "block";
@@ -2502,7 +2585,7 @@ vacature12.position - "absolute"
               vacature21.draggable = "true";
               vacature21.position - "absolute"
 
-                  vacature21TDa.className = "tableDivider21";
+                  vacature21TDa.className = "vacTableDivider1";
                   vacature21TDa.display = "block";
                   vacature21TDa.width = "30%";
                   vacature21TDa.height = "150px";
@@ -2517,8 +2600,9 @@ vacature12.position - "absolute"
                       vacatureImg21.className = "imgVacature";
                       vacatureImg21.style.height = "auto";
                       vacatureImg21.style.width = "150px";
+                      vacatureImg21.style.marginTop = "13px";
 
-                    vacature21TDb.className= "tableDivider21";
+                    vacature21TDb.className= "vacTableDivider2";
                     vacature21TDb.height = "150px";
                     vacature21TDb.width = "auto";
                     vacature21TDb.style.verticalAlign="top";
@@ -2541,7 +2625,7 @@ vacature12.position - "absolute"
                       vacatureTitle21.className = "titleVacature";
                       vacatureTitle21.style.top = "0px";
                       vacatureTitle21.style.verticalAlign="top"
-                      vacatureTitle21.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                      vacatureTitle21.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                       vacatureDescription21.id = "DescriptionVacature21";
                       vacatureDescription21.style.display = "block";
@@ -2553,7 +2637,7 @@ vacature12.position - "absolute"
             vacature22.draggable = "true";
             vacature22.position - "absolute"
 
-                vacature22TDa.className = "tableDivider22";
+                vacature22TDa.className = "vacTableDivider1";
                 vacature22TDa.display = "block";
                 vacature22TDa.width = "30%";
                 vacature22TDa.height = "150px";
@@ -2568,8 +2652,9 @@ vacature12.position - "absolute"
                     vacatureImg22.className = "imgVacature";
                     vacatureImg22.style.height = "auto";
                     vacatureImg22.style.width = "150px";
+                    vacatureImg22.style.marginTop = "13px";
 
-                  vacature22TDb.className= "tableDivider22";
+                  vacature22TDb.className= "vacTableDivider2";
                   vacature22TDb.height = "150px";
                   vacature22TDb.width = "auto";
                   vacature22TDb.style.verticalAlign="top";
@@ -2592,7 +2677,7 @@ vacature12.position - "absolute"
                     vacatureTitle22.className = "titleVacature";
                     vacatureTitle22.style.top = "0px";
                     vacatureTitle22.style.verticalAlign="top"
-                    vacatureTitle22.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                    vacatureTitle22.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                     vacatureDescription22.id = "DescriptionVacature22";
                     vacatureDescription22.style.display = "block";
@@ -2604,7 +2689,7 @@ vacature12.position - "absolute"
             vacature23.draggable = "true";
             vacature23.position - "absolute"
 
-                vacature23TDa.className = "tableDivider23";
+                vacature23TDa.className = "vacTableDivider1";
                 vacature23TDa.display = "block";
                 vacature23TDa.width = "30%";
                 vacature23TDa.height = "150px";
@@ -2619,8 +2704,9 @@ vacature12.position - "absolute"
                     vacatureImg23.className = "imgVacature";
                     vacatureImg23.style.height = "auto";
                     vacatureImg23.style.width = "150px";
+                    vacatureImg23.style.marginTop = "13px";
 
-                  vacature23TDb.className= "tableDivider23";
+                  vacature23TDb.className= "vacTableDivider2";
                   vacature23TDb.height = "150px";
                   vacature23TDb.width = "auto";
                   vacature23TDb.style.verticalAlign="top";
@@ -2643,7 +2729,7 @@ vacature12.position - "absolute"
                     vacatureTitle23.className = "titleVacature";
                     vacatureTitle23.style.top = "0px";
                     vacatureTitle23.style.verticalAlign="top"
-                    vacatureTitle23.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                    vacatureTitle23.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                     vacatureDescription23.id = "DescriptionVacature23";
                     vacatureDescription23.style.display = "block";
@@ -2655,7 +2741,7 @@ vacature12.position - "absolute"
             vacature24.draggable = "true";
             vacature24.position - "absolute"
 
-                vacature24TDa.className = "tableDivider24";
+                vacature24TDa.className = "vacTableDivider1";
                 vacature24TDa.display = "block";
                 vacature24TDa.width = "30%";
                 vacature24TDa.height = "150px";
@@ -2670,8 +2756,9 @@ vacature12.position - "absolute"
                     vacatureImg24.className = "imgVacature";
                     vacatureImg24.style.height = "auto";
                     vacatureImg24.style.width = "150px";
+                    vacatureImg24.style.marginTop = "13px";
 
-                  vacature24TDb.className= "tableDivider24";
+                  vacature24TDb.className= "vacTableDivider2";
                   vacature24TDb.height = "150px";
                   vacature24TDb.width = "auto";
                   vacature24TDb.style.verticalAlign="top";
@@ -2694,7 +2781,7 @@ vacature12.position - "absolute"
                     vacatureTitle24.className = "titleVacature";
                     vacatureTitle24.style.top = "0px";
                     vacatureTitle24.style.verticalAlign="top"
-                    vacatureTitle24.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                    vacatureTitle24.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                     vacatureDescription24.id = "DescriptionVacature24";
                     vacatureDescription24.style.display = "block";
@@ -2706,7 +2793,7 @@ vacature12.position - "absolute"
             vacature25.draggable = "true";
             vacature25.position - "absolute"
 
-                vacature25TDa.className = "tableDivider25";
+                vacature25TDa.className = "vacTableDivider1";
                 vacature25TDa.display = "block";
                 vacature25TDa.width = "30%";
                 vacature25TDa.height = "150px";
@@ -2721,8 +2808,9 @@ vacature12.position - "absolute"
                     vacatureImg25.className = "imgVacature";
                     vacatureImg25.style.height = "auto";
                     vacatureImg25.style.width = "150px";
+                    vacatureImg25.style.marginTop = "13px";
 
-                  vacature25TDb.className= "tableDivider25";
+                  vacature25TDb.className= "vacTableDivider2";
                   vacature25TDb.height = "150px";
                   vacature25TDb.width = "auto";
                   vacature25TDb.style.verticalAlign="top";
@@ -2745,7 +2833,7 @@ vacature12.position - "absolute"
                     vacatureTitle25.className = "titleVacature";
                     vacatureTitle25.style.top = "0px";
                     vacatureTitle25.style.verticalAlign="top"
-                    vacatureTitle25.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 125%;");
+                    vacatureTitle25.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
 
                     vacatureDescription25.id = "DescriptionVacature25";
                     vacatureDescription25.style.display = "block";

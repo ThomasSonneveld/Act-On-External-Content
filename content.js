@@ -1,7 +1,6 @@
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
   styleHeadlines[i].style.fontsize = "12px";
-  styleHeadlines[i].style.color = "#21759b";
 }
 let allLinks;
 
@@ -170,9 +169,9 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     };
 
     let headerline2adv = document.getElementById('sheadline2b');
-    headerline2adv.textContent=" ADV ";
+    headerline2adv.textContent=" ""ADV"" ";
     let headerline5tip = document.getElementById('sheadline5b');
-    headerline5tip.textContent=" TIP ";
+    headerline5tip.textContent=" ""TIP"" ";
 
 
     let headerline1 = document.getElementById('headline1');
@@ -406,7 +405,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let descriptionGroot1 = document.getElementById('grootArtikelDescription1');
     descriptionGroot1.textContent = allDescriptions[1].firstChild.nodeValue;
     let ctaGroot1 = document.getElementById('GrootArtikelCTA1');
-    ctaGroot1.textContent = "Lees meer ▸";
+    ctaGroot1.innerHTML = "Lees meer ▸";
     ctaGroot1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content={{^Account.DATE(SHORT)}}%7Cartikel%7C`);
 
     //let authorGroot2 = document.getElementById('grootArtikelAuthor2');
@@ -497,49 +496,49 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
     let agenda1a = document.getElementById('saa1a');
     let agenda1b = document.getElementById('saa1b');
     let agendaLink1 = document.getElementById('agendaAcademy1');
-    agenda1a.textContent = "▸" + " " + allAgendas[1].firstChild.nodeValue;
+    agenda1a.textContent = allAgendas[1].firstChild.nodeValue;
     agenda1b.textContent = " " + allDays[0].firstChild.nodeValue + " " + allMonths[0].firstChild.nodeValue + " | " + allLocations[0].firstChild.nodeValue + " | " + allDurations[0].firstChild.nodeValue;
     agendaLink1.setAttribute("href", allAgendaLinks[1].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=FWYToverzichtacademy&utm_content{{^Account.DATE(SHORT)}}%7Cagenda%7C`);//campaign
 
     let agenda2a = document.getElementById('saa2a');
     let agenda2b = document.getElementById('saa2b');
     let agendaLink2 = document.getElementById('agendaAcademy2');
-    agenda2a.textContent = "▸" + " " + allAgendas[2].firstChild.nodeValue;
+    agenda2a.textContent = allAgendas[2].firstChild.nodeValue;
     agenda2b.textContent = " " + allDays[1].firstChild.nodeValue + " " + allMonths[1].firstChild.nodeValue + " | " + allLocations[1].firstChild.nodeValue + " | " + allDurations[1].firstChild.nodeValue;
     agendaLink2.setAttribute("href", allAgendaLinks[2].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=FWYToverzichtacademy&utm_content{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
 
     let agenda3a = document.getElementById('saa3a');
     let agenda3b = document.getElementById('saa3b');
     let agendaLink3 = document.getElementById('agendaAcademy3');
-    agenda3a.textContent = "▸" + " " + allAgendas[3].firstChild.nodeValue;
+    agenda3a.textContent = allAgendas[3].firstChild.nodeValue;
     agenda3b.textContent = " " + allDays[2].firstChild.nodeValue + " " + allMonths[2].firstChild.nodeValue + " | " + allLocations[2].firstChild.nodeValue + " | " + allDurations[2].firstChild.nodeValue;
     agendaLink3.setAttribute("href", allAgendaLinks[3].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=FWYToverzichtacademy&utm_content{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
 
     let agenda4a = document.getElementById('saa4a');
     let agenda4b = document.getElementById('saa4b');
     let agendaLink4 = document.getElementById('agendaAcademy4');
-    agenda4a.textContent = "▸" + " " + allAgendas[4].firstChild.nodeValue;
+    agenda4a.textContent = allAgendas[4].firstChild.nodeValue;
     agenda4b.textContent = " " + allDays[3].firstChild.nodeValue + " " + allMonths[3].firstChild.nodeValue + " | " + allLocations[3].firstChild.nodeValue + " | " + allDurations[3].firstChild.nodeValue;
     agendaLink4.setAttribute("href", allAgendaLinks[4].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=FWYToverzichtacademy&utm_content{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
 
     let agenda5a = document.getElementById('saa5a');
     let agenda5b = document.getElementById('saa5b');
     let agendaLink5 = document.getElementById('agendaAcademy5');
-    agenda5a.textContent = "▸" + " " + allAgendas[5].firstChild.nodeValue;
+    agenda5a.textContent = allAgendas[5].firstChild.nodeValue;
     agenda5b.textContent = " " + allDays[4].firstChild.nodeValue + " " + allMonths[4].firstChild.nodeValue + " | " + allLocations[4].firstChild.nodeValue + " | " + allDurations[4].firstChild.nodeValue;
     agendaLink5.setAttribute("href", allAgendaLinks[5].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=FWYToverzichtacademy&utm_content{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
 
     let agenda6a = document.getElementById('saa6a');
     let agenda6b = document.getElementById('saa6b');
     let agendaLink6 = document.getElementById('agendaAcademy6');
-    agenda6a.textContent = "▸" + " " + allAgendas[6].firstChild.nodeValue;
+    agenda6a.textContent = allAgendas[6].firstChild.nodeValue;
     agenda6b.textContent = " " + allDays[5].firstChild.nodeValue + " " + allMonths[5].firstChild.nodeValue + " | " + allLocations[5].firstChild.nodeValue + " | " + allDurations[5].firstChild.nodeValue;
     agendaLink6.setAttribute("href", allAgendaLinks[6].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=FWYToverzichtacademy&utm_content{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
 
     let agenda7a = document.getElementById('saa7a');
     let agenda7b = document.getElementById('saa7b');
     let agendaLink7 = document.getElementById('agendaAcademy7');
-    agenda7a.textContent = "▸" + " " + allAgendas[7].firstChild.nodeValue;
+    agenda7a.textContent = allAgendas[7].firstChild.nodeValue;
     agenda7b.textContent = " " + allDays[6].firstChild.nodeValue + " " + allMonths[6].firstChild.nodeValue + " | " + allLocations[6].firstChild.nodeValue + " | " + allDurations[6].firstChild.nodeValue;
     agendaLink7.setAttribute("href", allAgendaLinks[7].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=FWYToverzichtacademy&utm_content{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
 
@@ -565,6 +564,10 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let allVacatureLocations = xmlDoc.getElementsByTagName("postmeta:vac_standplaats");
     let allVacatureLinks = xmlDoc.getElementsByTagName("link");
 
+    let vacLinkTD1a = document.getElementById("vacTableDividerlink1a");
+    vacLinkTD1a.href = allVacatureLinks[1].textContent
+    let vacLinkTD1b = document.getElementById("vacTableDividerlink1b");
+    vacLinkTD1b.href = allVacatureLinks[1].textContent
     let imgVacature1 = document.getElementById("imgVacatureArtikel1");
     imgVacature1.src = allVacatureImages[0].attributes[0].nodeValue;
     let metaVacature1 = document.getElementById("metaVacature1");
