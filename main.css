@@ -1,18 +1,18 @@
-p {
+.messagePaneNest p {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #666666;
 
 }
-span {
+.messagePaneNest span {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #666666;
 
 }
-a {
+.messagePaneNest a {
     font-family: Arial, sans-serif;
     color: #18608B;
     text-decoration: none;

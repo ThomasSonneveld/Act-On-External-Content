@@ -1,4 +1,4 @@
-let canvasWidth = "18%";
+vacatureDescription20.style.display = "none";vacatureDescription19.style.display = "none";let canvasWidth = "18%";
 let canvsMinWidth = "100px";
 
 createCanvas.id = 'canvas';
@@ -1603,7 +1603,7 @@ vacature1.position - "absolute"
         vacatureImg1.style.height = "auto";
         vacatureImg1.style.width = "150px";
         vacatureImg1.style.verticalAlign="top";
-        vacatureImg1.style.marginTop = "13px";
+        vacatureImg1.style.marginright = "15px";
 
       vacature1TDb.className= "vacTableDivider2";
       vacature1TDb.height = "150px";
@@ -1628,12 +1628,12 @@ vacature1.position - "absolute"
         vacatureTitle1.className = "titleVacature";
         vacatureTitle1.style.top = "0px";
         vacatureTitle1.style.verticalAlign="top"
-        vacatureTitle1.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+        vacatureTitle1.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
         vacatureDescription1.id = "DescriptionVacature1";
-        vacatureDescription1.style.display = "block";
+        vacatureDescription1.style.display = "none";
         vacatureDescription1.className = "DescriptionVacature";
-        vacatureDescription1.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; padding: 5px 0px 0px 0px ");
+        vacatureDescription1.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; padding: 5px 0px 0px 0px;  text-decoration: none; ");
 
 vacature2.id = "vacature2";
 vacature2.className = 'vacature';
@@ -1660,7 +1660,7 @@ vacature2.position - "absolute"
         vacatureImg2.className = "imgVacature";
         vacatureImg2.style.height = "auto";
         vacatureImg2.style.width = "150px";
-        vacatureImg2.style.marginTop = "13px";
+        vacatureImg2.style.marginright = "15px";
 
       vacature2TDb.className= "vacTableDivider2";
       vacature2TDb.height = "150px";
@@ -1685,12 +1685,12 @@ vacature2.position - "absolute"
         vacatureTitle2.className = "titleVacature";
         vacatureTitle2.style.top = "0px";
         vacatureTitle2.style.verticalAlign="top"
-        vacatureTitle2.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+        vacatureTitle2.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
         vacatureDescription2.id = "DescriptionVacature2";
-        vacatureDescription2.style.display = "block";
+        vacatureDescription2.style.display = "none";
         vacatureDescription2.className = "DescriptionVacature";
-        vacatureDescription2.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+        vacatureDescription2.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
 vacature3.id = "vacature3";
 vacature3.className = 'vacature';
@@ -1717,7 +1717,7 @@ vacature3.position - "absolute"
           vacatureImg3.className = "imgVacature";
           vacatureImg3.style.height = "auto";
           vacatureImg3.style.width = "150px";
-          vacatureImg3.style.marginTop = "13px";
+          vacatureImg3.style.marginright = "15px";
 
       vacature3TDb.className= "vacTableDivider2";
       vacature3TDb.height = "150px";
@@ -1742,12 +1742,12 @@ vacature3.position - "absolute"
           vacatureTitle3.className = "titleVacature";
           vacatureTitle3.style.top = "0px";
           vacatureTitle3.style.verticalAlign="top"
-          vacatureTitle3.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+          vacatureTitle3.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                 vacatureDescription3.id = "DescriptionVacature3";
-                vacatureDescription3.style.display = "block";
+                vacatureDescription3.style.display = "none";
                 vacatureDescription3.className = "DescriptionVacature";
-                vacatureDescription3.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                vacatureDescription3.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
 vacature4.id = "vacature4";
 vacature4.className = 'vacature';
@@ -1774,7 +1774,7 @@ vacature4.position - "absolute"
         vacatureImg4.className = "imgVacature";
         vacatureImg4.style.height = "auto";
         vacatureImg4.style.width = "150px";
-        vacatureImg4.style.marginTop = "13px";
+        vacatureImg4.style.marginright = "15px";
 
       vacature4TDb.className= "vacTableDivider2";
       vacature4TDb.height = "150px";
@@ -1799,12 +1799,12 @@ vacature4.position - "absolute"
         vacatureTitle4.className = "titleVacature";
         vacatureTitle4.style.top = "0px";
         vacatureTitle4.style.verticalAlign="top"
-        vacatureTitle4.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+        vacatureTitle4.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
         vacatureDescription4.id = "DescriptionVacature4";
-        vacatureDescription4.style.display = "block";
+        vacatureDescription4.style.display = "none";
         vacatureDescription4.className = "DescriptionVacature";
-        vacatureDescription4.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+        vacatureDescription4.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none;");
 
 vacature5.id = "vacature5";
 vacature5.className = 'vacature';
@@ -1831,7 +1831,7 @@ vacature5.position - "absolute"
         vacatureImg5.className = "imgVacature";
         vacatureImg5.style.height = "auto";
         vacatureImg5.style.width = "150px";
-        vacatureImg5.style.marginTop = "13px";
+        vacatureImg5.style.marginright = "15px";
 
       vacature5TDb.className= "vacTableDivider2";
       vacature5TDb.height = "150px";
@@ -1856,12 +1856,12 @@ vacature5.position - "absolute"
         vacatureTitle5.className = "titleVacature";
         vacatureTitle5.style.top = "0px";
         vacatureTitle5.style.verticalAlign="top"
-        vacatureTitle5.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+        vacatureTitle5.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
         vacatureDescription5.id = "DescriptionVacature5";
-        vacatureDescription5.style.display = "block";
+        vacatureDescription5.style.display = "none";
         vacatureDescription5.className = "DescriptionVacature";
-        vacatureDescription5.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+        vacatureDescription5.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
 vacature6.id = "vacature6";
 vacature6.className = 'vacature';
@@ -1883,7 +1883,7 @@ vacature6.position - "absolute"
         vacatureImg6.className = "imgVacature";
         vacatureImg6.style.height = "auto";
         vacatureImg6.style.width = "150px";
-        vacatureImg6.style.marginTop = "13px";
+        vacatureImg6.style.marginright = "15px";
 
       vacature6TDb.className= "vacTableDivider2";
       vacature6TDb.height = "150px";
@@ -1908,11 +1908,11 @@ vacature6.position - "absolute"
         vacatureTitle6.className = "titleVacature";
         vacatureTitle6.style.top = "0px";
         vacatureTitle6.style.verticalAlign="top"
-        vacatureTitle6.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+        vacatureTitle6.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
         vacatureDescription6.id = "DescriptionVacature6";
-        vacatureDescription6.style.display = "block";
+        vacatureDescription6.style.display = "none";
         vacatureDescription6.className = "DescriptionVacature";
-        vacatureDescription6.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666;");
+        vacatureDescription6.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none;");
 
 vacature7.id = "vacature7";
 vacature7.className = 'vacature';
@@ -1934,7 +1934,7 @@ vacature7.position - "absolute"
         vacatureImg7.className = "imgVacature";
         vacatureImg7.style.height = "auto";
         vacatureImg7.style.width = "150px";
-        vacatureImg7.style.marginTop = "13px";
+        vacatureImg7.style.marginright = "15px";
 
       vacature7TDb.className= "vactableDivider2";
       vacature7TDb.height = "150px";
@@ -1959,12 +1959,12 @@ vacature7.position - "absolute"
         vacatureTitle7.className = "titleVacature";
         vacatureTitle7.style.top = "0px";
         vacatureTitle7.style.verticalAlign="top"
-        vacatureTitle7.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+        vacatureTitle7.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
         vacatureDescription7.id = "DescriptionVacature7";
-        vacatureDescription7.style.display = "block";
+        vacatureDescription7.style.display = "none";
         vacatureDescription7.className = "DescriptionVacature";
-        vacatureDescription7.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+        vacatureDescription7.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
 vacature8.id = "vacature8";
 vacature8.className = 'vacature';
@@ -1986,7 +1986,7 @@ vacature8.position - "absolute"
         vacatureImg8.className = "imgVacature";
         vacatureImg8.style.height = "auto";
         vacatureImg8.style.width = "150px";
-        vacatureImg8.style.marginTop = "13px";
+        vacatureImg8.style.marginright = "15px";
 
       vacature8TDb.className= "vacTableDivider2";
       vacature8TDb.height = "150px";
@@ -2011,12 +2011,12 @@ vacature8.position - "absolute"
         vacatureTitle8.className = "titleVacature";
         vacatureTitle8.style.top = "0px";
         vacatureTitle8.style.verticalAlign="top"
-        vacatureTitle8.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+        vacatureTitle8.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
         vacatureDescription8.id = "DescriptionVacature8";
-        vacatureDescription8.style.display = "block";
+        vacatureDescription8.style.display = "none";
         vacatureDescription8.className = "DescriptionVacature";
-        vacatureDescription8.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+        vacatureDescription8.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
 vacature9.id = "vacature9";
 vacature9.className = 'vacature';
@@ -2038,7 +2038,7 @@ vacature9.position - "absolute"
         vacatureImg9.className = "imgVacature";
         vacatureImg9.style.height = "auto";
         vacatureImg9.style.width = "150px";
-        vacatureImg9.style.marginTop = "13px";
+        vacatureImg9.style.marginright = "15px";
 
       vacature9TDb.className= "vacTableDivider2";
       vacature9TDb.height = "150px";
@@ -2063,12 +2063,12 @@ vacature9.position - "absolute"
         vacatureTitle9.className = "titleVacature";
         vacatureTitle9.style.top = "0px";
         vacatureTitle9.style.verticalAlign="top"
-        vacatureTitle9.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+        vacatureTitle9.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
         vacatureDescription9.id = "DescriptionVacature9";
-        vacatureDescription9.style.display = "block";
+        vacatureDescription9.style.display = "none";
         vacatureDescription9.className = "DescriptionVacature";
-        vacatureDescription9.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+        vacatureDescription9.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
 vacature10.id = "vacature10";
 vacature10.className = 'vacature';
@@ -2091,7 +2091,7 @@ vacature10.position - "absolute"
         vacatureImg10.className = "imgVacature";
         vacatureImg10.style.height = "auto";
         vacatureImg10.style.width = "150px";
-        vacatureImg10.style.marginTop = "13px";
+        vacatureImg10.style.marginright = "15px";
 
       vacature10TDb.className= "vacTableDivider2";
       vacature10TDb.height = "150px";
@@ -2116,12 +2116,12 @@ vacature10.position - "absolute"
         vacatureTitle10.className = "titleVacature";
         vacatureTitle10.style.top = "0px";
         vacatureTitle10.style.verticalAlign="top"
-        vacatureTitle10.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+        vacatureTitle10.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
         vacatureDescription10.id = "DescriptionVacature10";
-        vacatureDescription10.style.display = "block";
+        vacatureDescription10.style.display = "none";
         vacatureDescription10.className = "DescriptionVacature";
-        vacatureDescription10.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+        vacatureDescription10.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
 vacature11.id = "vacature11";
 vacature11.className = 'vacature';
@@ -2143,7 +2143,7 @@ vacature11.position - "absolute"
         vacatureImg11.className = "imgVacature";
         vacatureImg11.style.height = "auto";
         vacatureImg11.style.width = "150px";
-        vacatureImg11.style.marginTop = "13px";
+        vacatureImg11.style.marginright = "15px";
 
       vacature11TDb.className= "vacTableDivider2";
       vacature11TDb.height = "150px";
@@ -2168,12 +2168,12 @@ vacature11.position - "absolute"
         vacatureTitle11.className = "titleVacature";
         vacatureTitle11.style.top = "0px";
         vacatureTitle11.style.verticalAlign="top"
-        vacatureTitle11.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+        vacatureTitle11.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
         vacatureDescription11.id = "DescriptionVacature11";
-        vacatureDescription11.style.display = "block";
+        vacatureDescription11.style.display = "none";
         vacatureDescription11.className = "DescriptionVacature";
-        vacatureDescription11.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+        vacatureDescription11.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
 vacature12.id = "vacature12";
 vacature12.className = 'vacature';
@@ -2195,7 +2195,7 @@ vacature12.position - "absolute"
         vacatureImg12.className = "imgVacature";
         vacatureImg12.style.height = "auto";
         vacatureImg12.style.width = "150px";
-        vacatureImg12.style.marginTop = "13px";
+        vacatureImg12.style.marginright = "15px";
 
       vacature12TDb.className= "vacTableDivider2";
       vacature12TDb.height = "150px";
@@ -2220,12 +2220,12 @@ vacature12.position - "absolute"
         vacatureTitle12.className = "titleVacature";
         vacatureTitle12.style.top = "0px";
         vacatureTitle12.style.verticalAlign="top"
-        vacatureTitle12.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+        vacatureTitle12.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
         vacatureDescription12.id = "DescriptionVacature12";
-        vacatureDescription12.style.display = "block";
+        vacatureDescription12.style.display = "none";
         vacatureDescription12.className = "DescriptionVacature";
-        vacatureDescription12.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+        vacatureDescription12.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
         vacature13.id = "vacature13";
         vacature13.className = 'vacature';
@@ -2247,7 +2247,7 @@ vacature12.position - "absolute"
                 vacatureImg13.className = "imgVacature";
                 vacatureImg13.style.height = "auto";
                 vacatureImg13.style.width = "150px";
-                vacatureImg13.style.marginTop = "13px";
+                vacatureImg13.style.marginright = "15px";
 
               vacature13TDb.className= "vacTableDivider2";
               vacature13TDb.height = "150px";
@@ -2272,12 +2272,12 @@ vacature12.position - "absolute"
                 vacatureTitle13.className = "titleVacature";
                 vacatureTitle13.style.top = "0px";
                 vacatureTitle13.style.verticalAlign="top"
-                vacatureTitle13.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                vacatureTitle13.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                 vacatureDescription13.id = "DescriptionVacature13";
-                vacatureDescription13.style.display = "block";
+                vacatureDescription13.style.display = "none";
                 vacatureDescription13.className = "DescriptionVacature";
-                vacatureDescription13.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                vacatureDescription13.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
             vacature14.id = "vacature14";
             vacature14.className = 'vacature';
@@ -2299,7 +2299,7 @@ vacature12.position - "absolute"
                     vacatureImg14.className = "imgVacature";
                     vacatureImg14.style.height = "auto";
                     vacatureImg14.style.width = "150px";
-                    vacatureImg14.style.marginTop = "13px";
+                    vacatureImg14.style.marginright = "15px";
 
                   vacature14TDb.className= "vacTableDivider1";
                   vacature14TDb.height = "150px";
@@ -2324,12 +2324,12 @@ vacature12.position - "absolute"
                     vacatureTitle14.className = "titleVacature";
                     vacatureTitle14.style.top = "0px";
                     vacatureTitle14.style.verticalAlign="top"
-                    vacatureTitle14.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                    vacatureTitle14.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                     vacatureDescription14.id = "DescriptionVacature14";
-                    vacatureDescription14.style.display = "block";
+                    vacatureDescription14.style.display = "none";
                     vacatureDescription14.className = "DescriptionVacature";
-                    vacatureDescription14.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                    vacatureDescription14.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
               vacature15.id = "vacature15";
               vacature15.className = 'vacature';
@@ -2351,7 +2351,7 @@ vacature12.position - "absolute"
                       vacatureImg15.className = "imgVacature";
                       vacatureImg15.style.height = "auto";
                       vacatureImg15.style.width = "150px";
-                      vacatureImg15.style.marginTop = "13px";
+                      vacatureImg15.style.marginright = "15px";
 
                     vacature15TDb.className= "vacTableDivider2";
                     vacature15TDb.height = "150px";
@@ -2376,12 +2376,12 @@ vacature12.position - "absolute"
                       vacatureTitle15.className = "titleVacature";
                       vacatureTitle15.style.top = "0px";
                       vacatureTitle15.style.verticalAlign="top"
-                      vacatureTitle15.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                      vacatureTitle15.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                       vacatureDescription15.id = "DescriptionVacature15";
-                      vacatureDescription15.style.display = "block";
+                      vacatureDescription15.style.display = "none";
                       vacatureDescription15.className = "DescriptionVacature";
-                      vacatureDescription15.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                      vacatureDescription15.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
               vacature16.id = "vacature16";
               vacature16.className = 'vacature';
@@ -2403,7 +2403,7 @@ vacature12.position - "absolute"
                       vacatureImg16.className = "imgVacature";
                       vacatureImg16.style.height = "auto";
                       vacatureImg16.style.width = "150px";
-                      vacatureImg16.style.marginTop = "13px";
+                      vacatureImg16.style.marginright = "15px";
 
                     vacature16TDb.className= "vacTableDivider2";
                     vacature16TDb.height = "150px";
@@ -2428,12 +2428,12 @@ vacature12.position - "absolute"
                       vacatureTitle16.className = "titleVacature";
                       vacatureTitle16.style.top = "0px";
                       vacatureTitle16.style.verticalAlign="top"
-                      vacatureTitle16.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                      vacatureTitle16.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                       vacatureDescription16.id = "DescriptionVacature16";
-                      vacatureDescription16.style.display = "block";
+                      vacatureDescription16.style.display = "none";
                       vacatureDescription16.className = "DescriptionVacature";
-                      vacatureDescription16.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                      vacatureDescription16.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
               vacature17.id = "vacature17";
               vacature17.className = 'vacature';
@@ -2455,7 +2455,7 @@ vacature12.position - "absolute"
                       vacatureImg17.className = "imgVacature";
                       vacatureImg17.style.height = "auto";
                       vacatureImg17.style.width = "150px";
-                      vacatureImg17.style.marginTop = "13px";
+                      vacatureImg17.style.marginright = "15px";
 
                     vacature17TDb.className= "vacTableDivider2";
                     vacature17TDb.height = "150px";
@@ -2480,12 +2480,12 @@ vacature12.position - "absolute"
                       vacatureTitle17.className = "titleVacature";
                       vacatureTitle17.style.top = "0px";
                       vacatureTitle17.style.verticalAlign="top"
-                      vacatureTitle17.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                      vacatureTitle17.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                       vacatureDescription17.id = "DescriptionVacature17";
-                      vacatureDescription17.style.display = "block";
+                      vacatureDescription17.style.display = "none";
                       vacatureDescription17.className = "DescriptionVacature";
-                      vacatureDescription17.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                      vacatureDescription17.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
               vacature18.id = "vacature18";
               vacature18.className = 'vacature';
@@ -2507,7 +2507,7 @@ vacature12.position - "absolute"
                       vacatureImg18.className = "imgVacature";
                       vacatureImg18.style.height = "auto";
                       vacatureImg18.style.width = "150px";
-                      vacatureImg18.style.marginTop = "13px";
+                      vacatureImg18.style.marginright = "15px";
 
                     vacature18TDb.className= "vacTableDivider2";
                     vacature18TDb.height = "150px";
@@ -2532,12 +2532,12 @@ vacature12.position - "absolute"
                       vacatureTitle18.className = "titleVacature";
                       vacatureTitle18.style.top = "0px";
                       vacatureTitle18.style.verticalAlign="top"
-                      vacatureTitle18.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                      vacatureTitle18.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                       vacatureDescription18.id = "DescriptionVacature18";
-                      vacatureDescription18.style.display = "block";
+                      vacatureDescription18.style.display = "none";
                       vacatureDescription18.className = "DescriptionVacature";
-                      vacatureDescription18.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                      vacatureDescription18.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
               vacature19.id = "vacature19";
               vacature19.className = 'vacature';
@@ -2559,7 +2559,7 @@ vacature12.position - "absolute"
                       vacatureImg19.className = "imgVacature";
                       vacatureImg19.style.height = "auto";
                       vacatureImg19.style.width = "150px";
-                      vacatureImg19.style.marginTop = "13px";
+                      vacatureImg19.style.marginright = "15px";
 
                     vacature19TDb.className= "vacTableDivider2";
                     vacature19TDb.height = "150px";
@@ -2584,12 +2584,12 @@ vacature12.position - "absolute"
                       vacatureTitle19.className = "titleVacature";
                       vacatureTitle19.style.top = "0px";
                       vacatureTitle19.style.verticalAlign="top"
-                      vacatureTitle19.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                      vacatureTitle19.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                       vacatureDescription19.id = "DescriptionVacature19";
                       vacatureDescription19.style.display = "block";
                       vacatureDescription19.className = "DescriptionVacature";
-                      vacatureDescription19.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                      vacatureDescription19.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
               vacature20.id = "vacature20";
               vacature20.className = 'vacature';
@@ -2611,7 +2611,7 @@ vacature12.position - "absolute"
                       vacatureImg20.className = "imgVacature";
                       vacatureImg20.style.height = "auto";
                       vacatureImg20.style.width = "150px";
-                      vacatureImg20.style.marginTop = "13px";
+                      vacatureImg20.style.marginright = "15px";
 
                     vacature20TDb.className= "vacTableDivider2";
                     vacature20TDb.height = "150px";
@@ -2636,12 +2636,12 @@ vacature12.position - "absolute"
                       vacatureTitle20.className = "titleVacature";
                       vacatureTitle20.style.top = "0px";
                       vacatureTitle20.style.verticalAlign="top"
-                      vacatureTitle20.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                      vacatureTitle20.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                       vacatureDescription20.id = "DescriptionVacature20";
                       vacatureDescription20.style.display = "block";
                       vacatureDescription20.className = "DescriptionVacature";
-                      vacatureDescription20.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                      vacatureDescription20.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
               vacature21.id = "vacature21";
               vacature21.className = 'vacature';
@@ -2663,7 +2663,7 @@ vacature12.position - "absolute"
                       vacatureImg21.className = "imgVacature";
                       vacatureImg21.style.height = "auto";
                       vacatureImg21.style.width = "150px";
-                      vacatureImg21.style.marginTop = "13px";
+                      vacatureImg21.style.marginright = "15px";
 
                     vacature21TDb.className= "vacTableDivider2";
                     vacature21TDb.height = "150px";
@@ -2688,12 +2688,12 @@ vacature12.position - "absolute"
                       vacatureTitle21.className = "titleVacature";
                       vacatureTitle21.style.top = "0px";
                       vacatureTitle21.style.verticalAlign="top"
-                      vacatureTitle21.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                      vacatureTitle21.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                       vacatureDescription21.id = "DescriptionVacature21";
-                      vacatureDescription21.style.display = "block";
+                      vacatureDescription21.style.display = "none";
                       vacatureDescription21.className = "DescriptionVacature";
-                      vacatureDescription21.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                      vacatureDescription21.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
             vacature22.id = "vacature22";
             vacature22.className = 'vacature';
@@ -2715,7 +2715,7 @@ vacature12.position - "absolute"
                     vacatureImg22.className = "imgVacature";
                     vacatureImg22.style.height = "auto";
                     vacatureImg22.style.width = "150px";
-                    vacatureImg22.style.marginTop = "13px";
+                    vacatureImg22.style.marginright = "15px";
 
                   vacature22TDb.className= "vacTableDivider2";
                   vacature22TDb.height = "150px";
@@ -2740,12 +2740,12 @@ vacature12.position - "absolute"
                     vacatureTitle22.className = "titleVacature";
                     vacatureTitle22.style.top = "0px";
                     vacatureTitle22.style.verticalAlign="top"
-                    vacatureTitle22.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                    vacatureTitle22.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                     vacatureDescription22.id = "DescriptionVacature22";
-                    vacatureDescription22.style.display = "block";
+                    vacatureDescription22.style.display = "none";
                     vacatureDescription22.className = "DescriptionVacature";
-                    vacatureDescription22.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                    vacatureDescription22.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
             vacature23.id = "vacature23";
             vacature23.className = 'vacature';
@@ -2767,7 +2767,7 @@ vacature12.position - "absolute"
                     vacatureImg23.className = "imgVacature";
                     vacatureImg23.style.height = "auto";
                     vacatureImg23.style.width = "150px";
-                    vacatureImg23.style.marginTop = "13px";
+                    vacatureImg23.style.marginright = "15px";
 
                   vacature23TDb.className= "vacTableDivider2";
                   vacature23TDb.height = "150px";
@@ -2792,12 +2792,12 @@ vacature12.position - "absolute"
                     vacatureTitle23.className = "titleVacature";
                     vacatureTitle23.style.top = "0px";
                     vacatureTitle23.style.verticalAlign="top"
-                    vacatureTitle23.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                    vacatureTitle23.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                     vacatureDescription23.id = "DescriptionVacature23";
-                    vacatureDescription23.style.display = "block";
+                    vacatureDescription23.style.display = "none";
                     vacatureDescription23.className = "DescriptionVacature";
-                    vacatureDescription23.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                    vacatureDescription23.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
             vacature24.id = "vacature24";
             vacature24.className = 'vacature';
@@ -2819,7 +2819,7 @@ vacature12.position - "absolute"
                     vacatureImg24.className = "imgVacature";
                     vacatureImg24.style.height = "auto";
                     vacatureImg24.style.width = "150px";
-                    vacatureImg24.style.marginTop = "13px";
+                    vacatureImg24.style.marginright = "15px";
 
                   vacature24TDb.className= "vacTableDivider2";
                   vacature24TDb.height = "150px";
@@ -2844,12 +2844,12 @@ vacature12.position - "absolute"
                     vacatureTitle24.className = "titleVacature";
                     vacatureTitle24.style.top = "0px";
                     vacatureTitle24.style.verticalAlign="top"
-                    vacatureTitle24.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                    vacatureTitle24.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                     vacatureDescription24.id = "DescriptionVacature24";
-                    vacatureDescription24.style.display = "block";
+                    vacatureDescription24.style.display = "none";
                     vacatureDescription24.className = "DescriptionVacature";
-                    vacatureDescription24.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                    vacatureDescription24.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
             vacature25.id = "vacature25";
             vacature25.className = 'vacature';
@@ -2871,7 +2871,7 @@ vacature12.position - "absolute"
                     vacatureImg25.className = "imgVacature";
                     vacatureImg25.style.height = "auto";
                     vacatureImg25.style.width = "150px";
-                    vacatureImg25.style.marginTop = "13px";
+                    vacatureImg25.style.marginright = "15px";
 
                   vacature25TDb.className= "vacTableDivider2";
                   vacature25TDb.height = "150px";
@@ -2896,12 +2896,12 @@ vacature12.position - "absolute"
                     vacatureTitle25.className = "titleVacature";
                     vacatureTitle25.style.top = "0px";
                     vacatureTitle25.style.verticalAlign="top"
-                    vacatureTitle25.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A");
+                    vacatureTitle25.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
 
                     vacatureDescription25.id = "DescriptionVacature25";
-                    vacatureDescription25.style.display = "block";
+                    vacatureDescription25.style.display = "none";
                     vacatureDescription25.className = "DescriptionVacature";
-                    vacatureDescription25.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; ");
+                    vacatureDescription25.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
 
 categorySEO.id = "categroySEO";
 categorySEO.style.width = "100%";
