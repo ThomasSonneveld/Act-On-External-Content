@@ -334,21 +334,25 @@ headlinesOverlay.style.zIndex = "19300";
   hl1.style.display = "block";
   hl1.className = "headline";
   hl1.style.margin = "0px";
+  hl1.style.color = "#18608B"
 
   phl1.id = "pheadline1";
   phl1.style.display = "block";
   phl1.className = "headline";
   phl1.style.margin = "0px";
+  phl1.style.color = "#18608B"
 
   hl2.id = "headline2";
   hl2.style.display = "inline";
   hl2.className = "headline";
   hl2.style.margin = "0px";
+  hl2.style.color = "#18608B"
 
   phl2.id = "pheadline2";
   phl2.style.display = "inline";
   phl2.className = "headline";
   phl2.style.margin = "0px";
+  phl2.style.color = "#18608B"
 
   shl2b.id = "sheadline2b";
   shl2b.style.display = "inline";
@@ -362,31 +366,37 @@ headlinesOverlay.style.zIndex = "19300";
   hl3.style.display = "block";
   hl3.className = "headline";
   hl3.style.margin = "0px";
+  hl3.style.color = "#18608B"
 
   phl3.id = "pheadline3";
   phl3.style.display = "block";
   phl3.className = "headline";
   phl3.style.margin = "0px";
+  phl3.style.color = "#18608B"
 
   hl4.id = "headline4";
   hl4.style.display = "block";
   hl4.className = "headline";
   hl4.style.margin = "0px";
+  hl4.style.color = "#18608B"
 
   phl4.id = "pheadline4";
   phl4.style.display = "block";
   phl4.className = "headline";
   phl4.style.margin = "0px";
+  phl4.style.color = "#18608B"
 
   hl5.id = "headline5";
   hl5.style.display = "inline";
   hl5.className = "headline";
   hl5.style.margin = "0px";
+  hl5.style.color = "#18608B"
 
   phl5.id = "pheadline5";
   phl5.style.display = "inline";
   phl5.className = "headline";
   phl5.style.margin = "0px";
+  phl5.style.color = "#18608B"
 
   shl5b.id = "sheadline5b";
   shl5b.style.display = "inline";
@@ -400,11 +410,13 @@ headlinesOverlay.style.zIndex = "19300";
   hl6.style.display = "block";
   hl6.className = "headline";
   hl6.style.margin = "0px";
+  hl6.style.color = "#18608B"
 
   phl6.id = "pheadline6";
   phl6.style.display = "block";
   phl6.className = "headline";
   phl6.style.margin = "0px";
+  phl6.style.color = "#18608B"
 
   headlineTable.width="100%";
   headlineTable.style.lineHeight= "22px";
@@ -442,8 +454,8 @@ artikelKlein1.position - "absolute"
 
     artikelKlein1TD1.className = "tableDivider1";
     artikelKlein1TD1.id = "1tableDivider";
-    artikelKlein1TD1.display = "block";
-    artikelKlein1TD1.width = "170px";
+    artikelKlein1TD1.display = "none";
+    artikelKlein1TD1.width = "0px";
     artikelKlein1TD1.height = "auto";
     artikelKlein1TD1.style.paddingBottom = "20px";
 
@@ -454,11 +466,11 @@ artikelKlein1.position - "absolute"
         artikelKleinImg1a.id = "imgKleinArtikel1a";
         artikelKleinImg1a.draggable="true";
         artikelKleinImg1a.className = "imgKleinArtikela"
-        artikelKleinImg1a.setAttribute("style", "height: 150px; width:100%; display: none;")
+        artikelKleinImg1a.setAttribute("style", "height: 150px; width:100%; display: block;")
 
 
         artikelKleinImg1.id = "imgKleinArtikel1";
-        artikelKleinImg1.style.display = "block";
+        artikelKleinImg1.style.display = "none";
         artikelKleinImg1.className = "imgKleinArtikel";
         artikelKleinImg1.style.height = "150px";
         artikelKleinImg1.style.width = "150px";
@@ -500,8 +512,8 @@ artikelKlein2.position - "absolute"
   artikelKlein2TD2a.className = "tableDivider1a";
 
     artikelKlein2TD1.className = "tableDivider1";
-    artikelKlein2TD1.display = "block";
-    artikelKlein2TD1.width = "170px";
+    artikelKlein2TD1.display = "none";
+    artikelKlein2TD1.width = "0px";
     artikelKlein2TD1.height = "auto";
     artikelKlein2TD1.style.paddingBottom = "20px";
 
@@ -515,10 +527,10 @@ artikelKlein2.position - "absolute"
       artikelKleinImg2a.style.width = "100%";
       artikelKleinImg2a.draggable="true";
       artikelKleinImg2a.className = "imgKleinArtikela"
-      artikelKleinImg2a.style.display = "none";
+      artikelKleinImg2a.style.display = "block";
 
         artikelKleinImg2.id = "imgKleinArtikel2";
-        artikelKleinImg2.style.display = "block";
+        artikelKleinImg2.style.display = "none";
         artikelKleinImg2.className = "imgKleinArtikel";
         artikelKleinImg2.style.height = "150px";
         artikelKleinImg2.style.width = "150px";
@@ -558,8 +570,8 @@ artikelKlein3.position - "absolute"
   artikelKlein3TD3a.className = "tableDivider1a";
 
     artikelKlein3TD1.className = "tableDivider1";
-    artikelKlein3TD1.display = "block";
-    artikelKlein3TD1.width = "170px";
+    artikelKlein3TD1.display = "none";
+    artikelKlein3TD1.width = "0px";
     artikelKlein3TD1.height = "auto";
     artikelKlein3TD1.style.paddingBottom = "20px";
 
@@ -572,10 +584,10 @@ artikelKlein3.position - "absolute"
       artikelKleinImg3a.style.width = "100%";
       artikelKleinImg3a.draggable="true";
       artikelKleinImg3a.className = "imgKleinArtikela"
-      artikelKleinImg3a.style.display = "none";
+      artikelKleinImg3a.style.display = "block";
 
         artikelKleinImg3.id = "imgKleinArtikel3";
-        artikelKleinImg3.style.display = "block";
+        artikelKleinImg3.style.display = "none";
         artikelKleinImg3.className = "imgKleinArtikel";
         artikelKleinImg3.style.height = "150px";
         artikelKleinImg3.style.width = "150px";
@@ -615,8 +627,8 @@ artikelKlein4.position - "absolute"
   artikelKlein4TD4a.className = "tableDivider1a";
 
     artikelKlein4TD1.className = "tableDivider1";
-    artikelKlein4TD1.display = "block";
-    artikelKlein4TD1.width = "170px";
+    artikelKlein4TD1.display = "none";
+    artikelKlein4TD1.width = "0px";
     artikelKlein4TD1.height = "auto";
     artikelKlein4TD1.style.paddingBottom = "20px";
 
@@ -629,10 +641,10 @@ artikelKlein4.position - "absolute"
       artikelKleinImg4a.style.width = "100%";
       artikelKleinImg4a.draggable="true";
       artikelKleinImg4a.className = "imgKleinArtikela"
-      artikelKleinImg4a.style.display = "none";
+      artikelKleinImg4a.style.display = "block";
 
         artikelKleinImg4.id = "imgKleinArtikel4";
-        artikelKleinImg4.style.display = "block";
+        artikelKleinImg4.style.display = "none";
         artikelKleinImg4.className = "imgKleinArtikel";
         artikelKleinImg4.style.height = "150px";
         artikelKleinImg4.style.width = "150px";
@@ -672,8 +684,8 @@ artikelKlein5.position - "absolute"
   artikelKlein5TD5a.className = "tableDivider1a";
 
     artikelKlein5TD1.className = "tableDivider1";
-    artikelKlein5TD1.display = "block";
-    artikelKlein5TD1.width = "170px";
+    artikelKlein5TD1.display = "none";
+    artikelKlein5TD1.width = "0px";
     artikelKlein5TD1.height = "auto";
     artikelKlein5TD1.style.paddingBottom = "20px";
 
@@ -686,10 +698,10 @@ artikelKlein5.position - "absolute"
       artikelKleinImg5a.style.width = "100%";
       artikelKleinImg5a.draggable="true";
       artikelKleinImg5a.className = "imgKleinArtikela"
-      artikelKleinImg5a.style.display = "none";
+      artikelKleinImg5a.style.display = "block";
 
         artikelKleinImg5.id = "imgKleinArtikel5";
-        artikelKleinImg5.style.display = "block";
+        artikelKleinImg5.style.display = "none";
         artikelKleinImg5.style.height = "150px";
         artikelKleinImg5.style.width = "150px";
         artikelKleinImg5.className = "imgKleinArtikel";
@@ -730,8 +742,8 @@ artikelKlein6.position - "absolute"
   artikelKlein6TD6a.className = "tableDivider1a";
 
     artikelKlein6TD1.className = "tableDivider1";
-    artikelKlein6TD1.display = "block";
-    artikelKlein6TD1.width = "170px";
+    artikelKlein6TD1.display = "none";
+    artikelKlein6TD1.width = "0px";
     artikelKlein6TD1.height = "auto";
     artikelKlein6TD1.style.paddingBottom = "20px";
 
@@ -744,10 +756,10 @@ artikelKlein6.position - "absolute"
       artikelKleinImg6a.style.width = "100%";
       artikelKleinImg6a.draggable="true";
       artikelKleinImg6a.className = "imgKleinArtikela"
-      artikelKleinImg6a.style.display = "none";
+      artikelKleinImg6a.style.display = "block";
 
         artikelKleinImg6.id = "imgKleinArtikel6";
-        artikelKleinImg6.style.display = "block";
+        artikelKleinImg6.style.display = "none";
         artikelKleinImg6.className = "imgKleinArtikel";
         artikelKleinImg6.style.height = "150px";
         artikelKleinImg6.style.width = "150px";
@@ -787,8 +799,8 @@ artikelKlein7.position - "absolute"
   artikelKlein7TD7a.className = "tableDivider1a";
 
     artikelKlein7TD1.className = "tableDivider1";
-    artikelKlein7TD1.display = "block";
-    artikelKlein7TD1.width = "170px";
+    artikelKlein7TD1.display = "none";
+    artikelKlein7TD1.width = "0px";
     artikelKlein7TD1.height = "auto";
     artikelKlein7TD1.style.paddingBottom = "20px";
 
@@ -801,10 +813,10 @@ artikelKlein7.position - "absolute"
       artikelKleinImg7a.style.width = "100%";
       artikelKleinImg7a.draggable="true";
       artikelKleinImg7a.className = "imgKleinArtikela"
-      artikelKleinImg7a.style.display = "none";
+      artikelKleinImg7a.style.display = "block";
 
         artikelKleinImg7.id = "imgKleinArtikel7";
-        artikelKleinImg7.style.display = "block";
+        artikelKleinImg7.style.display = "none";
         artikelKleinImg7.className = "imgKleinArtikel";
         artikelKleinImg7.style.height = "150px";
         artikelKleinImg7.style.width = "150px";
@@ -844,8 +856,8 @@ artikelKlein8.position - "absolute"
   artikelKlein8TD8a.className = "tableDivider1a";
 
     artikelKlein8TD1.className = "tableDivider1";
-    artikelKlein8TD1.display = "block";
-    artikelKlein8TD1.width = "170px";
+    artikelKlein8TD1.display = "none";
+    artikelKlein8TD1.width = "0px";
     artikelKlein8TD1.height = "auto";
     artikelKlein8TD1.style.paddingBottom = "20px";
 
@@ -858,10 +870,10 @@ artikelKlein8.position - "absolute"
       artikelKleinImg8a.style.width = "100%";
       artikelKleinImg8a.draggable="true";
       artikelKleinImg8a.className = "imgKleinArtikela"
-      artikelKleinImg8a.style.display = "none";
+      artikelKleinImg8a.style.display = "block";
 
         artikelKleinImg8.id = "imgKleinArtikel8";
-        artikelKleinImg8.style.display = "block";
+        artikelKleinImg8.style.display = "none";
         artikelKleinImg8.className = "imgKleinArtikel";
         artikelKleinImg8.style.height = "150px";
         artikelKleinImg8.style.width = "150px";
@@ -901,8 +913,8 @@ artikelKlein9.position - "absolute"
   artikelKlein9TD9a.className = "tableDivider1a";
 
     artikelKlein9TD1.className = "tableDivider1";
-    artikelKlein9TD1.display = "block";
-    artikelKlein9TD1.width = "170px";
+    artikelKlein9TD1.display = "none";
+    artikelKlein9TD1.width = "0px";
     artikelKlein9TD1.height = "auto";
     artikelKlein9TD1.style.paddingBottom = "20px";
 
@@ -915,10 +927,10 @@ artikelKlein9.position - "absolute"
       artikelKleinImg9a.style.width = "100%";
       artikelKleinImg9a.draggable="true";
       artikelKleinImg9a.className = "imgKleinArtikela"
-      artikelKleinImg9a.style.display = "none";
+      artikelKleinImg9a.style.display = "block";
 
         artikelKleinImg9.id = "imgKleinArtikel9";
-        artikelKleinImg9.style.display = "block";
+        artikelKleinImg9.style.display = "none";
         artikelKleinImg9.className = "imgKleinArtikel";
         artikelKleinImg9.style.height = "150px";
         artikelKleinImg9.style.width = "150px";
@@ -958,8 +970,8 @@ artikelKlein10.position - "absolute"
   artikelKleinTable10a.className = "table1a";
 
     artikelKlein10TD1.className = "tableDivider1";
-    artikelKlein10TD1.display = "block";
-    artikelKlein10TD1.width = "170px";
+    artikelKlein10TD1.display = "none";
+    artikelKlein10TD1.width = "0px";
     artikelKlein10TD1.height = "auto";
     artikelKlein10TD1.style.paddingBottom = "20px";
 
@@ -972,10 +984,10 @@ artikelKlein10.position - "absolute"
       artikelKleinImg10a.style.width = "100%";
       artikelKleinImg10a.draggable="true";
       artikelKleinImg10a.className = "imgKleinArtikela"
-      artikelKleinImg10a.style.display = "none";
+      artikelKleinImg10a.style.display = "block";
 
         artikelKleinImg10.id = "imgKleinArtikel10";
-        artikelKleinImg10.style.display = "block";
+        artikelKleinImg10.style.display = "none";
         artikelKleinImg10.className = "imgKleinArtikel";
         artikelKleinImg10.style.height = "150px";
         artikelKleinImg10.style.width = "150px";
@@ -1015,8 +1027,8 @@ artikelKlein11.position - "absolute"
   artikelKlein11TD11a.className = "tableDivider1a";
 
     artikelKlein11TD1.className = "tableDivider1";
-    artikelKlein11TD1.display = "block";
-    artikelKlein11TD1.width = "170px";
+    artikelKlein11TD1.display = "none";
+    artikelKlein11TD1.width = "0px";
     artikelKlein11TD1.height = "auto";
     artikelKlein11TD1.style.paddingBottom = "20px";
 
@@ -1029,10 +1041,10 @@ artikelKlein11.position - "absolute"
       artikelKleinImg11a.style.width = "100%";
       artikelKleinImg11a.draggable="true";
       artikelKleinImg11a.className = "imgKleinArtikela"
-      artikelKleinImg11a.style.display = "none";
+      artikelKleinImg11a.style.display = "block";
 
         artikelKleinImg11.id = "imgKleinArtikel11";
-        artikelKleinImg11.style.display = "block";
+        artikelKleinImg11.style.display = "none";
         artikelKleinImg11.className = "imgKleinArtikel";
         artikelKleinImg11.style.height = "150px";
         artikelKleinImg11.style.width = "150px";
@@ -1072,8 +1084,8 @@ artikelKlein12.position - "absolute"
   artikelKlein12TD12a.className = "tableDivider1a";
 
     artikelKlein12TD1.className = "tableDivider1";
-    artikelKlein12TD1.display = "block";
-    artikelKlein12TD1.width = "170px";
+    artikelKlein12TD1.display = "none";
+    artikelKlein12TD1.width = "0px";
     artikelKlein12TD1.height = "auto";
     artikelKlein12TD1.style.paddingBottom = "20px";
 
@@ -1086,10 +1098,10 @@ artikelKlein12.position - "absolute"
       artikelKleinImg12a.style.width = "100%";
       artikelKleinImg12a.draggable="true";
       artikelKleinImg12a.className = "imgKleinArtikela"
-      artikelKleinImg12a.style.display = "none";
+      artikelKleinImg12a.style.display = "block";
 
         artikelKleinImg12.id = "imgKleinArtikel12";
-        artikelKleinImg12.style.display = "block";
+        artikelKleinImg12.style.display = "none";
         artikelKleinImg12.className = "imgKleinArtikel";
         artikelKleinImg12.style.height = "150px";
         artikelKleinImg12.style.width = "150px";
@@ -1129,8 +1141,8 @@ artikelKlein13.position - "absolute"
   artikelKlein13TD13a.className = "tableDivider1a";
 
     artikelKlein13TD1.className = "tableDivider1";
-    artikelKlein13TD1.display = "block";
-    artikelKlein13TD1.width = "170px";
+    artikelKlein13TD1.display = "none";
+    artikelKlein13TD1.width = "0px";
     artikelKlein13TD1.height = "auto";
     artikelKlein13TD1.style.paddingBottom = "20px";
 
@@ -1143,10 +1155,10 @@ artikelKlein13.position - "absolute"
       artikelKleinImg13a.style.width = "100%";
       artikelKleinImg13a.draggable="true";
       artikelKleinImg13a.className = "imgKleinArtikela"
-      artikelKleinImg13a.style.display = "none";
+      artikelKleinImg13a.style.display = "block";
 
         artikelKleinImg13.id = "imgKleinArtikel13";
-        artikelKleinImg13.style.display = "block";
+        artikelKleinImg13.style.display = "none";
         artikelKleinImg13.className = "imgKleinArtikel";
         artikelKleinImg13.style.height = "150px";
         artikelKleinImg13.style.width = "150px";
@@ -1187,8 +1199,8 @@ artikelKlein14.position - "absolute"
   artikelKlein14TD14a.className = "tableDivider1a";
 
     artikelKlein14TD1.className = "tableDivider1";
-    artikelKlein14TD1.display = "block";
-    artikelKlein14TD1.width = "170px";
+    artikelKlein14TD1.display = "none";
+    artikelKlein14TD1.width = "0px";
     artikelKlein14TD1.height = "auto";
     artikelKlein14TD1.style.paddingBottom = "20px";
 
@@ -1201,10 +1213,10 @@ artikelKlein14.position - "absolute"
       artikelKleinImg14a.style.width = "100%";
       artikelKleinImg14a.dragable="true";
       artikelKleinImg14a.className = "imgKleinArtikela"
-      artikelKleinImg14a.style.display = "none";
+      artikelKleinImg14a.style.display = "block";
 
         artikelKleinImg14.id = "imgKleinArtikel14";
-        artikelKleinImg14.style.display = "block";
+        artikelKleinImg14.style.display = "none";
         artikelKleinImg14.className = "imgKleinArtikel";
         artikelKleinImg14.style.height = "150px";
         artikelKleinImg14.style.width = "150px";
@@ -1244,8 +1256,8 @@ artikelKlein15.position - "absolute"
   artikelKlein15TD15a.className = "tableDivider1a";
 
     artikelKlein15TD1.className = "tableDivider1";
-    artikelKlein15TD1.display = "block";
-    artikelKlein15TD1.width = "170px";
+    artikelKlein15TD1.display = "none";
+    artikelKlein15TD1.width = "0px";
     artikelKlein15TD1.height = "auto";
     artikelKlein15TD1.style.paddingBottom = "20px";
 
@@ -1258,10 +1270,10 @@ artikelKlein15.position - "absolute"
       artikelKleinImg15a.style.width = "100%";
       artikelKleinImg15a.draggable="true";
       artikelKleinImg15a.className = "imgKleinArtikela"
-      artikelKleinImg15a.style.display = "none";
+      artikelKleinImg15a.style.display = "block";
 
         artikelKleinImg15.id = "imgKleinArtikel15";
-        artikelKleinImg15.style.display = "block";
+        artikelKleinImg15.style.display = "none";
         artikelKleinImg15.className = "imgKleinArtikel";
         artikelKleinImg15.style.height = "150px";
         artikelKleinImg15.style.width = "150px";
@@ -1291,6 +1303,38 @@ artikelKlein15.position - "absolute"
       artikelKleinCTA15.style.display = "inline";
       artikelKleinCTA15.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
 
+artikelKleinImg1aLink.id = "imgKlein1ALink"
+artikelKleinImg2aLink.id = "imgKlein2ALink"
+artikelKleinImg3aLink.id = "imgKlein3ALink"
+artikelKleinImg4aLink.id = "imgKlein4ALink"
+artikelKleinImg5aLink.id = "imgKlein5ALink"
+artikelKleinImg6aLink.id = "imgKlein6ALink"
+artikelKleinImg7aLink.id = "imgKlein7ALink"
+artikelKleinImg8aLink.id = "imgKlein8ALink"
+artikelKleinImg9aLink.id = "imgKlein9ALink"
+artikelKleinImg10aLink.id = "imgKlein10ALink"
+artikelKleinImg11aLink.id = "imgKlein11ALink"
+artikelKleinImg12aLink.id = "imgKlein12ALink"
+artikelKleinImg13aLink.id = "imgKlein13ALink"
+artikelKleinImg14aLink.id = "imgKlein14ALink"
+artikelKleinImg15aLink.id = "imgKlein15ALink"
+
+artikelKleinImg1Link.id = "imgKlein1Link"
+artikelKleinImg2Link.id = "imgKlein2Link"
+artikelKleinImg3Link.id = "imgKlein3Link"
+artikelKleinImg4Link.id = "imgKlein4Link"
+artikelKleinImg5Link.id = "imgKlein5Link"
+artikelKleinImg6Link.id = "imgKlein6Link"
+artikelKleinImg7Link.id = "imgKlein7Link"
+artikelKleinImg8Link.id = "imgKlein8Link"
+artikelKleinImg9Link.id = "imgKlein9Link"
+artikelKleinImg10Link.id = "imgKlein10Link"
+artikelKleinImg11Link.id = "imgKlein11Link"
+artikelKleinImg12Link.id = "imgKlein12Link"
+artikelKleinImg13Link.id = "imgKlein13Link"
+artikelKleinImg14Link.id = "imgKlein14Link"
+artikelKleinImg15Link.id = "imgKlein15Link"
+
 //Artikelen groot
 
 artikelGroot1.id = "grootArtikel1";
@@ -1307,6 +1351,8 @@ artikelGroot1.style.border="1px solid #b8b8b8";
   artikelGrootTitle1.id = "grootArtikelTitle1";
   artikelGrootTitle1.className = "grootArtikelTitle";
   artikelGrootTitle1.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+  artikelGrootImg1Link.id =  "grootArtikelImg1Link";
 
   artikelGrootImg1.id =  "grootArtikelImg1";
   artikelGrootImg1.className =  "grootArtikelImg";
@@ -1346,6 +1392,8 @@ artikelGroot2.style.border="1px solid #b8b8b8";
   artikelGrootTitle2.className = "grootArtikelTitle";
   artikelGrootTitle2.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
+  artikelGrootImg2Link.id =  "grootArtikelImg2Link";
+
   artikelGrootImg2.id =  "grootArtikelImg2";
   artikelGrootImg2.className =  "grootArtikelImg";
   artikelGrootImg2.style.display = "block";
@@ -1383,6 +1431,8 @@ artikelGroot3.onmousehover = "hoverColor();";
   artikelGrootTitle3.id = "grootArtikelTitle3";
   artikelGrootTitle3.className = "grootArtikelTitle";
   artikelGrootTitle3.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+  artikelGrootImg3Link.id =  "grootArtikelImg3Link";
 
   artikelGrootImg3.id =  "grootArtikelImg3";
   artikelGrootImg3.className =  "grootArtikelImg";
@@ -1422,6 +1472,8 @@ artikelGroot4.style.border="1px solid #b8b8b8";
   artikelGrootTitle4.className = "grootArtikelTitle";
   artikelGrootTitle4.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
+  artikelGrootImg4Link.id =  "grootArtikelImg4Link";
+
   artikelGrootImg4.id =  "grootArtikelImg4";
   artikelGrootImg4.className =  "grootArtikelImg";
   artikelGrootImg4.style.display = "block";
@@ -1459,6 +1511,8 @@ artikelGroot4.style.border="1px solid #b8b8b8";
     artikelGrootTitle5.className = "grootArtikelTitle";
     artikelGrootTitle5.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
+    artikelGrootImg5Link.id =  "grootArtikelImg5Link";
+
     artikelGrootImg5.id =  "grootArtikelImg5";
     artikelGrootImg5.className =  "grootArtikelImg";
     artikelGrootImg5.style.display = "block";
@@ -1495,6 +1549,8 @@ artikelGroot6.style.border="1px solid #b8b8b8";
   artikelGrootTitle6.id = "grootArtikelTitle6";
   artikelGrootTitle6.className = "grootArtikelTitle";
   artikelGrootTitle6.setAttribute("style", "color: #1A1A1A; display: block !important; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+  artikelGrootImg6Link.id =  "grootArtikelImg6Link";
 
   artikelGrootImg6.id =  "grootArtikelImg6";
   artikelGrootImg6.className =  "grootArtikelImg";
@@ -1547,7 +1603,7 @@ vacature1.position - "absolute"
         vacatureImg1.style.height = "auto";
         vacatureImg1.style.width = "150px";
         vacatureImg1.style.verticalAlign="top";
-        vacatureImg1.style.marginTop = "0px";
+        vacatureImg1.style.marginTop = "13px";
 
       vacature1TDb.className= "vacTableDivider2";
       vacature1TDb.height = "150px";

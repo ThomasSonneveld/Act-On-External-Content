@@ -1,3 +1,23 @@
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666;
+
+}
+span {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666;
+
+}
+a {
+    font-family: Arial, sans-serif;
+    color: #18608B;
+    text-decoration: none;
+}
+
 .draggeble {
   font-size: 12px;
   color: #2d2d2d;
@@ -57,6 +77,13 @@
   max-height: 90px !important;
   line-height: 1;
 
+}
+.imgKleinArtikel {
+  display: block !important;
+}
+
+.imgKleinArtikela {
+  display: none !important;
 }
 
 /*Styling Artikel Groot*/
