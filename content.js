@@ -169,9 +169,9 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     };
 
     let headerline2adv = document.getElementById('sheadline2b');
-    headerline2adv.textContent=" "+"ADV"+" ";
+    headerline2adv.textContent="\xa0ADV\xa0";
     let headerline5tip = document.getElementById('sheadline5b');
-    headerline5tip.textContent=" "+"TIP"+" ";
+    headerline5tip.textContent="\xa0TIP\xa0";
 
 
     let headerline1 = document.getElementById('headline1');

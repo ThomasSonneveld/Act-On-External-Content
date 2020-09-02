@@ -1,3 +1,9 @@
+a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: #18608B;
+}
+
 .messagePaneNest p {
     font-family: Arial, sans-serif;
     font-size: 16px;

@@ -272,24 +272,31 @@ agendaOverlay.style.zIndex = "19300";
   agendaTable.style.margin = "0px";
 
   agenda1Td1.textContent = "▸ ";
+  agenda1Td1.style.fontSize = "12px";
   agenda1Td1.style.verticalAlign = "top";
   agenda1Td1.style.color = "#18608B";
   agenda2Td1.textContent = "▸ ";
+  agenda2Td1.style.fontSize = "12px";
   agenda2Td1.style.verticalAlign = "top";
   agenda2Td1.style.color = "#18608B";
   agenda3Td1.textContent = "▸ ";
+  agenda3Td1.style.fontSize = "12px";
   agenda3Td1.style.verticalAlign = "top";
   agenda3Td1.style.color = "#18608B";
   agenda4Td1.textContent = "▸ ";
+  agenda4Td1.style.fontSize = "12px";
   agenda4Td1.style.verticalAlign = "top";
   agenda4Td1.style.color = "#18608B";
   agenda5Td1.textContent = "▸ ";
+  agenda5Td1.style.fontSize = "12px";
   agenda5Td1.style.verticalAlign = "top";
   agenda5Td1.style.color = "#18608B";
   agenda6Td1.textContent = "▸ ";
+  agenda6Td1.style.fontSize = "12px";
   agenda6Td1.style.verticalAlign = "top";
   agenda6Td1.style.color = "#18608B";
   agenda7Td1.textContent = "▸ ";
+  agenda7Td1.style.fontSize = "12px";
   agenda7Td1.style.verticalAlign = "top";
   agenda7Td1.style.color = "#18608B";
 
@@ -422,21 +429,27 @@ headlinesOverlay.style.zIndex = "19300";
   headlineTable.style.lineHeight= "22px";
 
   headlines1Td1.textContent = "▸ ";
+  headlines1Td1.style.fontSize = "12px";
   headlines1Td1.style.verticalAlign = "top";
   headlines1Td1.style.color = "#18608B";
   headlines2Td1.textContent = "▸ ";
+  headlines2Td1.style.fontSize = "12px";
   headlines2Td1.style.verticalAlign = "top";
   headlines2Td1.style.color = "#18608B";
   headlines3Td1.textContent = "▸ ";
+  headlines3Td1.style.fontSize = "12px";
   headlines3Td1.style.verticalAlign = "top";
   headlines3Td1.style.color = "#18608B";
   headlines4Td1.textContent = "▸ ";
+  headlines4Td1.style.fontSize = "12px";
   headlines4Td1.style.verticalAlign = "top";
   headlines4Td1.style.color = "#18608B";
   headlines5Td1.textContent = "▸ ";
+  headlines5Td1.style.fontSize = "12px";
   headlines5Td1.style.verticalAlign = "top";
   headlines5Td1.style.color = "#18608B";
   headlines6Td1.textContent = "▸ ";
+  headlines6Td1.style.fontSize = "12px";
   headlines6Td1.style.verticalAlign = "top";
   headlines6Td1.style.color = "#18608B";
 
@@ -1350,7 +1363,7 @@ artikelGroot1.style.border="1px solid #b8b8b8";
 
   artikelGrootTitle1.id = "grootArtikelTitle1";
   artikelGrootTitle1.className = "grootArtikelTitle";
-  artikelGrootTitle1.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+  artikelGrootTitle1.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg1Link.id =  "grootArtikelImg1Link";
 
@@ -1390,7 +1403,7 @@ artikelGroot2.style.border="1px solid #b8b8b8";
 
   artikelGrootTitle2.id = "grootArtikelTitle2";
   artikelGrootTitle2.className = "grootArtikelTitle";
-  artikelGrootTitle2.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+  artikelGrootTitle2.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg2Link.id =  "grootArtikelImg2Link";
 
@@ -1430,7 +1443,7 @@ artikelGroot3.onmousehover = "hoverColor();";
 
   artikelGrootTitle3.id = "grootArtikelTitle3";
   artikelGrootTitle3.className = "grootArtikelTitle";
-  artikelGrootTitle3.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+  artikelGrootTitle3.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg3Link.id =  "grootArtikelImg3Link";
 
@@ -1470,7 +1483,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
 
   artikelGrootTitle4.id = "grootArtikelTitle4";
   artikelGrootTitle4.className = "grootArtikelTitle";
-  artikelGrootTitle4.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+  artikelGrootTitle4.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg4Link.id =  "grootArtikelImg4Link";
 
@@ -1509,7 +1522,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
 
     artikelGrootTitle5.id = "grootArtikelTitle5";
     artikelGrootTitle5.className = "grootArtikelTitle";
-    artikelGrootTitle5.setAttribute("style", "color: #1A1A1A; display: block; line-height: 14px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+    artikelGrootTitle5.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
     artikelGrootImg5Link.id =  "grootArtikelImg5Link";
 
