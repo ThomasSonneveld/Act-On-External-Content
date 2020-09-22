@@ -1630,7 +1630,7 @@ vacature1.position - "absolute"
 
           vspan1a.id="vacatureMeta1a"
           vspan1a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-          vspan1a.className = "metaVacature";
+          vspan1a.className = "metaVacatureCompany";
 
           vspan1b.id="vacatureMeta1b"
           vspan1b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -1687,7 +1687,7 @@ vacature2.position - "absolute"
 
           vspan2a.id="vacatureMeta2a"
           vspan2a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-          vspan2a.className = "metaVacature";
+          vspan2a.className = "metaVacatureCompany";
 
           vspan2b.id="vacatureMeta2b"
           vspan2b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -1744,7 +1744,7 @@ vacature3.position - "absolute"
 
             vspan3a.id="vacatureMeta3a"
             vspan3a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-            vspan3a.className = "metaVacature";
+            vspan3a.className = "metaVacatureCompany";
 
             vspan3b.id="vacatureMeta3b"
             vspan3b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -1801,7 +1801,7 @@ vacature4.position - "absolute"
 
           vspan4a.id="vacatureMeta4a"
           vspan4a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-          vspan4a.className = "metaVacature";
+          vspan4a.className = "metaVacatureCompany";
 
           vspan4b.id="vacatureMeta4b"
           vspan4b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -1858,7 +1858,7 @@ vacature5.position - "absolute"
 
           vspan5a.id="vacatureMeta5a"
           vspan5a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-          vspan5a.className = "metaVacature";
+          vspan5a.className = "metaVacatureCompany";
 
           vspan5b.id="vacatureMeta5b"
           vspan5b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -1910,7 +1910,7 @@ vacature6.position - "absolute"
 
           vspan6a.id="vacatureMeta6a"
           vspan6a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-          vspan6a.className = "metaVacature";
+          vspan6a.className = "metaVacatureCompany";
 
           vspan6b.id="vacatureMeta6b"
           vspan6b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -1961,7 +1961,7 @@ vacature7.position - "absolute"
 
           vspan7a.id="vacatureMeta7a"
           vspan7a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-          vspan7a.className = "metaVacature";
+          vspan7a.className = "metaVacatureCompany";
 
           vspan7b.id="vacatureMeta7b"
           vspan7b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2013,7 +2013,7 @@ vacature8.position - "absolute"
 
           vspan8a.id="vacatureMeta8a"
           vspan8a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-          vspan8a.className = "metaVacature";
+          vspan8a.className = "metaVacatureCompany";
 
           vspan8b.id="vacatureMeta8b"
           vspan8b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2065,7 +2065,7 @@ vacature9.position - "absolute"
 
           vspan9a.id="vacatureMeta9a"
           vspan9a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-          vspan9a.className = "metaVacature";
+          vspan9a.className = "metaVacatureCompany";
 
           vspan9b.id="vacatureMeta9b"
           vspan9b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2118,7 +2118,7 @@ vacature10.position - "absolute"
 
           vspan10a.id="vacatureMeta10a"
           vspan10a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-          vspan10a.className = "metaVacature";
+          vspan10a.className = "metaVacatureCompany";
 
           vspan10b.id="vacatureMeta10b"
           vspan10b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2170,7 +2170,7 @@ vacature11.position - "absolute"
 
         vspan11a.id="vacatureMeta11a"
         vspan11a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-        vspan11a.className = "metaVacature";
+        vspan11a.className = "metaVacatureCompany";
 
         vspan11b.id="vacatureMeta11b"
         vspan11b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2222,7 +2222,7 @@ vacature12.position - "absolute"
 
         vspan12a.id="vacatureMeta12a"
         vspan12a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-        vspan12a.className = "metaVacature";
+        vspan12a.className = "metaVacatureCompany";
 
         vspan12b.id="vacatureMeta12b"
         vspan12b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2326,7 +2326,7 @@ vacature12.position - "absolute"
 
                     vspan14a.id="vacatureMeta14a"
                     vspan14a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-                    vspan14a.className = "metaVacature";
+                    vspan14a.className = "metaVacatureCompany";
 
                     vspan14b.id="vacatureMeta14b"
                     vspan14b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2378,7 +2378,7 @@ vacature12.position - "absolute"
 
                       vspan15a.id="vacatureMeta15a"
                       vspan15a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-                      vspan15a.className = "metaVacature";
+                      vspan15a.className = "metaVacatureCompany";
 
                       vspan15b.id="vacatureMeta15b"
                       vspan15b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2430,7 +2430,7 @@ vacature12.position - "absolute"
 
                       vspan16a.id="vacatureMeta16a"
                       vspan16a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-                      vspan16a.className = "metaVacature";
+                      vspan16a.className = "metaVacatureCompany";
 
                       vspan16b.id="vacatureMeta16b"
                       vspan16b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2482,7 +2482,7 @@ vacature12.position - "absolute"
 
                       vspan17a.id="vacatureMeta17a"
                       vspan17a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-                      vspan17a.className = "metaVacature";
+                      vspan17a.className = "metaVacatureCompany";
 
                       vspan17b.id="vacatureMeta17b"
                       vspan17b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2538,7 +2538,7 @@ vacature12.position - "absolute"
 
                       vspan18b.id="vacatureMeta18b"
                       vspan18b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
-                      vspan18b.className = "metaVacature";
+                      vspan18b.className = "metaVacatureCompany";
 
                       vacatureTitle18.id = "titleVacature18";
                       vacatureTitle18.style.display = "block";
@@ -2586,7 +2586,7 @@ vacature12.position - "absolute"
 
                       vspan19a.id="vacatureMeta19a"
                       vspan19a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-                      vspan19a.className = "metaVacature";
+                      vspan19a.className = "metaVacatureCompany";
 
                       vspan19b.id="vacatureMeta19b"
                       vspan19b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2638,7 +2638,7 @@ vacature12.position - "absolute"
 
                       vspan20a.id="vacatureMeta20a"
                       vspan20a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-                      vspan20a.className = "metaVacature";
+                      vspan20a.className = "metaVacatureCompany";
 
                       vspan20b.id="vacatureMeta20b"
                       vspan20b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2690,7 +2690,7 @@ vacature12.position - "absolute"
 
                       vspan21a.id="vacatureMeta21a"
                       vspan21a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-                      vspan21a.className = "metaVacature";
+                      vspan21a.className = "metaVacatureCompany";
 
                       vspan21b.id="vacatureMeta21b"
                       vspan21b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2742,7 +2742,7 @@ vacature12.position - "absolute"
 
                     vspan22a.id="vacatureMeta22a"
                     vspan22a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-                    vspan22a.className = "metaVacature";
+                    vspan22a.className = "metaVacatureCompany";
 
                     vspan22b.id="vacatureMeta22b"
                     vspan22b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2794,7 +2794,7 @@ vacature12.position - "absolute"
 
                     vspan23a.id="vacatureMeta23a"
                     vspan23a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-                    vspan23a.className = "metaVacature";
+                    vspan23a.className = "metaVacatureCompany";
 
                     vspan23b.id="vacatureMeta23b"
                     vspan23b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2846,7 +2846,7 @@ vacature12.position - "absolute"
 
                     vspan24a.id="vacatureMeta24a"
                     vspan24a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-                    vspan24a.className = "metaVacature";
+                    vspan24a.className = "metaVacatureCompany";
 
                     vspan24b.id="vacatureMeta24b"
                     vspan24b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
@@ -2898,7 +2898,7 @@ vacature12.position - "absolute"
 
                     vspan25a.id="vacatureMeta25a"
                     vspan25a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-                    vspan25a.className = "metaVacature";
+                    vspan25a.className = "metaVacatureCompany";
 
                     vspan25b.id="vacatureMeta25b"
                     vspan25b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
