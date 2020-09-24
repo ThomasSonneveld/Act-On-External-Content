@@ -1366,6 +1366,7 @@ artikelGroot1.style.border="1px solid #b8b8b8";
   artikelGrootTitle1.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg1Link.id =  "grootArtikelImg1Link";
+  artikelGrootImg1Link.style.padding = "0px";
 
   artikelGrootImg1.id =  "grootArtikelImg1";
   artikelGrootImg1.className =  "grootArtikelImg";
@@ -1406,6 +1407,7 @@ artikelGroot2.style.border="1px solid #b8b8b8";
   artikelGrootTitle2.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg2Link.id =  "grootArtikelImg2Link";
+  artikelGrootImg2Link.style.padding = "0px";
 
   artikelGrootImg2.id =  "grootArtikelImg2";
   artikelGrootImg2.className =  "grootArtikelImg";
@@ -1446,6 +1448,7 @@ artikelGroot3.onmousehover = "hoverColor();";
   artikelGrootTitle3.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg3Link.id =  "grootArtikelImg3Link";
+  artikelGrootImg3Link.style.padding = "0px";
 
   artikelGrootImg3.id =  "grootArtikelImg3";
   artikelGrootImg3.className =  "grootArtikelImg";
@@ -1486,6 +1489,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
   artikelGrootTitle4.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
   artikelGrootImg4Link.id =  "grootArtikelImg4Link";
+  artikelGrootImg4Link.style.padding = "0px";
 
   artikelGrootImg4.id =  "grootArtikelImg4";
   artikelGrootImg4.className =  "grootArtikelImg";
@@ -1525,6 +1529,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
     artikelGrootTitle5.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
     artikelGrootImg5Link.id =  "grootArtikelImg5Link";
+    artikelGrootImg5Link.style.padding = "0px";
 
     artikelGrootImg5.id =  "grootArtikelImg5";
     artikelGrootImg5.className =  "grootArtikelImg";
@@ -1563,7 +1568,10 @@ artikelGroot6.style.border="1px solid #b8b8b8";
   artikelGrootTitle6.className = "grootArtikelTitle";
   artikelGrootTitle6.setAttribute("style", "color: #1A1A1A; display: block !important; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
+  artikelGrootTitleBr1.style.height = "0px"
+
   artikelGrootImg6Link.id =  "grootArtikelImg6Link";
+  artikelGrootImg6Link.style.padding = "0px";
 
   artikelGrootImg6.id =  "grootArtikelImg6";
   artikelGrootImg6.className =  "grootArtikelImg";

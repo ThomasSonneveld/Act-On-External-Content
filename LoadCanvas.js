@@ -365,6 +365,13 @@ var artikelGrootTitle4 = document.createElement ( 'a' );
 var artikelGrootTitle5 = document.createElement ( 'a' );
 var artikelGrootTitle6 = document.createElement ( 'a' );
 
+var artikelGrootTitleBr1 = document.createElement ( 'br' );
+var artikelGrootTitleBr2 = document.createElement ( 'br' );
+var artikelGrootTitleBr3 = document.createElement ( 'br' );
+var artikelGrootTitleBr4 = document.createElement ( 'br' );
+var artikelGrootTitleBr5 = document.createElement ( 'br' );
+var artikelGrootTitleBr6 = document.createElement ( 'br' );
+
 var artikelGrootImg1Link = document.createElement ( 'a' );
 var artikelGrootImg2Link = document.createElement ( 'a' );
 var artikelGrootImg3Link = document.createElement ( 'a' );

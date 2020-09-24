@@ -419,6 +419,7 @@ contentIndex.appendChild( artikelenGrootContainer );
 artikelenGrootContainer.appendChild( artikelGroot1 );
 //artikelGroot1.appendChild(artikelGrootAuthor1);
 artikelGroot1.appendChild(artikelGrootTitle1);
+artikelGroot1.appendChild(artikelGrootTitleBr1);
 artikelGroot1.appendChild(artikelGrootImg1Link);
 artikelGrootImg1Link.appendChild(artikelGrootImg1);
 artikelGroot1.appendChild(artikelGrootDescription1);
