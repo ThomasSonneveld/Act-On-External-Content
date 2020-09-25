@@ -329,6 +329,62 @@ var artikelKleinCTA15 = document.createElement ( 'a' );
 
 //Artikelen Groot
 
+var artikelGroot1T = document.createElement ( 'table' );
+var artikelGroot2T = document.createElement ( 'table' );
+var artikelGroot3T = document.createElement ( 'table' );
+var artikelGroot4T = document.createElement ( 'table' );
+var artikelGroot5T = document.createElement ( 'table' );
+var artikelGroot6T = document.createElement ( 'table' );
+
+var artikelGroot1Tb = document.createElement ( 'tbody' );
+var artikelGroot2Tb = document.createElement ( 'tbody' );
+var artikelGroot3Tb = document.createElement ( 'tbody' );
+var artikelGroot4Tb = document.createElement ( 'tbody' );
+var artikelGroot5Tb = document.createElement ( 'tbody' );
+var artikelGroot6Tb = document.createElement ( 'tbody' );
+
+var artikelGroot1TrA = document.createElement ( 'tr' );
+var artikelGroot2TrA = document.createElement ( 'tr' );
+var artikelGroot3TrA = document.createElement ( 'tr' );
+var artikelGroot4TrA = document.createElement ( 'tr' );
+var artikelGroot5TrA = document.createElement ( 'tr' );
+var artikelGroot6TrA = document.createElement ( 'tr' );
+
+var artikelGroot1TrB = document.createElement ( 'tr' );
+var artikelGroot2TrB = document.createElement ( 'tr' );
+var artikelGroot3TrB = document.createElement ( 'tr' );
+var artikelGroot4TrB = document.createElement ( 'tr' );
+var artikelGroot5TrB = document.createElement ( 'tr' );
+var artikelGroot6TrB = document.createElement ( 'tr' );
+
+var artikelGroot1TrC = document.createElement ( 'tr' );
+var artikelGroot2TrC = document.createElement ( 'tr' );
+var artikelGroot3TrC = document.createElement ( 'tr' );
+var artikelGroot4TrC = document.createElement ( 'tr' );
+var artikelGroot5TrC = document.createElement ( 'tr' );
+var artikelGroot6TrC = document.createElement ( 'tr' );
+
+var artikelGroot1TdA = document.createElement ( 'td' );
+var artikelGroot2TdA = document.createElement ( 'td' );
+var artikelGroot3TdA = document.createElement ( 'td' );
+var artikelGroot4TdA = document.createElement ( 'td' );
+var artikelGroot5TdA = document.createElement ( 'td' );
+var artikelGroot6TdA = document.createElement ( 'td' );
+
+var artikelGroot1TdB = document.createElement ( 'td' );
+var artikelGroot2TdB = document.createElement ( 'td' );
+var artikelGroot3TdB = document.createElement ( 'td' );
+var artikelGroot4TdB = document.createElement ( 'td' );
+var artikelGroot5TdB = document.createElement ( 'td' );
+var artikelGroot6TdB = document.createElement ( 'td' );
+
+var artikelGroot1TdC = document.createElement ( 'td' );
+var artikelGroot2TdC = document.createElement ( 'td' );
+var artikelGroot3TdC = document.createElement ( 'td' );
+var artikelGroot4TdC = document.createElement ( 'td' );
+var artikelGroot5TdC = document.createElement ( 'td' );
+var artikelGroot6TdC = document.createElement ( 'td' );
+
 var artikelGroot1 = document.createElement( 'div' );
 var artikelGroot2 = document.createElement( 'div' );
 var artikelGroot3 = document.createElement( 'div' );
@@ -393,12 +449,12 @@ var artikelGrootDescription4 = document.createElement ( 'a' );
 var artikelGrootDescription5 = document.createElement ( 'a' );
 var artikelGrootDescription6 = document.createElement ( 'a' );
 
-var artikelGrootCTA1C = document.createElement ( 'p' );
-var artikelGrootCTA2C = document.createElement ( 'p' );
-var artikelGrootCTA3C = document.createElement ( 'p' );
-var artikelGrootCTA4C = document.createElement ( 'p' );
-var artikelGrootCTA5C = document.createElement ( 'p' );
-var artikelGrootCTA6C = document.createElement ( 'p' );
+var artikelGrootCTA1C = document.createElement ( 'a' );
+var artikelGrootCTA2C = document.createElement ( 'a' );
+var artikelGrootCTA3C = document.createElement ( 'a' );
+var artikelGrootCTA4C = document.createElement ( 'a' );
+var artikelGrootCTA5C = document.createElement ( 'a' );
+var artikelGrootCTA6C = document.createElement ( 'a' );
 
 var artikelGrootCTA1 = document.createElement ( 'a' );
 var artikelGrootCTA2 = document.createElement ( 'a' );

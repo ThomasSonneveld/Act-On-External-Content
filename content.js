@@ -72,7 +72,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
       document.getElementById('grootArtikel2').style.border= "5px solid #baffc9";
     }else if (allArtikel2.includes("social") || allArtikel2.includes("Social")||allArtikel2.includes("conversational") || allArtikel2.includes("video") || allArtikel2.includes("facebook") || allArtikel2.includes("twitter") || allArtikel2.includes("youtube")) {
       document.getElementById('grootArtikel2').style.border= "5px solid #d4ffea";
-    }else if (allArtikel2.includes("design") || allArtikel2.includes("Design")||allArtikel2.includes("UX")) {
+    }else if (allArtikel2.includes("social") || allArtikel2.includes("Social")||allArtikel2.includes("conversational") || allArtikel2.includes("video") || allArtikel2.includes("facebook") || allArtikel2.includes("twitter") || allArtikel2.includes("youtube")) {
       document.getElementById('grootArtikel2').style.border= "5px solid #a8e6cf";
     }else if (allArtikel2.includes("Digital") || allArtikel2.includes("Tech") || allArtikel2.includes("E-mailmarketing") || allArtikel2.includes("data")){
       document.getElementById('grootArtikel2').style.border= "5px solid #ff8b94";
@@ -90,7 +90,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
       document.getElementById('grootArtikel3').style.border= "5px solid #ffb3ba";
     }else if (allArtikel3.includes("Adverteren") || allArtikel3.includes("content") || allArtikel3.includes("Content")) {
       document.getElementById('grootArtikel3').style.border= "5px solid #eecbff";
-    }else if (allArtikel3.includes("branding") || allArtikel3.includes("communicatie") || allArtikel3.includes("Communicatie")||allArtikel3.includes("Branding")) {
+    }else if (allArtikel3.includes("Adverteren") || allArtikel3.includes("content") || allArtikel3.includes("Content")) {
       document.getElementById('grootArtikel3').style.border= "5px solid #baffc9";
     }else if (allArtikel3.includes("social") || allArtikel3.includes("Social") || allArtikel3.includes("conversational") || allArtikel3.includes("video") || allArtikel3.includes("facebook") || allArtikel3.includes("twitter") || allArtikel3.includes("youtube")){
       document.getElementById('grootArtikel3').style.border= "5px solid #d4ffea";
@@ -136,7 +136,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
       document.getElementById('grootArtikel5').style.border= "5px solid #eecbff";
     }else if (allArtikel5.includes("branding") || allArtikel5.includes("communicatie") || allArtikel5.includes("Communicatie")||allArtikel5.includes("Branding")) {
       document.getElementById('grootArtikel5').style.border= "5px solid #baffc9";
-    }else if (allArtikel5.includes("social") || allArtikel5.includes("Social")||allArtikel5.includes("conversational") || allArtikel5.includes("video") || allArtikel5.includes("facebook") || allArtikel5.includes("twitter") || allArtikel5.includes("youtube")) {
+    }else if (allArtikel5.includes("branding") || allArtikel5.includes("communicatie") || allArtikel5.includes("Communicatie")||allArtikel5.includes("Branding")) {
       document.getElementById('grootArtikel5').style.border= "5px solid #d5ffea";
     }else if (allArtikel5.includes("design") || allArtikel5.includes("Design")||allArtikel5.includes("UX")) {
       document.getElementById('grootArtikel5').style.border= "5px solid #a8e6cf";
@@ -162,7 +162,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
       document.getElementById('grootArtikel6').style.border= "5px solid #ebf7ff";
     }else if (allArtikel6.includes("design") || allArtikel6.includes("Design") || allArtikel6.includes("UX")) {
       document.getElementById('grootArtikel6').style.border= "5px solid #efebff";
-    }else if (allArtikel6.includes("Digital")|| allArtikel6.includes("Tech") || allArtikel6.includes("E-mailmarketing") || allArtikel6.includes("data")) {
+    }else if (allArtikel6.includes("design") || allArtikel6.includes("Design") || allArtikel6.includes("UX")) {
       document.getElementById('grootArtikel6').style.border= "5px solid #fbebff";
     }else if (allArtikel6.includes("carrière")) {
       document.getElementById('grootArtikel6').style.border= "5px solid #ffebf6";
@@ -483,7 +483,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     descriptionGroot1.textContent = allDescriptions[1].firstChild.nodeValue;
     descriptionGroot1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
     let ctaGroot1 = document.getElementById('GrootArtikelCTA1');
-    ctaGroot1.innerHTML = "Lees meer ▸";
+    ctaGroot1.innerHTML = " Lees meer ▸";
     ctaGroot1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
 
     //let authorGroot2 = document.getElementById('grootArtikelAuthor2');
@@ -499,7 +499,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     descriptionGroot2.textContent = allDescriptions[2].firstChild.nodeValue;
     descriptionGroot2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
     let ctaGroot2 = document.getElementById('GrootArtikelCTA2');
-    ctaGroot2.textContent = "Lees meer ▸";
+    ctaGroot2.textContent = " Lees meer ▸";
     ctaGroot2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
 
     //let authorGroot3 = document.getElementById('grootArtikelAuthor3');
@@ -515,7 +515,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     descriptionGroot3.textContent = allDescriptions[3].firstChild.nodeValue;
     descriptionGroot3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
     let ctaGroot3 = document.getElementById('GrootArtikelCTA3');
-    ctaGroot3.textContent = "Lees meer ▸";
+    ctaGroot3.textContent = " Lees meer ▸";
     ctaGroot3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
 
     //let authorGroot4 = document.getElementById('grootArtikelAuthor4');
@@ -531,7 +531,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     descriptionGroot4.textContent = allDescriptions[4].firstChild.nodeValue;
     descriptionGroot4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
     let ctaGroot4 = document.getElementById('GrootArtikelCTA4');
-    ctaGroot4.textContent = "Lees meer ▸";
+    ctaGroot4.textContent = " Lees meer ▸";
     ctaGroot4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
 
     //let authorGroot5 = document.getElementById('grootArtikelAuthor5');
@@ -547,7 +547,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     descriptionGroot5.textContent = allDescriptions[5].firstChild.nodeValue;
     descriptionGroot5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
     let ctaGroot5 = document.getElementById('GrootArtikelCTA5');
-    ctaGroot5.textContent = "Lees meer ▸";
+    ctaGroot5.textContent = " Lees meer ▸";
     ctaGroot5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
 
 
@@ -564,7 +564,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     descriptionGroot6.textContent = allDescriptions[6].firstChild.nodeValue;
     descriptionGroot6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
     let ctaGroot6 = document.getElementById('GrootArtikelCTA6');
-    ctaGroot6.textContent = "Lees meer ▸";
+    ctaGroot6.textContent = " Lees meer ▸";
     ctaGroot6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
 });
 }, 2000);
@@ -604,7 +604,7 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
     let agendaLink1 = document.getElementById('agendaAcademy1');
     agenda1a.textContent = allAgendas[1].firstChild.nodeValue;
     agenda1b.textContent = " " + allDays[0].firstChild.nodeValue + " " + allMonths[0].firstChild.nodeValue + " | " + allLocations[0].firstChild.nodeValue + " | " + allDurations[0].firstChild.nodeValue;
-    agendaLink1.setAttribute("href", allAgendaLinks[1].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory1}&utm_content==%7C{{^Account.DATE(SHORT)}}%7Cagenda%7C`);//campaign
+    agendaLink1.setAttribute("href", allAgendaLinks[1].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory1}&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cagenda%7C`);//campaign
 
     let agenda2a = document.getElementById('saa2a');
     let agenda2b = document.getElementById('saa2b');
@@ -1143,42 +1143,42 @@ document.getElementById('kleinArtikel5').ondragstart = function (event) {
 }
 
 
-document.getElementById('grootArtikel1').ondragstart = function (event) {
+document.getElementById('artikelGroot1T').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);
         console.log('dragstart');
 }
 
-document.getElementById('grootArtikel2').ondragstart = function (event) {
+document.getElementById('artikelGroot2T').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);
         console.log('dragstart');
 }
 
-document.getElementById('grootArtikel3').ondragstart = function (event) {
+document.getElementById('artikelGroot3T').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);
         console.log('dragstart');
 }
 
-document.getElementById('grootArtikel4').ondragstart = function (event) {
+document.getElementById('artikelGroot4T').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);
         console.log('dragstart');
 }
 
-document.getElementById('grootArtikel5').ondragstart = function (event) {
+document.getElementById('artikelGroot5T').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);
         console.log('dragstart');
 }
 
-document.getElementById('grootArtikel6').ondragstart = function (event) {
+document.getElementById('artikelGroot6T').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);
@@ -1389,7 +1389,7 @@ document.getElementById('vacatureButton').onclick = function (event5) {
       vacatureButtonImg.className = "ButtonImgPressd"
 }
 
-document.getElementById('grootArtikel1').onmousehover = function () {
+document.getElementById('artikelGroot1T').onmousehover = function () {
   if (allArtikel1.includes("seo") || allArtikel1.includes("SEO") || allArtikel1.includes("Search Engine Optimization")) {
     document.getElementById('categroySEO').display = "block";
     document.getElementById('categoryConversie').display = "none";
@@ -1483,7 +1483,7 @@ document.getElementById('grootArtikel1').onmousehover = function () {
   };
 };
 
-document.getElementById('grootArtikel2').onmousehover = function () {
+document.getElementById('artikelGroot2T').onmousehover = function () {
   if (allArtikel2.includes("seo") || allArtikel2.includes("SEO") || allArtikel2.includes("Search Engine Optimization")) {
     document.getElementById('categroySEO').display = "block";
     document.getElementById('categoryConversie').display = "none";
@@ -1577,7 +1577,7 @@ document.getElementById('grootArtikel2').onmousehover = function () {
   };
 };
 
-document.getElementById('grootArtikel3').onmousehover = function hoverColor() {
+document.getElementById('artikelGroot3T').onmousehover = function hoverColor() {
   if (allArtikel3.includes("seo") || allArtikel3.includes("SEO") || allArtikel3.includes("Search Engine Optimization")) {
     document.getElementById('categroySEO').display = "block";
     document.getElementById('categoryConversie').display = "none";
@@ -1671,7 +1671,7 @@ document.getElementById('grootArtikel3').onmousehover = function hoverColor() {
   };
 };
 
-document.getElementById('grootArtikel4').onmousehover = function () {
+document.getElementById('artikelGroot4T').onmousehover = function () {
   if (allArtikel4.includes("seo") || allArtikel4.includes("SEO") || allArtikel4.includes("Search Engine Optimization")) {
     document.getElementById('categroySEO').display = "block";
     document.getElementById('categoryConversie').display = "none";
@@ -1765,7 +1765,7 @@ document.getElementById('grootArtikel4').onmousehover = function () {
   };
 };
 
-document.getElementById('grootArtikel5').onmousehover = function () {
+document.getElementById('artikelGroot5T').onmousehover = function () {
   if (allArtikel5.includes("seo") || allArtikel5.includes("SEO") || allArtikel5.includes("Search Engine Optimization")) {
     document.getElementById('categroySEO').display = "block";
     document.getElementById('categoryConversie').display = "none";
@@ -1859,7 +1859,7 @@ document.getElementById('grootArtikel5').onmousehover = function () {
   };
 };
 
-document.getElementById('grootArtikel6').onmousehover = function () {
+document.getElementById('artikelGroot6T').onmousehover = function () {
   if (allArtikel6.includes("seo") || allArtikel6.includes("SEO") || allArtikel6.includes("Search Engine Optimization")) {
     document.getElementById('categroySEO').display = "block";
     document.getElementById('categoryConversie').display = "none";

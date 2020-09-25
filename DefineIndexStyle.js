@@ -1350,6 +1350,16 @@ artikelKleinImg15Link.id = "imgKlein15Link"
 
 //Artikelen groot
 
+artikelGroot1T.id = 'artikelGroot1T'
+artikelGroot1T.draggable="true";
+artikelGroot1Tb.id = 'artikelGroot1Tb'
+artikelGroot1TrA.id = 'artikelGroot1TrA'
+artikelGroot1TdA.id = 'artikelGroot1TdA'
+artikelGroot1TrB.id = 'artikelGroot1TrB'
+artikelGroot1TdB.id = 'artikelGroot1TdB'
+artikelGroot1TrC.id = 'artikelGroot1TrC'
+artikelGroot1TdC.id = 'artikelGroot1TdC'
+
 artikelGroot1.id = "grootArtikel1";
 artikelGroot1.className = 'grootArtikel';
 artikelGroot1.draggable = "true";
@@ -1391,6 +1401,16 @@ artikelGroot1.style.border="1px solid #b8b8b8";
   artikelGrootCTA1.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;")
 
 
+artikelGroot2T.id = 'artikelGroot2T'
+artikelGroot2T.draggable="true";
+artikelGroot2Tb.id = 'artikelGroot2Tb'
+artikelGroot2TrA.id = 'artikelGroot2TrA'
+artikelGroot2TdA.id = 'artikelGroot2TdA'
+artikelGroot2TrB.id = 'artikelGroot2TrB'
+artikelGroot2TdB.id = 'artikelGroot2TdB'
+artikelGroot2TrC.id = 'artikelGroot2TrC'
+artikelGroot2TdC.id = 'artikelGroot2TdC'
+
 artikelGroot2.id = "grootArtikel2";
 artikelGroot2.className = 'grootArtikel';
 artikelGroot2.draggable = "true";
@@ -1430,6 +1450,16 @@ artikelGroot2.style.border="1px solid #b8b8b8";
   artikelGrootCTA2.className = "GrootArtikelCTA";
   artikelGrootCTA2.style.display = "inline";
   artikelGrootCTA2.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;")
+
+artikelGroot3T.id = 'artikelGroot3T'
+artikelGroot3T.draggable="true";
+artikelGroot3Tb.id = 'artikelGroot3Tb'
+artikelGroot3TrA.id = 'artikelGroot3TrA'
+artikelGroot3TdA.id = 'artikelGroot3TdA'
+artikelGroot3TrB.id = 'artikelGroot3TrB'
+artikelGroot3TdB.id = 'artikelGroot3TdB'
+artikelGroot3TrC.id = 'artikelGroot3TrC'
+artikelGroot3TdC.id = 'artikelGroot3TdC'
 
 artikelGroot3.id = "grootArtikel3";
 artikelGroot3.className = 'grootArtikel';
@@ -1472,6 +1502,17 @@ artikelGroot3.onmousehover = "hoverColor();";
   artikelGrootCTA3.style.display = "inline";
   artikelGrootCTA3.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;")
 
+
+artikelGroot4T.id = 'artikelGroot4T'
+artikelGroot4T.draggable="true";
+artikelGroot4Tb.id = 'artikelGroot4Tb'
+artikelGroot4TrA.id = 'artikelGroot4TrA'
+artikelGroot4TdA.id = 'artikelGroot4TdA'
+artikelGroot4TrB.id = 'artikelGroot4TrB'
+artikelGroot4TdB.id = 'artikelGroot4TdB'
+artikelGroot4TrC.id = 'artikelGroot4TrC'
+artikelGroot4TdC.id = 'artikelGroot4TdC'
+
 artikelGroot4.id = "grootArtikel4";
 artikelGroot4.className = 'grootArtikel';
 artikelGroot4.draggable = "true";
@@ -1513,6 +1554,17 @@ artikelGroot4.style.border="1px solid #b8b8b8";
   artikelGrootCTA4.style.display = "inline";
   artikelGrootCTA4.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;")
 
+
+artikelGroot5T.id = 'artikelGroot5T'
+artikelGroot5T.draggable="true";
+artikelGroot5Tb.id = 'artikelGroot5Tb'
+artikelGroot5TrA.id = 'artikelGroot5TrA'
+artikelGroot5TdA.id = 'artikelGroot5TdA'
+artikelGroot5TrB.id = 'artikelGroot5TrB'
+artikelGroot5TdB.id = 'artikelGroot5TdB'
+artikelGroot5TrC.id = 'artikelGroot5TrC'
+artikelGroot5TdC.id = 'artikelGroot5TdC'
+
   artikelGroot5.id = "grootArtikel5";
   artikelGroot5.className = 'grootArtikel';
   artikelGroot5.draggable = "true";
@@ -1552,6 +1604,16 @@ artikelGroot4.style.border="1px solid #b8b8b8";
     artikelGrootCTA5.className = "GrootArtikelCTA";
     artikelGrootCTA5.style.display = "inline";
     artikelGrootCTA5.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;")
+
+artikelGroot6T.id = 'artikelGroot6T'
+artikelGroot6T.draggable="true";
+artikelGroot6Tb.id = 'artikelGroot6Tb'
+artikelGroot6TrA.id = 'artikelGroot6TrA'
+artikelGroot6TdA.id = 'artikelGroot6TdA'
+artikelGroot6TrB.id = 'artikelGroot6TrB'
+artikelGroot6TdB.id = 'artikelGroot6TdB'
+artikelGroot6TrC.id = 'artikelGroot6TrC'
+artikelGroot6TdC.id = 'artikelGroot6TdC'
 
 artikelGroot6.id = "grootArtikel6";
 artikelGroot6.className = 'grootArtikel';
