@@ -37,7 +37,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let allDescriptions = xmlDoc.getElementsByTagName("description");
     let allAuthors = xmlDoc.getElementsByTagName("author");
     let allLinks = xmlDoc.getElementsByTagName("link");
-
+/*
     let allArtikel1 = allTitles[1].firstChild.nodeValue + allDescriptions[1].firstChild.nodeValue
     if (allArtikel1.includes("seo") || allArtikel1.includes("SEO") || allArtikel1.includes("Search Engine Optimization")) {
       document.getElementById('grootArtikel1').style.border= "5px solid #ffffba";
@@ -94,7 +94,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
       document.getElementById('grootArtikel3').style.border= "5px solid #baffc9";
     }else if (allArtikel3.includes("social") || allArtikel3.includes("Social") || allArtikel3.includes("conversational") || allArtikel3.includes("video") || allArtikel3.includes("facebook") || allArtikel3.includes("twitter") || allArtikel3.includes("youtube")){
       document.getElementById('grootArtikel3').style.border= "5px solid #d4ffea";
-    }else if (allArtikel3.includes("design") || allArtikel3.includes("Design")||allArtikel3.includes("UX")) {
+    }else if (allArtikel3.includes("social") || allArtikel3.includes("Design") || allArtikel3.includes("conversational") || allArtikel3.includes("video") || allArtikel3.includes("facebook") || allArtikel3.includes("twitter") || allArtikel3.includes("youtube")){
       document.getElementById('grootArtikel3').style.border= "5px solid #a8e6cf";
     }else if (allArtikel3.includes("Digital")|| allArtikel3.includes("Tech") || allArtikel3.includes("E-mailmarketing") || allArtikel3.includes("data")){
       document.getElementById('grootArtikel3').style.border= "5px solid #ff8b94";
@@ -112,7 +112,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
       document.getElementById('grootArtikel4').style.border= "5px solid #ffb3ba";
     }else if (allArtikel4.includes("Adverteren") || allArtikel4.includes("content") || allArtikel4.includes("Content")) {
       document.getElementById('grootArtikel4').style.border= "5px solid #eecbff";
-    }else if (allArtikel4.includes("branding") || allArtikel4.includes("communicatie") || allArtikel4.includes("Communicatie")||allArtikel4.includes("Branding")) {
+    }else if (allArtikel4.includes("Adverteren") || allArtikel4.includes(" communicatie") || allArtikel4.includes("Advertising")||allArtikel4.includes("Ecommerce")) {
       document.getElementById('grootArtikel4').style.border= "5px solid #baffc9";
     }else if (allArtikel4.includes("social") || allArtikel4.includes("Social")||allArtikel4.includes("conversational") || allArtikel4.includes("video") || allArtikel4.includes("facebook") || allArtikel4.includes("twitter") || allArtikel4.includes("youtube")) {
       document.getElementById('grootArtikel4').style.border= "5px solid #d4ffea";
@@ -167,7 +167,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     }else if (allArtikel6.includes("carrière")) {
       document.getElementById('grootArtikel6').style.border= "5px solid #ffebf6";
     };
-
+*/
     let headerline2adv = document.getElementById('sheadline2b');
     headerline2adv.textContent="\xa0ADV\xa0";
     let headerline5tip = document.getElementById('sheadline5b');
@@ -670,13 +670,9 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let allVacatureLocations = xmlDoc.getElementsByTagName("postmeta:vac_standplaats");
     let allVacatureLinks = xmlDoc.getElementsByTagName("link");
 
-    let vacLinkTD1a = document.getElementById("vacTableDividerlink1a");
-    vacLinkTD1a.href = allVacatureLinks[1].textContent
-    let vacLinkTD1b = document.getElementById("vacTableDividerlink1b");
-    vacLinkTD1b.href = allVacatureLinks[1].textContent
     let imgVacature1 = document.getElementById("imgVacatureArtikel1");
     imgVacature1.src = allVacatureImages[0].attributes[0].nodeValue;
-    let metaVacature1 = document.getElementById("metaVacature1");
+    let metaVacature1 = document.getElementById("metaVacature1")
     let vacatureMeta1a = document.getElementById("vacatureMeta1a");
     let vacatureMeta1b = document.getElementById("vacatureMeta1b");
     vacatureMeta1a.textContent = allPoster[0].textContent;
@@ -686,7 +682,7 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     titleVacature1.setAttribute("href", allVacatureLinks[1].textContent)
     let descriptionVacature1 = document.getElementById("DescriptionVacature1");
     descriptionVacature1.textContent = allVacatureDescriptions[1].textContent;
-    descriptionVacature1.setAttribute("href", allVacatureLinks[1].textContent)
+    descriptionVacature1.setAttribute("href", allVacatureLinks[1].textContent);
 
     let imgVacature2 = document.getElementById("imgVacatureArtikel2");
     imgVacature2.src = allVacatureImages[1].attributes[0].nodeValue;

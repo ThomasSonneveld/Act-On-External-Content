@@ -1,4 +1,4 @@
-vacatureDescription20.style.display = "none";vacatureDescription19.style.display = "none";let canvasWidth = "18%";
+let canvasWidth = "18%";
 let canvsMinWidth = "100px";
 
 createCanvas.id = 'canvas';
@@ -506,7 +506,7 @@ artikelKlein1.position - "absolute"
         artikelKleinDescription1.id = "DescriptionKleinArtikel1";
         artikelKleinDescription1.style.display = "inline";
         artikelKleinDescription1.className = "DescriptionKleinArtikel";
-        artikelKleinDescription1.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+        artikelKleinDescription1.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
         artikelKleinCTA1.id = "KleinArtikelCTA1";
         artikelKleinCTA1.className = "KleinArtikelCTA";
@@ -565,7 +565,7 @@ artikelKlein2.position - "absolute"
         artikelKleinDescription2.id = "DescriptionKleinArtikel2";
         artikelKleinDescription2.style.display = "inline";
         artikelKleinDescription2.className = "DescriptionKleinArtikel";
-        artikelKleinDescription2.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+        artikelKleinDescription2.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
         artikelKleinCTA2.id = "KleinArtikelCTA2";
         artikelKleinCTA2.className = "KleinArtikelCTA";
@@ -622,7 +622,7 @@ artikelKlein3.position - "absolute"
         artikelKleinDescription3.id = "DescriptionKleinArtikel3";
         artikelKleinDescription3.style.display = "inline";
         artikelKleinDescription3.className = "DescriptionKleinArtikel";
-        artikelKleinDescription3.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+        artikelKleinDescription3.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
         artikelKleinCTA3.id = "KleinArtikelCTA3";
         artikelKleinCTA3.className = "KleinArtikelCTA";
@@ -679,7 +679,7 @@ artikelKlein4.position - "absolute"
         artikelKleinDescription4.id = "DescriptionKleinArtikel4";
         artikelKleinDescription4.style.display = "inline";
         artikelKleinDescription4.className = "DescriptionKleinArtikel";
-        artikelKleinDescription4.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+        artikelKleinDescription4.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
         artikelKleinCTA4.id = "KleinArtikelCTA4";
         artikelKleinCTA4.className = "KleinArtikelCTA";
@@ -737,7 +737,7 @@ artikelKlein5.position - "absolute"
       artikelKleinDescription5.id = "DescriptionKleinArtikel5";
       artikelKleinDescription5.style.display = "inline";
       artikelKleinDescription5.className = "DescriptionKleinArtikel";
-      artikelKleinDescription5.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription5.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA5.id = "KleinArtikelCTA5";
       artikelKleinCTA5.className = "KleinArtikelCTA";
@@ -794,7 +794,7 @@ artikelKlein6.position - "absolute"
       artikelKleinDescription6.id = "DescriptionKleinArtikel6";
       artikelKleinDescription6.style.display = "inline";;
       artikelKleinDescription6.className = "DescriptionKleinArtikel";
-      artikelKleinDescription6.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription6.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA6.id = "KleinArtikelCTA6";
       artikelKleinCTA6.className = "KleinArtikelCTA";
@@ -851,7 +851,7 @@ artikelKlein7.position - "absolute"
       artikelKleinDescription7.id = "DescriptionKleinArtikel7";
       artikelKleinDescription7.style.display = "inline";
       artikelKleinDescription7.className = "DescriptionKleinArtikel";
-      artikelKleinDescription7.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription7.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA7.id = "KleinArtikelCTA7";
       artikelKleinCTA7.className = "KleinArtikelCTA";
@@ -908,7 +908,7 @@ artikelKlein8.position - "absolute"
       artikelKleinDescription8.id = "DescriptionKleinArtikel8";
       artikelKleinDescription8.style.display = "inline";
       artikelKleinDescription8.className = "DescriptionKleinArtikel";
-      artikelKleinDescription8.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription8.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA8.id = "KleinArtikelCTA8";
       artikelKleinCTA8.className = "KleinArtikelCTA";
@@ -965,7 +965,7 @@ artikelKlein9.position - "absolute"
       artikelKleinDescription9.id = "DescriptionKleinArtikel9";
       artikelKleinDescription9.style.display = "inline";
       artikelKleinDescription9.className = "DescriptionKleinArtikel";
-      artikelKleinDescription9.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription9.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA9.id = "KleinArtikelCTA9";
       artikelKleinCTA9.className = "KleinArtikelCTA";
@@ -1022,7 +1022,7 @@ artikelKlein10.position - "absolute"
       artikelKleinDescription10.id = "DescriptionKleinArtikel10";
       artikelKleinDescription10.style.display = "inline";
       artikelKleinDescription10.className = "DescriptionKleinArtikel";
-      artikelKleinDescription10.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription10.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA10.id = "KleinArtikelCTA10";
       artikelKleinCTA10.className = "KleinArtikelCTA";
@@ -1079,7 +1079,7 @@ artikelKlein11.position - "absolute"
       artikelKleinDescription11.id = "DescriptionKleinArtikel11";
       artikelKleinDescription11.style.display = "inline";
       artikelKleinDescription11.className = "DescriptionKleinArtikel";
-      artikelKleinDescription11.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription11.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA11.id = "KleinArtikelCTA11";
       artikelKleinCTA11.className = "KleinArtikelCTA";
@@ -1136,7 +1136,7 @@ artikelKlein12.position - "absolute"
       artikelKleinDescription12.id = "DescriptionKleinArtikel12";
       artikelKleinDescription12.style.display = "inline";
       artikelKleinDescription12.className = "DescriptionKleinArtikel";
-      artikelKleinDescription12.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription12.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA12.id = "KleinArtikelCTA12";
       artikelKleinCTA12.className = "KleinArtikelCTA";
@@ -1194,7 +1194,7 @@ artikelKlein13.position - "absolute"
       artikelKleinDescription13.id = "DescriptionKleinArtikel13";
       artikelKleinDescription13.style.display = "inline";
       artikelKleinDescription13.className = "DescriptionKleinArtikel";
-      artikelKleinDescription13.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription13.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA13.id = "KleinArtikelCTA13";
       artikelKleinCTA13.className = "KleinArtikelCTA";
@@ -1251,7 +1251,7 @@ artikelKlein14.position - "absolute"
       artikelKleinDescription14.id = "DescriptionKleinArtikel14";
       artikelKleinDescription14.style.display = "inline";
       artikelKleinDescription14.className = "DescriptionKleinArtikel";
-      artikelKleinDescription14.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription14.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA14.id = "KleinArtikelCTA14";
       artikelKleinCTA14.className = "KleinArtikelCTA";
@@ -1309,7 +1309,7 @@ artikelKlein15.position - "absolute"
       artikelKleinDescription15.id = "DescriptionKleinArtikel15";
       artikelKleinDescription15.style.display = "inline";
       artikelKleinDescription15.className = "DescriptionKleinArtikel";
-      artikelKleinDescription15.setAttribute("style", "color: #666666; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+      artikelKleinDescription15.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
 
       artikelKleinCTA15.id = "KleinArtikelCTA15";
       artikelKleinCTA15.className = "KleinArtikelCTA";
@@ -1670,40 +1670,38 @@ vacature1.position - "absolute"
     vacature1TDa.height = "150px";
     vacature1TDa.style.verticalAlign="top"
 
-    vacatureLink1TDa.id = "vacTableDividerlink1a";
-    vacatureLink1TDa.className = "vacTableDividerlink1";
-    vacatureLink1Meta.id = "vacTableDividerlink1b";
-    vacatureLink1Meta.className = "vacTableDividerlink2";
+      vacatureLink1TDa.id = "vacTableDividerlink1a";
+      vacatureLink1TDa.className = "vacTableDividerlink1";
+      vacatureLink1Meta.id = "vacTableDividerlink1b";
+      vacatureLink1Meta.className = "vacTableDividerlink2";
 
       vacature1TDDiv.className = "tdDiv";
       vacature1TDDiv.width = "150px";
       vacature1TDDiv.height = "150px";
-      vacature1TDDiv.style.verticalAlign="top"
 
-        vacatureImg1.id = "imgVacatureArtikel1";
-        vacatureImg1.style.display = "block";
-        vacatureImg1.className = "imgVacature";
-        vacatureImg1.style.height = "auto";
-        vacatureImg1.style.width = "150px";
-        vacatureImg1.style.verticalAlign="top";
-        vacatureImg1.style.marginright = "15px";
+      vacatureImg1.id = "imgVacatureArtikel1";
+      vacatureImg1.style.display = "block";
+      vacatureImg1.className = "imgVacature";
+      vacatureImg1.style.height = "auto";
+      vacatureImg1.style.width = "150px";
+      vacatureImg1.style.marginright = "15px";
 
       vacature1TDb.className= "vacTableDivider2";
       vacature1TDb.height = "150px";
       vacature1TDb.width = "auto";
       vacature1TDb.style.verticalAlign="top";
 
-        vacatureMeta1.id = "metaVacature1";
+        vacatureMeta1.id = "metaVacature1"
         vacatureMeta1.style.display = "inline";
-        vacatureMeta1.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial;");
+        vacatureMeta1.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
         vacatureMeta1.className = "metaVacature";
 
           vspan1a.id="vacatureMeta1a"
-          vspan1a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+          vspan1a.setAttribute("style", "font-size: 12px; display: inline; font-weight: bold; font-family: Arial; color: #019000;");
           vspan1a.className = "metaVacatureCompany";
 
           vspan1b.id="vacatureMeta1b"
-          vspan1b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+          vspan1b.setAttribute("style", "font-size: 12px; display: inline; font-weight: bold; font-family: Arial; color: #666666;");
           vspan1b.className = "metaVacature";
 
         vacatureTitle1.id = "titleVacature1";
@@ -1711,69 +1709,70 @@ vacature1.position - "absolute"
         vacatureTitle1.className = "titleVacature";
         vacatureTitle1.style.top = "0px";
         vacatureTitle1.style.verticalAlign="top"
-        vacatureTitle1.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+        vacatureTitle1.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
         vacatureDescription1.id = "DescriptionVacature1";
         vacatureDescription1.style.display = "none";
         vacatureDescription1.className = "DescriptionVacature";
-        vacatureDescription1.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; padding: 5px 0px 0px 0px;  text-decoration: none; ");
+        vacatureDescription1.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
-vacature2.id = "vacature2";
-vacature2.className = 'vacature';
-vacature2.draggable = "true";
-vacature2.position - "absolute"
+        vacature2.id = "vacature2";
+        vacature2.className = 'vacature';
+        vacature2.draggable = "true";
+        vacature2.position - "absolute"
 
-      vacature2TDa.className = "vacTableDivider1";
-      vacature2TDa.display = "block";
-      vacature2TDa.width = "30%";
-      vacature2TDa.height = "150px";
-      vacature2TDa.style.verticalAlign="top"
+            vacature2TDa.className = "vacTableDivider1";
+            vacature2TDa.display = "block";
+            vacature2TDa.width = "30%";
+            vacature2TDa.height = "150px";
+            vacature2TDa.style.verticalAlign="top"
 
-      vacatureLink2TDa.id = "vacTableDividerlink2a";
-      vacatureLink2TDa.className = "vacTableDividerlink1";
-      vacatureLink2Meta.id = "vacTableDividerlink2b";
-      vacatureLink2Meta.className = "vacTableDividerlink2";
+              vacatureLink2TDa.id = "vacTableDividerlink2a";
+              vacatureLink2TDa.className = "vacTableDividerlink1";
+              vacatureLink2Meta.id = "vacTableDividerlink2b";
+              vacatureLink2Meta.className = "vacTableDividerlink2";
 
-      vacature2TDDiv.className = "tdDiv";
-      vacature2TDDiv.width = "150px";
-      vacature2TDDiv.height = "150px";
+              vacature2TDDiv.className = "tdDiv";
+              vacature2TDDiv.width = "150px";
+              vacature2TDDiv.height = "150px";
 
-        vacatureImg2.id = "imgVacatureArtikel2";
-        vacatureImg2.style.display = "block";
-        vacatureImg2.className = "imgVacature";
-        vacatureImg2.style.height = "auto";
-        vacatureImg2.style.width = "150px";
-        vacatureImg2.style.marginright = "15px";
+                vacatureImg2.id = "imgVacatureArtikel2";
+                vacatureImg2.style.display = "block";
+                vacatureImg2.className = "imgVacature";
+                vacatureImg2.style.height = "auto";
+                vacatureImg2.style.width = "150px";
+                vacatureImg2.style.marginright = "15px";
 
-      vacature2TDb.className= "vacTableDivider2";
-      vacature2TDb.height = "150px";
-      vacature2TDb.width = "auto";
-      vacature2TDb.style.verticalAlign="top";
+              vacature2TDb.className= "vacTableDivider2";
+              vacature2TDb.height = "150px";
+              vacature2TDb.width = "auto";
+              vacature2TDb.style.verticalAlign="top";
 
-        vacatureMeta2.id = "metaVacature2"
-        vacatureMeta2.style.display = "block";
-        vacatureMeta2.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
-        vacatureMeta2.className = "metaVacature";
+                vacatureMeta2.id = "metaVacature2"
+                vacatureMeta2.style.display = "block";
+                vacatureMeta2.setAttribute("style", "display: block; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+                vacatureMeta2.className = "metaVacature";
 
-          vspan2a.id="vacatureMeta2a"
-          vspan2a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
-          vspan2a.className = "metaVacatureCompany";
+                  vspan2a.id="vacatureMeta2a"
+                  vspan2a.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;");
+                  vspan2a.className = "metaVacatureCompany";
 
-          vspan2b.id="vacatureMeta2b"
-          vspan2b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
-          vspan2b.className = "metaVacature";
+                  vspan2b.id="vacatureMeta2b"
+                  vspan2b.setAttribute("style", "font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;");
+                  vspan2b.className = "metaVacature";
 
-        vacatureTitle2.id = "titleVacature2";
-        vacatureTitle2.style.display = "block";
-        vacatureTitle2.className = "titleVacature";
-        vacatureTitle2.style.top = "0px";
-        vacatureTitle2.style.verticalAlign="top"
-        vacatureTitle2.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                vacatureTitle2.id = "titleVacature2";
+                vacatureTitle2.style.display = "block";
+                vacatureTitle2.className = "titleVacature";
+                vacatureTitle2.style.top = "0px";
+                vacatureTitle2.style.verticalAlign="top"
+                vacatureTitle2.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
-        vacatureDescription2.id = "DescriptionVacature2";
-        vacatureDescription2.style.display = "none";
-        vacatureDescription2.className = "DescriptionVacature";
-        vacatureDescription2.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                vacatureDescription2.id = "DescriptionVacature2";
+                vacatureDescription2.style.display = "none";
+                vacatureDescription2.className = "DescriptionVacature";
+                vacatureDescription2.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
 
 vacature3.id = "vacature3";
 vacature3.className = 'vacature';
@@ -1825,12 +1824,12 @@ vacature3.position - "absolute"
           vacatureTitle3.className = "titleVacature";
           vacatureTitle3.style.top = "0px";
           vacatureTitle3.style.verticalAlign="top"
-          vacatureTitle3.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+          vacatureTitle3.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                 vacatureDescription3.id = "DescriptionVacature3";
                 vacatureDescription3.style.display = "none";
                 vacatureDescription3.className = "DescriptionVacature";
-                vacatureDescription3.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                vacatureDescription3.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
 vacature4.id = "vacature4";
 vacature4.className = 'vacature';
@@ -1882,12 +1881,12 @@ vacature4.position - "absolute"
         vacatureTitle4.className = "titleVacature";
         vacatureTitle4.style.top = "0px";
         vacatureTitle4.style.verticalAlign="top"
-        vacatureTitle4.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+        vacatureTitle4.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
         vacatureDescription4.id = "DescriptionVacature4";
         vacatureDescription4.style.display = "none";
         vacatureDescription4.className = "DescriptionVacature";
-        vacatureDescription4.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none;");
+        vacatureDescription4.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
 vacature5.id = "vacature5";
 vacature5.className = 'vacature';
@@ -1939,12 +1938,12 @@ vacature5.position - "absolute"
         vacatureTitle5.className = "titleVacature";
         vacatureTitle5.style.top = "0px";
         vacatureTitle5.style.verticalAlign="top"
-        vacatureTitle5.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+        vacatureTitle5.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
         vacatureDescription5.id = "DescriptionVacature5";
         vacatureDescription5.style.display = "none";
         vacatureDescription5.className = "DescriptionVacature";
-        vacatureDescription5.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+        vacatureDescription5.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
 vacature6.id = "vacature6";
 vacature6.className = 'vacature';
@@ -1991,11 +1990,12 @@ vacature6.position - "absolute"
         vacatureTitle6.className = "titleVacature";
         vacatureTitle6.style.top = "0px";
         vacatureTitle6.style.verticalAlign="top"
-        vacatureTitle6.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+        vacatureTitle6.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+
         vacatureDescription6.id = "DescriptionVacature6";
         vacatureDescription6.style.display = "none";
         vacatureDescription6.className = "DescriptionVacature";
-        vacatureDescription6.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none;");
+        vacatureDescription6.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
 vacature7.id = "vacature7";
 vacature7.className = 'vacature';
@@ -2042,12 +2042,12 @@ vacature7.position - "absolute"
         vacatureTitle7.className = "titleVacature";
         vacatureTitle7.style.top = "0px";
         vacatureTitle7.style.verticalAlign="top"
-        vacatureTitle7.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+        vacatureTitle7.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
         vacatureDescription7.id = "DescriptionVacature7";
         vacatureDescription7.style.display = "none";
         vacatureDescription7.className = "DescriptionVacature";
-        vacatureDescription7.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+        vacatureDescription7.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
 vacature8.id = "vacature8";
 vacature8.className = 'vacature';
@@ -2094,12 +2094,12 @@ vacature8.position - "absolute"
         vacatureTitle8.className = "titleVacature";
         vacatureTitle8.style.top = "0px";
         vacatureTitle8.style.verticalAlign="top"
-        vacatureTitle8.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+        vacatureTitle8.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
         vacatureDescription8.id = "DescriptionVacature8";
         vacatureDescription8.style.display = "none";
         vacatureDescription8.className = "DescriptionVacature";
-        vacatureDescription8.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+        vacatureDescription8.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
 vacature9.id = "vacature9";
 vacature9.className = 'vacature';
@@ -2146,12 +2146,12 @@ vacature9.position - "absolute"
         vacatureTitle9.className = "titleVacature";
         vacatureTitle9.style.top = "0px";
         vacatureTitle9.style.verticalAlign="top"
-        vacatureTitle9.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+        vacatureTitle9.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
         vacatureDescription9.id = "DescriptionVacature9";
         vacatureDescription9.style.display = "none";
         vacatureDescription9.className = "DescriptionVacature";
-        vacatureDescription9.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+        vacatureDescription9.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
 vacature10.id = "vacature10";
 vacature10.className = 'vacature';
@@ -2199,12 +2199,12 @@ vacature10.position - "absolute"
         vacatureTitle10.className = "titleVacature";
         vacatureTitle10.style.top = "0px";
         vacatureTitle10.style.verticalAlign="top"
-        vacatureTitle10.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+        vacatureTitle10.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
         vacatureDescription10.id = "DescriptionVacature10";
         vacatureDescription10.style.display = "none";
         vacatureDescription10.className = "DescriptionVacature";
-        vacatureDescription10.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+        vacatureDescription10.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
 vacature11.id = "vacature11";
 vacature11.className = 'vacature';
@@ -2251,12 +2251,12 @@ vacature11.position - "absolute"
         vacatureTitle11.className = "titleVacature";
         vacatureTitle11.style.top = "0px";
         vacatureTitle11.style.verticalAlign="top"
-        vacatureTitle11.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+        vacatureTitle11.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
         vacatureDescription11.id = "DescriptionVacature11";
         vacatureDescription11.style.display = "none";
         vacatureDescription11.className = "DescriptionVacature";
-        vacatureDescription11.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+        vacatureDescription11.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
 vacature12.id = "vacature12";
 vacature12.className = 'vacature';
@@ -2303,12 +2303,12 @@ vacature12.position - "absolute"
         vacatureTitle12.className = "titleVacature";
         vacatureTitle12.style.top = "0px";
         vacatureTitle12.style.verticalAlign="top"
-        vacatureTitle12.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+        vacatureTitle12.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
         vacatureDescription12.id = "DescriptionVacature12";
         vacatureDescription12.style.display = "none";
         vacatureDescription12.className = "DescriptionVacature";
-        vacatureDescription12.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+        vacatureDescription12.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
         vacature13.id = "vacature13";
         vacature13.className = 'vacature';
@@ -2355,12 +2355,12 @@ vacature12.position - "absolute"
                 vacatureTitle13.className = "titleVacature";
                 vacatureTitle13.style.top = "0px";
                 vacatureTitle13.style.verticalAlign="top"
-                vacatureTitle13.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                vacatureTitle13.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                 vacatureDescription13.id = "DescriptionVacature13";
                 vacatureDescription13.style.display = "none";
                 vacatureDescription13.className = "DescriptionVacature";
-                vacatureDescription13.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                vacatureDescription13.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
             vacature14.id = "vacature14";
             vacature14.className = 'vacature';
@@ -2407,12 +2407,12 @@ vacature12.position - "absolute"
                     vacatureTitle14.className = "titleVacature";
                     vacatureTitle14.style.top = "0px";
                     vacatureTitle14.style.verticalAlign="top"
-                    vacatureTitle14.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                    vacatureTitle14.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                     vacatureDescription14.id = "DescriptionVacature14";
                     vacatureDescription14.style.display = "none";
                     vacatureDescription14.className = "DescriptionVacature";
-                    vacatureDescription14.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                    vacatureDescription14.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
               vacature15.id = "vacature15";
               vacature15.className = 'vacature';
@@ -2459,12 +2459,12 @@ vacature12.position - "absolute"
                       vacatureTitle15.className = "titleVacature";
                       vacatureTitle15.style.top = "0px";
                       vacatureTitle15.style.verticalAlign="top"
-                      vacatureTitle15.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                      vacatureTitle15.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                       vacatureDescription15.id = "DescriptionVacature15";
                       vacatureDescription15.style.display = "none";
                       vacatureDescription15.className = "DescriptionVacature";
-                      vacatureDescription15.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                      vacatureDescription15.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
               vacature16.id = "vacature16";
               vacature16.className = 'vacature';
@@ -2511,12 +2511,12 @@ vacature12.position - "absolute"
                       vacatureTitle16.className = "titleVacature";
                       vacatureTitle16.style.top = "0px";
                       vacatureTitle16.style.verticalAlign="top"
-                      vacatureTitle16.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                      vacatureTitle16.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                       vacatureDescription16.id = "DescriptionVacature16";
                       vacatureDescription16.style.display = "none";
                       vacatureDescription16.className = "DescriptionVacature";
-                      vacatureDescription16.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                      vacatureDescription16.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
               vacature17.id = "vacature17";
               vacature17.className = 'vacature';
@@ -2563,12 +2563,12 @@ vacature12.position - "absolute"
                       vacatureTitle17.className = "titleVacature";
                       vacatureTitle17.style.top = "0px";
                       vacatureTitle17.style.verticalAlign="top"
-                      vacatureTitle17.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                      vacatureTitle17.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                       vacatureDescription17.id = "DescriptionVacature17";
                       vacatureDescription17.style.display = "none";
                       vacatureDescription17.className = "DescriptionVacature";
-                      vacatureDescription17.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                      vacatureDescription17.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
               vacature18.id = "vacature18";
               vacature18.className = 'vacature';
@@ -2615,12 +2615,12 @@ vacature12.position - "absolute"
                       vacatureTitle18.className = "titleVacature";
                       vacatureTitle18.style.top = "0px";
                       vacatureTitle18.style.verticalAlign="top"
-                      vacatureTitle18.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                      vacatureTitle18.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                       vacatureDescription18.id = "DescriptionVacature18";
                       vacatureDescription18.style.display = "none";
                       vacatureDescription18.className = "DescriptionVacature";
-                      vacatureDescription18.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                      vacatureDescription18.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
               vacature19.id = "vacature19";
               vacature19.className = 'vacature';
@@ -2667,12 +2667,12 @@ vacature12.position - "absolute"
                       vacatureTitle19.className = "titleVacature";
                       vacatureTitle19.style.top = "0px";
                       vacatureTitle19.style.verticalAlign="top"
-                      vacatureTitle19.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                      vacatureTitle19.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                       vacatureDescription19.id = "DescriptionVacature19";
                       vacatureDescription19.style.display = "block";
                       vacatureDescription19.className = "DescriptionVacature";
-                      vacatureDescription19.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                      vacatureDescription19.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
               vacature20.id = "vacature20";
               vacature20.className = 'vacature';
@@ -2719,12 +2719,12 @@ vacature12.position - "absolute"
                       vacatureTitle20.className = "titleVacature";
                       vacatureTitle20.style.top = "0px";
                       vacatureTitle20.style.verticalAlign="top"
-                      vacatureTitle20.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                      vacatureTitle20.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                       vacatureDescription20.id = "DescriptionVacature20";
                       vacatureDescription20.style.display = "block";
                       vacatureDescription20.className = "DescriptionVacature";
-                      vacatureDescription20.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                      vacatureDescription20.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
               vacature21.id = "vacature21";
               vacature21.className = 'vacature';
@@ -2771,12 +2771,12 @@ vacature12.position - "absolute"
                       vacatureTitle21.className = "titleVacature";
                       vacatureTitle21.style.top = "0px";
                       vacatureTitle21.style.verticalAlign="top"
-                      vacatureTitle21.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                      vacatureTitle21.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                       vacatureDescription21.id = "DescriptionVacature21";
                       vacatureDescription21.style.display = "none";
                       vacatureDescription21.className = "DescriptionVacature";
-                      vacatureDescription21.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                      vacatureDescription21.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
             vacature22.id = "vacature22";
             vacature22.className = 'vacature';
@@ -2823,12 +2823,12 @@ vacature12.position - "absolute"
                     vacatureTitle22.className = "titleVacature";
                     vacatureTitle22.style.top = "0px";
                     vacatureTitle22.style.verticalAlign="top"
-                    vacatureTitle22.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                    vacatureTitle22.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                     vacatureDescription22.id = "DescriptionVacature22";
                     vacatureDescription22.style.display = "none";
                     vacatureDescription22.className = "DescriptionVacature";
-                    vacatureDescription22.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                    vacatureDescription22.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
             vacature23.id = "vacature23";
             vacature23.className = 'vacature';
@@ -2875,12 +2875,12 @@ vacature12.position - "absolute"
                     vacatureTitle23.className = "titleVacature";
                     vacatureTitle23.style.top = "0px";
                     vacatureTitle23.style.verticalAlign="top"
-                    vacatureTitle23.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                    vacatureTitle23.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                     vacatureDescription23.id = "DescriptionVacature23";
                     vacatureDescription23.style.display = "none";
                     vacatureDescription23.className = "DescriptionVacature";
-                    vacatureDescription23.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                    vacatureDescription23.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
             vacature24.id = "vacature24";
             vacature24.className = 'vacature';
@@ -2927,12 +2927,12 @@ vacature12.position - "absolute"
                     vacatureTitle24.className = "titleVacature";
                     vacatureTitle24.style.top = "0px";
                     vacatureTitle24.style.verticalAlign="top"
-                    vacatureTitle24.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                    vacatureTitle24.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                     vacatureDescription24.id = "DescriptionVacature24";
                     vacatureDescription24.style.display = "none";
                     vacatureDescription24.className = "DescriptionVacature";
-                    vacatureDescription24.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                    vacatureDescription24.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
             vacature25.id = "vacature25";
             vacature25.className = 'vacature';
@@ -2979,12 +2979,187 @@ vacature12.position - "absolute"
                     vacatureTitle25.className = "titleVacature";
                     vacatureTitle25.style.top = "0px";
                     vacatureTitle25.style.verticalAlign="top"
-                    vacatureTitle25.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;");
+                    vacatureTitle25.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
 
                     vacatureDescription25.id = "DescriptionVacature25";
                     vacatureDescription25.style.display = "none";
                     vacatureDescription25.className = "DescriptionVacature";
-                    vacatureDescription25.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; ");
+                    vacatureDescription25.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature1TDbRa.id = 'vacature1TDbRa'
+vacature1TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature1TDbRb.id = 'vacature1TDbRb'
+vacature1TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature1TDbRc.id = 'vacature1TDbRc'
+vacature1TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature2TDbRa.id = 'vacature2TDbRa'
+vacature2TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature2TDbRb.id = 'vacature2TDbRb'
+vacature2TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature2TDbRc.id = 'vacature2TDbRc'
+vacature2TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature3TDbRa.id = 'vacature3TDbRa'
+vacature3TDbRaTD.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature3TDbRb.id = 'vacature3TDbRb'
+vacature3TDbRbTD.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 5px 0px 0px 0px");
+vacature3TDbRc.id = 'vacature3TDbRc'
+vacature3TDbRcTD.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 5px 0px 20px 0px");
+
+vacature4TDbRa.id = 'vacature4TDbRa'
+vacature4TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature4TDbRb.id = 'vacature4TDbRb'
+vacature4TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature4TDbRc.id = 'vacature4TDbRc'
+vacature4TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature5TDbRa.id = 'vacature5TDbRa'
+vacature5TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature5TDbRb.id = 'vacature5TDbRb'
+vacature5TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature5TDbRc.id = 'vacature5TDbRc'
+vacature5TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature6TDbRa.id = 'vacature6TDbRa'
+vacature6TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature6TDbRb.id = 'vacature6TDbRb'
+vacature6TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature6TDbRc.id = 'vacature6TDbRc'
+vacature6TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature7TDbRa.id = 'vacature7TDbRa'
+vacature7TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature7TDbRb.id = 'vacature7TDbRb'
+vacature7TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature7TDbRc.id = 'vacature7TDbRc'
+vacature7TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature8TDbRa.id = 'vacature8TDbRa'
+vacature8TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature8TDbRb.id = 'vacature8TDbRb'
+vacature8TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature8TDbRc.id = 'vacature8TDbRc'
+vacature8TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature9TDbRa.id = 'vacature9TDbRa'
+vacature9TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature9TDbRb.id = 'vacature9TDbRb'
+vacature9TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature9TDbRc.id = 'vacature9TDbRc'
+vacature9TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature10TDbRa.id = 'vacature10TDbRa'
+vacature10TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature10TDbRb.id = 'vacature10TDbRb'
+vacature10TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature10TDbRc.id = 'vacature10TDbRc'
+vacature10TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature11TDbRa.id = 'vacature11TDbRa'
+vacature11TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature11TDbRb.id = 'vacature11TDbRb'
+vacature11TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature11TDbRc.id = 'vacature11TDbRc'
+vacature11TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature12TDbRa.id = 'vacature12TDbRa'
+vacature12TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature12TDbRb.id = 'vacature12TDbRb'
+vacature12TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature12TDbRc.id = 'vacature12TDbRc'
+vacature12TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature13TDbRa.id = 'vacature13TDbRa'
+vacature13TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature13TDbRb.id = 'vacature13TDbRb'
+vacature13TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature13TDbRc.id = 'vacature13TDbRc'
+vacature13TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature14TDbRa.id = 'vacature14TDbRa'
+vacature14TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature14TDbRb.id = 'vacature14TDbRb'
+vacature14TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature14TDbRc.id = 'vacature14TDbRc'
+vacature14TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature15TDbRa.id = 'vacature15TDbRa'
+vacature15TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature15TDbRb.id = 'vacature15TDbRb'
+vacature15TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature15TDbRc.id = 'vacature15TDbRc'
+vacature15TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature16TDbRa.id = 'vacature16TDbRa'
+vacature16TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature16TDbRb.id = 'vacature16TDbRb'
+vacature16TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature16TDbRc.id = 'vacature16TDbRc'
+vacature16TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature17TDbRa.id = 'vacature17TDbRa'
+vacature17TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature17TDbRb.id = 'vacature17TDbRb'
+vacature17TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature17TDbRc.id = 'vacature17TDbRc'
+vacature17TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature18TDbRa.id = 'vacature18TDbRa'
+vacature18TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature18TDbRb.id = 'vacature18TDbRb'
+vacature18TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature18TDbRc.id = 'vacature18TDbRc'
+vacature18TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature19TDbRa.id = 'vacature19TDbRa'
+vacature19TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature19TDbRb.id = 'vacature19TDbRb'
+vacature19TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature19TDbRc.id = 'vacature19TDbRc'
+vacature19TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature20TDbRa.id = 'vacature20TDbRa'
+vacature20TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature20TDbRb.id = 'vacature20TDbRb'
+vacature20TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature20TDbRc.id = 'vacature20TDbRc'
+vacature20TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature21TDbRa.id = 'vacature21TDbRa'
+vacature21TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature21TDbRb.id = 'vacature21TDbRb'
+vacature21TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature21TDbRc.id = 'vacature21TDbRc'
+vacature21TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature22TDbRa.id = 'vacature22TDbRa'
+vacature22TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature22TDbRb.id = 'vacature22TDbRb'
+vacature22TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature22TDbRc.id = 'vacature22TDbRc'
+vacature22TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature23TDbRa.id = 'vacature23TDbRa'
+vacature23TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature23TDbRb.id = 'vacature23TDbRb'
+vacature23TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature23TDbRc.id = 'vacature23TDbRc'
+vacature23TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature24TDbRa.id = 'vacature24TDbRa'
+vacature24TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature24TDbRb.id = 'vacature24TDbRb'
+vacature24TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature24TDbRc.id = 'vacature24TDbRc'
+vacature24TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
+
+vacature25TDbRa.id = 'vacature25TDbRa'
+vacature25TDbRa.setAttribute("style", "display: inline; font-size: 10pt; font-weight: regular; font-family: Arial; ");
+vacature25TDbRb.id = 'vacature25TDbRb'
+vacature25TDbRb.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 10px 0px 0px 0px");
+vacature25TDbRc.id = 'vacature25TDbRc'
+vacature25TDbRc.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10px 0px 20px 0px");
 
 categorySEO.id = "categroySEO";
 categorySEO.style.width = "100%";
