@@ -176,296 +176,296 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
 
     let headerline1 = document.getElementById('headline1');
     headerline1.textContent = allTitles[1].firstChild.nodeValue;
-    headerline1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cheadline%7C`);
+    headerline1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline2 = document.getElementById('headline2');
     headerline2.textContent = allTitles[2].firstChild.nodeValue;
-    headerline2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cheadline%7C`);
+    headerline2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline3 = document.getElementById('headline3');
     headerline3.textContent = allTitles[3].firstChild.nodeValue;
-    headerline3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cheadline%7C`);
+    headerline3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline4 = document.getElementById('headline4');
     headerline4.textContent = allTitles[4].firstChild.nodeValue;
-    headerline4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cheadline%7C`);
+    headerline4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline5 = document.getElementById('headline5');
     headerline5.textContent = allTitles[5].firstChild.nodeValue;
-    headerline5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cheadline%7C`);
+    headerline5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline6 = document.getElementById('headline6');
     headerline6.textContent = allTitles[6].firstChild.nodeValue;
-    headerline6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cheadline%7C`);//campagne);
+    headerline6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);//campagne);
 
 
 
     let imgKlein1 = document.getElementById('imgKleinArtikel1');
     imgKlein1.src = allSmallImages[0].textContent;
-    imgKlein1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let titleKleinLink1 = document.getElementById('kleinTitleLink1');
     titleKleinLink1.textContent = allTitles[1].firstChild.nodeValue;
-    titleKleinLink1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein1 = document.getElementById('DescriptionKleinArtikel1');
     descriptionKlein1.textContent = allDescriptions[1].firstChild.nodeValue;
-    descriptionKlein1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein1a = document.getElementById('imgKleinArtikel1a');
     imgKlein1a.src = allImages[0].attributes.url.nodeValue;
     let imgKlein1aLink = document.getElementById('imgKlein1ALink');
-    imgKlein1a.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein1a.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein1Link = document.getElementById('imgKlein1Link');
-    imgKlein1a.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein1a.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein1 = document.getElementById('KleinArtikelCTA1');
     ctaKlein1.textContent = " Lees meer ▸";
-    ctaKlein1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein2 = document.getElementById('imgKleinArtikel2');
     imgKlein2.src =  allSmallImages[1].textContent;
     let titleKleinLink2 = document.getElementById('kleinTitleLink2');
     titleKleinLink2.textContent = allTitles[2].firstChild.nodeValue;
-    titleKleinLink2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein2 = document.getElementById('DescriptionKleinArtikel2');
     descriptionKlein2.textContent = allDescriptions[2].firstChild.nodeValue;
-    descriptionKlein2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein2a = document.getElementById('imgKleinArtikel2a');
     imgKlein2a.src = allImages[1].attributes.url.nodeValue;
     let imgKlein2aLink = document.getElementById('imgKlein2ALink');
-    imgKlein2a.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein2a.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein2Link = document.getElementById('imgKlein2Link');
-    imgKlein2a.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein2a.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein2 = document.getElementById('KleinArtikelCTA2');
     ctaKlein2.textContent = " Lees meer ▸";
-    ctaKlein2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein3 = document.getElementById('imgKleinArtikel3');
     imgKlein3.src =  allSmallImages[2].textContent;
     let titleKleinlink3 = document.getElementById('kleinTitleLink3');
     titleKleinlink3.textContent = allTitles[3].firstChild.nodeValue;
-    titleKleinlink3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinlink3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein3 = document.getElementById('DescriptionKleinArtikel3');
     descriptionKlein3.textContent = allDescriptions[3].firstChild.nodeValue;
-    descriptionKlein3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein3a = document.getElementById('imgKleinArtikel3a');
     imgKlein3a.src = allImages[2].attributes.url.nodeValue;
     let imgKlein3aLink = document.getElementById('imgKlein3ALink');
-    imgKlein3a.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein3a.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein3Link = document.getElementById('imgKlein3Link');
-    imgKlein3a.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein3a.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein3 = document.getElementById('KleinArtikelCTA3');
     ctaKlein3.textContent = " Lees meer ▸";
-    ctaKlein3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein4 = document.getElementById('imgKleinArtikel4');
     imgKlein4.src =  allSmallImages[3].textContent;
     let titleKleinLink4 = document.getElementById('kleinTitleLink4');
     titleKleinLink4.textContent = allTitles[4].firstChild.nodeValue;
-    titleKleinLink4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein4 = document.getElementById('DescriptionKleinArtikel4');
     descriptionKlein4.textContent = allDescriptions[4].firstChild.nodeValue;
-    descriptionKlein4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein4a = document.getElementById('imgKleinArtikel4a');
     imgKlein4a.src = allImages[3].attributes.url.nodeValue;
     let imgKlein4aLink = document.getElementById('imgKlein4ALink');
-    imgKlein4a.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein4a.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein4Link = document.getElementById('imgKlei4Link');
-    imgKlein4a.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein4a.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein4 = document.getElementById('KleinArtikelCTA4');
     ctaKlein4.textContent = " Lees meer ▸";
-    ctaKlein4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein5 = document.getElementById('imgKleinArtikel5');
     imgKlein5.src =  allSmallImages[4].textContent;
     let titleKleinLink5 = document.getElementById('kleinTitleLink5');
     titleKleinLink5.textContent = allTitles[5].firstChild.nodeValue;
-    titleKleinLink5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein5 = document.getElementById('DescriptionKleinArtikel5');
     descriptionKlein5.textContent = allDescriptions[5].firstChild.nodeValue;
-    descriptionKlein5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein5a = document.getElementById('imgKleinArtikel5a');
     imgKlein5a.src = allImages[4].attributes.url.nodeValue;
     let imgKlein5aLink = document.getElementById('imgKlein5ALink');
-    imgKlein5a.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein5a.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein5Link = document.getElementById('imgKlein5Link');
-    imgKlein5a.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein5a.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein5 = document.getElementById('KleinArtikelCTA5');
     ctaKlein5.textContent = " Lees meer ▸";
-    ctaKlein5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein6 = document.getElementById('imgKleinArtikel6');
     imgKlein6.src =  allSmallImages[5].textContent;
     let titleKleinLink6 = document.getElementById('kleinTitleLink6');
     titleKleinLink6.textContent = allTitles[6].firstChild.nodeValue;
-    titleKleinLink6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein6 = document.getElementById('DescriptionKleinArtikel6');
     descriptionKlein6.textContent = allDescriptions[6].firstChild.nodeValue;
-    descriptionKlein6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein6a = document.getElementById('imgKleinArtikel6a');
     imgKlein6a.src = allImages[5].attributes.url.nodeValue;
     let imgKlein6aLink = document.getElementById('imgKlein6ALink');
-    imgKlein6a.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein6a.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein6Link = document.getElementById('imgKlein6Link');
-    imgKlein6a.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein6a.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein6 = document.getElementById('KleinArtikelCTA6');
     ctaKlein6.textContent = " Lees meer ▸";
-    ctaKlein6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein7 = document.getElementById('imgKleinArtikel7');
     imgKlein7.src =  allSmallImages[6].textContent;
     let titleKleinLink7 = document.getElementById('kleinTitleLink7');
     titleKleinLink7.textContent = allTitles[7].firstChild.nodeValue;
-    titleKleinLink7.setAttribute("href", allLinks[7].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink7.setAttribute("href", allLinks[7].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein7 = document.getElementById('DescriptionKleinArtikel7');
     descriptionKlein7.textContent = allDescriptions[7].firstChild.nodeValue;
-    descriptionKlein7.setAttribute("href", allLinks[7].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein7.setAttribute("href", allLinks[7].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein7a = document.getElementById('imgKleinArtikel7a');
     imgKlein7a.src = allImages[6].attributes.url.nodeValue;
     let imgKlein7aLink = document.getElementById('imgKlein7ALink');
-    imgKlein7a.setAttribute("href", allLinks[7].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein7a.setAttribute("href", allLinks[7].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein7Link = document.getElementById('imgKlein7Link');
-    imgKlein7a.setAttribute("href", allLinks[7].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein7a.setAttribute("href", allLinks[7].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein7 = document.getElementById('KleinArtikelCTA7');
     ctaKlein7.textContent = " Lees meer ▸";
-    ctaKlein7.setAttribute("href", allLinks[7].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein7.setAttribute("href", allLinks[7].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein8 = document.getElementById('imgKleinArtikel8');
     imgKlein8.src =  allSmallImages[7].textContent;
     let titleKleinLink8 = document.getElementById('kleinTitleLink8');
     titleKleinLink8.textContent = allTitles[8].firstChild.nodeValue;
-    titleKleinLink8.setAttribute("href", allLinks[8].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink8.setAttribute("href", allLinks[8].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein8 = document.getElementById('DescriptionKleinArtikel8');
     descriptionKlein8.textContent = allDescriptions[8].firstChild.nodeValue;
-    descriptionKlein8.setAttribute("href", allLinks[8].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein8.setAttribute("href", allLinks[8].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein8a = document.getElementById('imgKleinArtikel8a');
     imgKlein8a.src = allImages[7].attributes.url.nodeValue;
     let imgKlein8aLink = document.getElementById('imgKlein8ALink');
-    imgKlein8a.setAttribute("href", allLinks[8].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein8a.setAttribute("href", allLinks[8].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein8Link = document.getElementById('imgKlein8Link');
-    imgKlein8a.setAttribute("href", allLinks[8].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein8a.setAttribute("href", allLinks[8].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein8 = document.getElementById('KleinArtikelCTA8');
     ctaKlein8.textContent = " Lees meer ▸";
-    ctaKlein8.setAttribute("href", allLinks[8].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein8.setAttribute("href", allLinks[8].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein9 = document.getElementById('imgKleinArtikel9');
     imgKlein9.src =  allSmallImages[8].textContent;
     let titleKleinLink9 = document.getElementById('kleinTitleLink9');
     titleKleinLink9.textContent = allTitles[9].firstChild.nodeValue;
-    titleKleinLink9.setAttribute("href", allLinks[9].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink9.setAttribute("href", allLinks[9].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein9 = document.getElementById('DescriptionKleinArtikel9');
     descriptionKlein9.textContent = allDescriptions[9].firstChild.nodeValue;
-    descriptionKlein9.setAttribute("href", allLinks[9].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein9.setAttribute("href", allLinks[9].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein9a = document.getElementById('imgKleinArtikel9a');
     imgKlein9a.src = allImages[8].attributes.url.nodeValue;
     let imgKlein9aLink = document.getElementById('imgKlein9ALink');
-    imgKlein1a.setAttribute("href", allLinks[9].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein1a.setAttribute("href", allLinks[9].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein9Link = document.getElementById('imgKlein9Link');
-    imgKlein9a.setAttribute("href", allLinks[9].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein9a.setAttribute("href", allLinks[9].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein9 = document.getElementById('KleinArtikelCTA9');
     ctaKlein9.textContent = " Lees meer ▸";
-    ctaKlein9.setAttribute("href", allLinks[9].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein9.setAttribute("href", allLinks[9].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein10 = document.getElementById('imgKleinArtikel10');
     imgKlein10.src =  allSmallImages[9].textContent;
     let titleKleinLink10 = document.getElementById('kleinTitleLink10');
     titleKleinLink10.textContent = allTitles[10].firstChild.nodeValue;
-    titleKleinLink10.setAttribute("href", allLinks[10].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink10.setAttribute("href", allLinks[10].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein10 = document.getElementById('DescriptionKleinArtikel10');
     descriptionKlein10.textContent = allDescriptions[10].firstChild.nodeValue;
-    descriptionKlein10.setAttribute("href", allLinks[10].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein10.setAttribute("href", allLinks[10].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein10a = document.getElementById('imgKleinArtikel10a');
     imgKlein10a.src = allImages[9].attributes.url.nodeValue;
     let imgKlein10aLink = document.getElementById('imgKlein10ALink');
-    imgKlein10a.setAttribute("href", allLinks[10].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein10a.setAttribute("href", allLinks[10].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein10Link = document.getElementById('imgKlein10Link');
-    imgKlein10a.setAttribute("href", allLinks[10].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein10a.setAttribute("href", allLinks[10].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein10 = document.getElementById('KleinArtikelCTA10');
     ctaKlein10.textContent = " Lees meer ▸";
-    ctaKlein10.setAttribute("href", allLinks[10].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein10.setAttribute("href", allLinks[10].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein11 = document.getElementById('imgKleinArtikel11');
     imgKlein11.src =  allSmallImages[10].textContent;
     let titleKleinLink11 = document.getElementById('kleinTitleLink11');
     titleKleinLink11.textContent = allTitles[11].firstChild.nodeValue;
-    titleKleinLink11.setAttribute("href", allLinks[11].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink11.setAttribute("href", allLinks[11].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein11 = document.getElementById('DescriptionKleinArtikel11');
     descriptionKlein11.textContent = allDescriptions[11].firstChild.nodeValue;
-    descriptionKlein11.setAttribute("href", allLinks[11].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein11.setAttribute("href", allLinks[11].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein11a = document.getElementById('imgKleinArtikel11a');
     imgKlein11a.src = allImages[10].attributes.url.nodeValue;
     let imgKlein11aLink = document.getElementById('imgKlein11ALink');
-    imgKlein11a.setAttribute("href", allLinks[11].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein11a.setAttribute("href", allLinks[11].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein11Link = document.getElementById('imgKlein11Link');
-    imgKlein11a.setAttribute("href", allLinks[11].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein11a.setAttribute("href", allLinks[11].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein11 = document.getElementById('KleinArtikelCTA11');
     ctaKlein11.textContent = " Lees meer ▸";
-    ctaKlein11.setAttribute("href", allLinks[11].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein11.setAttribute("href", allLinks[11].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein12 = document.getElementById('imgKleinArtikel12');
     imgKlein12.src =  allSmallImages[11].textContent;
     let titleKleinLink12 = document.getElementById('kleinTitleLink12');
     titleKleinLink12.textContent = allTitles[12].firstChild.nodeValue;
-    titleKleinLink12.setAttribute("href", allLinks[12].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink12.setAttribute("href", allLinks[12].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein12 = document.getElementById('DescriptionKleinArtikel12');
     descriptionKlein12.textContent = allDescriptions[12].firstChild.nodeValue;
-    descriptionKlein12.setAttribute("href", allLinks[12].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein12.setAttribute("href", allLinks[12].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein12a = document.getElementById('imgKleinArtikel12a');
     imgKlein12a.src = allImages[11].attributes.url.nodeValue;
     let imgKlein12aLink = document.getElementById('imgKlein12ALink');
-    imgKlein12a.setAttribute("href", allLinks[12].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein12a.setAttribute("href", allLinks[12].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein12Link = document.getElementById('imgKlein12Link');
-    imgKlein12a.setAttribute("href", allLinks[12].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein12a.setAttribute("href", allLinks[12].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein12 = document.getElementById('KleinArtikelCTA12');
     ctaKlein12.textContent = " Lees meer ▸";
-    ctaKlein12.setAttribute("href", allLinks[12].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein12.setAttribute("href", allLinks[12].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein13 = document.getElementById('imgKleinArtikel13');
     imgKlein13.src =  allSmallImages[12].textContent;
     let titleKleinLink13 = document.getElementById('kleinTitleLink13');
     titleKleinLink13.textContent = allTitles[13].firstChild.nodeValue;
-    titleKleinLink13.setAttribute("href", allLinks[13].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink13.setAttribute("href", allLinks[13].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein13 = document.getElementById('DescriptionKleinArtikel13');
     descriptionKlein13.textContent = allDescriptions[13].firstChild.nodeValue;
-    descriptionKlein13.setAttribute("href", allLinks[13].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein13.setAttribute("href", allLinks[13].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein13a = document.getElementById('imgKleinArtikel13a');
     imgKlein13a.src = allImages[12].attributes.url.nodeValue;
     let imgKlein13aLink = document.getElementById('imgKlein13ALink');
-    imgKlein13a.setAttribute("href", allLinks[13].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein13a.setAttribute("href", allLinks[13].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein13Link = document.getElementById('imgKlein13Link');
-    imgKlein13a.setAttribute("href", allLinks[13].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein13a.setAttribute("href", allLinks[13].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein13 = document.getElementById('KleinArtikelCTA13');
     ctaKlein13.textContent = " Lees meer ▸";
-    ctaKlein13.setAttribute("href", allLinks[13].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein13.setAttribute("href", allLinks[13].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein14 = document.getElementById('imgKleinArtikel14');
     imgKlein14.src =  allSmallImages[13].textContent;
     let titleKleinLink14 = document.getElementById('kleinTitleLink14');
     titleKleinLink14.textContent = allTitles[14].firstChild.nodeValue;
-    titleKleinLink14.setAttribute("href", allLinks[14].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink14.setAttribute("href", allLinks[14].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein14 = document.getElementById('DescriptionKleinArtikel14');
     descriptionKlein14.textContent = allDescriptions[14].firstChild.nodeValue;
-    descriptionKlein14.setAttribute("href", allLinks[14].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein14.setAttribute("href", allLinks[14].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein14a = document.getElementById('imgKleinArtikel14a');
     imgKlein14a.src = allImages[13].attributes.url.nodeValue;
     let imgKlein14aLink = document.getElementById('imgKlein14ALink');
-    imgKlein14a.setAttribute("href", allLinks[14].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein14a.setAttribute("href", allLinks[14].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein14Link = document.getElementById('imgKlein14Link');
-    imgKlein14a.setAttribute("href", allLinks[14].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein14a.setAttribute("href", allLinks[14].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein14 = document.getElementById('KleinArtikelCTA14');
     ctaKlein14.textContent = " Lees meer ▸";
-    ctaKlein14.setAttribute("href", allLinks[14].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein14.setAttribute("href", allLinks[14].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     let imgKlein15 = document.getElementById('imgKleinArtikel15');
     imgKlein15.src =  allSmallImages[14].textContent;
     let titleKleinLink15 = document.getElementById('kleinTitleLink15');
     titleKleinLink15.textContent = allTitles[15].firstChild.nodeValue;
-    titleKleinLink15.setAttribute("href", allLinks[15].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleKleinLink15.setAttribute("href", allLinks[15].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionKlein15 = document.getElementById('DescriptionKleinArtikel15');
     descriptionKlein15.textContent = allDescriptions[15].firstChild.nodeValue;
-    descriptionKlein15.setAttribute("href", allLinks[15].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionKlein15.setAttribute("href", allLinks[15].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein15a = document.getElementById('imgKleinArtikel15a');
     imgKlein15a.src = allImages[14].attributes.url.nodeValue;
     let imgKlein15aLink = document.getElementById('imgKlein15ALink');
-    imgKlein15a.setAttribute("href", allLinks[15].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein15a.setAttribute("href", allLinks[15].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgKlein15Link = document.getElementById('imgKlein15Link');
-    imgKlein15a.setAttribute("href", allLinks[15].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgKlein15a.setAttribute("href", allLinks[15].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaKlein15 = document.getElementById('KleinArtikelCTA15');
     ctaKlein15.textContent = " Lees meer ▸";
-    ctaKlein15.setAttribute("href", allLinks[15].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaKlein15.setAttribute("href", allLinks[15].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
 
     //Artekelen Groot
@@ -474,98 +474,98 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     //authorGroot1.textContent = allAuthors[0].firstChild.nodeValue;
     let titleGroot1 = document.getElementById('grootArtikelTitle1');
     titleGroot1.textContent = allTitles[1].firstChild.nodeValue;
-    titleGroot1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleGroot1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgGroot1 = document.getElementById('grootArtikelImg1');
     imgGroot1.src = allImages[0].attributes.url.nodeValue;
     let imgGroot1Link = document.getElementById('grootArtikelImg1Link');
-    imgGroot1Link.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgGroot1Link.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionGroot1 = document.getElementById('grootArtikelDescription1');
     descriptionGroot1.textContent = allDescriptions[1].firstChild.nodeValue;
-    descriptionGroot1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionGroot1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaGroot1 = document.getElementById('GrootArtikelCTA1');
     ctaGroot1.innerHTML = " Lees meer ▸";
-    ctaGroot1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaGroot1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     //let authorGroot2 = document.getElementById('grootArtikelAuthor2');
     //authorGroot2.textContent = allAuthors[1].firstChild.nodeValue;
     let titleGroot2 = document.getElementById('grootArtikelTitle2');
     titleGroot2.textContent = allTitles[2].firstChild.nodeValue;
-    titleGroot2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleGroot2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgGroot2 = document.getElementById('grootArtikelImg2');
     imgGroot2.src = allImages[1].attributes.url.nodeValue;
     let imgGroot2Link = document.getElementById('grootArtikelImg2Link');
-    imgGroot2Link.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgGroot2Link.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionGroot2 = document.getElementById('grootArtikelDescription2');
     descriptionGroot2.textContent = allDescriptions[2].firstChild.nodeValue;
-    descriptionGroot2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionGroot2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaGroot2 = document.getElementById('GrootArtikelCTA2');
     ctaGroot2.textContent = " Lees meer ▸";
-    ctaGroot2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaGroot2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     //let authorGroot3 = document.getElementById('grootArtikelAuthor3');
     //authorGroot3.textContent = allAuthors[2].firstChild.nodeValue;
     let titleGroot3 = document.getElementById('grootArtikelTitle3');
     titleGroot3.textContent = allTitles[3].firstChild.nodeValue;
-    titleGroot3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleGroot3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgGroot3 = document.getElementById('grootArtikelImg3');
     imgGroot3.src = allImages[2].attributes.url.nodeValue;
     let imgGroot3Link = document.getElementById('grootArtikelImg3Link');
-    imgGroot3Link.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgGroot3Link.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionGroot3 = document.getElementById('grootArtikelDescription3');
     descriptionGroot3.textContent = allDescriptions[3].firstChild.nodeValue;
-    descriptionGroot3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionGroot3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaGroot3 = document.getElementById('GrootArtikelCTA3');
     ctaGroot3.textContent = " Lees meer ▸";
-    ctaGroot3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaGroot3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     //let authorGroot4 = document.getElementById('grootArtikelAuthor4');
     //authorGroot4.textContent = allAuthors[3].firstChild.nodeValue;
     let titleGroot4 = document.getElementById('grootArtikelTitle4');
     titleGroot4.textContent = allTitles[4].firstChild.nodeValue;
-    titleGroot4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleGroot4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgGroot4 = document.getElementById('grootArtikelImg4');
     imgGroot4.src = allImages[3].attributes.url.nodeValue;
     let imgGroot4Link = document.getElementById('grootArtikelImg1Link');
-    imgGroot4Link.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgGroot4Link.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionGroot4 = document.getElementById('grootArtikelDescription4');
     descriptionGroot4.textContent = allDescriptions[4].firstChild.nodeValue;
-    descriptionGroot4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionGroot4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaGroot4 = document.getElementById('GrootArtikelCTA4');
     ctaGroot4.textContent = " Lees meer ▸";
-    ctaGroot4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaGroot4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     //let authorGroot5 = document.getElementById('grootArtikelAuthor5');
     //authorGroot5.textContent = allAuthors[4].firstChild.nodeValue;
     let titleGroot5 = document.getElementById('grootArtikelTitle5');
     titleGroot5.textContent = allTitles[5].firstChild.nodeValue;
-    titleGroot5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleGroot5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgGroot5 = document.getElementById('grootArtikelImg5');
     imgGroot5.src = allImages[4].attributes.url.nodeValue;
     let imgGroot5Link = document.getElementById('grootArtikelImg5Link');
-    imgGroot5Link.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgGroot5Link.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionGroot5 = document.getElementById('grootArtikelDescription5');
     descriptionGroot5.textContent = allDescriptions[5].firstChild.nodeValue;
-    descriptionGroot5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionGroot5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaGroot5 = document.getElementById('GrootArtikelCTA5');
     ctaGroot5.textContent = " Lees meer ▸";
-    ctaGroot5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaGroot5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
 
     //let authorGroot6 = document.getElementById('grootArtikelAuthor6');
     //authorGroot6.textContent = allAuthors[5].firstChild.nodeValue;
     let titleGroot6 = document.getElementById('grootArtikelTitle6');
     titleGroot6.textContent = allTitles[6].firstChild.nodeValue;
-    titleGroot6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    titleGroot6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let imgGroot6 = document.getElementById('grootArtikelImg6');
     imgGroot6.src = allImages[5].attributes.url.nodeValue;
     let imgGroot6Link = document.getElementById('grootArtikelImg6Link');
-    imgGroot6Link.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    imgGroot6Link.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let descriptionGroot6 = document.getElementById('grootArtikelDescription6');
     descriptionGroot6.textContent = allDescriptions[6].firstChild.nodeValue;
-    descriptionGroot6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    descriptionGroot6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
     let ctaGroot6 = document.getElementById('GrootArtikelCTA6');
     ctaGroot6.textContent = " Lees meer ▸";
-    ctaGroot6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cartikel%7C`);
+    ctaGroot6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 });
 }, 2000);
 
@@ -604,49 +604,49 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
     let agendaLink1 = document.getElementById('agendaAcademy1');
     agenda1a.textContent = allAgendas[1].firstChild.nodeValue;
     agenda1b.textContent = " " + allDays[0].firstChild.nodeValue + " " + allMonths[0].firstChild.nodeValue + " | " + allLocations[0].firstChild.nodeValue + " | " + allDurations[0].firstChild.nodeValue;
-    agendaLink1.setAttribute("href", allAgendaLinks[1].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory1}&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cagenda%7C`);//campaign
+    agendaLink1.setAttribute("href", allAgendaLinks[1].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory1}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`);//campaign
 
     let agenda2a = document.getElementById('saa2a');
     let agenda2b = document.getElementById('saa2b');
     let agendaLink2 = document.getElementById('agendaAcademy2');
     agenda2a.textContent = allAgendas[2].firstChild.nodeValue;
     agenda2b.textContent = " " + allDays[1].firstChild.nodeValue + " " + allMonths[1].firstChild.nodeValue + " | " + allLocations[1].firstChild.nodeValue + " | " + allDurations[1].firstChild.nodeValue;
-    agendaLink2.setAttribute("href", allAgendaLinks[2].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory2}&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
+    agendaLink2.setAttribute("href", allAgendaLinks[2].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory2}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`);
 
     let agenda3a = document.getElementById('saa3a');
     let agenda3b = document.getElementById('saa3b');
     let agendaLink3 = document.getElementById('agendaAcademy3');
     agenda3a.textContent = allAgendas[3].firstChild.nodeValue;
     agenda3b.textContent = " " + allDays[2].firstChild.nodeValue + " " + allMonths[2].firstChild.nodeValue + " | " + allLocations[2].firstChild.nodeValue + " | " + allDurations[2].firstChild.nodeValue;
-    agendaLink3.setAttribute("href", allAgendaLinks[3].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory3}&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
+    agendaLink3.setAttribute("href", allAgendaLinks[3].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory3}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`);
 
     let agenda4a = document.getElementById('saa4a');
     let agenda4b = document.getElementById('saa4b');
     let agendaLink4 = document.getElementById('agendaAcademy4');
     agenda4a.textContent = allAgendas[4].firstChild.nodeValue;
     agenda4b.textContent = " " + allDays[3].firstChild.nodeValue + " " + allMonths[3].firstChild.nodeValue + " | " + allLocations[3].firstChild.nodeValue + " | " + allDurations[3].firstChild.nodeValue;
-    agendaLink4.setAttribute("href", allAgendaLinks[4].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory4}&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
+    agendaLink4.setAttribute("href", allAgendaLinks[4].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory4}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`);
 
     let agenda5a = document.getElementById('saa5a');
     let agenda5b = document.getElementById('saa5b');
     let agendaLink5 = document.getElementById('agendaAcademy5');
     agenda5a.textContent = allAgendas[5].firstChild.nodeValue;
     agenda5b.textContent = " " + allDays[4].firstChild.nodeValue + " " + allMonths[4].firstChild.nodeValue + " | " + allLocations[4].firstChild.nodeValue + " | " + allDurations[4].firstChild.nodeValue;
-    agendaLink5.setAttribute("href", allAgendaLinks[5].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory5}&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
+    agendaLink5.setAttribute("href", allAgendaLinks[5].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory5}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`);
 
     let agenda6a = document.getElementById('saa6a');
     let agenda6b = document.getElementById('saa6b');
     let agendaLink6 = document.getElementById('agendaAcademy6');
     agenda6a.textContent = allAgendas[6].firstChild.nodeValue;
     agenda6b.textContent = " " + allDays[5].firstChild.nodeValue + " " + allMonths[5].firstChild.nodeValue + " | " + allLocations[5].firstChild.nodeValue + " | " + allDurations[5].firstChild.nodeValue;
-    agendaLink6.setAttribute("href", allAgendaLinks[6].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory6}&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
+    agendaLink6.setAttribute("href", allAgendaLinks[6].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory6}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`);
 
     let agenda7a = document.getElementById('saa7a');
     let agenda7b = document.getElementById('saa7b');
     let agendaLink7 = document.getElementById('agendaAcademy7');
     agenda7a.textContent = allAgendas[7].firstChild.nodeValue;
     agenda7b.textContent = " " + allDays[6].firstChild.nodeValue + " " + allMonths[6].firstChild.nodeValue + " | " + allLocations[6].firstChild.nodeValue + " | " + allDurations[6].firstChild.nodeValue;
-    agendaLink7.setAttribute("href", allAgendaLinks[7].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory7}&utm_content=%7C{{^Account.DATE(SHORT)}}%7Cagenda%7C`);
+    agendaLink7.setAttribute("href", allAgendaLinks[7].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory7}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`);
 
 });
 }, 2000);
@@ -672,253 +672,389 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
 
     let imgVacature1 = document.getElementById("imgVacatureArtikel1");
     imgVacature1.src = allVacatureImages[0].attributes[0].nodeValue;
+    let imgVacatureLink1 = document.getElementById("vacatureImgLink1");
+    imgVacatureLink1.setAttribute("href", allVacatureLinks[1].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature1 = document.getElementById("metaVacature1")
     let vacatureMeta1a = document.getElementById("vacatureMeta1a");
-    let vacatureMeta1b = document.getElementById("vacatureMeta1b");
     vacatureMeta1a.textContent = allPoster[0].textContent;
     vacatureMeta1b.textContent = " • " + allVacatureLocations[0].textContent + " • " + allDuur[0].textContent;
+    let vacatureMetaLink1 = document.getElementById("metaVacature1");
+    vacatureMetaLink1.setAttribute("href", allVacatureLinks[1].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink1 = document.getElementById("vacatureLink1title");
     let titleVacature1 = document.getElementById("titleVacature1");
-    titleVacature1.textContent = allVacatureTitles[1].textContent;
-    titleVacature1.setAttribute("href", allVacatureLinks[1].textContent)
-    let descriptionVacature1 = document.getElementById("DescriptionVacature1");
-    descriptionVacature1.textContent = allVacatureDescriptions[1].textContent;
-    descriptionVacature1.setAttribute("href", allVacatureLinks[1].textContent);
+    titleVacatureLink1.textContent = allVacatureTitles[1].textContent;
+    titleVacatureLink1.setAttribute("href", allVacatureLinks[1].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink1 = document.getElementById("vacatureLink1description");
+    let vacatureDescription1 = document.getElementById("DescriptionVacature1");
+    vacaturedescriptionLink1.textContent = allVacatureDescriptions[1].textContent;
+    vacaturedescriptionLink1.setAttribute("href", allVacatureLinks[1].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+
 
     let imgVacature2 = document.getElementById("imgVacatureArtikel2");
     imgVacature2.src = allVacatureImages[1].attributes[0].nodeValue;
+    let imgVacatureLink2 = document.getElementById("vacatureImgLink2");
+    imgVacatureLink2.setAttribute("href", allVacatureLinks[2].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature2 = document.getElementById("metaVacature2")
     let vacatureMeta2a = document.getElementById("vacatureMeta2a");
-    let vacatureMeta2b = document.getElementById("vacatureMeta2b");
     vacatureMeta2a.textContent = allPoster[1].textContent;
     vacatureMeta2b.textContent = " • " + allVacatureLocations[1].textContent + " • " + allDuur[1].textContent;
+    let vacatureMetaLink2 = document.getElementById("metaVacature2");
+    vacatureMetaLink2.setAttribute("href", allVacatureLinks[2].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink2 = document.getElementById("vacatureLink2title");
     let titleVacature2 = document.getElementById("titleVacature2");
-    titleVacature2.textContent = allVacatureTitles[2].textContent;
-    titleVacature2.setAttribute("href", allVacatureLinks[2].textContent)
-    let descriptionVacature2 = document.getElementById("DescriptionVacature2");
-    descriptionVacature2.textContent = allVacatureDescriptions[2].textContent;
-    descriptionVacature2.setAttribute("href", allVacatureLinks[2].textContent);
+    titleVacatureLink2.textContent = allVacatureTitles[2].textContent;
+    titleVacatureLink2.setAttribute("href", allVacatureLinks[2].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink2 = document.getElementById("vacatureLink2description");
+    let vacatureDescription2 = document.getElementById("DescriptionVacature2");
+    vacaturedescriptionLink2.textContent = allVacatureDescriptions[2].textContent;
+    vacaturedescriptionLink2.setAttribute("href", allVacatureLinks[2].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+
 
     let imgVacature3 = document.getElementById("imgVacatureArtikel3");
     imgVacature3.src = allVacatureImages[2].attributes[0].nodeValue;
+    let imgVacatureLink3 = document.getElementById("vacatureImgLink3");
+    imgVacatureLink3.setAttribute("href", allVacatureLinks[3].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature3 = document.getElementById("metaVacature3")
     let vacatureMeta3a = document.getElementById("vacatureMeta3a");
-    let vacatureMeta3b = document.getElementById("vacatureMeta3b");
     vacatureMeta3a.textContent = allPoster[2].textContent;
     vacatureMeta3b.textContent = " • " + allVacatureLocations[2].textContent + " • " + allDuur[2].textContent;
+    let vacatureMetaLink3 = document.getElementById("metaVacature3");
+    vacatureMetaLink3.setAttribute("href", allVacatureLinks[3].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink3 = document.getElementById("vacatureLink3title");
     let titleVacature3 = document.getElementById("titleVacature3");
-    titleVacature3.textContent = allVacatureTitles[3].textContent;
-    titleVacature3.setAttribute("href", allVacatureLinks[3].textContent)
-    let descriptionVacature3 = document.getElementById("DescriptionVacature3");
-    descriptionVacature3.textContent = allVacatureDescriptions[3].textContent;
-    descriptionVacature3.setAttribute("href", allVacatureLinks[3].textContent);
+    titleVacatureLink3.textContent = allVacatureTitles[3].textContent;
+    titleVacatureLink3.setAttribute("href", allVacatureLinks[3].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink3 = document.getElementById("vacatureLink3description");
+    let vacatureDescription3 = document.getElementById("DescriptionVacature3");
+    vacaturedescriptionLink3.textContent = allVacatureDescriptions[3].textContent;
+    vacaturedescriptionLink3.setAttribute("href", allVacatureLinks[3].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+
 
     let imgVacature4 = document.getElementById("imgVacatureArtikel4");
     imgVacature4.src = allVacatureImages[3].attributes[0].nodeValue;
+    let imgVacatureLink4 = document.getElementById("vacatureImgLink4");
+    imgVacatureLink4.setAttribute("href", allVacatureLinks[4].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature4 = document.getElementById("metaVacature4")
     let vacatureMeta4a = document.getElementById("vacatureMeta4a");
-    let vacatureMeta4b = document.getElementById("vacatureMeta4b");
     vacatureMeta4a.textContent = allPoster[3].textContent;
     vacatureMeta4b.textContent = " • " + allVacatureLocations[3].textContent + " • " + allDuur[3].textContent;
+    let vacatureMetaLink4 = document.getElementById("metaVacature4");
+    vacatureMetaLink4.setAttribute("href", allVacatureLinks[4].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink4 = document.getElementById("vacatureLink4title");
     let titleVacature4 = document.getElementById("titleVacature4");
-    titleVacature4.textContent = allVacatureTitles[4].textContent;
-    titleVacature4.setAttribute("href", allVacatureLinks[4].textContent)
-    let descriptionVacature4 = document.getElementById("DescriptionVacature4");
-    descriptionVacature4.textContent = allVacatureDescriptions[4].textContent;
-    descriptionVacature4.setAttribute("href", allVacatureLinks[4].textContent);
+    titleVacatureLink4.textContent = allVacatureTitles[4].textContent;
+    titleVacatureLink4.setAttribute("href", allVacatureLinks[4].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink4 = document.getElementById("vacatureLink4description");
+    let vacatureDescription4 = document.getElementById("DescriptionVacature4");
+    vacaturedescriptionLink4.textContent = allVacatureDescriptions[4].textContent;
+    vacaturedescriptionLink4.setAttribute("href", allVacatureLinks[4].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+
 
     let imgVacature5 = document.getElementById("imgVacatureArtikel5");
     imgVacature5.src = allVacatureImages[4].attributes[0].nodeValue;
+    let imgVacatureLink5 = document.getElementById("vacatureImgLink5");
+    imgVacatureLink5.setAttribute("href", allVacatureLinks[5].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature5 = document.getElementById("metaVacature5")
     let vacatureMeta5a = document.getElementById("vacatureMeta5a");
-    let vacatureMeta5b = document.getElementById("vacatureMeta5b");
     vacatureMeta5a.textContent = allPoster[4].textContent;
     vacatureMeta5b.textContent = " • " + allVacatureLocations[4].textContent + " • " + allDuur[4].textContent;
+    let vacatureMetaLink5 = document.getElementById("metaVacature5");
+    vacatureMetaLink5.setAttribute("href", allVacatureLinks[5].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink5 = document.getElementById("vacatureLink5title");
     let titleVacature5 = document.getElementById("titleVacature5");
-    titleVacature5.textContent = allVacatureTitles[5].textContent;
-    titleVacature5.setAttribute("href", allVacatureLinks[5].textContent)
-    let descriptionVacature5 = document.getElementById("DescriptionVacature5");
-    descriptionVacature5.textContent = allVacatureDescriptions[5].textContent;
-    descriptionVacature5.setAttribute("href", allVacatureLinks[5].textContent);
+    titleVacatureLink5.textContent = allVacatureTitles[5].textContent;
+    titleVacatureLink5.setAttribute("href", allVacatureLinks[5].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink5 = document.getElementById("vacatureLink5description");
+    let vacatureDescription5 = document.getElementById("DescriptionVacature5");
+    vacaturedescriptionLink5.textContent = allVacatureDescriptions[5].textContent;
+    vacaturedescriptionLink5.setAttribute("href", allVacatureLinks[5].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature6 = document.getElementById("imgVacatureArtikel6");
     imgVacature6.src = allVacatureImages[5].attributes[0].nodeValue;
+    let imgVacatureLink6 = document.getElementById("vacatureImgLink6");
+    imgVacatureLink6.setAttribute("href", allVacatureLinks[6].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature6 = document.getElementById("metaVacature6")
     let vacatureMeta6a = document.getElementById("vacatureMeta6a");
-    let vacatureMeta6b = document.getElementById("vacatureMeta6b");
     vacatureMeta6a.textContent = allPoster[5].textContent;
     vacatureMeta6b.textContent = " • " + allVacatureLocations[5].textContent + " • " + allDuur[5].textContent;
+    let vacatureMetaLink6 = document.getElementById("metaVacature6");
+    vacatureMetaLink6.setAttribute("href", allVacatureLinks[6].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink6 = document.getElementById("vacatureLink6title");
     let titleVacature6 = document.getElementById("titleVacature6");
-    titleVacature6.textContent = allVacatureTitles[6].textContent;
-    let descriptionVacature6 = document.getElementById("DescriptionVacature6");
-    descriptionVacature6.textContent = allVacatureDescriptions[6].textContent;
+    titleVacatureLink6.textContent = allVacatureTitles[6].textContent;
+    titleVacatureLink6.setAttribute("href", allVacatureLinks[6].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink6 = document.getElementById("vacatureLink6description");
+    let vacatureDescription6 = document.getElementById("DescriptionVacature6");
+    vacaturedescriptionLink6.textContent = allVacatureDescriptions[6].textContent;
+    vacaturedescriptionLink6.setAttribute("href", allVacatureLinks[6].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature7 = document.getElementById("imgVacatureArtikel7");
     imgVacature7.src = allVacatureImages[6].attributes[0].nodeValue;
+    let imgVacatureLink7 = document.getElementById("vacatureImgLink7");
+    imgVacatureLink7.setAttribute("href", allVacatureLinks[7].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature7 = document.getElementById("metaVacature7")
     let vacatureMeta7a = document.getElementById("vacatureMeta7a");
-    let vacatureMeta7b = document.getElementById("vacatureMeta7b");
     vacatureMeta7a.textContent = allPoster[6].textContent;
     vacatureMeta7b.textContent = " • " + allVacatureLocations[6].textContent + " • " + allDuur[6].textContent;
+    let vacatureMetaLink7 = document.getElementById("metaVacature7");
+    vacatureMetaLink7.setAttribute("href", allVacatureLinks[7].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink7 = document.getElementById("vacatureLink7title");
     let titleVacature7 = document.getElementById("titleVacature7");
-    titleVacature7.textContent = allVacatureTitles[7].textContent;
-    let descriptionVacature7 = document.getElementById("DescriptionVacature7");
-    descriptionVacature7.textContent = allVacatureDescriptions[7].textContent;
+    titleVacatureLink7.textContent = allVacatureTitles[7].textContent;
+    titleVacatureLink7.setAttribute("href", allVacatureLinks[7].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink7 = document.getElementById("vacatureLink7description");
+    let vacatureDescription7 = document.getElementById("DescriptionVacature7");
+    vacaturedescriptionLink7.textContent = allVacatureDescriptions[7].textContent;
+    vacaturedescriptionLink7.setAttribute("href", allVacatureLinks[7].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature8 = document.getElementById("imgVacatureArtikel8");
     imgVacature8.src = allVacatureImages[7].attributes[0].nodeValue;
+    let imgVacatureLink8 = document.getElementById("vacatureImgLink8");
+    imgVacatureLink8.setAttribute("href", allVacatureLinks[8].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature8 = document.getElementById("metaVacature8")
     let vacatureMeta8a = document.getElementById("vacatureMeta8a");
-    let vacatureMeta8b = document.getElementById("vacatureMeta8b");
     vacatureMeta8a.textContent = allPoster[7].textContent;
     vacatureMeta8b.textContent = " • " + allVacatureLocations[7].textContent + " • " + allDuur[7].textContent;
+    let vacatureMetaLink8 = document.getElementById("metaVacature8");
+    vacatureMetaLink8.setAttribute("href", allVacatureLinks[8].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink8 = document.getElementById("vacatureLink8title");
     let titleVacature8 = document.getElementById("titleVacature8");
-    titleVacature8.textContent = allVacatureTitles[8].textContent;
-    titleVacature8.textContent = allVacatureTitles[8].textContent;
-    let descriptionVacature8 = document.getElementById("DescriptionVacature8");
-    descriptionVacature8.textContent = allVacatureDescriptions[8].textContent;
+    titleVacatureLink8.textContent = allVacatureTitles[8].textContent;
+    titleVacatureLink8.setAttribute("href", allVacatureLinks[8].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink8 = document.getElementById("vacatureLink8description");
+    let vacatureDescription8 = document.getElementById("DescriptionVacature8");
+    vacaturedescriptionLink8.textContent = allVacatureDescriptions[8].textContent;
+    vacaturedescriptionLink8.setAttribute("href", allVacatureLinks[8].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature9 = document.getElementById("imgVacatureArtikel9");
     imgVacature9.src = allVacatureImages[8].attributes[0].nodeValue;
+    let imgVacatureLink9 = document.getElementById("vacatureImgLink9");
+    imgVacatureLink9.setAttribute("href", allVacatureLinks[9].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature9 = document.getElementById("metaVacature9")
     let vacatureMeta9a = document.getElementById("vacatureMeta9a");
-    let vacatureMeta9b = document.getElementById("vacatureMeta9b");
     vacatureMeta9a.textContent = allPoster[8].textContent;
     vacatureMeta9b.textContent = " • " + allVacatureLocations[8].textContent + " • " + allDuur[8].textContent;
+    let vacatureMetaLink9 = document.getElementById("metaVacature9");
+    vacatureMetaLink9.setAttribute("href", allVacatureLinks[9].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink9 = document.getElementById("vacatureLink9title");
     let titleVacature9 = document.getElementById("titleVacature9");
-    titleVacature9.textContent = allVacatureTitles[9].textContent;
-    titleVacature9.textContent = allVacatureTitles[9].textContent;
-    let descriptionVacature9 = document.getElementById("DescriptionVacature9");
-    descriptionVacature9.textContent = allVacatureDescriptions[9].textContent;
+    titleVacatureLink9.textContent = allVacatureTitles[9].textContent;
+    titleVacatureLink9.setAttribute("href", allVacatureLinks[9].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink9 = document.getElementById("vacatureLink9description");
+    let vacatureDescription9 = document.getElementById("DescriptionVacature9");
+    vacaturedescriptionLink9.textContent = allVacatureDescriptions[9].textContent;
+    vacaturedescriptionLink9.setAttribute("href", allVacatureLinks[9].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature10 = document.getElementById("imgVacatureArtikel10");
     imgVacature10.src = allVacatureImages[9].attributes[0].nodeValue;
+    let imgVacatureLink10 = document.getElementById("vacatureImgLink10");
+    imgVacatureLink10.setAttribute("href", allVacatureLinks[10].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature10 = document.getElementById("metaVacature10")
     let vacatureMeta10a = document.getElementById("vacatureMeta10a");
-    let vacatureMeta10b = document.getElementById("vacatureMeta10b");
     vacatureMeta10a.textContent = allPoster[9].textContent;
     vacatureMeta10b.textContent = " • " + allVacatureLocations[9].textContent + " • " + allDuur[9].textContent;
+    let vacatureMetaLink10 = document.getElementById("metaVacature10");
+    vacatureMetaLink10.setAttribute("href", allVacatureLinks[10].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink10 = document.getElementById("vacatureLink10title");
     let titleVacature10 = document.getElementById("titleVacature10");
-    titleVacature10.textContent = allVacatureTitles[10].textContent;
-    titleVacature10.textContent = allVacatureTitles[10].textContent;
-    let descriptionVacature10 = document.getElementById("DescriptionVacature10");
-    descriptionVacature10.textContent = allVacatureDescriptions[10].textContent;
+    titleVacatureLink10.textContent = allVacatureTitles[10].textContent;
+    titleVacatureLink10.setAttribute("href", allVacatureLinks[10].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink10 = document.getElementById("vacatureLink10description");
+    let vacatureDescription10 = document.getElementById("DescriptionVacature10");
+    vacaturedescriptionLink10.textContent = allVacatureDescriptions[10].textContent;
+    vacaturedescriptionLink10.setAttribute("href", allVacatureLinks[10].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature11 = document.getElementById("imgVacatureArtikel11");
     imgVacature11.src = allVacatureImages[10].attributes[0].nodeValue;
+    let imgVacatureLink11 = document.getElementById("vacatureImgLink11");
+    imgVacatureLink11.setAttribute("href", allVacatureLinks[11].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature11 = document.getElementById("metaVacature11")
     let vacatureMeta11a = document.getElementById("vacatureMeta11a");
-    let vacatureMeta11b = document.getElementById("vacatureMeta11b");
     vacatureMeta11a.textContent = allPoster[10].textContent;
     vacatureMeta11b.textContent = " • " + allVacatureLocations[10].textContent + " • " + allDuur[10].textContent;
+    let vacatureMetaLink11 = document.getElementById("metaVacature11");
+    vacatureMetaLink11.setAttribute("href", allVacatureLinks[11].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink11 = document.getElementById("vacatureLink11title");
     let titleVacature11 = document.getElementById("titleVacature11");
-    titleVacature11.textContent = allVacatureTitles[11].textContent;
-    titleVacature11.textContent = allVacatureTitles[11].textContent;
-    let descriptionVacature11 = document.getElementById("DescriptionVacature11");
-    descriptionVacature11.textContent = allVacatureDescriptions[11].textContent;
+    titleVacatureLink11.textContent = allVacatureTitles[11].textContent;
+    titleVacatureLink11.setAttribute("href", allVacatureLinks[11].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink11 = document.getElementById("vacatureLink11description");
+    let vacatureDescription11 = document.getElementById("DescriptionVacature11");
+    vacaturedescriptionLink11.textContent = allVacatureDescriptions[11].textContent;
+    vacaturedescriptionLink11.setAttribute("href", allVacatureLinks[11].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature12 = document.getElementById("imgVacatureArtikel12");
     imgVacature12.src = allVacatureImages[11].attributes[0].nodeValue;
+    let imgVacatureLink12 = document.getElementById("vacatureImgLink12");
+    imgVacatureLink12.setAttribute("href", allVacatureLinks[12].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature12 = document.getElementById("metaVacature12")
     let vacatureMeta12a = document.getElementById("vacatureMeta12a");
-    let vacatureMeta12b = document.getElementById("vacatureMeta12b");
     vacatureMeta12a.textContent = allPoster[11].textContent;
     vacatureMeta12b.textContent = " • " + allVacatureLocations[11].textContent + " • " + allDuur[11].textContent;
+    let vacatureMetaLink12 = document.getElementById("metaVacature12");
+    vacatureMetaLink12.setAttribute("href", allVacatureLinks[12].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink12 = document.getElementById("vacatureLink12title");
     let titleVacature12 = document.getElementById("titleVacature12");
-    titleVacature12.textContent = allVacatureTitles[12].textContent;
-    titleVacature12.textContent = allVacatureTitles[12].textContent;
-    let descriptionVacature12 = document.getElementById("DescriptionVacature12");
-    descriptionVacature12.textContent = allVacatureDescriptions[12].textContent;
+    titleVacatureLink12.textContent = allVacatureTitles[12].textContent;
+    titleVacatureLink12.setAttribute("href", allVacatureLinks[12].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink12 = document.getElementById("vacatureLink12description");
+    let vacatureDescription12 = document.getElementById("DescriptionVacature12");
+    vacaturedescriptionLink12.textContent = allVacatureDescriptions[12].textContent;
+    vacaturedescriptionLink12.setAttribute("href", allVacatureLinks[12].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature13 = document.getElementById("imgVacatureArtikel13");
     imgVacature13.src = allVacatureImages[12].attributes[0].nodeValue;
+    let imgVacatureLink13 = document.getElementById("vacatureImgLink13");
+    imgVacatureLink13.setAttribute("href", allVacatureLinks[13].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature13 = document.getElementById("metaVacature13")
     let vacatureMeta13a = document.getElementById("vacatureMeta13a");
-    let vacatureMeta13b = document.getElementById("vacatureMeta13b");
     vacatureMeta13a.textContent = allPoster[12].textContent;
     vacatureMeta13b.textContent = " • " + allVacatureLocations[12].textContent + " • " + allDuur[12].textContent;
+    let vacatureMetaLink13 = document.getElementById("metaVacature13");
+    vacatureMetaLink13.setAttribute("href", allVacatureLinks[13].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink13 = document.getElementById("vacatureLink13title");
     let titleVacature13 = document.getElementById("titleVacature13");
-    titleVacature13.textContent = allVacatureTitles[13].textContent;
-    titleVacature13.textContent = allVacatureTitles[13].textContent;
-    let descriptionVacature13 = document.getElementById("DescriptionVacature13");
-    descriptionVacature13.textContent = allVacatureDescriptions[13].textContent;
+    titleVacatureLink13.textContent = allVacatureTitles[13].textContent;
+    titleVacatureLink13.setAttribute("href", allVacatureLinks[13].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink13 = document.getElementById("vacatureLink13description");
+    let vacatureDescription13 = document.getElementById("DescriptionVacature13");
+    vacaturedescriptionLink13.textContent = allVacatureDescriptions[13].textContent;
+    vacaturedescriptionLink13.setAttribute("href", allVacatureLinks[13].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature14 = document.getElementById("imgVacatureArtikel14");
     imgVacature14.src = allVacatureImages[13].attributes[0].nodeValue;
+    let imgVacatureLink14 = document.getElementById("vacatureImgLink14");
+    imgVacatureLink14.setAttribute("href", allVacatureLinks[14].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature14 = document.getElementById("metaVacature14")
     let vacatureMeta14a = document.getElementById("vacatureMeta14a");
-    let vacatureMeta14b = document.getElementById("vacatureMeta14b");
     vacatureMeta14a.textContent = allPoster[13].textContent;
     vacatureMeta14b.textContent = " • " + allVacatureLocations[13].textContent + " • " + allDuur[13].textContent;
+    let vacatureMetaLink14 = document.getElementById("metaVacature14");
+    vacatureMetaLink14.setAttribute("href", allVacatureLinks[14].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink14 = document.getElementById("vacatureLink14title");
     let titleVacature14 = document.getElementById("titleVacature14");
-    titleVacature14.textContent = allVacatureTitles[14].textContent;
-    titleVacature14.textContent = allVacatureTitles[14].textContent;
-    let descriptionVacature14 = document.getElementById("DescriptionVacature14");
-    descriptionVacature14.textContent = allVacatureDescriptions[14].textContent;
+    titleVacatureLink14.textContent = allVacatureTitles[14].textContent;
+    titleVacatureLink14.setAttribute("href", allVacatureLinks[14].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink14 = document.getElementById("vacatureLink14description");
+    let vacatureDescription14 = document.getElementById("DescriptionVacature14");
+    vacaturedescriptionLink14.textContent = allVacatureDescriptions[14].textContent;
+    vacaturedescriptionLink14.setAttribute("href", allVacatureLinks[14].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature15 = document.getElementById("imgVacatureArtikel15");
     imgVacature15.src = allVacatureImages[14].attributes[0].nodeValue;
+    let imgVacatureLink15 = document.getElementById("vacatureImgLink15");
+    imgVacatureLink15.setAttribute("href", allVacatureLinks[15].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature15 = document.getElementById("metaVacature15")
     let vacatureMeta15a = document.getElementById("vacatureMeta15a");
-    let vacatureMeta15b = document.getElementById("vacatureMeta15b");
     vacatureMeta15a.textContent = allPoster[14].textContent;
     vacatureMeta15b.textContent = " • " + allVacatureLocations[14].textContent + " • " + allDuur[14].textContent;
+    let vacatureMetaLink15 = document.getElementById("metaVacature15");
+    vacatureMetaLink15.setAttribute("href", allVacatureLinks[15].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink15 = document.getElementById("vacatureLink15title");
     let titleVacature15 = document.getElementById("titleVacature15");
-    titleVacature15.textContent = allVacatureTitles[15].textContent;
-    titleVacature15.textContent = allVacatureTitles[15].textContent;
-    let descriptionVacature15 = document.getElementById("DescriptionVacature15");
-    descriptionVacature15.textContent = allVacatureDescriptions[15].textContent;
+    titleVacatureLink15.textContent = allVacatureTitles[15].textContent;
+    titleVacatureLink15.setAttribute("href", allVacatureLinks[15].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink15 = document.getElementById("vacatureLink15description");
+    let vacatureDescription15 = document.getElementById("DescriptionVacature15");
+    vacaturedescriptionLink15.textContent = allVacatureDescriptions[15].textContent;
+    vacaturedescriptionLink15.setAttribute("href", allVacatureLinks[15].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature16 = document.getElementById("imgVacatureArtikel16");
     imgVacature16.src = allVacatureImages[15].attributes[0].nodeValue;
+    let imgVacatureLink16 = document.getElementById("vacatureImgLink16");
+    imgVacatureLink16.setAttribute("href", allVacatureLinks[16].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature16 = document.getElementById("metaVacature16")
     let vacatureMeta16a = document.getElementById("vacatureMeta16a");
-    let vacatureMeta16b = document.getElementById("vacatureMeta16b");
     vacatureMeta16a.textContent = allPoster[15].textContent;
     vacatureMeta16b.textContent = " • " + allVacatureLocations[15].textContent + " • " + allDuur[15].textContent;
+    let vacatureMetaLink16 = document.getElementById("metaVacature16");
+    vacatureMetaLink16.setAttribute("href", allVacatureLinks[16].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink16 = document.getElementById("vacatureLink16title");
     let titleVacature16 = document.getElementById("titleVacature16");
-    titleVacature16.textContent = allVacatureTitles[16].textContent;
-    titleVacature16.textContent = allVacatureTitles[16].textContent;
-    let descriptionVacature16 = document.getElementById("DescriptionVacature16");
-    descriptionVacature16.textContent = allVacatureDescriptions[16].textContent;
+    titleVacatureLink16.textContent = allVacatureTitles[16].textContent;
+    titleVacatureLink16.setAttribute("href", allVacatureLinks[16].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink16 = document.getElementById("vacatureLink16description");
+    let vacatureDescription16 = document.getElementById("DescriptionVacature16");
+    vacaturedescriptionLink16.textContent = allVacatureDescriptions[16].textContent;
+    vacaturedescriptionLink16.setAttribute("href", allVacatureLinks[16].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature17 = document.getElementById("imgVacatureArtikel17");
     imgVacature17.src = allVacatureImages[16].attributes[0].nodeValue;
+    let imgVacatureLink17 = document.getElementById("vacatureImgLink17");
+    imgVacatureLink17.setAttribute("href", allVacatureLinks[17].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature17 = document.getElementById("metaVacature17")
     let vacatureMeta17a = document.getElementById("vacatureMeta17a");
-    let vacatureMeta17b = document.getElementById("vacatureMeta17b");
     vacatureMeta17a.textContent = allPoster[16].textContent;
-    vacatureMeta17b.textContent = " • " + allVacatureLocations[16].textContent + " • " + allDuur[15].textContent;
+    vacatureMeta17b.textContent = " • " + allVacatureLocations[16].textContent + " • " + allDuur[16].textContent;
+    let vacatureMetaLink17 = document.getElementById("metaVacature17");
+    vacatureMetaLink17.setAttribute("href", allVacatureLinks[17].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink17 = document.getElementById("vacatureLink17title");
     let titleVacature17 = document.getElementById("titleVacature17");
-    titleVacature17.textContent = allVacatureTitles[17].textContent;
-    titleVacature17.textContent = allVacatureTitles[17].textContent;
-    let descriptionVacature17 = document.getElementById("DescriptionVacature17");
-    descriptionVacature17.textContent = allVacatureDescriptions[17].textContent;
+    titleVacatureLink17.textContent = allVacatureTitles[17].textContent;
+    titleVacatureLink17.setAttribute("href", allVacatureLinks[17].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink17 = document.getElementById("vacatureLink17description");
+    let vacatureDescription17 = document.getElementById("DescriptionVacature17");
+    vacaturedescriptionLink17.textContent = allVacatureDescriptions[17].textContent;
+    vacaturedescriptionLink17.setAttribute("href", allVacatureLinks[17].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature18 = document.getElementById("imgVacatureArtikel18");
     imgVacature18.src = allVacatureImages[17].attributes[0].nodeValue;
+    let imgVacatureLink18 = document.getElementById("vacatureImgLink18");
+    imgVacatureLink18.setAttribute("href", allVacatureLinks[18].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature18 = document.getElementById("metaVacature18")
     let vacatureMeta18a = document.getElementById("vacatureMeta18a");
-    let vacatureMeta18b = document.getElementById("vacatureMeta18b");
     vacatureMeta18a.textContent = allPoster[17].textContent;
-    vacatureMeta18b.textContent = " • " + allVacatureLocations[17].textContent + " • " + allDuur[15].textContent;
+    vacatureMeta18b.textContent = " • " + allVacatureLocations[17].textContent + " • " + allDuur[17].textContent;
+    let vacatureMetaLink18 = document.getElementById("metaVacature18");
+    vacatureMetaLink18.setAttribute("href", allVacatureLinks[18].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink18 = document.getElementById("vacatureLink18title");
     let titleVacature18 = document.getElementById("titleVacature18");
-    titleVacature18.textContent = allVacatureTitles[18].textContent;
-    titleVacature18.textContent = allVacatureTitles[18].textContent;
-    let descriptionVacature18 = document.getElementById("DescriptionVacature18");
-    descriptionVacature18.textContent = allVacatureDescriptions[18].textContent;
+    titleVacatureLink18.textContent = allVacatureTitles[18].textContent;
+    titleVacatureLink18.setAttribute("href", allVacatureLinks[18].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink18 = document.getElementById("vacatureLink18description");
+    let vacatureDescription18 = document.getElementById("DescriptionVacature18");
+    vacaturedescriptionLink18.textContent = allVacatureDescriptions[18].textContent;
+    vacaturedescriptionLink18.setAttribute("href", allVacatureLinks[18].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
 
     let imgVacature19 = document.getElementById("imgVacatureArtikel19");
     imgVacature19.src = allVacatureImages[18].attributes[0].nodeValue;
+    let imgVacatureLink19 = document.getElementById("vacatureImgLink19");
+    imgVacatureLink19.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
     let metaVacature19 = document.getElementById("metaVacature19")
     let vacatureMeta19a = document.getElementById("vacatureMeta19a");
-    let vacatureMeta19b = document.getElementById("vacatureMeta19b");
     vacatureMeta19a.textContent = allPoster[18].textContent;
-    vacatureMeta19b.textContent = " • " + allVacatureLocations[18].textContent + " • " + allDuur[15].textContent;
+    vacatureMeta19b.textContent = " • " + allVacatureLocations[18].textContent + " • " + allDuur[18].textContent;
+    let vacatureMetaLink19 = document.getElementById("metaVacature19");
+    vacatureMetaLink19.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink19 = document.getElementById("vacatureLink19title");
     let titleVacature19 = document.getElementById("titleVacature19");
-    titleVacature19.textContent = allVacatureTitles[19].textContent;
-    titleVacature19.textContent = allVacatureTitles[19].textContent;
-    let descriptionVacature19 = document.getElementById("DescriptionVacature19");
-    descriptionVacature19.textContent = allVacatureDescriptions[19].textContent;
+    titleVacatureLink19.textContent = allVacatureTitles[19].textContent;
+    titleVacatureLink19.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink19 = document.getElementById("vacatureLink19description");
+    let vacatureDescription19 = document.getElementById("DescriptionVacature19");
+    vacaturedescriptionLink19.textContent = allVacatureDescriptions[19].textContent;
+    vacaturedescriptionLink19.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+
+    let imgVacature99 = document.getElementById("imgVacatureArtikel99");
+    imgVacature99.src = allVacatureImages[18].attributes[0].nodeValue;
+    let imgVacatureLink99 = document.getElementById("vacatureImgLink99");
+    imgVacatureLink99.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let metaVacature99 = document.getElementById("metaVacature99")
+    let vacatureMeta99a = document.getElementById("vacatureMeta99a");
+    vacatureMeta99a.textContent = allPoster[18].textContent;
+    vacatureMeta99b.textContent = " • " + allVacatureLocations[18].textContent + " • " + allDuur[18].textContent;
+    let vacatureMetaLink99 = document.getElementById("metaVacature99");
+    vacatureMetaLink99.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let titleVacatureLink99 = document.getElementById("vacatureLink99title");
+    let titleVacature99 = document.getElementById("titleVacature99");
+    titleVacatureLink99.textContent = allVacatureTitles[19].textContent;
+    titleVacatureLink99.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+    let vacaturedescriptionLink99 = document.getElementById("vacatureLink99description");
+    let vacatureDescription99 = document.getElementById("DescriptionVacature99");
+    vacaturedescriptionLink99.textContent = allVacatureDescriptions[19].textContent;
+    vacaturedescriptionLink99.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
+
+
 /* NOG NIET IN FEED
     let imgVacature20 = document.getElementById("imgVacatureArtikel20");
     imgVacature20.src = allVacatureImages[19].attributes[0].nodeValue;
@@ -1131,7 +1267,7 @@ document.getElementById('kleinArtikel14').ondragstart = function (event) {
     .setData('text/html', event.target.innerHTML);
     console.log('dragstart');
 }
-document.getElementById('kleinArtikel5').ondragstart = function (event) {
+document.getElementById('kleinArtikel15').ondragstart = function (event) {
   event
     .dataTransfer
     .setData('text/html', event.target.innerHTML);
@@ -1273,6 +1409,13 @@ document.getElementById('vacature11').ondragstart = function (event) {
 }
 
 document.getElementById('vacature12').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature99').ondragstart = function (event) {
   event
     .dataTransfer
     .setData('text/html', event.target.innerHTML);
