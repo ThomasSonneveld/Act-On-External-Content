@@ -1766,6 +1766,9 @@ vacature1.className = 'vacature';
 vacature1.draggable = "true";
 vacature1.position - "absolute"
 
+vacatureTable1.id = "vacatureTable1";
+vacatureTable1.style.margin = "0px 0px 20px 0px";
+
     vacature1TDa.className = "vacTableDivider1";
     vacature1TDa.display = "block";
     vacature1TDa.width = "30%";
@@ -1845,6 +1848,9 @@ vacature2.className = 'vacature';
 vacature2.draggable = "true";
 vacature2.position - "absolute"
 
+vacatureTable2.id = "vacatureTable2";
+vacatureTable2.style.margin = "0px 0px 20px 0px";
+
     vacature2TDa.className = "vacTableDivider1";
     vacature2TDa.display = "block";
     vacature2TDa.width = "30%";
@@ -1911,7 +1917,7 @@ vacatureTD2bA.id = 'vacatureTD2bA'
 vacatureTD2bA.className = 'vacatureTDbA'
 
 vacatureTD2bB.id = 'vacatureTD2bB'
-vacatureTD2bB.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 0px 0px 10px 0px");
+vacatureTD1bB.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 0px 0px 10px 0px");
 
 
 vacatureTD2bC.id = 'vacatureTD2bC'
@@ -1923,6 +1929,9 @@ vacature3.id = "vacature3";
 vacature3.className = 'vacature';
 vacature3.draggable = "true";
 vacature3.position - "absolute"
+
+vacatureTable3.id = "vacatureTable3";
+vacatureTable3.style.margin = "0px 0px 20px 0px";
 
     vacature3TDa.className = "vacTableDivider1";
     vacature3TDa.display = "block";
@@ -2003,6 +2012,9 @@ vacature4.className = 'vacature';
 vacature4.draggable = "true";
 vacature4.position - "absolute"
 
+vacatureTable4.id = "vacatureTable4";
+vacatureTable4.style.margin = "0px 0px 20px 0px";
+
     vacature4TDa.className = "vacTableDivider1";
     vacature4TDa.display = "block";
     vacature4TDa.width = "30%";
@@ -2082,6 +2094,9 @@ vacature5.className = 'vacature';
 vacature5.draggable = "true";
 vacature5.position - "absolute"
 
+vacatureTable5.id = "vacatureTable5";
+vacatureTable5.style.margin = "0px 0px 20px 0px";
+
     vacature5TDa.className = "vacTableDivider1";
     vacature5TDa.display = "block";
     vacature5TDa.width = "30%";
@@ -2160,6 +2175,9 @@ vacature6.id = "vacature6";
 vacature6.className = 'vacature';
 vacature6.draggable = "true";
 vacature6.position - "absolute"
+
+vacatureTable6.id = "vacatureTable6";
+vacatureTable6.style.margin = "0px 0px 20px 0px";
 
     vacature6TDa.className = "vacTableDivider1";
     vacature6TDa.display = "block";
@@ -3724,18 +3742,67 @@ vacature25.position - "absolute"
         vacatureLink25description.className = "DescriptionVacature";
         vacatureLink25description.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 0x 0px 0px 0px");
 
+vacatureTable25b.id = "vacatureTable2b"
+vacatureTable25b.padding="0px 0px 20px 0px";
+
 vacatureTD25bA.id = 'vacatureTD25bA'
 vacatureTD25bA.className = 'vacatureTDbA'
 
 vacatureTD25bB.id = 'vacatureTD25bB'
 vacatureTD25bB.setAttribute("style", "top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1A1A1A; text-decoration: none;  padding: 0px 0px 10px 0px");
 
-
 vacatureTD25bC.id = 'vacatureTD25bC'
 vacatureTD25bC.setAttribute("style", "display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10x 0px 15px 0px");
 vacatureTD25bC.className = 'vacatureTDbC'
 
 
+vacatureTable7.id = "vacatureTable7";
+vacatureTable7.style.margin = "0px 0px 20px 0px";
+
+vacatureTable8.id = "vacatureTable8";
+vacatureTable8.style.margin = "0px 0px 20px 0px";
+
+vacatureTable9.id = "vacatureTable9";
+vacatureTable9.style.margin = "0px 0px 20px 0px";
+
+vacatureTable10.id = "vacatureTable10";
+vacatureTable10.style.margin = "0px 0px 20px 0px";
+
+vacatureTable11.id = "vacatureTable11";
+vacatureTable11.style.margin = "0px 0px 20px 0px";
+
+vacatureTable12.id = "vacatureTable12";
+vacatureTable12.style.margin = "0px 0px 20px 0px";
+
+vacatureTable13.id = "vacatureTable13";
+vacatureTable13.style.margin = "0px 0px 20px 0px";
+
+vacatureTable14.id = "vacatureTable14";
+vacatureTable14.style.margin = "0px 0px 20px 0px";
+
+vacatureTable15.id = "vacatureTable15";
+vacatureTable15.style.margin = "0px 0px 20px 0px";
+
+vacatureTable16.id = "vacatureTable16";
+vacatureTable16.style.margin = "0px 0px 20px 0px";
+
+vacatureTable17.id = "vacatureTable17";
+vacatureTable17.style.margin = "0px 0px 20px 0px";
+
+vacatureTable18.id = "vacatureTable18";
+vacatureTable18.style.margin = "0px 0px 20px 0px";
+
+vacatureTable19.id = "vacatureTable19";
+vacatureTable19.style.margin = "0px 0px 20px 0px";
+
+vacatureTable20.id = "vacatureTable20";
+vacatureTable20.style.margin = "0px 0px 20px 0px";
+
+vacatureTable21.id = "vacatureTable21";
+vacatureTable21.style.margin = "0px 0px 20px 0px";
+
+vacatureTable22.id = "vacatureTable22";
+vacatureTable22.style.margin = "0px 0px 20px 0px";
 
 
 categorySEO.id = "categroySEO";
