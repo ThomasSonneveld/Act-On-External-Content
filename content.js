@@ -1415,6 +1415,97 @@ document.getElementById('vacature12').ondragstart = function (event) {
     console.log(event.target.innerHTML);
 }
 
+document.getElementById('vacature13').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature14').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature15').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature16').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature17').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature18').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature19').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature20').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature21').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature22').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature23').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature24').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
+document.getElementById('vacature25').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log(event.target.innerHTML);
+}
+
 document.getElementById('vacature99').ondragstart = function (event) {
   event
     .dataTransfer
