@@ -537,8 +537,9 @@ artikelKleinImg15Link.appendChild(artikelKleinImg15);
 
 contentIndex.appendChild( artikelenGrootContainer );
 
-artikelenGrootContainer.appendChild( artikelGroot1T );
+artikelenGrootContainer.appendChild( artikelGroot1D );
 //artikelGroot1.appendChild(artikelGrootAuthor1);
+artikelGroot1D.appendChild(artikelGroot1T);
 artikelGroot1T.appendChild(artikelGroot1Tb);
 artikelGroot1Tb.appendChild(artikelGroot1TrA);
 artikelGroot1TrA.appendChild(artikelGroot1TdA);
@@ -553,8 +554,9 @@ artikelGroot1TdC.appendChild(artikelGrootDescription1);
 artikelGroot1TdC.appendChild(artikelGrootCTA1C);
 artikelGrootCTA1C.appendChild(artikelGrootCTA1);
 
-artikelenGrootContainer.appendChild( artikelGroot2T );
+artikelenGrootContainer.appendChild( artikelGroot2D );
 //artikelGroot2.appendChild(artikelGrootAuthor2);
+artikelGroot2D.appendChild(artikelGroot2T);
 artikelGroot2T.appendChild(artikelGroot2Tb);
 artikelGroot2Tb.appendChild(artikelGroot2TrA);
 artikelGroot2TrA.appendChild(artikelGroot2TdA);
@@ -569,8 +571,9 @@ artikelGroot2TdC.appendChild(artikelGrootDescription2);
 artikelGroot2TdC.appendChild(artikelGrootCTA2C);
 artikelGrootCTA2C.appendChild(artikelGrootCTA2);
 
-artikelenGrootContainer.appendChild( artikelGroot3T );
+artikelenGrootContainer.appendChild( artikelGroot3D );
 //artikelGroot3.appendChild(artikelGrootAuthor3);
+artikelGroot3D.appendChild(artikelGroot3T);
 artikelGroot3T.appendChild(artikelGroot3Tb);
 artikelGroot3Tb.appendChild(artikelGroot3TrA);
 artikelGroot3TrA.appendChild(artikelGroot3TdA);
@@ -585,8 +588,9 @@ artikelGroot3TdC.appendChild(artikelGrootDescription3);
 artikelGroot3TdC.appendChild(artikelGrootCTA3C);
 artikelGrootCTA3C.appendChild(artikelGrootCTA3);
 
-artikelenGrootContainer.appendChild( artikelGroot4T );
+artikelenGrootContainer.appendChild( artikelGroot4D );
 //artikelGroot4.appendChild(artikelGrootAuthor4);
+artikelGroot4D.appendChild(artikelGroot4T);
 artikelGroot4T.appendChild(artikelGroot4Tb);
 artikelGroot4Tb.appendChild(artikelGroot4TrA);
 artikelGroot4TrA.appendChild(artikelGroot4TdA);
@@ -601,8 +605,9 @@ artikelGroot4TdC.appendChild(artikelGrootDescription4);
 artikelGroot4TdC.appendChild(artikelGrootCTA4C);
 artikelGrootCTA4C.appendChild(artikelGrootCTA4);
 
-artikelenGrootContainer.appendChild( artikelGroot5T );
+artikelenGrootContainer.appendChild( artikelGroot5D );
 //artikelGroot5.appendChild(artikelGrootAuthor5);
+artikelGroot5D.appendChild(artikelGroot5T);
 artikelGroot5T.appendChild(artikelGroot5Tb);
 artikelGroot5Tb.appendChild(artikelGroot5TrA);
 artikelGroot5TrA.appendChild(artikelGroot5TdA);
@@ -617,8 +622,9 @@ artikelGroot5TdC.appendChild(artikelGrootDescription5);
 artikelGroot5TdC.appendChild(artikelGrootCTA5C);
 artikelGrootCTA5C.appendChild(artikelGrootCTA5);
 
-artikelenGrootContainer.appendChild( artikelGroot6T );
+artikelenGrootContainer.appendChild( artikelGroot6D );
 //artikelGroot6.appendChild(artikelGrootAuthor6);
+artikelGroot6D.appendChild(artikelGroot6T);
 artikelGroot6T.appendChild(artikelGroot6Tb);
 artikelGroot6Tb.appendChild(artikelGroot6TrA);
 artikelGroot6TrA.appendChild(artikelGroot6TdA);

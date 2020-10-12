@@ -1275,42 +1275,42 @@ document.getElementById('kleinArtikel15').ondragstart = function (event) {
 }
 
 
-document.getElementById('artikelGroot1T').ondragstart = function (event) {
+document.getElementById('artikelGroot1D').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);
         console.log('dragstart');
 }
 
-document.getElementById('artikelGroot2T').ondragstart = function (event) {
+document.getElementById('artikelGroot2D').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);
         console.log('dragstart');
 }
 
-document.getElementById('artikelGroot3T').ondragstart = function (event) {
+document.getElementById('artikelGroot3D').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);
         console.log('dragstart');
 }
 
-document.getElementById('artikelGroot4T').ondragstart = function (event) {
+document.getElementById('artikelGroot4D').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);
         console.log('dragstart');
 }
 
-document.getElementById('artikelGroot5T').ondragstart = function (event) {
+document.getElementById('artikelGroot5D').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);
         console.log('dragstart');
 }
 
-document.getElementById('artikelGroot6T').ondragstart = function (event) {
+document.getElementById('artikelGroot6D').ondragstart = function (event) {
       event
         .dataTransfer
         .setData('text/html', event.target.innerHTML);

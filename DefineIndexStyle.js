@@ -479,7 +479,7 @@ artikelKlein1.position - "absolute"
       artikelKlein1TDDiv.height = "150px";
 
       artikelKleinImg1a.id = "imgKleinArtikel1a";
-      artikelKleinImg1a.style.height = "150px";
+      artikelKleinImg1a.style.height = "auto";
       artikelKleinImg1a.style.width = "100%";
       artikelKleinImg1a.draggable="true";
       artikelKleinImg1a.className = "imgKleinArtikela"
@@ -543,7 +543,7 @@ artikelKlein2.position - "absolute"
       artikelKlein2TDDiv.height = "150px";
 
       artikelKleinImg2a.id = "imgKleinArtikel2a";
-      artikelKleinImg2a.style.height = "150px";
+      artikelKleinImg2a.style.height = "auto";
       artikelKleinImg2a.style.width = "100%";
       artikelKleinImg2a.draggable="true";
       artikelKleinImg2a.className = "imgKleinArtikela"
@@ -607,7 +607,7 @@ artikelKlein2.position - "absolute"
         artikelKlein3TDDiv.height = "150px";
 
         artikelKleinImg3a.id = "imgKleinArtikel3a";
-        artikelKleinImg3a.style.height = "150px";
+        artikelKleinImg3a.style.height = "auto";
         artikelKleinImg3a.style.width = "100%";
         artikelKleinImg3a.draggable="true";
         artikelKleinImg3a.className = "imgKleinArtikela"
@@ -671,7 +671,7 @@ artikelKlein4.position - "absolute"
       artikelKlein4TDDiv.height = "150px";
 
       artikelKleinImg4a.id = "imgKleinArtikel4a";
-      artikelKleinImg4a.style.height = "150px";
+      artikelKleinImg4a.style.height = "auto";
       artikelKleinImg4a.style.width = "100%";
       artikelKleinImg4a.draggable="true";
       artikelKleinImg4a.className = "imgKleinArtikela"
@@ -735,7 +735,7 @@ artikelKlein5TDa.className = "tableDivider1a";
     artikelKlein5TDDiv.height = "150px";
 
     artikelKleinImg5a.id = "imgKleinArtikel5a";
-    artikelKleinImg5a.style.height = "150px";
+    artikelKleinImg5a.style.height = "auto";
     artikelKleinImg5a.style.width = "100%";
     artikelKleinImg5a.draggable="true";
     artikelKleinImg5a.className = "imgKleinArtikela"
@@ -799,7 +799,7 @@ artikelKlein6.position - "absolute"
       artikelKlein6TDDiv.height = "150px";
 
       artikelKleinImg6a.id = "imgKleinArtikel6a";
-      artikelKleinImg6a.style.height = "150px";
+      artikelKleinImg6a.style.height = "auto";
       artikelKleinImg6a.style.width = "100%";
       artikelKleinImg6a.draggable="true";
       artikelKleinImg6a.className = "imgKleinArtikela"
@@ -863,7 +863,7 @@ artikelKlein7.position - "absolute"
       artikelKlein7TDDiv.height = "150px";
 
       artikelKleinImg7a.id = "imgKleinArtikel7a";
-      artikelKleinImg7a.style.height = "150px";
+      artikelKleinImg7a.style.height = "auto";
       artikelKleinImg7a.style.width = "100%";
       artikelKleinImg7a.draggable="true";
       artikelKleinImg7a.className = "imgKleinArtikela"
@@ -927,7 +927,7 @@ artikelKlein8.position - "absolute"
       artikelKlein8TDDiv.height = "150px";
 
       artikelKleinImg8a.id = "imgKleinArtikel8a";
-      artikelKleinImg8a.style.height = "150px";
+      artikelKleinImg8a.style.height = "auto";
       artikelKleinImg8a.style.width = "100%";
       artikelKleinImg8a.draggable="true";
       artikelKleinImg8a.className = "imgKleinArtikela"
@@ -991,7 +991,7 @@ artikelKlein9.position - "absolute"
       artikelKlein9TDDiv.height = "150px";
 
       artikelKleinImg9a.id = "imgKleinArtikel9a";
-      artikelKleinImg9a.style.height = "150px";
+      artikelKleinImg9a.style.height = "auto";
       artikelKleinImg9a.style.width = "100%";
       artikelKleinImg9a.draggable="true";
       artikelKleinImg9a.className = "imgKleinArtikela"
@@ -1054,7 +1054,7 @@ artikelKlein10.position - "absolute"
       artikelKlein10TDDiv.height = "150px";
 
       artikelKleinImg10a.id = "imgKleinArtikel10a";
-      artikelKleinImg10a.style.height = "150px";
+      artikelKleinImg10a.style.height = "auto";
       artikelKleinImg10a.style.width = "100%";
       artikelKleinImg10a.draggable="true";
       artikelKleinImg10a.className = "imgKleinArtikela"
@@ -1117,7 +1117,7 @@ artikelKlein11.position - "absolute"
       artikelKlein11TDDiv.height = "150px";
 
       artikelKleinImg11a.id = "imgKleinArtikel11a";
-      artikelKleinImg11a.style.height = "150px";
+      artikelKleinImg11a.style.height = "auto";
       artikelKleinImg11a.style.width = "100%";
       artikelKleinImg11a.draggable="true";
       artikelKleinImg11a.className = "imgKleinArtikela"
@@ -1181,7 +1181,7 @@ artikelKlein12TDa.className = "tableDivider1a";
     artikelKlein12TDDiv.height = "150px";
 
     artikelKleinImg12a.id = "imgKleinArtikel12a";
-    artikelKleinImg12a.style.height = "150px";
+    artikelKleinImg12a.style.height = "auto";
     artikelKleinImg12a.style.width = "100%";
     artikelKleinImg12a.draggable="true";
     artikelKleinImg12a.className = "imgKleinArtikela"
@@ -1245,7 +1245,7 @@ artikelKlein13.position - "absolute"
       artikelKlein13TDDiv.height = "150px";
 
       artikelKleinImg13a.id = "imgKleinArtikel13a";
-      artikelKleinImg13a.style.height = "150px";
+      artikelKleinImg13a.style.height = "auto";
       artikelKleinImg13a.style.width = "100%";
       artikelKleinImg13a.draggable="true";
       artikelKleinImg13a.className = "imgKleinArtikela"
@@ -1309,7 +1309,7 @@ artikelKlein14.position - "absolute"
       artikelKlein14TDDiv.height = "150px";
 
       artikelKleinImg14a.id = "imgKleinArtikel14a";
-      artikelKleinImg14a.style.height = "150px";
+      artikelKleinImg14a.style.height = "auto";
       artikelKleinImg14a.style.width = "100%";
       artikelKleinImg14a.draggable="true";
       artikelKleinImg14a.className = "imgKleinArtikela"
@@ -1373,7 +1373,7 @@ artikelKlein15TDa.className = "tableDivider1a";
     artikelKlein15TDDiv.height = "150px";
 
     artikelKleinImg15a.id = "imgKleinArtikel15a";
-    artikelKleinImg15a.style.height = "150px";
+    artikelKleinImg15a.style.height = "auto";
     artikelKleinImg15a.style.width = "100%";
     artikelKleinImg15a.draggable="true";
     artikelKleinImg15a.className = "imgKleinArtikela"
@@ -1452,20 +1452,23 @@ artikelKleinImg15Link.id = "imgKlein15Link"
 
 //Artikelen groot
 
+artikelGroot1D.id= "artikelGroot1D";
+artikelGroot1D.draggable= "true";
+artikelGroot1D.ondragstart ='onDragStart(event);';
+
 artikelGroot1T.id = 'artikelGroot1T'
-artikelGroot1T.draggable="true";
 artikelGroot1Tb.id = 'artikelGroot1Tb'
 artikelGroot1TrA.id = 'artikelGroot1TrA'
 artikelGroot1TdA.id = 'artikelGroot1TdA'
 artikelGroot1TrB.id = 'artikelGroot1TrB'
 artikelGroot1TdB.id = 'artikelGroot1TdB'
 artikelGroot1TrC.id = 'artikelGroot1TrC'
+
 artikelGroot1TdC.id = 'artikelGroot1TdC'
+artikelGroot1TdC.style.paddingBottom = '5px'
 
 artikelGroot1.id = "grootArtikel1";
 artikelGroot1.className = 'grootArtikel';
-artikelGroot1.draggable = "true";
-artikelGroot1.ondragstart ='onDragStart(event);';
 artikelGroot1.position - "absolute";
 artikelGroot1.style.border="1px solid #b8b8b8";
 
@@ -1477,6 +1480,7 @@ artikelGroot1.style.border="1px solid #b8b8b8";
   artikelGrootTitle1.className = "grootArtikelTitle";
   artikelGrootTitle1.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
+
   artikelGrootImg1Link.id =  "grootArtikelImg1Link";
   artikelGrootImg1Link.style.padding = "0px";
 
@@ -1485,38 +1489,40 @@ artikelGroot1.style.border="1px solid #b8b8b8";
   artikelGrootImg1.style.display = "block";
   artikelGrootImg1.style.width = "100%";
   artikelGrootImg1.style.paddingBottom = "10px";
+  artikelGrootImg1.style.height = "auto";
 
   artikelGrootDescription1.id = "grootArtikelDescription1";
   artikelGrootDescription1.className = "grootArtikelDescription";
   artikelGrootDescription1.style.display = "inline";
   artikelGrootDescription1.style.fontSize = "12pt";
-  artikelGrootDescription1.setAttribute("style", " color: #666666; display: inline; padding: 0px 0px 0px 0px;");
+  artikelGrootDescription1.setAttribute("style", " color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA1C.id = "GrootArtikelCTA1C";
   artikelGrootCTA1C.className = "GrootArtikelCTAC";
   artikelGrootCTA1C.style.display = "inline";
-  artikelGrootCTA1C.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;");
+  artikelGrootCTA1C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
 
   artikelGrootCTA1.id = "GrootArtikelCTA1";
   artikelGrootCTA1.className = "GrootArtikelCTA";
   artikelGrootCTA1.style.display = "inline";
-  artikelGrootCTA1.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;")
+  artikelGrootCTA1.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
 
+artikelGroot2D.id="artikelGroot2D";
+artikelGroot2D.draggable="true";
+artikelGroot2D.ondragstart ='onDragStart(event);';
 
-artikelGroot2T.id = 'artikelGroot2T'
-artikelGroot2T.draggable="true";
-artikelGroot2Tb.id = 'artikelGroot2Tb'
-artikelGroot2TrA.id = 'artikelGroot2TrA'
-artikelGroot2TdA.id = 'artikelGroot2TdA'
-artikelGroot2TrB.id = 'artikelGroot2TrB'
-artikelGroot2TdB.id = 'artikelGroot2TdB'
-artikelGroot2TrC.id = 'artikelGroot2TrC'
-artikelGroot2TdC.id = 'artikelGroot2TdC'
+artikelGroot2T.id = 'artikelGroot2T';
+artikelGroot2Tb.id = 'artikelGroot2Tb';
+artikelGroot2TrA.id = 'artikelGroot2TrA';
+artikelGroot2TdA.id = 'artikelGroot2TdA';
+artikelGroot2TrB.id = 'artikelGroot2TrB';
+artikelGroot2TdB.id = 'artikelGroot2TdB';
+artikelGroot2TrC.id = 'artikelGroot2TrC';
+artikelGroot2TdC.id = 'artikelGroot2TdC';
+artikelGroot2TdC.style.paddingBottom = '5px'
 
 artikelGroot2.id = "grootArtikel2";
 artikelGroot2.className = 'grootArtikel';
-artikelGroot2.draggable = "true";
-artikelGroot2.ondragstart ='onDragStart(event);';
 artikelGroot2.position - "absolute";
 artikelGroot2.style.border="1px solid #b8b8b8";
 
@@ -1536,25 +1542,29 @@ artikelGroot2.style.border="1px solid #b8b8b8";
   artikelGrootImg2.style.display = "block";
   artikelGrootImg2.style.width = "100%";
   artikelGrootImg2.style.paddingBottom = "10px";
+  artikelGrootImg2.style.height = "auto";
 
   artikelGrootDescription2.id = "grootArtikelDescription2";
   artikelGrootDescription2.className = "grootArtikelDescription";
   artikelGrootDescription2.style.display = "inline";
   artikelGrootDescription2.style.fontSize = "12pt";
-  artikelGrootDescription2.setAttribute("style", "color: #666666; display: inline; padding: 0px 0px 0px 0px;");
+  artikelGrootDescription2.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA2C.id = "GrootArtikelCTA2C";
   artikelGrootCTA2C.className = "GrootArtikelCTAC";
   artikelGrootCTA2C.style.display = "inline";
-  artikelGrootCTA2C.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;");
+  artikelGrootCTA2C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
 
   artikelGrootCTA2.id = "GrootArtikelCTA2";
   artikelGrootCTA2.className = "GrootArtikelCTA";
   artikelGrootCTA2.style.display = "inline";
-  artikelGrootCTA2.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;")
+  artikelGrootCTA2.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+artikelGroot3D.id="artikelGroot3D";
+artikelGroot3D.draggable="true";
+artikelGroot3D.ondragstart ='onDragStart(event);';
 
 artikelGroot3T.id = 'artikelGroot3T'
-artikelGroot3T.draggable="true";
 artikelGroot3Tb.id = 'artikelGroot3Tb'
 artikelGroot3TrA.id = 'artikelGroot3TrA'
 artikelGroot3TdA.id = 'artikelGroot3TdA'
@@ -1562,11 +1572,10 @@ artikelGroot3TrB.id = 'artikelGroot3TrB'
 artikelGroot3TdB.id = 'artikelGroot3TdB'
 artikelGroot3TrC.id = 'artikelGroot3TrC'
 artikelGroot3TdC.id = 'artikelGroot3TdC'
+artikelGroot3TdC.style.paddingBottom = '5px'
 
 artikelGroot3.id = "grootArtikel3";
 artikelGroot3.className = 'grootArtikel';
-artikelGroot3.draggable = "true";
-artikelGroot3.ondragstart ='onDragStart(event);';
 artikelGroot3.position - "absolute";
 artikelGroot3.style.border="1px solid #b8b8b8";
 artikelGroot3.onmousehover = "hoverColor();";
@@ -1587,26 +1596,29 @@ artikelGroot3.onmousehover = "hoverColor();";
   artikelGrootImg3.style.display = "block";
   artikelGrootImg3.style.width = "100%";
   artikelGrootImg3.style.paddingBottom = "10px";
+  artikelGrootImg3.style.height = "auto";
 
   artikelGrootDescription3.id = "grootArtikelDescription3";
   artikelGrootDescription3.className = "grootArtikelDescription";
   artikelGrootDescription3.style.display = "inline";
   artikelGrootDescription3.style.fontSize = "12pt";
-  artikelGrootDescription3.setAttribute("style", "color: #666666; display: inline; padding: 0px 0px 0px 0px;");
+  artikelGrootDescription3.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA3C.id = "GrootArtikelCTA3C";
   artikelGrootCTA3C.className = "GrootArtikelCTAC";
   artikelGrootCTA3C.style.display = "inline";
-  artikelGrootCTA3C.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;");
+  artikelGrootCTA3C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
 
   artikelGrootCTA3.id = "GrootArtikelCTA3";
   artikelGrootCTA3.className = "GrootArtikelCTA";
   artikelGrootCTA3.style.display = "inline";
-  artikelGrootCTA3.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;")
+  artikelGrootCTA3.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
 
+artikelGroot4D.id="artikelGroot4D";
+artikelGroot4D.draggable="true";
+artikelGroot4D.ondragstart ='onDragStart(event);';
 
 artikelGroot4T.id = 'artikelGroot4T'
-artikelGroot4T.draggable="true";
 artikelGroot4Tb.id = 'artikelGroot4Tb'
 artikelGroot4TrA.id = 'artikelGroot4TrA'
 artikelGroot4TdA.id = 'artikelGroot4TdA'
@@ -1614,11 +1626,10 @@ artikelGroot4TrB.id = 'artikelGroot4TrB'
 artikelGroot4TdB.id = 'artikelGroot4TdB'
 artikelGroot4TrC.id = 'artikelGroot4TrC'
 artikelGroot4TdC.id = 'artikelGroot4TdC'
+artikelGroot4TdC.style.paddingBottom = '5px'
 
 artikelGroot4.id = "grootArtikel4";
 artikelGroot4.className = 'grootArtikel';
-artikelGroot4.draggable = "true";
-artikelGroot4.ondragstart ='onDragStart(event);';
 artikelGroot4.position - "absolute";
 artikelGroot4.border - "absolute";
 artikelGroot4.style.border="1px solid #b8b8b8";
@@ -1639,26 +1650,29 @@ artikelGroot4.style.border="1px solid #b8b8b8";
   artikelGrootImg4.style.display = "block";
   artikelGrootImg4.style.width = "100%";
   artikelGrootImg4.style.paddingBottom = "10px";
+  artikelGrootImg4.style.height = "auto";
 
   artikelGrootDescription4.id = "grootArtikelDescription4";
   artikelGrootDescription4.className = "grootArtikelDescription";
   artikelGrootDescription4.style.display = "block";
   artikelGrootDescription4.style.fontSize = "12pt";
-  artikelGrootDescription4.setAttribute("style", "color: #666666; display: inline; padding: 0px 0px 0px 0px;");
+  artikelGrootDescription4.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA4C.id = "GrootArtikelCTA4C";
   artikelGrootCTA4C.className = "GrootArtikelCTAC";
   artikelGrootCTA4C.style.display = "inline";
-  artikelGrootCTA4C.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;");
+  artikelGrootCTA4C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
 
   artikelGrootCTA4.id = "GrootArtikelCTA4";
   artikelGrootCTA4.className = "GrootArtikelCTA";
   artikelGrootCTA4.style.display = "inline";
-  artikelGrootCTA4.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;")
+  artikelGrootCTA4.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
 
+artikelGroot5D.id="artikelGroot5D";
+artikelGroot5D.draggable="true";
+artikelGroot5D.ondragstart ='onDragStart(event);';
 
 artikelGroot5T.id = 'artikelGroot5T'
-artikelGroot5T.draggable="true";
 artikelGroot5Tb.id = 'artikelGroot5Tb'
 artikelGroot5TrA.id = 'artikelGroot5TrA'
 artikelGroot5TdA.id = 'artikelGroot5TdA'
@@ -1666,11 +1680,10 @@ artikelGroot5TrB.id = 'artikelGroot5TrB'
 artikelGroot5TdB.id = 'artikelGroot5TdB'
 artikelGroot5TrC.id = 'artikelGroot5TrC'
 artikelGroot5TdC.id = 'artikelGroot5TdC'
+artikelGroot5TdC.style.paddingBottom = '5px'
 
   artikelGroot5.id = "grootArtikel5";
   artikelGroot5.className = 'grootArtikel';
-  artikelGroot5.draggable = "true";
-  artikelGroot5.ondragstart ='onDragStart(event);';
   artikelGroot5.position - "absolute";
   artikelGroot5.style.border="1px solid #b8b8b8";
 
@@ -1690,25 +1703,29 @@ artikelGroot5TdC.id = 'artikelGroot5TdC'
     artikelGrootImg5.style.display = "block";
     artikelGrootImg5.style.width = "100%";
     artikelGrootImg5.style.paddingBottom = "10px";
+    artikelGrootImg5.style.height = "auto";
 
     artikelGrootDescription5.id = "grootArtikelDescription5";
     artikelGrootDescription5.className = "grootArtikelDescription";
     artikelGrootDescription5.style.display = "inline";
     artikelGrootDescription5.style.fontSize = "12pt";
-    artikelGrootDescription5.setAttribute("style", "color: #666666; display: inline; padding: 0px 0px 0px 0px;");
+    artikelGrootDescription5.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
     artikelGrootCTA5C.id = "GrootArtikelCTA5C";
     artikelGrootCTA5C.className = "GrootArtikelCTAC";
     artikelGrootCTA5C.style.display = "inline";
-    artikelGrootCTA5C.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;");
+    artikelGrootCTA5C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
 
     artikelGrootCTA5.id = "GrootArtikelCTA5";
     artikelGrootCTA5.className = "GrootArtikelCTA";
     artikelGrootCTA5.style.display = "inline";
-    artikelGrootCTA5.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;")
+    artikelGrootCTA5.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+artikelGroot6D.id="artikelGroot6D";
+artikelGroot6D.draggable="true";
+artikelGroot6D.ondragstart ='onDragStart(event);';
 
 artikelGroot6T.id = 'artikelGroot6T'
-artikelGroot6T.draggable="true";
 artikelGroot6Tb.id = 'artikelGroot6Tb'
 artikelGroot6TrA.id = 'artikelGroot6TrA'
 artikelGroot6TdA.id = 'artikelGroot6TdA'
@@ -1716,11 +1733,10 @@ artikelGroot6TrB.id = 'artikelGroot6TrB'
 artikelGroot6TdB.id = 'artikelGroot6TdB'
 artikelGroot6TrC.id = 'artikelGroot6TrC'
 artikelGroot6TdC.id = 'artikelGroot6TdC'
+artikelGroot6TdC.style.paddingBottom = '5px'
 
 artikelGroot6.id = "grootArtikel6";
 artikelGroot6.className = 'grootArtikel';
-artikelGroot6.draggable = "true";
-artikelGroot6.ondragstart ='onDragStart(event);';
 artikelGroot6.position - "absolute";
 artikelGroot6.style.border="1px solid #b8b8b8";
 
@@ -1742,22 +1758,23 @@ artikelGroot6.style.border="1px solid #b8b8b8";
   artikelGrootImg6.style.display = "block";
   artikelGrootImg6.style.width = "100%";
   artikelGrootImg6.style.paddingBottom = "10px";
+  artikelGrootImg6.style.height = "auto";
 
   artikelGrootDescription6.id = "grootArtikelDescription6";
   artikelGrootDescription6.className = "grootArtikelDescription";
   artikelGrootDescription6.style.display = "inline";
   artikelGrootDescription6.style.fontSize = "12pt";
-  artikelGrootDescription6.setAttribute("style", "color: #666666; display: inline; padding: 0px 0px 0px 0px;");
+  artikelGrootDescription6.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA6C.id = "GrootArtikelCTA6C";
   artikelGrootCTA6C.className = "GrootArtikelCTAC";
   artikelGrootCTA6C.style.display = "inline";
-  artikelGrootCTA6C.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;");
+  artikelGrootCTA6C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
 
   artikelGrootCTA6.id = "GrootArtikelCTA6";
   artikelGrootCTA6.className = "GrootArtikelCTA";
   artikelGrootCTA6.style.display = "inline";
-  artikelGrootCTA6.setAttribute("style", " display: inline; text-decoration: none; color: #18608B;")
+  artikelGrootCTA6.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
 
 //Vacatures
 

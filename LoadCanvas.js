@@ -471,6 +471,13 @@ var artikelKleinCTA15 = document.createElement ( 'a' );
 
 //Artikelen Groot
 
+var artikelGroot1D = document.createElement ( 'div' );
+var artikelGroot2D = document.createElement ( 'div' );
+var artikelGroot3D = document.createElement ( 'div' );
+var artikelGroot4D = document.createElement ( 'div' );
+var artikelGroot5D = document.createElement ( 'div' );
+var artikelGroot6D = document.createElement ( 'div' );
+
 var artikelGroot1T = document.createElement ( 'table' );
 var artikelGroot2T = document.createElement ( 'table' );
 var artikelGroot3T = document.createElement ( 'table' );
