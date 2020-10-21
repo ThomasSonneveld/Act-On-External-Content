@@ -3941,7 +3941,8 @@ function switchFunctionInOut()
       document.getElementById('contentStyle').style.minWidth = '100px';
       document.getElementById('credits').style.width = canvasWidth;
       document.getElementById('credits').style.minWidth = '100px';
-      contentStyle
+      document.getElementById('contentIndex').style.width = canvasWidth;
+      document.getElementById('contentIndex').style.minWidth = '100px';
       console.log (inOut)
   } else {
       inOut = 'in';
@@ -3951,6 +3952,8 @@ function switchFunctionInOut()
       document.getElementById('contentStyle').style.minWidth = '0px';
       document.getElementById('credits').style.width = '0px';
       document.getElementById('credits').style.minWidth = '0px';
+      document.getElementById('contentIndex').style.width = '0px';
+      document.getElementById('contentIndex').style.minWidth = '0px';
       console.log (inOut)
   }
 };
