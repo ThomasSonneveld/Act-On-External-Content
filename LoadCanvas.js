@@ -10,6 +10,7 @@ var contentFeed = document.createElement( 'div' );
 var dagWeekSelect = document.createElement( 'div' );
 var contentIndex = document.createElement( 'div' );
 var credits = document.createElement( 'div' );
+var inOutSelect =document.createElement( 'div' );
 
 var headlinesContainer = document.createElement( 'div' );
 var artikelenKleinContainer = document.createElement( 'div' );
@@ -1544,6 +1545,14 @@ var dagWeekFormText = document.createElement('span');
 
 let dagWeek = "dag";
 
+var inOutForm = document.createElement('form');
+var inOutFormDiv = document.createElement('div');
+var inOutFormLabel = document.createElement('label');
+var inOutFormInput = document.createElement('input');
+var inOutFormSpan = document.createElement('span');
+
+let inOut = "out";
+
 //append all elements
 
 document.body.appendChild( createCanvas );
@@ -1556,6 +1565,12 @@ dagWeekFormDiv.appendChild( dagWeekFormText );
 dagWeekFormLabel.appendChild( dagWeekFormInput );
 dagWeekFormLabel.appendChild( dagWeekFormSpan );
 
+document.body.appendChild( inOutSelect );
+inOutSelect.appendChild( inOutForm );
+inOutForm.appendChild( inOutFormDiv );
+inOutFormDiv.appendChild( inOutFormLabel );
+inOutFormLabel.appendChild( inOutFormInput );
+inOutFormLabel.appendChild( inOutFormSpan );
 
 
 createCanvas.appendChild( contentIndex );

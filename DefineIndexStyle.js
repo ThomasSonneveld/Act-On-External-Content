@@ -5,8 +5,6 @@ createCanvas.id = 'canvas';
 createCanvas.style.position = 'fixed';
 createCanvas.style.top = '49px';
 createCanvas.style.left = '0px';
-createCanvas.style.width = canvasWidth;
-createCanvas.style.minWidth= canvsMinWidth;
 createCanvas.style.bottom = '51px';
 createCanvas.style.backgroundColor = '#f5f5f5';
 createCanvas.style.display = "block";
@@ -26,13 +24,25 @@ dagWeekSelect.id = 'contentStyle';
 dagWeekSelect.style.position = 'fixed';
 dagWeekSelect.style.top = '0px';
 dagWeekSelect.style.marginTop = '7px';
-dagWeekSelect.style.left = '600px';
-dagWeekSelect.style.width = canvasWidth;
-dagWeekSelect.style.minWidth= canvsMinWidth;
+dagWeekSelect.style.left = '27%';
+dagWeekSelect.style.width = '100px';
+dagWeekSelect.style.minWidth= '100px';
 dagWeekSelect.style.height = '30px';
 dagWeekSelect.style.backgroundColor = '#f8f8f8';
 dagWeekSelect.style.color = '#FFF';
 dagWeekSelect.style.display = "block";
+
+inOutSelect.id = 'contentStyle';
+inOutSelect.style.position = 'fixed';
+inOutSelect.style.bottom = '0px';
+inOutSelect.style.marginTop = '7px';
+inOutSelect.style.left = '18%';
+inOutSelect.style.width = '80px';
+inOutSelect.style.minWidth= '80px';
+inOutSelect.style.height = '30px';
+inOutSelect.style.color = '#FFF';
+inOutSelect.style.display = "block";
+inOutSelect.style.zIndex = "3001";
 
 choises.style.width = "100%";
 choises.style.height = '49px';
@@ -158,8 +168,6 @@ contentIndex.id = 'contentIndex';
 contentIndex.style.position = 'fixed';
 contentIndex.style.top = '50px';
 contentIndex.style.left = '0px';
-contentIndex.style.width = canvasWidth;
-contentIndex.style.minWidth= canvsMinWidth;
 contentIndex.style.bottom = '51px';
 contentIndex.style.backgroundColor = '#f5f5f5';
 contentIndex.style.display = 'block';
@@ -3904,6 +3912,46 @@ function switchFunction()
   } else {
       dagWeek = 'dag';
       getAllContent();
+  }
+};
+
+inOutForm.id = "inOutForm";
+inOutForm.style.bottom = "0px !important";
+inOutForm.style.left = "20% !important;";
+inOutForm.style.height = "20px !important;";
+inOutForm.className = "inOutForm";
+inOutForm.style.zIndex = "3001px;";
+inOutFormDiv.className = "switch-field"
+inOutFormInput.type = "checkbox";
+inOutFormInput.value = "inOut";
+inOutFormInput.id= "inOutSwitch";
+document.getElementById ("inOutSwitch").addEventListener ("click", switchFunctionInOut, false);
+inOutFormLabel.className = "switch";
+inOutFormSpan.className = "slider round";
+
+
+function switchFunctionInOut()
+{
+  if (document.getElementById('inOutSwitch').checked)
+  {
+      inOut = 'out';
+      document.getElementById('canvas').style.width = canvasWidth;
+      document.getElementById('canvas').style.minWidth = '100px';
+      document.getElementById('contentStyle').style.width = canvasWidth;
+      document.getElementById('contentStyle').style.minWidth = '100px';
+      document.getElementById('credits').style.width = canvasWidth;
+      document.getElementById('credits').style.minWidth = '100px';
+      contentStyle
+      console.log (inOut)
+  } else {
+      inOut = 'in';
+      document.getElementById('canvas').style.width = '0px';
+      document.getElementById('canvas').style.minWidth = '0px';
+      document.getElementById('contentStyle').style.width = '0px';
+      document.getElementById('contentStyle').style.minWidth = '0px';
+      document.getElementById('credits').style.width = '0px';
+      document.getElementById('credits').style.minWidth = '0px';
+      console.log (inOut)
   }
 };
 
