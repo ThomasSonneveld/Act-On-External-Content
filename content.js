@@ -20,7 +20,7 @@ console.log(dagWeek);
 function getAllContent(){
 
 "use strict";
-setTimeout(() => {
+
 fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
 .then(function(respons) {
   return respons.text();
@@ -567,13 +567,10 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     ctaGroot6.textContent = " Lees meer ▸";
     ctaGroot6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 });
-}, 2000);
-
 
 
 
 "use strict";
-setTimeout(() => {
 fetch("https://www.frankwatching.com/feed/academy/upcoming/")
 .then(function(respons) {
   return respons.text();
@@ -649,11 +646,9 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
     agendaLink7.setAttribute("href", allAgendaLinks[7].textContent +`?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${agendaCategory7}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`);
 
 });
-}, 2000);
 
 
 "use strict";
-setTimeout(() => {
 fetch("https://www.frankwatching.com/feed/?post_type=vacature")
 .then(function(respons) {
   return respons.text();
@@ -1135,7 +1130,6 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     descriptionVacature25.textContent = allVacatureDescriptions[25].textContent;
     */
 });
-}, 2000);
 
 /*
 //Copy functionality
