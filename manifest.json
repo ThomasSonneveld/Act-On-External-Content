@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Act-On external content",
-  "version": "1.0.0",
+  "name": "COPY Act-On external content",
+  "version": "1.0.2",
   "web_accessible_resources": ["Headlinesicon.png", "Artikelengrooticon.png", "Agendaicon.png", "Artikelenkleinicon.png"],
   "content_scripts": [
     {

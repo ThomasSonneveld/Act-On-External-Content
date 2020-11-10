@@ -275,6 +275,162 @@ agendaOverlay.style.zIndex = "19300";
   saa7b.style.color = "#9e9e9e";
   saa7b.id = "saa7b";
 
+  paa8.style.margin = "0px";
+  aa8.id = "agendaAcademy8";
+  aa8.style.display = "inline";
+  aa8.className = "agendaItem";
+  aa8.style.margin = "0px";
+  aa8.style.textDecoration = "none";
+  saa8a.style.color = "#18608B"
+  saa8a.id = "saa8a";
+  saa8b.style.fontSize = "12px";
+  saa8b.style.color = "#9e9e9e";
+  saa8b.id = "saa8b";
+
+  paa9.style.margin = "0px";
+  aa9.id = "agendaAcademy9";
+  aa9.style.display = "inline";
+  aa9.className = "agendaItem";
+  aa9.style.margin = "0px";
+  aa9.style.textDecoration = "none";
+  saa9a.style.color = "#18608B"
+  saa9a.id = "saa9a";
+  saa9b.style.fontSize = "12px";
+  saa9b.style.color = "#9e9e9e";
+  saa9b.id = "saa9b";
+
+  paa10.style.margin = "0px";
+  aa10.id = "agendaAcademy10";
+  aa10.style.display = "inline";
+  aa10.className = "agendaItem";
+  aa10.style.margin = "0px";
+  aa10.style.textDecoration = "none";
+  saa10a.style.color = "#18608B"
+  saa10a.id = "saa10a";
+  saa10b.style.fontSize = "12px";
+  saa10b.style.color = "#9e9e9e";
+  saa10b.id = "saa10b";
+
+  paa11.style.margin = "0px";
+  aa11.id = "agendaAcademy11";
+  aa11.style.display = "inline";
+  aa11.className = "agendaItem";
+  aa11.style.margin = "0px";
+  aa11.style.textDecoration = "none";
+  saa11a.style.color = "#18608B"
+  saa11a.id = "saa11a";
+  saa11b.style.fontSize = "12px";
+  saa11b.style.color = "#9e9e9e";
+  saa11b.id = "saa11b";
+
+  paa12.style.margin = "0px";
+  aa12.id = "agendaAcademy12";
+  aa12.style.display = "inline";
+  aa12.className = "agendaItem";
+  aa12.style.margin = "0px";
+  aa12.style.textDecoration = "none";
+  saa12a.style.color = "#18608B"
+  saa12a.id = "saa12a";
+  saa12b.style.fontSize = "12px";
+  saa12b.style.color = "#9e9e9e";
+  saa12b.id = "saa12b";
+
+  paa13.style.margin = "0px";
+  aa13.id = "agendaAcademy13";
+  aa13.style.display = "inline";
+  aa13.className = "agendaItem";
+  aa13.style.margin = "0px";
+  aa13.style.textDecoration = "none";
+  saa13a.style.color = "#18608B"
+  saa13a.id = "saa13a";
+  saa13b.style.fontSize = "12px";
+  saa13b.style.color = "#9e9e9e";
+  saa13b.id = "saa13b";
+
+  paa14.style.margin = "0px";
+  aa14.id = "agendaAcademy14";
+  aa14.style.display = "inline";
+  aa14.className = "agendaItem";
+  aa14.style.margin = "0px";
+  aa14.style.textDecoration = "none";
+  saa14a.style.color = "#18608B"
+  saa14a.id = "saa14a";
+  saa14b.style.fontSize = "12px";
+  saa14b.style.color = "#9e9e9e";
+  saa14b.id = "saa14b";
+
+  paa15.style.margin = "0px";
+  aa15.id = "agendaAcademy15";
+  aa15.style.display = "inline";
+  aa15.className = "agendaItem";
+  aa15.style.margin = "0px";
+  aa15.style.textDecoration = "none";
+  saa15a.style.color = "#18608B"
+  saa15a.id = "saa15a";
+  saa15b.style.fontSize = "12px";
+  saa15b.style.color = "#9e9e9e";
+  saa15b.id = "saa15b";
+
+  paa16.style.margin = "0px";
+  aa16.id = "agendaAcademy16";
+  aa16.style.display = "inline";
+  aa16.className = "agendaItem";
+  aa16.style.margin = "0px";
+  aa16.style.textDecoration = "none";
+  saa16a.style.color = "#18608B"
+  saa16a.id = "saa16a";
+  saa16b.style.fontSize = "12px";
+  saa16b.style.color = "#9e9e9e";
+  saa16b.id = "saa16b";
+
+  paa17.style.margin = "0px";
+  aa17.id = "agendaAcademy17";
+  aa17.style.display = "inline";
+  aa17.className = "agendaItem";
+  aa17.style.margin = "0px";
+  aa17.style.textDecoration = "none";
+  saa17a.style.color = "#18608B"
+  saa17a.id = "saa17a";
+  saa17b.style.fontSize = "12px";
+  saa17b.style.color = "#9e9e9e";
+  saa17b.id = "saa17b";
+
+  paa18.style.margin = "0px";
+  aa18.id = "agendaAcademy18";
+  aa18.style.display = "inline";
+  aa18.className = "agendaItem";
+  aa18.style.margin = "0px";
+  aa18.style.textDecoration = "none";
+  saa18a.style.color = "#18608B"
+  saa18a.id = "saa18a";
+  saa18b.style.fontSize = "12px";
+  saa18b.style.color = "#9e9e9e";
+  saa18b.id = "saa18b";
+
+  paa19.style.margin = "0px";
+  aa19.id = "agendaAcademy19";
+  aa19.style.display = "inline";
+  aa19.className = "agendaItem";
+  aa19.style.margin = "0px";
+  aa19.style.textDecoration = "none";
+  saa19a.style.color = "#18608B"
+  saa19a.id = "saa19a";
+  saa19b.style.fontSize = "12px";
+  saa19b.style.color = "#9e9e9e";
+  saa19b.id = "saa19b";
+
+  paa20.style.margin = "0px";
+  aa20.id = "agendaAcademy20";
+  aa20.style.display = "inline";
+  aa20.className = "agendaItem";
+  aa20.style.margin = "0px";
+  aa20.style.textDecoration = "none";
+  saa20a.style.color = "#18608B"
+  saa20a.id = "saa20a";
+  saa20b.style.fontSize = "12px";
+  saa20b.style.color = "#9e9e9e";
+  saa20b.id = "saa20b";
+
   agendaTable.width="100%";
   agendaTable.style.lineHeight="22px"
   agendaTable.style.margin = "0px";
@@ -307,6 +463,58 @@ agendaOverlay.style.zIndex = "19300";
   agenda7Td1.style.fontSize = "12px";
   agenda7Td1.style.verticalAlign = "top";
   agenda7Td1.style.color = "#18608B";
+  agenda8Td1.textContent = "▸ ";
+  agenda8Td1.style.fontSize = "12px";
+  agenda8Td1.style.verticalAlign = "top";
+  agenda8Td1.style.color = "#18608B";
+  agenda9Td1.textContent = "▸ ";
+  agenda9Td1.style.fontSize = "12px";
+  agenda9Td1.style.verticalAlign = "top";
+  agenda9Td1.style.color = "#18608B";
+  agenda10Td1.textContent = "▸ ";
+  agenda10Td1.style.fontSize = "12px";
+  agenda10Td1.style.verticalAlign = "top";
+  agenda10Td1.style.color = "#18608B";
+  agenda11Td1.textContent = "▸ ";
+  agenda11Td1.style.fontSize = "12px";
+  agenda11Td1.style.verticalAlign = "top";
+  agenda11Td1.style.color = "#18608B";
+  agenda12Td1.textContent = "▸ ";
+  agenda12Td1.style.fontSize = "12px";
+  agenda12Td1.style.verticalAlign = "top";
+  agenda12Td1.style.color = "#18608B";
+  agenda13Td1.textContent = "▸ ";
+  agenda13Td1.style.fontSize = "12px";
+  agenda13Td1.style.verticalAlign = "top";
+  agenda13Td1.style.color = "#18608B";
+  agenda14Td1.textContent = "▸ ";
+  agenda14Td1.style.fontSize = "12px";
+  agenda14Td1.style.verticalAlign = "top";
+  agenda14Td1.style.color = "#18608B";
+  agenda15Td1.textContent = "▸ ";
+  agenda15Td1.style.fontSize = "12px";
+  agenda15Td1.style.verticalAlign = "top";
+  agenda15Td1.style.color = "#18608B";
+  agenda16Td1.textContent = "▸ ";
+  agenda16Td1.style.fontSize = "12px";
+  agenda16Td1.style.verticalAlign = "top";
+  agenda16Td1.style.color = "#18608B";
+  agenda17Td1.textContent = "▸ ";
+  agenda17Td1.style.fontSize = "12px";
+  agenda17Td1.style.verticalAlign = "top";
+  agenda17Td1.style.color = "#18608B";
+  agenda18Td1.textContent = "▸ ";
+  agenda18Td1.style.fontSize = "12px";
+  agenda18Td1.style.verticalAlign = "top";
+  agenda18Td1.style.color = "#18608B";
+  agenda19Td1.textContent = "▸ ";
+  agenda19Td1.style.fontSize = "12px";
+  agenda19Td1.style.verticalAlign = "top";
+  agenda19Td1.style.color = "#18608B";
+  agenda20Td1.textContent = "▸ ";
+  agenda20Td1.style.fontSize = "12px";
+  agenda20Td1.style.verticalAlign = "top";
+  agenda20Td1.style.color = "#18608B";
 
 
 artikelenKleinContainer.style.position = "absolute";
@@ -1488,7 +1696,6 @@ artikelGroot1.style.border="1px solid #b8b8b8";
   artikelGrootTitle1.className = "grootArtikelTitle";
   artikelGrootTitle1.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
 
-
   artikelGrootImg1Link.id =  "grootArtikelImg1Link";
   artikelGrootImg1Link.style.padding = "0px";
 
@@ -1503,7 +1710,7 @@ artikelGroot1.style.border="1px solid #b8b8b8";
   artikelGrootDescription1.className = "grootArtikelDescription";
   artikelGrootDescription1.style.display = "inline";
   artikelGrootDescription1.style.fontSize = "12pt";
-  artikelGrootDescription1.setAttribute("style", " color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+  artikelGrootDescription1.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA1C.id = "GrootArtikelCTA1C";
   artikelGrootCTA1C.className = "GrootArtikelCTAC";
@@ -1556,7 +1763,7 @@ artikelGroot2.style.border="1px solid #b8b8b8";
   artikelGrootDescription2.className = "grootArtikelDescription";
   artikelGrootDescription2.style.display = "inline";
   artikelGrootDescription2.style.fontSize = "12pt";
-  artikelGrootDescription2.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+  artikelGrootDescription2.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA2C.id = "GrootArtikelCTA2C";
   artikelGrootCTA2C.className = "GrootArtikelCTAC";
@@ -1610,7 +1817,7 @@ artikelGroot3.onmousehover = "hoverColor();";
   artikelGrootDescription3.className = "grootArtikelDescription";
   artikelGrootDescription3.style.display = "inline";
   artikelGrootDescription3.style.fontSize = "12pt";
-  artikelGrootDescription3.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+  artikelGrootDescription3.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA3C.id = "GrootArtikelCTA3C";
   artikelGrootCTA3C.className = "GrootArtikelCTAC";
@@ -1664,7 +1871,7 @@ artikelGroot4.style.border="1px solid #b8b8b8";
   artikelGrootDescription4.className = "grootArtikelDescription";
   artikelGrootDescription4.style.display = "block";
   artikelGrootDescription4.style.fontSize = "12pt";
-  artikelGrootDescription4.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+  artikelGrootDescription4.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA4C.id = "GrootArtikelCTA4C";
   artikelGrootCTA4C.className = "GrootArtikelCTAC";
@@ -1717,7 +1924,7 @@ artikelGroot5TdC.style.paddingBottom = '5px'
     artikelGrootDescription5.className = "grootArtikelDescription";
     artikelGrootDescription5.style.display = "inline";
     artikelGrootDescription5.style.fontSize = "12pt";
-    artikelGrootDescription5.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+    artikelGrootDescription5.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
     artikelGrootCTA5C.id = "GrootArtikelCTA5C";
     artikelGrootCTA5C.className = "GrootArtikelCTAC";
@@ -1772,7 +1979,7 @@ artikelGroot6.style.border="1px solid #b8b8b8";
   artikelGrootDescription6.className = "grootArtikelDescription";
   artikelGrootDescription6.style.display = "inline";
   artikelGrootDescription6.style.fontSize = "12pt";
-  artikelGrootDescription6.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+  artikelGrootDescription6.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA6C.id = "GrootArtikelCTA6C";
   artikelGrootCTA6C.className = "GrootArtikelCTAC";
@@ -1783,6 +1990,1068 @@ artikelGroot6.style.border="1px solid #b8b8b8";
   artikelGrootCTA6.className = "GrootArtikelCTA";
   artikelGrootCTA6.style.display = "inline";
   artikelGrootCTA6.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+  artikelGroot7D.id="artikelGroot7D";
+  artikelGroot7D.draggable="true";
+  artikelGroot7D.ondragstart ='onDragStart(event);';
+
+  artikelGroot7T.id = 'artikelGroot7T'
+  artikelGroot7Tb.id = 'artikelGroot7Tb'
+  artikelGroot7TrA.id = 'artikelGroot7TrA'
+  artikelGroot7TdA.id = 'artikelGroot7TdA'
+  artikelGroot7TrB.id = 'artikelGroot7TrB'
+  artikelGroot7TdB.id = 'artikelGroot7TdB'
+  artikelGroot7TrC.id = 'artikelGroot7TrC'
+  artikelGroot7TdC.id = 'artikelGroot7TdC'
+  artikelGroot7TdC.style.paddingBottom = '7px'
+
+    artikelGroot7.id = "grootArtikel7";
+    artikelGroot7.className = 'grootArtikel';
+    artikelGroot7.position - "absolute";
+    artikelGroot7.style.border="1px solid #b8b8b8";
+
+      //artikelGrootAuthor7.id = "grootArtikelAuthor7";
+      //artikelGrootAuthor7.className = "grootArtikelAuthor";
+      //artikelGrootAuthor7.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 17px 0px 0px; ");
+
+      artikelGrootTitle7.id = "grootArtikelTitle7";
+      artikelGrootTitle7.className = "grootArtikelTitle";
+      artikelGrootTitle7.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+      artikelGrootImg7Link.id =  "grootArtikelImg7Link";
+      artikelGrootImg7Link.style.padding = "0px";
+
+      artikelGrootImg7.id =  "grootArtikelImg7";
+      artikelGrootImg7.className =  "grootArtikelImg";
+      artikelGrootImg7.style.display = "block";
+      artikelGrootImg7.style.width = "100%";
+      artikelGrootImg7.style.paddingBottom = "10px";
+      artikelGrootImg7.style.height = "auto";
+
+      artikelGrootDescription7.id = "grootArtikelDescription7";
+      artikelGrootDescription7.className = "grootArtikelDescription";
+      artikelGrootDescription7.style.display = "inline";
+      artikelGrootDescription7.style.fontSize = "12pt";
+      artikelGrootDescription7.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+      artikelGrootCTA7C.id = "GrootArtikelCTA7C";
+      artikelGrootCTA7C.className = "GrootArtikelCTAC";
+      artikelGrootCTA7C.style.display = "inline";
+      artikelGrootCTA7C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+      artikelGrootCTA7.id = "GrootArtikelCTA7";
+      artikelGrootCTA7.className = "GrootArtikelCTA";
+      artikelGrootCTA7.style.display = "inline";
+      artikelGrootCTA7.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+      artikelGroot8D.id="artikelGroot8D";
+      artikelGroot8D.draggable="true";
+      artikelGroot8D.ondragstart ='onDragStart(event);';
+
+      artikelGroot8T.id = 'artikelGroot8T'
+      artikelGroot8Tb.id = 'artikelGroot8Tb'
+      artikelGroot8TrA.id = 'artikelGroot8TrA'
+      artikelGroot8TdA.id = 'artikelGroot8TdA'
+      artikelGroot8TrB.id = 'artikelGroot8TrB'
+      artikelGroot8TdB.id = 'artikelGroot8TdB'
+      artikelGroot8TrC.id = 'artikelGroot8TrC'
+      artikelGroot8TdC.id = 'artikelGroot8TdC'
+      artikelGroot8TdC.style.paddingBottom = '8px'
+
+        artikelGroot8.id = "grootArtikel8";
+        artikelGroot8.className = 'grootArtikel';
+        artikelGroot8.position - "absolute";
+        artikelGroot8.style.border="1px solid #b8b8b8";
+
+          //artikelGrootAuthor8.id = "grootArtikelAuthor8";
+          //artikelGrootAuthor8.className = "grootArtikelAuthor";
+          //artikelGrootAuthor8.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 18px 0px 0px; ");
+
+          artikelGrootTitle8.id = "grootArtikelTitle8";
+          artikelGrootTitle8.className = "grootArtikelTitle";
+          artikelGrootTitle8.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+          artikelGrootImg8Link.id =  "grootArtikelImg8Link";
+          artikelGrootImg8Link.style.padding = "0px";
+
+          artikelGrootImg8.id =  "grootArtikelImg8";
+          artikelGrootImg8.className =  "grootArtikelImg";
+          artikelGrootImg8.style.display = "block";
+          artikelGrootImg8.style.width = "100%";
+          artikelGrootImg8.style.paddingBottom = "10px";
+          artikelGrootImg8.style.height = "auto";
+
+          artikelGrootDescription8.id = "grootArtikelDescription8";
+          artikelGrootDescription8.className = "grootArtikelDescription";
+          artikelGrootDescription8.style.display = "inline";
+          artikelGrootDescription8.style.fontSize = "12pt";
+          artikelGrootDescription8.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+          artikelGrootCTA8C.id = "GrootArtikelCTA8C";
+          artikelGrootCTA8C.className = "GrootArtikelCTAC";
+          artikelGrootCTA8C.style.display = "inline";
+          artikelGrootCTA8C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+          artikelGrootCTA8.id = "GrootArtikelCTA8";
+          artikelGrootCTA8.className = "GrootArtikelCTA";
+          artikelGrootCTA8.style.display = "inline";
+          artikelGrootCTA8.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+          artikelGroot9D.id="artikelGroot9D";
+          artikelGroot9D.draggable="true";
+          artikelGroot9D.ondragstart ='onDragStart(event);';
+
+          artikelGroot9T.id = 'artikelGroot9T'
+          artikelGroot9Tb.id = 'artikelGroot9Tb'
+          artikelGroot9TrA.id = 'artikelGroot9TrA'
+          artikelGroot9TdA.id = 'artikelGroot9TdA'
+          artikelGroot9TrB.id = 'artikelGroot9TrB'
+          artikelGroot9TdB.id = 'artikelGroot9TdB'
+          artikelGroot9TrC.id = 'artikelGroot9TrC'
+          artikelGroot9TdC.id = 'artikelGroot9TdC'
+          artikelGroot9TdC.style.paddingBottom = '9px'
+
+            artikelGroot9.id = "grootArtikel9";
+            artikelGroot9.className = 'grootArtikel';
+            artikelGroot9.position - "absolute";
+            artikelGroot9.style.border="1px solid #b8b8b8";
+
+              //artikelGrootAuthor9.id = "grootArtikelAuthor9";
+              //artikelGrootAuthor9.className = "grootArtikelAuthor";
+              //artikelGrootAuthor9.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 19px 0px 0px; ");
+
+              artikelGrootTitle9.id = "grootArtikelTitle9";
+              artikelGrootTitle9.className = "grootArtikelTitle";
+              artikelGrootTitle9.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+              artikelGrootImg9Link.id =  "grootArtikelImg9Link";
+              artikelGrootImg9Link.style.padding = "0px";
+
+              artikelGrootImg9.id =  "grootArtikelImg9";
+              artikelGrootImg9.className =  "grootArtikelImg";
+              artikelGrootImg9.style.display = "block";
+              artikelGrootImg9.style.width = "100%";
+              artikelGrootImg9.style.paddingBottom = "10px";
+              artikelGrootImg9.style.height = "auto";
+
+              artikelGrootDescription9.id = "grootArtikelDescription9";
+              artikelGrootDescription9.className = "grootArtikelDescription";
+              artikelGrootDescription9.style.display = "inline";
+              artikelGrootDescription9.style.fontSize = "12pt";
+              artikelGrootDescription9.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+              artikelGrootCTA9C.id = "GrootArtikelCTA9C";
+              artikelGrootCTA9C.className = "GrootArtikelCTAC";
+              artikelGrootCTA9C.style.display = "inline";
+              artikelGrootCTA9C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+              artikelGrootCTA9.id = "GrootArtikelCTA9";
+              artikelGrootCTA9.className = "GrootArtikelCTA";
+              artikelGrootCTA9.style.display = "inline";
+              artikelGrootCTA9.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+              artikelGroot10D.id="artikelGroot10D";
+              artikelGroot10D.draggable="true";
+              artikelGroot10D.ondragstart ='onDragStart(event);';
+
+              artikelGroot10T.id = 'artikelGroot10T'
+              artikelGroot10Tb.id = 'artikelGroot10Tb'
+              artikelGroot10TrA.id = 'artikelGroot10TrA'
+              artikelGroot10TdA.id = 'artikelGroot10TdA'
+              artikelGroot10TrB.id = 'artikelGroot10TrB'
+              artikelGroot10TdB.id = 'artikelGroot10TdB'
+              artikelGroot10TrC.id = 'artikelGroot10TrC'
+              artikelGroot10TdC.id = 'artikelGroot10TdC'
+              artikelGroot10TdC.style.paddingBottom = '10px'
+
+                artikelGroot10.id = "grootArtikel10";
+                artikelGroot10.className = 'grootArtikel';
+                artikelGroot10.position - "absolute";
+                artikelGroot10.style.border="1px solid #b8b8b8";
+
+                  //artikelGrootAuthor10.id = "grootArtikelAuthor10";
+                  //artikelGrootAuthor10.className = "grootArtikelAuthor";
+                  //artikelGrootAuthor10.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 110px 0px 0px; ");
+
+                  artikelGrootTitle10.id = "grootArtikelTitle10";
+                  artikelGrootTitle10.className = "grootArtikelTitle";
+                  artikelGrootTitle10.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                  artikelGrootImg10Link.id =  "grootArtikelImg10Link";
+                  artikelGrootImg10Link.style.padding = "0px";
+
+                  artikelGrootImg10.id =  "grootArtikelImg10";
+                  artikelGrootImg10.className =  "grootArtikelImg";
+                  artikelGrootImg10.style.display = "block";
+                  artikelGrootImg10.style.width = "100%";
+                  artikelGrootImg10.style.paddingBottom = "10px";
+                  artikelGrootImg10.style.height = "auto";
+
+                  artikelGrootDescription10.id = "grootArtikelDescription10";
+                  artikelGrootDescription10.className = "grootArtikelDescription";
+                  artikelGrootDescription10.style.display = "inline";
+                  artikelGrootDescription10.style.fontSize = "12pt";
+                  artikelGrootDescription10.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                  artikelGrootCTA10C.id = "GrootArtikelCTA10C";
+                  artikelGrootCTA10C.className = "GrootArtikelCTAC";
+                  artikelGrootCTA10C.style.display = "inline";
+                  artikelGrootCTA10C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                  artikelGrootCTA10.id = "GrootArtikelCTA10";
+                  artikelGrootCTA10.className = "GrootArtikelCTA";
+                  artikelGrootCTA10.style.display = "inline";
+                  artikelGrootCTA10.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                  artikelGroot11D.id="artikelGroot11D";
+                  artikelGroot11D.draggable="true";
+                  artikelGroot11D.ondragstart ='onDragStart(event);';
+
+                  artikelGroot11T.id = 'artikelGroot11T'
+                  artikelGroot11Tb.id = 'artikelGroot11Tb'
+                  artikelGroot11TrA.id = 'artikelGroot11TrA'
+                  artikelGroot11TdA.id = 'artikelGroot11TdA'
+                  artikelGroot11TrB.id = 'artikelGroot11TrB'
+                  artikelGroot11TdB.id = 'artikelGroot11TdB'
+                  artikelGroot11TrC.id = 'artikelGroot11TrC'
+                  artikelGroot11TdC.id = 'artikelGroot11TdC'
+                  artikelGroot11TdC.style.paddingBottom = '11px'
+
+                    artikelGroot11.id = "grootArtikel11";
+                    artikelGroot11.className = 'grootArtikel';
+                    artikelGroot11.position - "absolute";
+                    artikelGroot11.style.border="1px solid #b8b8b8";
+
+                      //artikelGrootAuthor11.id = "grootArtikelAuthor11";
+                      //artikelGrootAuthor11.className = "grootArtikelAuthor";
+                      //artikelGrootAuthor11.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 111px 0px 0px; ");
+
+                      artikelGrootTitle11.id = "grootArtikelTitle11";
+                      artikelGrootTitle11.className = "grootArtikelTitle";
+                      artikelGrootTitle11.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                      artikelGrootImg11Link.id =  "grootArtikelImg11Link";
+                      artikelGrootImg11Link.style.padding = "0px";
+
+                      artikelGrootImg11.id =  "grootArtikelImg11";
+                      artikelGrootImg11.className =  "grootArtikelImg";
+                      artikelGrootImg11.style.display = "block";
+                      artikelGrootImg11.style.width = "100%";
+                      artikelGrootImg11.style.paddingBottom = "10px";
+                      artikelGrootImg11.style.height = "auto";
+
+                      artikelGrootDescription11.id = "grootArtikelDescription11";
+                      artikelGrootDescription11.className = "grootArtikelDescription";
+                      artikelGrootDescription11.style.display = "inline";
+                      artikelGrootDescription11.style.fontSize = "12pt";
+                      artikelGrootDescription11.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                      artikelGrootCTA11C.id = "GrootArtikelCTA11C";
+                      artikelGrootCTA11C.className = "GrootArtikelCTAC";
+                      artikelGrootCTA11C.style.display = "inline";
+                      artikelGrootCTA11C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                      artikelGrootCTA11.id = "GrootArtikelCTA11";
+                      artikelGrootCTA11.className = "GrootArtikelCTA";
+                      artikelGrootCTA11.style.display = "inline";
+                      artikelGrootCTA11.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+              artikelGroot12D.id="artikelGroot12D";
+              artikelGroot12D.draggable="true";
+              artikelGroot12D.ondragstart ='onDragStart(event);';
+
+              artikelGroot12T.id = 'artikelGroot12T'
+              artikelGroot12Tb.id = 'artikelGroot12Tb'
+              artikelGroot12TrA.id = 'artikelGroot12TrA'
+              artikelGroot12TdA.id = 'artikelGroot12TdA'
+              artikelGroot12TrB.id = 'artikelGroot12TrB'
+              artikelGroot12TdB.id = 'artikelGroot12TdB'
+              artikelGroot12TrC.id = 'artikelGroot12TrC'
+              artikelGroot12TdC.id = 'artikelGroot12TdC'
+              artikelGroot12TdC.style.paddingBottom = '12px'
+
+                artikelGroot12.id = "grootArtikel12";
+                artikelGroot12.className = 'grootArtikel';
+                artikelGroot12.position - "absolute";
+                artikelGroot12.style.border="1px solid #b8b8b8";
+
+                  //artikelGrootAuthor12.id = "grootArtikelAuthor12";
+                  //artikelGrootAuthor12.className = "grootArtikelAuthor";
+                  //artikelGrootAuthor12.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 112px 0px 0px; ");
+
+                  artikelGrootTitle12.id = "grootArtikelTitle12";
+                  artikelGrootTitle12.className = "grootArtikelTitle";
+                  artikelGrootTitle12.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                  artikelGrootImg12Link.id =  "grootArtikelImg12Link";
+                  artikelGrootImg12Link.style.padding = "0px";
+
+                  artikelGrootImg12.id =  "grootArtikelImg12";
+                  artikelGrootImg12.className =  "grootArtikelImg";
+                  artikelGrootImg12.style.display = "block";
+                  artikelGrootImg12.style.width = "100%";
+                  artikelGrootImg12.style.paddingBottom = "10px";
+                  artikelGrootImg12.style.height = "auto";
+
+                  artikelGrootDescription12.id = "grootArtikelDescription12";
+                  artikelGrootDescription12.className = "grootArtikelDescription";
+                  artikelGrootDescription12.style.display = "inline";
+                  artikelGrootDescription12.style.fontSize = "12pt";
+                  artikelGrootDescription12.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                  artikelGrootCTA12C.id = "GrootArtikelCTA12C";
+                  artikelGrootCTA12C.className = "GrootArtikelCTAC";
+                  artikelGrootCTA12C.style.display = "inline";
+                  artikelGrootCTA12C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                  artikelGrootCTA12.id = "GrootArtikelCTA12";
+                  artikelGrootCTA12.className = "GrootArtikelCTA";
+                  artikelGrootCTA12.style.display = "inline";
+                  artikelGrootCTA12.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                  artikelGroot12D.id="artikelGroot12D";
+                  artikelGroot12D.draggable="true";
+                  artikelGroot12D.ondragstart ='onDragStart(event);';
+
+                  artikelGroot12T.id = 'artikelGroot12T'
+                  artikelGroot12Tb.id = 'artikelGroot12Tb'
+                  artikelGroot12TrA.id = 'artikelGroot12TrA'
+                  artikelGroot12TdA.id = 'artikelGroot12TdA'
+                  artikelGroot12TrB.id = 'artikelGroot12TrB'
+                  artikelGroot12TdB.id = 'artikelGroot12TdB'
+                  artikelGroot12TrC.id = 'artikelGroot12TrC'
+                  artikelGroot12TdC.id = 'artikelGroot12TdC'
+                  artikelGroot12TdC.style.paddingBottom = '12px'
+
+                    artikelGroot12.id = "grootArtikel12";
+                    artikelGroot12.className = 'grootArtikel';
+                    artikelGroot12.position - "absolute";
+                    artikelGroot12.style.border="1px solid #b8b8b8";
+
+                      //artikelGrootAuthor12.id = "grootArtikelAuthor12";
+                      //artikelGrootAuthor12.className = "grootArtikelAuthor";
+                      //artikelGrootAuthor12.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 112px 0px 0px; ");
+
+                      artikelGrootTitle12.id = "grootArtikelTitle12";
+                      artikelGrootTitle12.className = "grootArtikelTitle";
+                      artikelGrootTitle12.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                      artikelGrootImg12Link.id =  "grootArtikelImg12Link";
+                      artikelGrootImg12Link.style.padding = "0px";
+
+                      artikelGrootImg12.id =  "grootArtikelImg12";
+                      artikelGrootImg12.className =  "grootArtikelImg";
+                      artikelGrootImg12.style.display = "block";
+                      artikelGrootImg12.style.width = "100%";
+                      artikelGrootImg12.style.paddingBottom = "10px";
+                      artikelGrootImg12.style.height = "auto";
+
+                      artikelGrootDescription12.id = "grootArtikelDescription12";
+                      artikelGrootDescription12.className = "grootArtikelDescription";
+                      artikelGrootDescription12.style.display = "inline";
+                      artikelGrootDescription12.style.fontSize = "12pt";
+                      artikelGrootDescription12.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                      artikelGrootCTA12C.id = "GrootArtikelCTA12C";
+                      artikelGrootCTA12C.className = "GrootArtikelCTAC";
+                      artikelGrootCTA12C.style.display = "inline";
+                      artikelGrootCTA12C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                      artikelGrootCTA12.id = "GrootArtikelCTA12";
+                      artikelGrootCTA12.className = "GrootArtikelCTA";
+                      artikelGrootCTA12.style.display = "inline";
+                      artikelGrootCTA12.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                      artikelGroot13D.id="artikelGroot13D";
+                      artikelGroot13D.draggable="true";
+                      artikelGroot13D.ondragstart ='onDragStart(event);';
+
+                      artikelGroot13T.id = 'artikelGroot13T'
+                      artikelGroot13Tb.id = 'artikelGroot13Tb'
+                      artikelGroot13TrA.id = 'artikelGroot13TrA'
+                      artikelGroot13TdA.id = 'artikelGroot13TdA'
+                      artikelGroot13TrB.id = 'artikelGroot13TrB'
+                      artikelGroot13TdB.id = 'artikelGroot13TdB'
+                      artikelGroot13TrC.id = 'artikelGroot13TrC'
+                      artikelGroot13TdC.id = 'artikelGroot13TdC'
+                      artikelGroot13TdC.style.paddingBottom = '13px'
+
+                        artikelGroot13.id = "grootArtikel13";
+                        artikelGroot13.className = 'grootArtikel';
+                        artikelGroot13.position - "absolute";
+                        artikelGroot13.style.border="1px solid #b8b8b8";
+
+                          //artikelGrootAuthor13.id = "grootArtikelAuthor13";
+                          //artikelGrootAuthor13.className = "grootArtikelAuthor";
+                          //artikelGrootAuthor13.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 113px 0px 0px; ");
+
+                          artikelGrootTitle13.id = "grootArtikelTitle13";
+                          artikelGrootTitle13.className = "grootArtikelTitle";
+                          artikelGrootTitle13.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                          artikelGrootImg13Link.id =  "grootArtikelImg13Link";
+                          artikelGrootImg13Link.style.padding = "0px";
+
+                          artikelGrootImg13.id =  "grootArtikelImg13";
+                          artikelGrootImg13.className =  "grootArtikelImg";
+                          artikelGrootImg13.style.display = "block";
+                          artikelGrootImg13.style.width = "100%";
+                          artikelGrootImg13.style.paddingBottom = "10px";
+                          artikelGrootImg13.style.height = "auto";
+
+                          artikelGrootDescription13.id = "grootArtikelDescription13";
+                          artikelGrootDescription13.className = "grootArtikelDescription";
+                          artikelGrootDescription13.style.display = "inline";
+                          artikelGrootDescription13.style.fontSize = "12pt";
+                          artikelGrootDescription13.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                          artikelGrootCTA13C.id = "GrootArtikelCTA13C";
+                          artikelGrootCTA13C.className = "GrootArtikelCTAC";
+                          artikelGrootCTA13C.style.display = "inline";
+                          artikelGrootCTA13C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                          artikelGrootCTA13.id = "GrootArtikelCTA13";
+                          artikelGrootCTA13.className = "GrootArtikelCTA";
+                          artikelGrootCTA13.style.display = "inline";
+                          artikelGrootCTA13.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                          artikelGroot14D.id="artikelGroot14D";
+                          artikelGroot14D.draggable="true";
+                          artikelGroot14D.ondragstart ='onDragStart(event);';
+
+                          artikelGroot14T.id = 'artikelGroot14T'
+                          artikelGroot14Tb.id = 'artikelGroot14Tb'
+                          artikelGroot14TrA.id = 'artikelGroot14TrA'
+                          artikelGroot14TdA.id = 'artikelGroot14TdA'
+                          artikelGroot14TrB.id = 'artikelGroot14TrB'
+                          artikelGroot14TdB.id = 'artikelGroot14TdB'
+                          artikelGroot14TrC.id = 'artikelGroot14TrC'
+                          artikelGroot14TdC.id = 'artikelGroot14TdC'
+                          artikelGroot14TdC.style.paddingBottom = '14px'
+
+                            artikelGroot14.id = "grootArtikel14";
+                            artikelGroot14.className = 'grootArtikel';
+                            artikelGroot14.position - "absolute";
+                            artikelGroot14.style.border="1px solid #b8b8b8";
+
+                              //artikelGrootAuthor14.id = "grootArtikelAuthor14";
+                              //artikelGrootAuthor14.className = "grootArtikelAuthor";
+                              //artikelGrootAuthor14.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 114px 0px 0px; ");
+
+                              artikelGrootTitle14.id = "grootArtikelTitle14";
+                              artikelGrootTitle14.className = "grootArtikelTitle";
+                              artikelGrootTitle14.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                              artikelGrootImg14Link.id =  "grootArtikelImg14Link";
+                              artikelGrootImg14Link.style.padding = "0px";
+
+                              artikelGrootImg14.id =  "grootArtikelImg14";
+                              artikelGrootImg14.className =  "grootArtikelImg";
+                              artikelGrootImg14.style.display = "block";
+                              artikelGrootImg14.style.width = "100%";
+                              artikelGrootImg14.style.paddingBottom = "10px";
+                              artikelGrootImg14.style.height = "auto";
+
+                              artikelGrootDescription14.id = "grootArtikelDescription14";
+                              artikelGrootDescription14.className = "grootArtikelDescription";
+                              artikelGrootDescription14.style.display = "inline";
+                              artikelGrootDescription14.style.fontSize = "12pt";
+                              artikelGrootDescription14.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                              artikelGrootCTA14C.id = "GrootArtikelCTA14C";
+                              artikelGrootCTA14C.className = "GrootArtikelCTAC";
+                              artikelGrootCTA14C.style.display = "inline";
+                              artikelGrootCTA14C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                              artikelGrootCTA14.id = "GrootArtikelCTA14";
+                              artikelGrootCTA14.className = "GrootArtikelCTA";
+                              artikelGrootCTA14.style.display = "inline";
+                              artikelGrootCTA14.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                              artikelGroot15D.id="artikelGroot15D";
+                              artikelGroot15D.draggable="true";
+                              artikelGroot15D.ondragstart ='onDragStart(event);';
+
+                              artikelGroot15T.id = 'artikelGroot15T'
+                              artikelGroot15Tb.id = 'artikelGroot15Tb'
+                              artikelGroot15TrA.id = 'artikelGroot15TrA'
+                              artikelGroot15TdA.id = 'artikelGroot15TdA'
+                              artikelGroot15TrB.id = 'artikelGroot15TrB'
+                              artikelGroot15TdB.id = 'artikelGroot15TdB'
+                              artikelGroot15TrC.id = 'artikelGroot15TrC'
+                              artikelGroot15TdC.id = 'artikelGroot15TdC'
+                              artikelGroot15TdC.style.paddingBottom = '15px'
+
+                                artikelGroot15.id = "grootArtikel15";
+                                artikelGroot15.className = 'grootArtikel';
+                                artikelGroot15.position - "absolute";
+                                artikelGroot15.style.border="1px solid #b8b8b8";
+
+                                  //artikelGrootAuthor15.id = "grootArtikelAuthor15";
+                                  //artikelGrootAuthor15.className = "grootArtikelAuthor";
+                                  //artikelGrootAuthor15.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 115px 0px 0px; ");
+
+                                  artikelGrootTitle15.id = "grootArtikelTitle15";
+                                  artikelGrootTitle15.className = "grootArtikelTitle";
+                                  artikelGrootTitle15.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                                  artikelGrootImg15Link.id =  "grootArtikelImg15Link";
+                                  artikelGrootImg15Link.style.padding = "0px";
+
+                                  artikelGrootImg15.id =  "grootArtikelImg15";
+                                  artikelGrootImg15.className =  "grootArtikelImg";
+                                  artikelGrootImg15.style.display = "block";
+                                  artikelGrootImg15.style.width = "100%";
+                                  artikelGrootImg15.style.paddingBottom = "10px";
+                                  artikelGrootImg15.style.height = "auto";
+
+                                  artikelGrootDescription15.id = "grootArtikelDescription15";
+                                  artikelGrootDescription15.className = "grootArtikelDescription";
+                                  artikelGrootDescription15.style.display = "inline";
+                                  artikelGrootDescription15.style.fontSize = "12pt";
+                                  artikelGrootDescription15.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                                  artikelGrootCTA15C.id = "GrootArtikelCTA15C";
+                                  artikelGrootCTA15C.className = "GrootArtikelCTAC";
+                                  artikelGrootCTA15C.style.display = "inline";
+                                  artikelGrootCTA15C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                                  artikelGrootCTA15.id = "GrootArtikelCTA15";
+                                  artikelGrootCTA15.className = "GrootArtikelCTA";
+                                  artikelGrootCTA15.style.display = "inline";
+                                  artikelGrootCTA15.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                                  artikelGroot16D.id="artikelGroot16D";
+                                  artikelGroot16D.draggable="true";
+                                  artikelGroot16D.ondragstart ='onDragStart(event);';
+
+                                  artikelGroot16T.id = 'artikelGroot16T'
+                                  artikelGroot16Tb.id = 'artikelGroot16Tb'
+                                  artikelGroot16TrA.id = 'artikelGroot16TrA'
+                                  artikelGroot16TdA.id = 'artikelGroot16TdA'
+                                  artikelGroot16TrB.id = 'artikelGroot16TrB'
+                                  artikelGroot16TdB.id = 'artikelGroot16TdB'
+                                  artikelGroot16TrC.id = 'artikelGroot16TrC'
+                                  artikelGroot16TdC.id = 'artikelGroot16TdC'
+                                  artikelGroot16TdC.style.paddingBottom = '16px'
+
+                                    artikelGroot16.id = "grootArtikel16";
+                                    artikelGroot16.className = 'grootArtikel';
+                                    artikelGroot16.position - "absolute";
+                                    artikelGroot16.style.border="1px solid #b8b8b8";
+
+                                      //artikelGrootAuthor16.id = "grootArtikelAuthor16";
+                                      //artikelGrootAuthor16.className = "grootArtikelAuthor";
+                                      //artikelGrootAuthor16.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 116px 0px 0px; ");
+
+                                      artikelGrootTitle16.id = "grootArtikelTitle16";
+                                      artikelGrootTitle16.className = "grootArtikelTitle";
+                                      artikelGrootTitle16.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                                      artikelGrootImg16Link.id =  "grootArtikelImg16Link";
+                                      artikelGrootImg16Link.style.padding = "0px";
+
+                                      artikelGrootImg16.id =  "grootArtikelImg16";
+                                      artikelGrootImg16.className =  "grootArtikelImg";
+                                      artikelGrootImg16.style.display = "block";
+                                      artikelGrootImg16.style.width = "100%";
+                                      artikelGrootImg16.style.paddingBottom = "10px";
+                                      artikelGrootImg16.style.height = "auto";
+
+                                      artikelGrootDescription16.id = "grootArtikelDescription16";
+                                      artikelGrootDescription16.className = "grootArtikelDescription";
+                                      artikelGrootDescription16.style.display = "inline";
+                                      artikelGrootDescription16.style.fontSize = "12pt";
+                                      artikelGrootDescription16.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                                      artikelGrootCTA16C.id = "GrootArtikelCTA16C";
+                                      artikelGrootCTA16C.className = "GrootArtikelCTAC";
+                                      artikelGrootCTA16C.style.display = "inline";
+                                      artikelGrootCTA16C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                                      artikelGrootCTA16.id = "GrootArtikelCTA16";
+                                      artikelGrootCTA16.className = "GrootArtikelCTA";
+                                      artikelGrootCTA16.style.display = "inline";
+                                      artikelGrootCTA16.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                                      artikelGroot17D.id="artikelGroot17D";
+                                      artikelGroot17D.draggable="true";
+                                      artikelGroot17D.ondragstart ='onDragStart(event);';
+
+                                      artikelGroot17T.id = 'artikelGroot17T'
+                                      artikelGroot17Tb.id = 'artikelGroot17Tb'
+                                      artikelGroot17TrA.id = 'artikelGroot17TrA'
+                                      artikelGroot17TdA.id = 'artikelGroot17TdA'
+                                      artikelGroot17TrB.id = 'artikelGroot17TrB'
+                                      artikelGroot17TdB.id = 'artikelGroot17TdB'
+                                      artikelGroot17TrC.id = 'artikelGroot17TrC'
+                                      artikelGroot17TdC.id = 'artikelGroot17TdC'
+                                      artikelGroot17TdC.style.paddingBottom = '17px'
+
+                                        artikelGroot17.id = "grootArtikel17";
+                                        artikelGroot17.className = 'grootArtikel';
+                                        artikelGroot17.position - "absolute";
+                                        artikelGroot17.style.border="1px solid #b8b8b8";
+
+                                          //artikelGrootAuthor17.id = "grootArtikelAuthor17";
+                                          //artikelGrootAuthor17.className = "grootArtikelAuthor";
+                                          //artikelGrootAuthor17.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 117px 0px 0px; ");
+
+                                          artikelGrootTitle17.id = "grootArtikelTitle17";
+                                          artikelGrootTitle17.className = "grootArtikelTitle";
+                                          artikelGrootTitle17.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                                          artikelGrootImg17Link.id =  "grootArtikelImg17Link";
+                                          artikelGrootImg17Link.style.padding = "0px";
+
+                                          artikelGrootImg17.id =  "grootArtikelImg17";
+                                          artikelGrootImg17.className =  "grootArtikelImg";
+                                          artikelGrootImg17.style.display = "block";
+                                          artikelGrootImg17.style.width = "100%";
+                                          artikelGrootImg17.style.paddingBottom = "10px";
+                                          artikelGrootImg17.style.height = "auto";
+
+                                          artikelGrootDescription17.id = "grootArtikelDescription17";
+                                          artikelGrootDescription17.className = "grootArtikelDescription";
+                                          artikelGrootDescription17.style.display = "inline";
+                                          artikelGrootDescription17.style.fontSize = "12pt";
+                                          artikelGrootDescription17.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                                          artikelGrootCTA17C.id = "GrootArtikelCTA17C";
+                                          artikelGrootCTA17C.className = "GrootArtikelCTAC";
+                                          artikelGrootCTA17C.style.display = "inline";
+                                          artikelGrootCTA17C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                                          artikelGrootCTA17.id = "GrootArtikelCTA17";
+                                          artikelGrootCTA17.className = "GrootArtikelCTA";
+                                          artikelGrootCTA17.style.display = "inline";
+                                          artikelGrootCTA17.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                                          artikelGroot18D.id="artikelGroot18D";
+                                          artikelGroot18D.draggable="true";
+                                          artikelGroot18D.ondragstart ='onDragStart(event);';
+
+                                          artikelGroot18T.id = 'artikelGroot18T'
+                                          artikelGroot18Tb.id = 'artikelGroot18Tb'
+                                          artikelGroot18TrA.id = 'artikelGroot18TrA'
+                                          artikelGroot18TdA.id = 'artikelGroot18TdA'
+                                          artikelGroot18TrB.id = 'artikelGroot18TrB'
+                                          artikelGroot18TdB.id = 'artikelGroot18TdB'
+                                          artikelGroot18TrC.id = 'artikelGroot18TrC'
+                                          artikelGroot18TdC.id = 'artikelGroot18TdC'
+                                          artikelGroot18TdC.style.paddingBottom = '18px'
+
+                                            artikelGroot18.id = "grootArtikel18";
+                                            artikelGroot18.className = 'grootArtikel';
+                                            artikelGroot18.position - "absolute";
+                                            artikelGroot18.style.border="1px solid #b8b8b8";
+
+                                              //artikelGrootAuthor18.id = "grootArtikelAuthor18";
+                                              //artikelGrootAuthor18.className = "grootArtikelAuthor";
+                                              //artikelGrootAuthor18.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 118px 0px 0px; ");
+
+                                              artikelGrootTitle18.id = "grootArtikelTitle18";
+                                              artikelGrootTitle18.className = "grootArtikelTitle";
+                                              artikelGrootTitle18.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                                              artikelGrootImg18Link.id =  "grootArtikelImg18Link";
+                                              artikelGrootImg18Link.style.padding = "0px";
+
+                                              artikelGrootImg18.id =  "grootArtikelImg18";
+                                              artikelGrootImg18.className =  "grootArtikelImg";
+                                              artikelGrootImg18.style.display = "block";
+                                              artikelGrootImg18.style.width = "100%";
+                                              artikelGrootImg18.style.paddingBottom = "10px";
+                                              artikelGrootImg18.style.height = "auto";
+
+                                              artikelGrootDescription18.id = "grootArtikelDescription18";
+                                              artikelGrootDescription18.className = "grootArtikelDescription";
+                                              artikelGrootDescription18.style.display = "inline";
+                                              artikelGrootDescription18.style.fontSize = "12pt";
+                                              artikelGrootDescription18.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                                              artikelGrootCTA18C.id = "GrootArtikelCTA18C";
+                                              artikelGrootCTA18C.className = "GrootArtikelCTAC";
+                                              artikelGrootCTA18C.style.display = "inline";
+                                              artikelGrootCTA18C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                                              artikelGrootCTA18.id = "GrootArtikelCTA18";
+                                              artikelGrootCTA18.className = "GrootArtikelCTA";
+                                              artikelGrootCTA18.style.display = "inline";
+                                              artikelGrootCTA18.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                                              artikelGroot19D.id="artikelGroot19D";
+                                              artikelGroot19D.draggable="true";
+                                              artikelGroot19D.ondragstart ='onDragStart(event);';
+
+                                              artikelGroot19T.id = 'artikelGroot19T'
+                                              artikelGroot19Tb.id = 'artikelGroot19Tb'
+                                              artikelGroot19TrA.id = 'artikelGroot19TrA'
+                                              artikelGroot19TdA.id = 'artikelGroot19TdA'
+                                              artikelGroot19TrB.id = 'artikelGroot19TrB'
+                                              artikelGroot19TdB.id = 'artikelGroot19TdB'
+                                              artikelGroot19TrC.id = 'artikelGroot19TrC'
+                                              artikelGroot19TdC.id = 'artikelGroot19TdC'
+                                              artikelGroot19TdC.style.paddingBottom = '19px'
+
+                                                artikelGroot19.id = "grootArtikel19";
+                                                artikelGroot19.className = 'grootArtikel';
+                                                artikelGroot19.position - "absolute";
+                                                artikelGroot19.style.border="1px solid #b8b8b8";
+
+                                                  //artikelGrootAuthor19.id = "grootArtikelAuthor19";
+                                                  //artikelGrootAuthor19.className = "grootArtikelAuthor";
+                                                  //artikelGrootAuthor19.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 119px 0px 0px; ");
+
+                                                  artikelGrootTitle19.id = "grootArtikelTitle19";
+                                                  artikelGrootTitle19.className = "grootArtikelTitle";
+                                                  artikelGrootTitle19.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                                                  artikelGrootImg19Link.id =  "grootArtikelImg19Link";
+                                                  artikelGrootImg19Link.style.padding = "0px";
+
+                                                  artikelGrootImg19.id =  "grootArtikelImg19";
+                                                  artikelGrootImg19.className =  "grootArtikelImg";
+                                                  artikelGrootImg19.style.display = "block";
+                                                  artikelGrootImg19.style.width = "100%";
+                                                  artikelGrootImg19.style.paddingBottom = "10px";
+                                                  artikelGrootImg19.style.height = "auto";
+
+                                                  artikelGrootDescription19.id = "grootArtikelDescription19";
+                                                  artikelGrootDescription19.className = "grootArtikelDescription";
+                                                  artikelGrootDescription19.style.display = "inline";
+                                                  artikelGrootDescription19.style.fontSize = "12pt";
+                                                  artikelGrootDescription19.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                                                  artikelGrootCTA19C.id = "GrootArtikelCTA19C";
+                                                  artikelGrootCTA19C.className = "GrootArtikelCTAC";
+                                                  artikelGrootCTA19C.style.display = "inline";
+                                                  artikelGrootCTA19C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                                                  artikelGrootCTA19.id = "GrootArtikelCTA19";
+                                                  artikelGrootCTA19.className = "GrootArtikelCTA";
+                                                  artikelGrootCTA19.style.display = "inline";
+                                                  artikelGrootCTA19.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                                                  artikelGroot20D.id="artikelGroot20D";
+                                                  artikelGroot20D.draggable="true";
+                                                  artikelGroot20D.ondragstart ='onDragStart(event);';
+
+                                                  artikelGroot20T.id = 'artikelGroot20T'
+                                                  artikelGroot20Tb.id = 'artikelGroot20Tb'
+                                                  artikelGroot20TrA.id = 'artikelGroot20TrA'
+                                                  artikelGroot20TdA.id = 'artikelGroot20TdA'
+                                                  artikelGroot20TrB.id = 'artikelGroot20TrB'
+                                                  artikelGroot20TdB.id = 'artikelGroot20TdB'
+                                                  artikelGroot20TrC.id = 'artikelGroot20TrC'
+                                                  artikelGroot20TdC.id = 'artikelGroot20TdC'
+                                                  artikelGroot20TdC.style.paddingBottom = '20px'
+
+                                                    artikelGroot20.id = "grootArtikel20";
+                                                    artikelGroot20.className = 'grootArtikel';
+                                                    artikelGroot20.position - "absolute";
+                                                    artikelGroot20.style.border="1px solid #b8b8b8";
+
+                                                      //artikelGrootAuthor20.id = "grootArtikelAuthor20";
+                                                      //artikelGrootAuthor20.className = "grootArtikelAuthor";
+                                                      //artikelGrootAuthor20.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 120px 0px 0px; ");
+
+                                                      artikelGrootTitle20.id = "grootArtikelTitle20";
+                                                      artikelGrootTitle20.className = "grootArtikelTitle";
+                                                      artikelGrootTitle20.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                                                      artikelGrootImg20Link.id =  "grootArtikelImg20Link";
+                                                      artikelGrootImg20Link.style.padding = "0px";
+
+                                                      artikelGrootImg20.id =  "grootArtikelImg20";
+                                                      artikelGrootImg20.className =  "grootArtikelImg";
+                                                      artikelGrootImg20.style.display = "block";
+                                                      artikelGrootImg20.style.width = "100%";
+                                                      artikelGrootImg20.style.paddingBottom = "10px";
+                                                      artikelGrootImg20.style.height = "auto";
+
+                                                      artikelGrootDescription20.id = "grootArtikelDescription20";
+                                                      artikelGrootDescription20.className = "grootArtikelDescription";
+                                                      artikelGrootDescription20.style.display = "inline";
+                                                      artikelGrootDescription20.style.fontSize = "12pt";
+                                                      artikelGrootDescription20.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                                                      artikelGrootCTA20C.id = "GrootArtikelCTA20C";
+                                                      artikelGrootCTA20C.className = "GrootArtikelCTAC";
+                                                      artikelGrootCTA20C.style.display = "inline";
+                                                      artikelGrootCTA20C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                                                      artikelGrootCTA20.id = "GrootArtikelCTA20";
+                                                      artikelGrootCTA20.className = "GrootArtikelCTA";
+                                                      artikelGrootCTA20.style.display = "inline";
+                                                      artikelGrootCTA20.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                                                      artikelGroot21D.id="artikelGroot21D";
+                                                      artikelGroot21D.draggable="true";
+                                                      artikelGroot21D.ondragstart ='onDragStart(event);';
+
+                                                      artikelGroot21T.id = 'artikelGroot21T'
+                                                      artikelGroot21Tb.id = 'artikelGroot21Tb'
+                                                      artikelGroot21TrA.id = 'artikelGroot21TrA'
+                                                      artikelGroot21TdA.id = 'artikelGroot21TdA'
+                                                      artikelGroot21TrB.id = 'artikelGroot21TrB'
+                                                      artikelGroot21TdB.id = 'artikelGroot21TdB'
+                                                      artikelGroot21TrC.id = 'artikelGroot21TrC'
+                                                      artikelGroot21TdC.id = 'artikelGroot21TdC'
+                                                      artikelGroot21TdC.style.paddingBottom = '21px'
+
+                                                        artikelGroot21.id = "grootArtikel21";
+                                                        artikelGroot21.className = 'grootArtikel';
+                                                        artikelGroot21.position - "absolute";
+                                                        artikelGroot21.style.border="1px solid #b8b8b8";
+
+                                                          //artikelGrootAuthor21.id = "grootArtikelAuthor21";
+                                                          //artikelGrootAuthor21.className = "grootArtikelAuthor";
+                                                          //artikelGrootAuthor21.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 121px 0px 0px; ");
+
+                                                          artikelGrootTitle21.id = "grootArtikelTitle21";
+                                                          artikelGrootTitle21.className = "grootArtikelTitle";
+                                                          artikelGrootTitle21.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                                                          artikelGrootImg21Link.id =  "grootArtikelImg21Link";
+                                                          artikelGrootImg21Link.style.padding = "0px";
+
+                                                          artikelGrootImg21.id =  "grootArtikelImg21";
+                                                          artikelGrootImg21.className =  "grootArtikelImg";
+                                                          artikelGrootImg21.style.display = "block";
+                                                          artikelGrootImg21.style.width = "100%";
+                                                          artikelGrootImg21.style.paddingBottom = "10px";
+                                                          artikelGrootImg21.style.height = "auto";
+
+                                                          artikelGrootDescription21.id = "grootArtikelDescription21";
+                                                          artikelGrootDescription21.className = "grootArtikelDescription";
+                                                          artikelGrootDescription21.style.display = "inline";
+                                                          artikelGrootDescription21.style.fontSize = "12pt";
+                                                          artikelGrootDescription21.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                                                          artikelGrootCTA21C.id = "GrootArtikelCTA21C";
+                                                          artikelGrootCTA21C.className = "GrootArtikelCTAC";
+                                                          artikelGrootCTA21C.style.display = "inline";
+                                                          artikelGrootCTA21C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                                                          artikelGrootCTA21.id = "GrootArtikelCTA21";
+                                                          artikelGrootCTA21.className = "GrootArtikelCTA";
+                                                          artikelGrootCTA21.style.display = "inline";
+                                                          artikelGrootCTA21.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                                                          artikelGroot22D.id="artikelGroot22D";
+                                                          artikelGroot22D.draggable="true";
+                                                          artikelGroot22D.ondragstart ='onDragStart(event);';
+
+                                                          artikelGroot22T.id = 'artikelGroot22T'
+                                                          artikelGroot22Tb.id = 'artikelGroot22Tb'
+                                                          artikelGroot22TrA.id = 'artikelGroot22TrA'
+                                                          artikelGroot22TdA.id = 'artikelGroot22TdA'
+                                                          artikelGroot22TrB.id = 'artikelGroot22TrB'
+                                                          artikelGroot22TdB.id = 'artikelGroot22TdB'
+                                                          artikelGroot22TrC.id = 'artikelGroot22TrC'
+                                                          artikelGroot22TdC.id = 'artikelGroot22TdC'
+                                                          artikelGroot22TdC.style.paddingBottom = '22px'
+
+                                                            artikelGroot22.id = "grootArtikel22";
+                                                            artikelGroot22.className = 'grootArtikel';
+                                                            artikelGroot22.position - "absolute";
+                                                            artikelGroot22.style.border="1px solid #b8b8b8";
+
+                                                              //artikelGrootAuthor22.id = "grootArtikelAuthor22";
+                                                              //artikelGrootAuthor22.className = "grootArtikelAuthor";
+                                                              //artikelGrootAuthor22.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 122px 0px 0px; ");
+
+                                                              artikelGrootTitle22.id = "grootArtikelTitle22";
+                                                              artikelGrootTitle22.className = "grootArtikelTitle";
+                                                              artikelGrootTitle22.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                                                              artikelGrootImg22Link.id =  "grootArtikelImg22Link";
+                                                              artikelGrootImg22Link.style.padding = "0px";
+
+                                                              artikelGrootImg22.id =  "grootArtikelImg22";
+                                                              artikelGrootImg22.className =  "grootArtikelImg";
+                                                              artikelGrootImg22.style.display = "block";
+                                                              artikelGrootImg22.style.width = "100%";
+                                                              artikelGrootImg22.style.paddingBottom = "10px";
+                                                              artikelGrootImg22.style.height = "auto";
+
+                                                              artikelGrootDescription22.id = "grootArtikelDescription22";
+                                                              artikelGrootDescription22.className = "grootArtikelDescription";
+                                                              artikelGrootDescription22.style.display = "inline";
+                                                              artikelGrootDescription22.style.fontSize = "12pt";
+                                                              artikelGrootDescription22.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                                                              artikelGrootCTA22C.id = "GrootArtikelCTA22C";
+                                                              artikelGrootCTA22C.className = "GrootArtikelCTAC";
+                                                              artikelGrootCTA22C.style.display = "inline";
+                                                              artikelGrootCTA22C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                                                              artikelGrootCTA22.id = "GrootArtikelCTA22";
+                                                              artikelGrootCTA22.className = "GrootArtikelCTA";
+                                                              artikelGrootCTA22.style.display = "inline";
+                                                              artikelGrootCTA22.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                                                              artikelGroot23D.id="artikelGroot23D";
+                                                              artikelGroot23D.draggable="true";
+                                                              artikelGroot23D.ondragstart ='onDragStart(event);';
+
+                                                              artikelGroot23T.id = 'artikelGroot23T'
+                                                              artikelGroot23Tb.id = 'artikelGroot23Tb'
+                                                              artikelGroot23TrA.id = 'artikelGroot23TrA'
+                                                              artikelGroot23TdA.id = 'artikelGroot23TdA'
+                                                              artikelGroot23TrB.id = 'artikelGroot23TrB'
+                                                              artikelGroot23TdB.id = 'artikelGroot23TdB'
+                                                              artikelGroot23TrC.id = 'artikelGroot23TrC'
+                                                              artikelGroot23TdC.id = 'artikelGroot23TdC'
+                                                              artikelGroot23TdC.style.paddingBottom = '23px'
+
+                                                                artikelGroot23.id = "grootArtikel23";
+                                                                artikelGroot23.className = 'grootArtikel';
+                                                                artikelGroot23.position - "absolute";
+                                                                artikelGroot23.style.border="1px solid #b8b8b8";
+
+                                                                  //artikelGrootAuthor23.id = "grootArtikelAuthor23";
+                                                                  //artikelGrootAuthor23.className = "grootArtikelAuthor";
+                                                                  //artikelGrootAuthor23.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 123px 0px 0px; ");
+
+                                                                  artikelGrootTitle23.id = "grootArtikelTitle23";
+                                                                  artikelGrootTitle23.className = "grootArtikelTitle";
+                                                                  artikelGrootTitle23.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                                                                  artikelGrootImg23Link.id =  "grootArtikelImg23Link";
+                                                                  artikelGrootImg23Link.style.padding = "0px";
+
+                                                                  artikelGrootImg23.id =  "grootArtikelImg23";
+                                                                  artikelGrootImg23.className =  "grootArtikelImg";
+                                                                  artikelGrootImg23.style.display = "block";
+                                                                  artikelGrootImg23.style.width = "100%";
+                                                                  artikelGrootImg23.style.paddingBottom = "10px";
+                                                                  artikelGrootImg23.style.height = "auto";
+
+                                                                  artikelGrootDescription23.id = "grootArtikelDescription23";
+                                                                  artikelGrootDescription23.className = "grootArtikelDescription";
+                                                                  artikelGrootDescription23.style.display = "inline";
+                                                                  artikelGrootDescription23.style.fontSize = "12pt";
+                                                                  artikelGrootDescription23.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                                                                  artikelGrootCTA23C.id = "GrootArtikelCTA23C";
+                                                                  artikelGrootCTA23C.className = "GrootArtikelCTAC";
+                                                                  artikelGrootCTA23C.style.display = "inline";
+                                                                  artikelGrootCTA23C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                                                                  artikelGrootCTA23.id = "GrootArtikelCTA23";
+                                                                  artikelGrootCTA23.className = "GrootArtikelCTA";
+                                                                  artikelGrootCTA23.style.display = "inline";
+                                                                  artikelGrootCTA23.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                                                                  artikelGroot24D.id="artikelGroot24D";
+                                                                  artikelGroot24D.draggable="true";
+                                                                  artikelGroot24D.ondragstart ='onDragStart(event);';
+
+                                                                  artikelGroot24T.id = 'artikelGroot24T'
+                                                                  artikelGroot24Tb.id = 'artikelGroot24Tb'
+                                                                  artikelGroot24TrA.id = 'artikelGroot24TrA'
+                                                                  artikelGroot24TdA.id = 'artikelGroot24TdA'
+                                                                  artikelGroot24TrB.id = 'artikelGroot24TrB'
+                                                                  artikelGroot24TdB.id = 'artikelGroot24TdB'
+                                                                  artikelGroot24TrC.id = 'artikelGroot24TrC'
+                                                                  artikelGroot24TdC.id = 'artikelGroot24TdC'
+                                                                  artikelGroot24TdC.style.paddingBottom = '24px'
+
+                                                                    artikelGroot24.id = "grootArtikel24";
+                                                                    artikelGroot24.className = 'grootArtikel';
+                                                                    artikelGroot24.position - "absolute";
+                                                                    artikelGroot24.style.border="1px solid #b8b8b8";
+
+                                                                      //artikelGrootAuthor24.id = "grootArtikelAuthor24";
+                                                                      //artikelGrootAuthor24.className = "grootArtikelAuthor";
+                                                                      //artikelGrootAuthor24.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 124px 0px 0px; ");
+
+                                                                      artikelGrootTitle24.id = "grootArtikelTitle24";
+                                                                      artikelGrootTitle24.className = "grootArtikelTitle";
+                                                                      artikelGrootTitle24.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                                                                      artikelGrootImg24Link.id =  "grootArtikelImg24Link";
+                                                                      artikelGrootImg24Link.style.padding = "0px";
+
+                                                                      artikelGrootImg24.id =  "grootArtikelImg24";
+                                                                      artikelGrootImg24.className =  "grootArtikelImg";
+                                                                      artikelGrootImg24.style.display = "block";
+                                                                      artikelGrootImg24.style.width = "100%";
+                                                                      artikelGrootImg24.style.paddingBottom = "10px";
+                                                                      artikelGrootImg24.style.height = "auto";
+
+                                                                      artikelGrootDescription24.id = "grootArtikelDescription24";
+                                                                      artikelGrootDescription24.className = "grootArtikelDescription";
+                                                                      artikelGrootDescription24.style.display = "inline";
+                                                                      artikelGrootDescription24.style.fontSize = "12pt";
+                                                                      artikelGrootDescription24.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                                                                      artikelGrootCTA24C.id = "GrootArtikelCTA24C";
+                                                                      artikelGrootCTA24C.className = "GrootArtikelCTAC";
+                                                                      artikelGrootCTA24C.style.display = "inline";
+                                                                      artikelGrootCTA24C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                                                                      artikelGrootCTA24.id = "GrootArtikelCTA24";
+                                                                      artikelGrootCTA24.className = "GrootArtikelCTA";
+                                                                      artikelGrootCTA24.style.display = "inline";
+                                                                      artikelGrootCTA24.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+                                                                      artikelGroot25D.id="artikelGroot25D";
+                                                                      artikelGroot25D.draggable="true";
+                                                                      artikelGroot25D.ondragstart ='onDragStart(event);';
+
+                                                                      artikelGroot25T.id = 'artikelGroot25T'
+                                                                      artikelGroot25Tb.id = 'artikelGroot25Tb'
+                                                                      artikelGroot25TrA.id = 'artikelGroot25TrA'
+                                                                      artikelGroot25TdA.id = 'artikelGroot25TdA'
+                                                                      artikelGroot25TrB.id = 'artikelGroot25TrB'
+                                                                      artikelGroot25TdB.id = 'artikelGroot25TdB'
+                                                                      artikelGroot25TrC.id = 'artikelGroot25TrC'
+                                                                      artikelGroot25TdC.id = 'artikelGroot25TdC'
+                                                                      artikelGroot25TdC.style.paddingBottom = '25px'
+
+                                                                        artikelGroot25.id = "grootArtikel25";
+                                                                        artikelGroot25.className = 'grootArtikel';
+                                                                        artikelGroot25.position - "absolute";
+                                                                        artikelGroot25.style.border="1px solid #b8b8b8";
+
+                                                                          //artikelGrootAuthor25.id = "grootArtikelAuthor25";
+                                                                          //artikelGrootAuthor25.className = "grootArtikelAuthor";
+                                                                          //artikelGrootAuthor25.setAttribute("style", "display: block; font-size: 12pt; color: #9e9e9e; padding: 0px 125px 0px 0px; ");
+
+                                                                          artikelGrootTitle25.id = "grootArtikelTitle25";
+                                                                          artikelGrootTitle25.className = "grootArtikelTitle";
+                                                                          artikelGrootTitle25.setAttribute("style", "color: #1A1A1A; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px; ");
+
+                                                                          artikelGrootImg25Link.id =  "grootArtikelImg25Link";
+                                                                          artikelGrootImg25Link.style.padding = "0px";
+
+                                                                          artikelGrootImg25.id =  "grootArtikelImg25";
+                                                                          artikelGrootImg25.className =  "grootArtikelImg";
+                                                                          artikelGrootImg25.style.display = "block";
+                                                                          artikelGrootImg25.style.width = "100%";
+                                                                          artikelGrootImg25.style.paddingBottom = "10px";
+                                                                          artikelGrootImg25.style.height = "auto";
+
+                                                                          artikelGrootDescription25.id = "grootArtikelDescription25";
+                                                                          artikelGrootDescription25.className = "grootArtikelDescription";
+                                                                          artikelGrootDescription25.style.display = "inline";
+                                                                          artikelGrootDescription25.style.fontSize = "12pt";
+                                                                          artikelGrootDescription25.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+
+                                                                          artikelGrootCTA25C.id = "GrootArtikelCTA25C";
+                                                                          artikelGrootCTA25C.className = "GrootArtikelCTAC";
+                                                                          artikelGrootCTA25C.style.display = "inline";
+                                                                          artikelGrootCTA25C.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;");
+
+                                                                          artikelGrootCTA25.id = "GrootArtikelCTA25";
+                                                                          artikelGrootCTA25.className = "GrootArtikelCTA";
+                                                                          artikelGrootCTA25.style.display = "inline";
+                                                                          artikelGrootCTA25.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
+
+
 
 //Vacatures
 
