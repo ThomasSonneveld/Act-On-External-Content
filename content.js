@@ -174,25 +174,18 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     headerline5tip.textContent="\xa0TIP\xa0";
 
 
-    let headerline1 = document.getElementById('headline1');
-    headerline1.textContent = allTitles[1].firstChild.nodeValue;
-    headerline1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
-    let headerline2 = document.getElementById('headline2');
-    headerline2.textContent = allTitles[2].firstChild.nodeValue;
-    headerline2.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline3 = document.getElementById('headline3');
-    headerline3.textContent = allTitles[3].firstChild.nodeValue;
-    headerline3.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline3.textContent = allTitles[1].firstChild.nodeValue;
+    headerline3.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline4 = document.getElementById('headline4');
-    headerline4.textContent = allTitles[4].firstChild.nodeValue;
-    headerline4.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
-    let headerline5 = document.getElementById('headline5');
-    headerline5.textContent = allTitles[5].firstChild.nodeValue;
-    headerline5.setAttribute("href", allLinks[5].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline4.textContent = allTitles[2].firstChild.nodeValue;
+    headerline4.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline6 = document.getElementById('headline6');
-    headerline6.textContent = allTitles[6].firstChild.nodeValue;
-    headerline6.setAttribute("href", allLinks[6].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);//campagne);
-
+    headerline6.textContent = allTitles[3].firstChild.nodeValue;
+    headerline6.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);//campagne);
+    let headerline7 = document.getElementById('headline7');
+    headerline7.textContent = allTitles[4].firstChild.nodeValue;
+    headerline7.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
 
 
     let imgKlein1 = document.getElementById('imgKleinArtikel1');
@@ -467,6 +460,185 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     ctaKlein15.textContent = " Lees meer ▸";
     ctaKlein15.setAttribute("href", allLinks[15].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
+    let imgKlein16 = document.getElementById('imgKleinArtikel16');
+    imgKlein16.src =  allSmallImages[15].textContent;
+    let titleKleinLink16 = document.getElementById('kleinTitleLink16');
+    titleKleinLink16.textContent = allTitles[16].firstChild.nodeValue;
+    titleKleinLink16.setAttribute("href", allLinks[16].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let descriptionKlein16 = document.getElementById('DescriptionKleinArtikel16');
+    descriptionKlein16.textContent = allDescriptions[16].firstChild.nodeValue;
+    descriptionKlein16.setAttribute("href", allLinks[16].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein16a = document.getElementById('imgKleinArtikel16a');
+    imgKlein16a.src = allImages[15].attributes.url.nodeValue;
+    let imgKlein16aLink = document.getElementById('imgKlein16ALink');
+    imgKlein16a.setAttribute("href", allLinks[16].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein16Link = document.getElementById('imgKlein16Link');
+    imgKlein16a.setAttribute("href", allLinks[16].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let ctaKlein16 = document.getElementById('KleinArtikelCTA16');
+    ctaKlein16.textContent = " Lees meer ▸";
+    ctaKlein16.setAttribute("href", allLinks[16].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+
+    let imgKlein17 = document.getElementById('imgKleinArtikel17');
+    imgKlein17.src =  allSmallImages[16].textContent;
+    let titleKleinLink17 = document.getElementById('kleinTitleLink17');
+    titleKleinLink17.textContent = allTitles[17].firstChild.nodeValue;
+    titleKleinLink17.setAttribute("href", allLinks[17].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let descriptionKlein17 = document.getElementById('DescriptionKleinArtikel17');
+    descriptionKlein17.textContent = allDescriptions[17].firstChild.nodeValue;
+    descriptionKlein17.setAttribute("href", allLinks[17].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein17a = document.getElementById('imgKleinArtikel17a');
+    imgKlein17a.src = allImages[16].attributes.url.nodeValue;
+    let imgKlein17aLink = document.getElementById('imgKlein17ALink');
+    imgKlein17a.setAttribute("href", allLinks[17].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein17Link = document.getElementById('imgKlein17Link');
+    imgKlein17a.setAttribute("href", allLinks[17].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let ctaKlein17 = document.getElementById('KleinArtikelCTA17');
+    ctaKlein17.textContent = " Lees meer ▸";
+    ctaKlein17.setAttribute("href", allLinks[17].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+
+    let imgKlein18 = document.getElementById('imgKleinArtikel18');
+    imgKlein18.src =  allSmallImages[17].textContent;
+    let titleKleinLink18 = document.getElementById('kleinTitleLink18');
+    titleKleinLink18.textContent = allTitles[18].firstChild.nodeValue;
+    titleKleinLink18.setAttribute("href", allLinks[18].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let descriptionKlein18 = document.getElementById('DescriptionKleinArtikel18');
+    descriptionKlein18.textContent = allDescriptions[18].firstChild.nodeValue;
+    descriptionKlein18.setAttribute("href", allLinks[18].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein18a = document.getElementById('imgKleinArtikel18a');
+    imgKlein18a.src = allImages[17].attributes.url.nodeValue;
+    let imgKlein18aLink = document.getElementById('imgKlein18ALink');
+    imgKlein18a.setAttribute("href", allLinks[18].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein18Link = document.getElementById('imgKlein18Link');
+    imgKlein18a.setAttribute("href", allLinks[18].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let ctaKlein18 = document.getElementById('KleinArtikelCTA18');
+    ctaKlein18.textContent = " Lees meer ▸";
+    ctaKlein18.setAttribute("href", allLinks[18].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+
+    let imgKlein19 = document.getElementById('imgKleinArtikel19');
+    imgKlein19.src =  allSmallImages[18].textContent;
+    let titleKleinLink19 = document.getElementById('kleinTitleLink19');
+    titleKleinLink19.textContent = allTitles[19].firstChild.nodeValue;
+    titleKleinLink19.setAttribute("href", allLinks[19].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let descriptionKlein19 = document.getElementById('DescriptionKleinArtikel19');
+    descriptionKlein19.textContent = allDescriptions[19].firstChild.nodeValue;
+    descriptionKlein19.setAttribute("href", allLinks[19].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein19a = document.getElementById('imgKleinArtikel19a');
+    imgKlein19a.src = allImages[18].attributes.url.nodeValue;
+    let imgKlein19aLink = document.getElementById('imgKlein19ALink');
+    imgKlein19a.setAttribute("href", allLinks[19].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein19Link = document.getElementById('imgKlein19Link');
+    imgKlein19a.setAttribute("href", allLinks[19].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let ctaKlein19 = document.getElementById('KleinArtikelCTA19');
+    ctaKlein19.textContent = " Lees meer ▸";
+    ctaKlein19.setAttribute("href", allLinks[19].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+
+    let imgKlein20 = document.getElementById('imgKleinArtikel20');
+    imgKlein20.src =  allSmallImages[19].textContent;
+    let titleKleinLink20 = document.getElementById('kleinTitleLink20');
+    titleKleinLink20.textContent = allTitles[20].firstChild.nodeValue;
+    titleKleinLink20.setAttribute("href", allLinks[20].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let descriptionKlein20 = document.getElementById('DescriptionKleinArtikel20');
+    descriptionKlein20.textContent = allDescriptions[20].firstChild.nodeValue;
+    descriptionKlein20.setAttribute("href", allLinks[20].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein20a = document.getElementById('imgKleinArtikel20a');
+    imgKlein20a.src = allImages[19].attributes.url.nodeValue;
+    let imgKlein20aLink = document.getElementById('imgKlein20ALink');
+    imgKlein20a.setAttribute("href", allLinks[20].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein20Link = document.getElementById('imgKlein20Link');
+    imgKlein20a.setAttribute("href", allLinks[20].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let ctaKlein20 = document.getElementById('KleinArtikelCTA20');
+    ctaKlein20.textContent = " Lees meer ▸";
+    ctaKlein20.setAttribute("href", allLinks[20].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+
+    let imgKlein21 = document.getElementById('imgKleinArtikel21');
+    imgKlein21.src =  allSmallImages[20].textContent;
+    let titleKleinLink21 = document.getElementById('kleinTitleLink21');
+    titleKleinLink21.textContent = allTitles[21].firstChild.nodeValue;
+    titleKleinLink21.setAttribute("href", allLinks[21].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let descriptionKlein21 = document.getElementById('DescriptionKleinArtikel21');
+    descriptionKlein21.textContent = allDescriptions[21].firstChild.nodeValue;
+    descriptionKlein21.setAttribute("href", allLinks[21].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein21a = document.getElementById('imgKleinArtikel21a');
+    imgKlein21a.src = allImages[20].attributes.url.nodeValue;
+    let imgKlein21aLink = document.getElementById('imgKlein21ALink');
+    imgKlein21a.setAttribute("href", allLinks[21].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein21Link = document.getElementById('imgKlein21Link');
+    imgKlein21a.setAttribute("href", allLinks[21].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let ctaKlein21 = document.getElementById('KleinArtikelCTA21');
+    ctaKlein21.textContent = " Lees meer ▸";
+    ctaKlein21.setAttribute("href", allLinks[21].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+
+    let imgKlein22 = document.getElementById('imgKleinArtikel22');
+    imgKlein22.src =  allSmallImages[21].textContent;
+    let titleKleinLink22 = document.getElementById('kleinTitleLink22');
+    titleKleinLink22.textContent = allTitles[22].firstChild.nodeValue;
+    titleKleinLink22.setAttribute("href", allLinks[22].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let descriptionKlein22 = document.getElementById('DescriptionKleinArtikel22');
+    descriptionKlein22.textContent = allDescriptions[22].firstChild.nodeValue;
+    descriptionKlein22.setAttribute("href", allLinks[22].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein22a = document.getElementById('imgKleinArtikel22a');
+    imgKlein22a.src = allImages[21].attributes.url.nodeValue;
+    let imgKlein22aLink = document.getElementById('imgKlein22ALink');
+    imgKlein22a.setAttribute("href", allLinks[22].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein22Link = document.getElementById('imgKlein22Link');
+    imgKlein22a.setAttribute("href", allLinks[22].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let ctaKlein22 = document.getElementById('KleinArtikelCTA22');
+    ctaKlein22.textContent = " Lees meer ▸";
+    ctaKlein22.setAttribute("href", allLinks[22].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+
+    let imgKlein23 = document.getElementById('imgKleinArtikel23');
+    imgKlein23.src =  allSmallImages[22].textContent;
+    let titleKleinLink23 = document.getElementById('kleinTitleLink23');
+    titleKleinLink23.textContent = allTitles[23].firstChild.nodeValue;
+    titleKleinLink23.setAttribute("href", allLinks[23].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let descriptionKlein23 = document.getElementById('DescriptionKleinArtikel23');
+    descriptionKlein23.textContent = allDescriptions[23].firstChild.nodeValue;
+    descriptionKlein23.setAttribute("href", allLinks[23].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein23a = document.getElementById('imgKleinArtikel23a');
+    imgKlein23a.src = allImages[22].attributes.url.nodeValue;
+    let imgKlein23aLink = document.getElementById('imgKlein23ALink');
+    imgKlein23a.setAttribute("href", allLinks[23].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein23Link = document.getElementById('imgKlein23Link');
+    imgKlein23a.setAttribute("href", allLinks[23].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let ctaKlein23 = document.getElementById('KleinArtikelCTA23');
+    ctaKlein23.textContent = " Lees meer ▸";
+    ctaKlein23.setAttribute("href", allLinks[23].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+
+    let imgKlein24 = document.getElementById('imgKleinArtikel24');
+    imgKlein24.src =  allSmallImages[23].textContent;
+    let titleKleinLink24 = document.getElementById('kleinTitleLink24');
+    titleKleinLink24.textContent = allTitles[24].firstChild.nodeValue;
+    titleKleinLink24.setAttribute("href", allLinks[24].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let descriptionKlein24 = document.getElementById('DescriptionKleinArtikel24');
+    descriptionKlein24.textContent = allDescriptions[24].firstChild.nodeValue;
+    descriptionKlein24.setAttribute("href", allLinks[24].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein24a = document.getElementById('imgKleinArtikel24a');
+    imgKlein24a.src = allImages[23].attributes.url.nodeValue;
+    let imgKlein24aLink = document.getElementById('imgKlein24ALink');
+    imgKlein24a.setAttribute("href", allLinks[24].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein24Link = document.getElementById('imgKlein24Link');
+    imgKlein24a.setAttribute("href", allLinks[24].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let ctaKlein24 = document.getElementById('KleinArtikelCTA24');
+    ctaKlein24.textContent = " Lees meer ▸";
+    ctaKlein24.setAttribute("href", allLinks[24].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+
+    let imgKlein25 = document.getElementById('imgKleinArtikel25');
+    imgKlein25.src =  allSmallImages[24].textContent;
+    let titleKleinLink25 = document.getElementById('kleinTitleLink25');
+    titleKleinLink25.textContent = allTitles[25].firstChild.nodeValue;
+    titleKleinLink25.setAttribute("href", allLinks[25].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let descriptionKlein25 = document.getElementById('DescriptionKleinArtikel25');
+    descriptionKlein25.textContent = allDescriptions[25].firstChild.nodeValue;
+    descriptionKlein25.setAttribute("href", allLinks[25].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein25a = document.getElementById('imgKleinArtikel25a');
+    imgKlein25a.src = allImages[24].attributes.url.nodeValue;
+    let imgKlein25aLink = document.getElementById('imgKlein25ALink');
+    imgKlein25a.setAttribute("href", allLinks[25].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let imgKlein25Link = document.getElementById('imgKlein25Link');
+    imgKlein25a.setAttribute("href", allLinks[25].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    let ctaKlein25 = document.getElementById('KleinArtikelCTA25');
+    ctaKlein25.textContent = " Lees meer ▸";
+    ctaKlein25.setAttribute("href", allLinks[25].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
 
     //Artekelen Groot
 
@@ -1669,6 +1841,66 @@ document.getElementById('kleinArtikel14').ondragstart = function (event) {
     console.log('dragstart');
 }
 document.getElementById('kleinArtikel15').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel16').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel17').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel18').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel19').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel20').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel21').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel22').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel23').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel24').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel25').ondragstart = function (event) {
   event
     .dataTransfer
     .setData('text/html', event.target.innerHTML);

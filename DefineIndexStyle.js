@@ -641,6 +641,18 @@ headlinesOverlay.style.zIndex = "19300";
   phl6.style.margin = "0px";
   phl6.style.color = "#18608B"
 
+  hl7.id = "headline7";
+  hl7.style.display = "block";
+  hl7.className = "headline";
+  hl7.style.margin = "0px";
+  hl7.style.color = "#18608B"
+
+  phl7.id = "pheadline7";
+  phl7.style.display = "block";
+  phl7.className = "headline";
+  phl7.style.margin = "0px";
+  phl7.style.color = "#18608B"
+
   headlineTable.width="100%";
   headlineTable.style.lineHeight= "22px";
 
@@ -668,6 +680,10 @@ headlinesOverlay.style.zIndex = "19300";
   headlines6Td1.style.fontSize = "12px";
   headlines6Td1.style.verticalAlign = "top";
   headlines6Td1.style.color = "#18608B";
+  headlines7Td1.textContent = "▸ ";
+  headlines7Td1.style.fontSize = "12px";
+  headlines7Td1.style.verticalAlign = "top";
+  headlines7Td1.style.color = "#18608B";
 
   headlines2Td3.style.verticalAlign = "top";
   headlines5Td3.style.verticalAlign = "top";
@@ -1631,7 +1647,635 @@ artikelKleinTable15c.className = "tableC";
       artikelKleinCTA15.style.display = "inline";
       artikelKleinCTA15.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
 
+artikelKlein16.id = "kleinArtikel16";
+artikelKlein16.className = 'kleinArtikel';
+artikelKlein16.draggable = "true";
+artikelKlein16.ondragstart ='onDragStart(event);';
+artikelKlein16.position - "absolute"
 
+  artikelKleinTable16a.className = "table1a";
+
+  artikelKlein16TDa.className = "tableDivider1a";
+
+    artikelKlein16TDbA.className = "tableDivider1";
+    artikelKlein16TDbA.display = "none";
+    artikelKlein16TDbA.width = "0px";
+    artikelKlein16TDbA.height = "auto";
+    artikelKlein16TDbA.style.paddingBottom = "20px";
+
+      artikelKlein16TDDiv.className = "tdDiv";
+      artikelKlein16TDDiv.width = "150px";
+      artikelKlein16TDDiv.height = "150px";
+
+      artikelKleinImg16a.id = "imgKleinArtikel16a";
+      artikelKleinImg16a.style.height = "auto";
+      artikelKleinImg16a.style.width = "100%";
+      artikelKleinImg16a.draggable="true";
+      artikelKleinImg16a.className = "imgKleinArtikela"
+      artikelKleinImg16a.style.display = "block";
+
+        artikelKleinImg16.id = "imgKleinArtikel16";
+        artikelKleinImg16.style.display = "none";
+        artikelKleinImg16.className = "imgKleinArtikel";
+        artikelKleinImg16.style.height = "150px";
+        artikelKleinImg16.style.width = "150px";
+
+    artikelKlein16TDbB.className= "tableDivider2";
+    artikelKlein16TDbB.height = "auto";
+    artikelKlein16TDbB.width = "auto";
+    artikelKlein16TDbB.style.verticalAlign="top"
+    artikelKlein16TDbB.style.paddingBottom = "20px";
+
+  artikelKleinTable16c.className = "tableC";
+
+    artikelKlein16TDcA.className = "artikelKleinTDcA";
+
+    artikelKlein16TDcA.className = "artikelKleinTDcA"
+
+    artikelKleinTitle16Link.id = "kleinTitleLink16";
+    artikelKleinTitle16Link.style.display = "block";
+    artikelKleinTitle16Link.className = "titleKleinArtikel";
+    artikelKleinTitle16Link.style.top = "0px";
+    artikelKleinTitle16Link.style.marginTop = "0px";
+    artikelKleinTitle16Link.style.verticalAlign="top"
+    artikelKleinTitle16Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 16pt; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinDescription16.id = "DescriptionKleinArtikel16";
+        artikelKleinDescription16.style.display = "inline";
+        artikelKleinDescription16.className = "DescriptionKleinArtikel";
+        artikelKleinDescription16.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinCTA16.id = "KleinArtikelCTA16";
+        artikelKleinCTA16.className = "KleinArtikelCTA";
+        artikelKleinCTA16.style.display = "inline";
+        artikelKleinCTA16.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
+
+artikelKlein17.id = "kleinArtikel17";
+artikelKlein17.className = 'kleinArtikel';
+artikelKlein17.draggable = "true";
+artikelKlein17.ondragstart ='onDragStart(event);';
+artikelKlein17.position - "absolute"
+
+  artikelKleinTable17a.className = "table1a";
+
+  artikelKlein17TDa.className = "tableDivider1a";
+
+    artikelKlein17TDbA.className = "tableDivider1";
+    artikelKlein17TDbA.display = "none";
+    artikelKlein17TDbA.width = "0px";
+    artikelKlein17TDbA.height = "auto";
+    artikelKlein17TDbA.style.paddingBottom = "20px";
+
+      artikelKlein17TDDiv.className = "tdDiv";
+      artikelKlein17TDDiv.width = "150px";
+      artikelKlein17TDDiv.height = "150px";
+
+      artikelKleinImg17a.id = "imgKleinArtikel17a";
+      artikelKleinImg17a.style.height = "auto";
+      artikelKleinImg17a.style.width = "100%";
+      artikelKleinImg17a.draggable="true";
+      artikelKleinImg17a.className = "imgKleinArtikela"
+      artikelKleinImg17a.style.display = "block";
+
+        artikelKleinImg17.id = "imgKleinArtikel17";
+        artikelKleinImg17.style.display = "none";
+        artikelKleinImg17.className = "imgKleinArtikel";
+        artikelKleinImg17.style.height = "150px";
+        artikelKleinImg17.style.width = "150px";
+
+    artikelKlein17TDbB.className= "tableDivider2";
+    artikelKlein17TDbB.height = "auto";
+    artikelKlein17TDbB.width = "auto";
+    artikelKlein17TDbB.style.verticalAlign="top"
+    artikelKlein17TDbB.style.paddingBottom = "20px";
+
+  artikelKleinTable17c.className = "tableC";
+
+    artikelKlein17TDcA.className = "artikelKleinTDcA";
+
+    artikelKlein17TDcA.className = "artikelKleinTDcA"
+
+    artikelKleinTitle17Link.id = "kleinTitleLink17";
+    artikelKleinTitle17Link.style.display = "block";
+    artikelKleinTitle17Link.className = "titleKleinArtikel";
+    artikelKleinTitle17Link.style.top = "0px";
+    artikelKleinTitle17Link.style.marginTop = "0px";
+    artikelKleinTitle17Link.style.verticalAlign="top"
+    artikelKleinTitle17Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 17pt; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinDescription17.id = "DescriptionKleinArtikel17";
+        artikelKleinDescription17.style.display = "inline";
+        artikelKleinDescription17.className = "DescriptionKleinArtikel";
+        artikelKleinDescription17.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinCTA17.id = "KleinArtikelCTA17";
+        artikelKleinCTA17.className = "KleinArtikelCTA";
+        artikelKleinCTA17.style.display = "inline";
+        artikelKleinCTA17.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
+
+artikelKlein18.id = "kleinArtikel18";
+artikelKlein18.className = 'kleinArtikel';
+artikelKlein18.draggable = "true";
+artikelKlein18.ondragstart ='onDragStart(event);';
+artikelKlein18.position - "absolute"
+
+  artikelKleinTable18a.className = "table1a";
+
+  artikelKlein18TDa.className = "tableDivider1a";
+
+    artikelKlein18TDbA.className = "tableDivider1";
+    artikelKlein18TDbA.display = "none";
+    artikelKlein18TDbA.width = "0px";
+    artikelKlein18TDbA.height = "auto";
+    artikelKlein18TDbA.style.paddingBottom = "20px";
+
+      artikelKlein18TDDiv.className = "tdDiv";
+      artikelKlein18TDDiv.width = "150px";
+      artikelKlein18TDDiv.height = "150px";
+
+      artikelKleinImg18a.id = "imgKleinArtikel18a";
+      artikelKleinImg18a.style.height = "auto";
+      artikelKleinImg18a.style.width = "100%";
+      artikelKleinImg18a.draggable="true";
+      artikelKleinImg18a.className = "imgKleinArtikela"
+      artikelKleinImg18a.style.display = "block";
+
+        artikelKleinImg18.id = "imgKleinArtikel18";
+        artikelKleinImg18.style.display = "none";
+        artikelKleinImg18.className = "imgKleinArtikel";
+        artikelKleinImg18.style.height = "150px";
+        artikelKleinImg18.style.width = "150px";
+
+    artikelKlein18TDbB.className= "tableDivider2";
+    artikelKlein18TDbB.height = "auto";
+    artikelKlein18TDbB.width = "auto";
+    artikelKlein18TDbB.style.verticalAlign="top"
+    artikelKlein18TDbB.style.paddingBottom = "20px";
+
+  artikelKleinTable18c.className = "tableC";
+
+    artikelKlein18TDcA.className = "artikelKleinTDcA";
+
+    artikelKlein18TDcA.className = "artikelKleinTDcA"
+
+    artikelKleinTitle18Link.id = "kleinTitleLink18";
+    artikelKleinTitle18Link.style.display = "block";
+    artikelKleinTitle18Link.className = "titleKleinArtikel";
+    artikelKleinTitle18Link.style.top = "0px";
+    artikelKleinTitle18Link.style.marginTop = "0px";
+    artikelKleinTitle18Link.style.verticalAlign="top"
+    artikelKleinTitle18Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 18pt; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinDescription18.id = "DescriptionKleinArtikel18";
+        artikelKleinDescription18.style.display = "inline";
+        artikelKleinDescription18.className = "DescriptionKleinArtikel";
+        artikelKleinDescription18.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinCTA18.id = "KleinArtikelCTA18";
+        artikelKleinCTA18.className = "KleinArtikelCTA";
+        artikelKleinCTA18.style.display = "inline";
+        artikelKleinCTA18.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
+
+artikelKlein19.id = "kleinArtikel19";
+artikelKlein19.className = 'kleinArtikel';
+artikelKlein19.draggable = "true";
+artikelKlein19.ondragstart ='onDragStart(event);';
+artikelKlein19.position - "absolute"
+
+  artikelKleinTable19a.className = "table1a";
+
+  artikelKlein19TDa.className = "tableDivider1a";
+
+    artikelKlein19TDbA.className = "tableDivider1";
+    artikelKlein19TDbA.display = "none";
+    artikelKlein19TDbA.width = "0px";
+    artikelKlein19TDbA.height = "auto";
+    artikelKlein19TDbA.style.paddingBottom = "20px";
+
+      artikelKlein19TDDiv.className = "tdDiv";
+      artikelKlein19TDDiv.width = "150px";
+      artikelKlein19TDDiv.height = "150px";
+
+      artikelKleinImg19a.id = "imgKleinArtikel19a";
+      artikelKleinImg19a.style.height = "auto";
+      artikelKleinImg19a.style.width = "100%";
+      artikelKleinImg19a.draggable="true";
+      artikelKleinImg19a.className = "imgKleinArtikela"
+      artikelKleinImg19a.style.display = "block";
+
+        artikelKleinImg19.id = "imgKleinArtikel19";
+        artikelKleinImg19.style.display = "none";
+        artikelKleinImg19.className = "imgKleinArtikel";
+        artikelKleinImg19.style.height = "150px";
+        artikelKleinImg19.style.width = "150px";
+
+    artikelKlein19TDbB.className= "tableDivider2";
+    artikelKlein19TDbB.height = "auto";
+    artikelKlein19TDbB.width = "auto";
+    artikelKlein19TDbB.style.verticalAlign="top"
+    artikelKlein19TDbB.style.paddingBottom = "20px";
+
+  artikelKleinTable19c.className = "tableC";
+
+    artikelKlein19TDcA.className = "artikelKleinTDcA";
+
+    artikelKlein19TDcA.className = "artikelKleinTDcA"
+
+    artikelKleinTitle19Link.id = "kleinTitleLink19";
+    artikelKleinTitle19Link.style.display = "block";
+    artikelKleinTitle19Link.className = "titleKleinArtikel";
+    artikelKleinTitle19Link.style.top = "0px";
+    artikelKleinTitle19Link.style.marginTop = "0px";
+    artikelKleinTitle19Link.style.verticalAlign="top"
+    artikelKleinTitle19Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 19pt; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinDescription19.id = "DescriptionKleinArtikel19";
+        artikelKleinDescription19.style.display = "inline";
+        artikelKleinDescription19.className = "DescriptionKleinArtikel";
+        artikelKleinDescription19.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinCTA19.id = "KleinArtikelCTA19";
+        artikelKleinCTA19.className = "KleinArtikelCTA";
+        artikelKleinCTA19.style.display = "inline";
+        artikelKleinCTA19.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
+
+artikelKlein20.id = "kleinArtikel20";
+artikelKlein20.className = 'kleinArtikel';
+artikelKlein20.draggable = "true";
+artikelKlein20.ondragstart ='onDragStart(event);';
+artikelKlein20.position - "absolute"
+
+  artikelKleinTable20a.className = "table1a";
+
+  artikelKlein20TDa.className = "tableDivider1a";
+
+    artikelKlein20TDbA.className = "tableDivider1";
+    artikelKlein20TDbA.display = "none";
+    artikelKlein20TDbA.width = "0px";
+    artikelKlein20TDbA.height = "auto";
+    artikelKlein20TDbA.style.paddingBottom = "20px";
+
+      artikelKlein20TDDiv.className = "tdDiv";
+      artikelKlein20TDDiv.width = "150px";
+      artikelKlein20TDDiv.height = "150px";
+
+      artikelKleinImg20a.id = "imgKleinArtikel20a";
+      artikelKleinImg20a.style.height = "auto";
+      artikelKleinImg20a.style.width = "100%";
+      artikelKleinImg20a.draggable="true";
+      artikelKleinImg20a.className = "imgKleinArtikela"
+      artikelKleinImg20a.style.display = "block";
+
+        artikelKleinImg20.id = "imgKleinArtikel20";
+        artikelKleinImg20.style.display = "none";
+        artikelKleinImg20.className = "imgKleinArtikel";
+        artikelKleinImg20.style.height = "150px";
+        artikelKleinImg20.style.width = "150px";
+
+    artikelKlein20TDbB.className= "tableDivider2";
+    artikelKlein20TDbB.height = "auto";
+    artikelKlein20TDbB.width = "auto";
+    artikelKlein20TDbB.style.verticalAlign="top"
+    artikelKlein20TDbB.style.paddingBottom = "20px";
+
+  artikelKleinTable20c.className = "tableC";
+
+    artikelKlein20TDcA.className = "artikelKleinTDcA";
+
+    artikelKlein20TDcA.className = "artikelKleinTDcA"
+
+    artikelKleinTitle20Link.id = "kleinTitleLink20";
+    artikelKleinTitle20Link.style.display = "block";
+    artikelKleinTitle20Link.className = "titleKleinArtikel";
+    artikelKleinTitle20Link.style.top = "0px";
+    artikelKleinTitle20Link.style.marginTop = "0px";
+    artikelKleinTitle20Link.style.verticalAlign="top"
+    artikelKleinTitle20Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 20pt; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinDescription20.id = "DescriptionKleinArtikel20";
+        artikelKleinDescription20.style.display = "inline";
+        artikelKleinDescription20.className = "DescriptionKleinArtikel";
+        artikelKleinDescription20.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinCTA20.id = "KleinArtikelCTA20";
+        artikelKleinCTA20.className = "KleinArtikelCTA";
+        artikelKleinCTA20.style.display = "inline";
+        artikelKleinCTA20.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
+
+artikelKlein21.id = "kleinArtikel21";
+artikelKlein21.className = 'kleinArtikel';
+artikelKlein21.draggable = "true";
+artikelKlein21.ondragstart ='onDragStart(event);';
+artikelKlein21.position - "absolute"
+
+  artikelKleinTable21a.className = "table1a";
+
+  artikelKlein21TDa.className = "tableDivider1a";
+
+    artikelKlein21TDbA.className = "tableDivider1";
+    artikelKlein21TDbA.display = "none";
+    artikelKlein21TDbA.width = "0px";
+    artikelKlein21TDbA.height = "auto";
+    artikelKlein21TDbA.style.paddingBottom = "20px";
+
+      artikelKlein21TDDiv.className = "tdDiv";
+      artikelKlein21TDDiv.width = "150px";
+      artikelKlein21TDDiv.height = "150px";
+
+      artikelKleinImg21a.id = "imgKleinArtikel21a";
+      artikelKleinImg21a.style.height = "auto";
+      artikelKleinImg21a.style.width = "100%";
+      artikelKleinImg21a.draggable="true";
+      artikelKleinImg21a.className = "imgKleinArtikela"
+      artikelKleinImg21a.style.display = "block";
+
+        artikelKleinImg21.id = "imgKleinArtikel21";
+        artikelKleinImg21.style.display = "none";
+        artikelKleinImg21.className = "imgKleinArtikel";
+        artikelKleinImg21.style.height = "150px";
+        artikelKleinImg21.style.width = "150px";
+
+    artikelKlein21TDbB.className= "tableDivider2";
+    artikelKlein21TDbB.height = "auto";
+    artikelKlein21TDbB.width = "auto";
+    artikelKlein21TDbB.style.verticalAlign="top"
+    artikelKlein21TDbB.style.paddingBottom = "20px";
+
+  artikelKleinTable21c.className = "tableC";
+
+    artikelKlein21TDcA.className = "artikelKleinTDcA";
+
+    artikelKlein21TDcA.className = "artikelKleinTDcA"
+
+    artikelKleinTitle21Link.id = "kleinTitleLink21";
+    artikelKleinTitle21Link.style.display = "block";
+    artikelKleinTitle21Link.className = "titleKleinArtikel";
+    artikelKleinTitle21Link.style.top = "0px";
+    artikelKleinTitle21Link.style.marginTop = "0px";
+    artikelKleinTitle21Link.style.verticalAlign="top"
+    artikelKleinTitle21Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 21pt; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinDescription21.id = "DescriptionKleinArtikel21";
+        artikelKleinDescription21.style.display = "inline";
+        artikelKleinDescription21.className = "DescriptionKleinArtikel";
+        artikelKleinDescription21.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinCTA21.id = "KleinArtikelCTA21";
+        artikelKleinCTA21.className = "KleinArtikelCTA";
+        artikelKleinCTA21.style.display = "inline";
+        artikelKleinCTA21.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
+
+artikelKlein22.id = "kleinArtikel22";
+artikelKlein22.className = 'kleinArtikel';
+artikelKlein22.draggable = "true";
+artikelKlein22.ondragstart ='onDragStart(event);';
+artikelKlein22.position - "absolute"
+
+  artikelKleinTable22a.className = "table1a";
+
+  artikelKlein22TDa.className = "tableDivider1a";
+
+    artikelKlein22TDbA.className = "tableDivider1";
+    artikelKlein22TDbA.display = "none";
+    artikelKlein22TDbA.width = "0px";
+    artikelKlein22TDbA.height = "auto";
+    artikelKlein22TDbA.style.paddingBottom = "20px";
+
+      artikelKlein22TDDiv.className = "tdDiv";
+      artikelKlein22TDDiv.width = "150px";
+      artikelKlein22TDDiv.height = "150px";
+
+      artikelKleinImg22a.id = "imgKleinArtikel22a";
+      artikelKleinImg22a.style.height = "auto";
+      artikelKleinImg22a.style.width = "100%";
+      artikelKleinImg22a.draggable="true";
+      artikelKleinImg22a.className = "imgKleinArtikela"
+      artikelKleinImg22a.style.display = "block";
+
+        artikelKleinImg22.id = "imgKleinArtikel22";
+        artikelKleinImg22.style.display = "none";
+        artikelKleinImg22.className = "imgKleinArtikel";
+        artikelKleinImg22.style.height = "150px";
+        artikelKleinImg22.style.width = "150px";
+
+    artikelKlein22TDbB.className= "tableDivider2";
+    artikelKlein22TDbB.height = "auto";
+    artikelKlein22TDbB.width = "auto";
+    artikelKlein22TDbB.style.verticalAlign="top"
+    artikelKlein22TDbB.style.paddingBottom = "20px";
+
+  artikelKleinTable22c.className = "tableC";
+
+    artikelKlein22TDcA.className = "artikelKleinTDcA";
+
+    artikelKlein22TDcA.className = "artikelKleinTDcA"
+
+    artikelKleinTitle22Link.id = "kleinTitleLink22";
+    artikelKleinTitle22Link.style.display = "block";
+    artikelKleinTitle22Link.className = "titleKleinArtikel";
+    artikelKleinTitle22Link.style.top = "0px";
+    artikelKleinTitle22Link.style.marginTop = "0px";
+    artikelKleinTitle22Link.style.verticalAlign="top"
+    artikelKleinTitle22Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 22pt; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinDescription22.id = "DescriptionKleinArtikel22";
+        artikelKleinDescription22.style.display = "inline";
+        artikelKleinDescription22.className = "DescriptionKleinArtikel";
+        artikelKleinDescription22.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinCTA22.id = "KleinArtikelCTA22";
+        artikelKleinCTA22.className = "KleinArtikelCTA";
+        artikelKleinCTA22.style.display = "inline";
+        artikelKleinCTA22.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
+
+artikelKlein23.id = "kleinArtikel23";
+artikelKlein23.className = 'kleinArtikel';
+artikelKlein23.draggable = "true";
+artikelKlein23.ondragstart ='onDragStart(event);';
+artikelKlein23.position - "absolute"
+
+  artikelKleinTable23a.className = "table1a";
+
+  artikelKlein23TDa.className = "tableDivider1a";
+
+    artikelKlein23TDbA.className = "tableDivider1";
+    artikelKlein23TDbA.display = "none";
+    artikelKlein23TDbA.width = "0px";
+    artikelKlein23TDbA.height = "auto";
+    artikelKlein23TDbA.style.paddingBottom = "20px";
+
+      artikelKlein23TDDiv.className = "tdDiv";
+      artikelKlein23TDDiv.width = "150px";
+      artikelKlein23TDDiv.height = "150px";
+
+      artikelKleinImg23a.id = "imgKleinArtikel23a";
+      artikelKleinImg23a.style.height = "auto";
+      artikelKleinImg23a.style.width = "100%";
+      artikelKleinImg23a.draggable="true";
+      artikelKleinImg23a.className = "imgKleinArtikela"
+      artikelKleinImg23a.style.display = "block";
+
+        artikelKleinImg23.id = "imgKleinArtikel23";
+        artikelKleinImg23.style.display = "none";
+        artikelKleinImg23.className = "imgKleinArtikel";
+        artikelKleinImg23.style.height = "150px";
+        artikelKleinImg23.style.width = "150px";
+
+    artikelKlein23TDbB.className= "tableDivider2";
+    artikelKlein23TDbB.height = "auto";
+    artikelKlein23TDbB.width = "auto";
+    artikelKlein23TDbB.style.verticalAlign="top"
+    artikelKlein23TDbB.style.paddingBottom = "20px";
+
+  artikelKleinTable23c.className = "tableC";
+
+    artikelKlein23TDcA.className = "artikelKleinTDcA";
+
+    artikelKlein23TDcA.className = "artikelKleinTDcA"
+
+    artikelKleinTitle23Link.id = "kleinTitleLink23";
+    artikelKleinTitle23Link.style.display = "block";
+    artikelKleinTitle23Link.className = "titleKleinArtikel";
+    artikelKleinTitle23Link.style.top = "0px";
+    artikelKleinTitle23Link.style.marginTop = "0px";
+    artikelKleinTitle23Link.style.verticalAlign="top"
+    artikelKleinTitle23Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 23pt; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinDescription23.id = "DescriptionKleinArtikel23";
+        artikelKleinDescription23.style.display = "inline";
+        artikelKleinDescription23.className = "DescriptionKleinArtikel";
+        artikelKleinDescription23.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinCTA23.id = "KleinArtikelCTA23";
+        artikelKleinCTA23.className = "KleinArtikelCTA";
+        artikelKleinCTA23.style.display = "inline";
+        artikelKleinCTA23.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
+
+artikelKlein24.id = "kleinArtikel24";
+artikelKlein24.className = 'kleinArtikel';
+artikelKlein24.draggable = "true";
+artikelKlein24.ondragstart ='onDragStart(event);';
+artikelKlein24.position - "absolute"
+
+  artikelKleinTable24a.className = "table1a";
+
+  artikelKlein24TDa.className = "tableDivider1a";
+
+    artikelKlein24TDbA.className = "tableDivider1";
+    artikelKlein24TDbA.display = "none";
+    artikelKlein24TDbA.width = "0px";
+    artikelKlein24TDbA.height = "auto";
+    artikelKlein24TDbA.style.paddingBottom = "20px";
+
+      artikelKlein24TDDiv.className = "tdDiv";
+      artikelKlein24TDDiv.width = "150px";
+      artikelKlein24TDDiv.height = "150px";
+
+      artikelKleinImg24a.id = "imgKleinArtikel24a";
+      artikelKleinImg24a.style.height = "auto";
+      artikelKleinImg24a.style.width = "100%";
+      artikelKleinImg24a.draggable="true";
+      artikelKleinImg24a.className = "imgKleinArtikela"
+      artikelKleinImg24a.style.display = "block";
+
+        artikelKleinImg24.id = "imgKleinArtikel24";
+        artikelKleinImg24.style.display = "none";
+        artikelKleinImg24.className = "imgKleinArtikel";
+        artikelKleinImg24.style.height = "150px";
+        artikelKleinImg24.style.width = "150px";
+
+    artikelKlein24TDbB.className= "tableDivider2";
+    artikelKlein24TDbB.height = "auto";
+    artikelKlein24TDbB.width = "auto";
+    artikelKlein24TDbB.style.verticalAlign="top"
+    artikelKlein24TDbB.style.paddingBottom = "20px";
+
+  artikelKleinTable24c.className = "tableC";
+
+    artikelKlein24TDcA.className = "artikelKleinTDcA";
+
+    artikelKlein24TDcA.className = "artikelKleinTDcA"
+
+    artikelKleinTitle24Link.id = "kleinTitleLink24";
+    artikelKleinTitle24Link.style.display = "block";
+    artikelKleinTitle24Link.className = "titleKleinArtikel";
+    artikelKleinTitle24Link.style.top = "0px";
+    artikelKleinTitle24Link.style.marginTop = "0px";
+    artikelKleinTitle24Link.style.verticalAlign="top"
+    artikelKleinTitle24Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 24pt; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinDescription24.id = "DescriptionKleinArtikel24";
+        artikelKleinDescription24.style.display = "inline";
+        artikelKleinDescription24.className = "DescriptionKleinArtikel";
+        artikelKleinDescription24.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinCTA24.id = "KleinArtikelCTA24";
+        artikelKleinCTA24.className = "KleinArtikelCTA";
+        artikelKleinCTA24.style.display = "inline";
+        artikelKleinCTA24.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
+
+artikelKlein25.id = "kleinArtikel25";
+artikelKlein25.className = 'kleinArtikel';
+artikelKlein25.draggable = "true";
+artikelKlein25.ondragstart ='onDragStart(event);';
+artikelKlein25.position - "absolute"
+
+  artikelKleinTable25a.className = "table1a";
+
+  artikelKlein25TDa.className = "tableDivider1a";
+
+    artikelKlein25TDbA.className = "tableDivider1";
+    artikelKlein25TDbA.display = "none";
+    artikelKlein25TDbA.width = "0px";
+    artikelKlein25TDbA.height = "auto";
+    artikelKlein25TDbA.style.paddingBottom = "20px";
+
+      artikelKlein25TDDiv.className = "tdDiv";
+      artikelKlein25TDDiv.width = "150px";
+      artikelKlein25TDDiv.height = "150px";
+
+      artikelKleinImg25a.id = "imgKleinArtikel25a";
+      artikelKleinImg25a.style.height = "auto";
+      artikelKleinImg25a.style.width = "100%";
+      artikelKleinImg25a.draggable="true";
+      artikelKleinImg25a.className = "imgKleinArtikela"
+      artikelKleinImg25a.style.display = "block";
+
+        artikelKleinImg25.id = "imgKleinArtikel25";
+        artikelKleinImg25.style.display = "none";
+        artikelKleinImg25.className = "imgKleinArtikel";
+        artikelKleinImg25.style.height = "150px";
+        artikelKleinImg25.style.width = "150px";
+
+    artikelKlein25TDbB.className= "tableDivider2";
+    artikelKlein25TDbB.height = "auto";
+    artikelKlein25TDbB.width = "auto";
+    artikelKlein25TDbB.style.verticalAlign="top"
+    artikelKlein25TDbB.style.paddingBottom = "20px";
+
+  artikelKleinTable25c.className = "tableC";
+
+    artikelKlein25TDcA.className = "artikelKleinTDcA";
+
+    artikelKlein25TDcA.className = "artikelKleinTDcA"
+
+    artikelKleinTitle25Link.id = "kleinTitleLink25";
+    artikelKleinTitle25Link.style.display = "block";
+    artikelKleinTitle25Link.className = "titleKleinArtikel";
+    artikelKleinTitle25Link.style.top = "0px";
+    artikelKleinTitle25Link.style.marginTop = "0px";
+    artikelKleinTitle25Link.style.verticalAlign="top"
+    artikelKleinTitle25Link.setAttribute("style", "color: #1A1A1A; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 25pt; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinDescription25.id = "DescriptionKleinArtikel25";
+        artikelKleinDescription25.style.display = "inline";
+        artikelKleinDescription25.className = "DescriptionKleinArtikel";
+        artikelKleinDescription25.setAttribute("style", "color: #333333; font-size: 16px; line-height:22px; font-weight: regular; font-family: Arial; ");
+
+        artikelKleinCTA25.id = "KleinArtikelCTA25";
+        artikelKleinCTA25.className = "KleinArtikelCTA";
+        artikelKleinCTA25.style.display = "inline";
+        artikelKleinCTA25.setAttribute("style", "text-decoration: none; color: #18608B; font-size: 12pt;")
 
 
 artikelKleinImg1aLink.id = "imgKlein1ALink"
@@ -1649,6 +2293,16 @@ artikelKleinImg12aLink.id = "imgKlein12ALink"
 artikelKleinImg13aLink.id = "imgKlein13ALink"
 artikelKleinImg14aLink.id = "imgKlein14ALink"
 artikelKleinImg15aLink.id = "imgKlein15ALink"
+artikelKleinImg16aLink.id = "imgKlein16ALink"
+artikelKleinImg17aLink.id = "imgKlein17ALink"
+artikelKleinImg18aLink.id = "imgKlein18ALink"
+artikelKleinImg19aLink.id = "imgKlein19ALink"
+artikelKleinImg20aLink.id = "imgKlein20ALink"
+artikelKleinImg21aLink.id = "imgKlein21ALink"
+artikelKleinImg22aLink.id = "imgKlein22ALink"
+artikelKleinImg23aLink.id = "imgKlein23ALink"
+artikelKleinImg24aLink.id = "imgKlein24ALink"
+artikelKleinImg25aLink.id = "imgKlein25ALink"
 
 artikelKleinImg1Link.id = "imgKlein1Link"
 artikelKleinImg2Link.id = "imgKlein2Link"
@@ -1665,6 +2319,16 @@ artikelKleinImg12Link.id = "imgKlein12Link"
 artikelKleinImg13Link.id = "imgKlein13Link"
 artikelKleinImg14Link.id = "imgKlein14Link"
 artikelKleinImg15Link.id = "imgKlein15Link"
+artikelKleinImg16Link.id = "imgKlein16Link"
+artikelKleinImg17Link.id = "imgKlein17Link"
+artikelKleinImg18Link.id = "imgKlein18Link"
+artikelKleinImg19Link.id = "imgKlein19Link"
+artikelKleinImg20Link.id = "imgKlein20Link"
+artikelKleinImg21Link.id = "imgKlein21Link"
+artikelKleinImg22Link.id = "imgKlein22Link"
+artikelKleinImg23Link.id = "imgKlein23Link"
+artikelKleinImg24Link.id = "imgKlein24Link"
+artikelKleinImg25Link.id = "imgKlein25Link"
 
 //Artikelen groot
 

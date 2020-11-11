@@ -469,6 +469,295 @@ var artikelKleinTitle15Link = document.createElement ( 'a' );
 var artikelKleinDescription15 = document.createElement ( 'a' );
 var artikelKleinCTA15 = document.createElement ( 'a' );
 
+var artikelKlein16 = document.createElement( 'div' );
+
+var artikelKleinTable16a = document.createElement( 'table' );
+var artikelKleinTBody16a = document.createElement( 'tbody');
+var artikelKleinTR16a = document.createElement( 'tr');
+var artikelKlein16TDa = document.createElement( 'td' );
+
+var artikelKleinTable16b = document.createElement( 'table' );
+var artikelKleinTBody16b = document.createElement( 'tbody');
+var artikelKleinTR16b = document.createElement( 'tr');
+var artikelKlein16TDbA = document.createElement( 'td' );
+var artikelKlein16TDbB = document.createElement( 'td' );
+var artikelKlein16TDDiv = document.createElement( 'div' );
+
+var artikelKleinTable16c = document.createElement( 'table' );
+var artikelKleinTBody16c = document.createElement( 'tbody');
+var artikelKleinTR16cA = document.createElement( 'tr');
+var artikelKlein16TDcA = document.createElement( 'td' );
+var artikelKleinTR16cB = document.createElement( 'tr');
+var artikelKlein16TDcB = document.createElement( 'td' );
+
+var artikelKleinImg16 = document.createElement ( 'img' );
+var artikelKleinImg16Link = document.createElement ( 'a' );
+var artikelKleinImg16a = document.createElement ( 'img' );
+var artikelKleinImg16aLink = document.createElement ( 'a' );
+var artikelKleinTitle16Link = document.createElement ( 'a' );
+var artikelKleinDescription16 = document.createElement ( 'a' );
+var artikelKleinCTA16 = document.createElement ( 'a' );
+
+var artikelKlein17 = document.createElement( 'div' );
+
+var artikelKleinTable17a = document.createElement( 'table' );
+var artikelKleinTBody17a = document.createElement( 'tbody');
+var artikelKleinTR17a = document.createElement( 'tr');
+var artikelKlein17TDa = document.createElement( 'td' );
+
+var artikelKleinTable17b = document.createElement( 'table' );
+var artikelKleinTBody17b = document.createElement( 'tbody');
+var artikelKleinTR17b = document.createElement( 'tr');
+var artikelKlein17TDbA = document.createElement( 'td' );
+var artikelKlein17TDbB = document.createElement( 'td' );
+var artikelKlein17TDDiv = document.createElement( 'div' );
+
+var artikelKleinTable17c = document.createElement( 'table' );
+var artikelKleinTBody17c = document.createElement( 'tbody');
+var artikelKleinTR17cA = document.createElement( 'tr');
+var artikelKlein17TDcA = document.createElement( 'td' );
+var artikelKleinTR17cB = document.createElement( 'tr');
+var artikelKlein17TDcB = document.createElement( 'td' );
+
+var artikelKleinImg17 = document.createElement ( 'img' );
+var artikelKleinImg17Link = document.createElement ( 'a' );
+var artikelKleinImg17a = document.createElement ( 'img' );
+var artikelKleinImg17aLink = document.createElement ( 'a' );
+var artikelKleinTitle17Link = document.createElement ( 'a' );
+var artikelKleinDescription17 = document.createElement ( 'a' );
+var artikelKleinCTA17 = document.createElement ( 'a' );
+
+var artikelKlein18 = document.createElement( 'div' );
+
+var artikelKleinTable18a = document.createElement( 'table' );
+var artikelKleinTBody18a = document.createElement( 'tbody');
+var artikelKleinTR18a = document.createElement( 'tr');
+var artikelKlein18TDa = document.createElement( 'td' );
+
+var artikelKleinTable18b = document.createElement( 'table' );
+var artikelKleinTBody18b = document.createElement( 'tbody');
+var artikelKleinTR18b = document.createElement( 'tr');
+var artikelKlein18TDbA = document.createElement( 'td' );
+var artikelKlein18TDbB = document.createElement( 'td' );
+var artikelKlein18TDDiv = document.createElement( 'div' );
+
+var artikelKleinTable18c = document.createElement( 'table' );
+var artikelKleinTBody18c = document.createElement( 'tbody');
+var artikelKleinTR18cA = document.createElement( 'tr');
+var artikelKlein18TDcA = document.createElement( 'td' );
+var artikelKleinTR18cB = document.createElement( 'tr');
+var artikelKlein18TDcB = document.createElement( 'td' );
+
+var artikelKleinImg18 = document.createElement ( 'img' );
+var artikelKleinImg18Link = document.createElement ( 'a' );
+var artikelKleinImg18a = document.createElement ( 'img' );
+var artikelKleinImg18aLink = document.createElement ( 'a' );
+var artikelKleinTitle18Link = document.createElement ( 'a' );
+var artikelKleinDescription18 = document.createElement ( 'a' );
+var artikelKleinCTA18 = document.createElement ( 'a' );
+
+var artikelKlein19 = document.createElement( 'div' );
+
+var artikelKleinTable19a = document.createElement( 'table' );
+var artikelKleinTBody19a = document.createElement( 'tbody');
+var artikelKleinTR19a = document.createElement( 'tr');
+var artikelKlein19TDa = document.createElement( 'td' );
+
+var artikelKleinTable19b = document.createElement( 'table' );
+var artikelKleinTBody19b = document.createElement( 'tbody');
+var artikelKleinTR19b = document.createElement( 'tr');
+var artikelKlein19TDbA = document.createElement( 'td' );
+var artikelKlein19TDbB = document.createElement( 'td' );
+var artikelKlein19TDDiv = document.createElement( 'div' );
+
+var artikelKleinTable19c = document.createElement( 'table' );
+var artikelKleinTBody19c = document.createElement( 'tbody');
+var artikelKleinTR19cA = document.createElement( 'tr');
+var artikelKlein19TDcA = document.createElement( 'td' );
+var artikelKleinTR19cB = document.createElement( 'tr');
+var artikelKlein19TDcB = document.createElement( 'td' );
+
+var artikelKleinImg19 = document.createElement ( 'img' );
+var artikelKleinImg19Link = document.createElement ( 'a' );
+var artikelKleinImg19a = document.createElement ( 'img' );
+var artikelKleinImg19aLink = document.createElement ( 'a' );
+var artikelKleinTitle19Link = document.createElement ( 'a' );
+var artikelKleinDescription19 = document.createElement ( 'a' );
+var artikelKleinCTA19 = document.createElement ( 'a' );
+
+var artikelKlein20 = document.createElement( 'div' );
+
+var artikelKleinTable20a = document.createElement( 'table' );
+var artikelKleinTBody20a = document.createElement( 'tbody');
+var artikelKleinTR20a = document.createElement( 'tr');
+var artikelKlein20TDa = document.createElement( 'td' );
+
+var artikelKleinTable20b = document.createElement( 'table' );
+var artikelKleinTBody20b = document.createElement( 'tbody');
+var artikelKleinTR20b = document.createElement( 'tr');
+var artikelKlein20TDbA = document.createElement( 'td' );
+var artikelKlein20TDbB = document.createElement( 'td' );
+var artikelKlein20TDDiv = document.createElement( 'div' );
+
+var artikelKleinTable20c = document.createElement( 'table' );
+var artikelKleinTBody20c = document.createElement( 'tbody');
+var artikelKleinTR20cA = document.createElement( 'tr');
+var artikelKlein20TDcA = document.createElement( 'td' );
+var artikelKleinTR20cB = document.createElement( 'tr');
+var artikelKlein20TDcB = document.createElement( 'td' );
+
+var artikelKleinImg20 = document.createElement ( 'img' );
+var artikelKleinImg20Link = document.createElement ( 'a' );
+var artikelKleinImg20a = document.createElement ( 'img' );
+var artikelKleinImg20aLink = document.createElement ( 'a' );
+var artikelKleinTitle20Link = document.createElement ( 'a' );
+var artikelKleinDescription20 = document.createElement ( 'a' );
+var artikelKleinCTA20 = document.createElement ( 'a' );
+
+var artikelKlein21 = document.createElement( 'div' );
+
+var artikelKleinTable21a = document.createElement( 'table' );
+var artikelKleinTBody21a = document.createElement( 'tbody');
+var artikelKleinTR21a = document.createElement( 'tr');
+var artikelKlein21TDa = document.createElement( 'td' );
+
+var artikelKleinTable21b = document.createElement( 'table' );
+var artikelKleinTBody21b = document.createElement( 'tbody');
+var artikelKleinTR21b = document.createElement( 'tr');
+var artikelKlein21TDbA = document.createElement( 'td' );
+var artikelKlein21TDbB = document.createElement( 'td' );
+var artikelKlein21TDDiv = document.createElement( 'div' );
+
+var artikelKleinTable21c = document.createElement( 'table' );
+var artikelKleinTBody21c = document.createElement( 'tbody');
+var artikelKleinTR21cA = document.createElement( 'tr');
+var artikelKlein21TDcA = document.createElement( 'td' );
+var artikelKleinTR21cB = document.createElement( 'tr');
+var artikelKlein21TDcB = document.createElement( 'td' );
+
+var artikelKleinImg21 = document.createElement ( 'img' );
+var artikelKleinImg21Link = document.createElement ( 'a' );
+var artikelKleinImg21a = document.createElement ( 'img' );
+var artikelKleinImg21aLink = document.createElement ( 'a' );
+var artikelKleinTitle21Link = document.createElement ( 'a' );
+var artikelKleinDescription21 = document.createElement ( 'a' );
+var artikelKleinCTA21 = document.createElement ( 'a' );
+
+var artikelKlein22 = document.createElement( 'div' );
+
+var artikelKleinTable22a = document.createElement( 'table' );
+var artikelKleinTBody22a = document.createElement( 'tbody');
+var artikelKleinTR22a = document.createElement( 'tr');
+var artikelKlein22TDa = document.createElement( 'td' );
+
+var artikelKleinTable22b = document.createElement( 'table' );
+var artikelKleinTBody22b = document.createElement( 'tbody');
+var artikelKleinTR22b = document.createElement( 'tr');
+var artikelKlein22TDbA = document.createElement( 'td' );
+var artikelKlein22TDbB = document.createElement( 'td' );
+var artikelKlein22TDDiv = document.createElement( 'div' );
+
+var artikelKleinTable22c = document.createElement( 'table' );
+var artikelKleinTBody22c = document.createElement( 'tbody');
+var artikelKleinTR22cA = document.createElement( 'tr');
+var artikelKlein22TDcA = document.createElement( 'td' );
+var artikelKleinTR22cB = document.createElement( 'tr');
+var artikelKlein22TDcB = document.createElement( 'td' );
+
+var artikelKleinImg22 = document.createElement ( 'img' );
+var artikelKleinImg22Link = document.createElement ( 'a' );
+var artikelKleinImg22a = document.createElement ( 'img' );
+var artikelKleinImg22aLink = document.createElement ( 'a' );
+var artikelKleinTitle22Link = document.createElement ( 'a' );
+var artikelKleinDescription22 = document.createElement ( 'a' );
+var artikelKleinCTA22 = document.createElement ( 'a' );
+
+var artikelKlein23 = document.createElement( 'div' );
+
+var artikelKleinTable23a = document.createElement( 'table' );
+var artikelKleinTBody23a = document.createElement( 'tbody');
+var artikelKleinTR23a = document.createElement( 'tr');
+var artikelKlein23TDa = document.createElement( 'td' );
+
+var artikelKleinTable23b = document.createElement( 'table' );
+var artikelKleinTBody23b = document.createElement( 'tbody');
+var artikelKleinTR23b = document.createElement( 'tr');
+var artikelKlein23TDbA = document.createElement( 'td' );
+var artikelKlein23TDbB = document.createElement( 'td' );
+var artikelKlein23TDDiv = document.createElement( 'div' );
+
+var artikelKleinTable23c = document.createElement( 'table' );
+var artikelKleinTBody23c = document.createElement( 'tbody');
+var artikelKleinTR23cA = document.createElement( 'tr');
+var artikelKlein23TDcA = document.createElement( 'td' );
+var artikelKleinTR23cB = document.createElement( 'tr');
+var artikelKlein23TDcB = document.createElement( 'td' );
+
+var artikelKleinImg23 = document.createElement ( 'img' );
+var artikelKleinImg23Link = document.createElement ( 'a' );
+var artikelKleinImg23a = document.createElement ( 'img' );
+var artikelKleinImg23aLink = document.createElement ( 'a' );
+var artikelKleinTitle23Link = document.createElement ( 'a' );
+var artikelKleinDescription23 = document.createElement ( 'a' );
+var artikelKleinCTA23 = document.createElement ( 'a' );
+
+var artikelKlein24 = document.createElement( 'div' );
+
+var artikelKleinTable24a = document.createElement( 'table' );
+var artikelKleinTBody24a = document.createElement( 'tbody');
+var artikelKleinTR24a = document.createElement( 'tr');
+var artikelKlein24TDa = document.createElement( 'td' );
+
+var artikelKleinTable24b = document.createElement( 'table' );
+var artikelKleinTBody24b = document.createElement( 'tbody');
+var artikelKleinTR24b = document.createElement( 'tr');
+var artikelKlein24TDbA = document.createElement( 'td' );
+var artikelKlein24TDbB = document.createElement( 'td' );
+var artikelKlein24TDDiv = document.createElement( 'div' );
+
+var artikelKleinTable24c = document.createElement( 'table' );
+var artikelKleinTBody24c = document.createElement( 'tbody');
+var artikelKleinTR24cA = document.createElement( 'tr');
+var artikelKlein24TDcA = document.createElement( 'td' );
+var artikelKleinTR24cB = document.createElement( 'tr');
+var artikelKlein24TDcB = document.createElement( 'td' );
+
+var artikelKleinImg24 = document.createElement ( 'img' );
+var artikelKleinImg24Link = document.createElement ( 'a' );
+var artikelKleinImg24a = document.createElement ( 'img' );
+var artikelKleinImg24aLink = document.createElement ( 'a' );
+var artikelKleinTitle24Link = document.createElement ( 'a' );
+var artikelKleinDescription24 = document.createElement ( 'a' );
+var artikelKleinCTA24 = document.createElement ( 'a' );
+
+var artikelKlein25 = document.createElement( 'div' );
+
+var artikelKleinTable25a = document.createElement( 'table' );
+var artikelKleinTBody25a = document.createElement( 'tbody');
+var artikelKleinTR25a = document.createElement( 'tr');
+var artikelKlein25TDa = document.createElement( 'td' );
+
+var artikelKleinTable25b = document.createElement( 'table' );
+var artikelKleinTBody25b = document.createElement( 'tbody');
+var artikelKleinTR25b = document.createElement( 'tr');
+var artikelKlein25TDbA = document.createElement( 'td' );
+var artikelKlein25TDbB = document.createElement( 'td' );
+var artikelKlein25TDDiv = document.createElement( 'div' );
+
+var artikelKleinTable25c = document.createElement( 'table' );
+var artikelKleinTBody25c = document.createElement( 'tbody');
+var artikelKleinTR25cA = document.createElement( 'tr');
+var artikelKlein25TDcA = document.createElement( 'td' );
+var artikelKleinTR25cB = document.createElement( 'tr');
+var artikelKlein25TDcB = document.createElement( 'td' );
+
+var artikelKleinImg25 = document.createElement ( 'img' );
+var artikelKleinImg25Link = document.createElement ( 'a' );
+var artikelKleinImg25a = document.createElement ( 'img' );
+var artikelKleinImg25aLink = document.createElement ( 'a' );
+var artikelKleinTitle25Link = document.createElement ( 'a' );
+var artikelKleinDescription25 = document.createElement ( 'a' );
+var artikelKleinCTA25 = document.createElement ( 'a' );
 
 //Artikelen Groot
 
@@ -979,6 +1268,8 @@ var shl5b = document.createElement ( 'span' );
 var hl5 = document.createElement ( 'a' );
 var phl6 = document.createElement ( 'p' );
 var hl6 = document.createElement ( 'a' );
+var phl7 = document.createElement ( 'p' );
+var hl7 = document.createElement ( 'a' );
 
 var headlineTable = document.createElement( 'table' );
 var headlineTbody = document.createElement( 'tbody');
@@ -1006,6 +1297,10 @@ var headlineTr6 = document.createElement( 'tr');
 var headlines6Td1 = document.createElement( 'td' );
 var headlines6Td2 = document.createElement( 'td' );
 var headlines6Td3 = document.createElement( 'td' );
+var headlineTr7 = document.createElement( 'tr');
+var headlines7Td1 = document.createElement( 'td' );
+var headlines7Td2 = document.createElement( 'td' );
+var headlines7Td3 = document.createElement( 'td' );
 
 
 var agendaOverlay = document.createElement ( "div" );
