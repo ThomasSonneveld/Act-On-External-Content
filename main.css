@@ -1,8 +1,4 @@
-html { 
-  margin-left: 250px !important; 
-  width: calc(100% - 250px) !important;
-}
-.tox .tox-dialog-wrap { left: 250px !important;}
+.tox .tox-dialog-wrap { left: 20% !important;}
 a {
   text-decoration: none;
   font-size: 16px !important;
