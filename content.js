@@ -1227,6 +1227,36 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
 });
 
 
+/*
+"use strict";
+fetch("https://www.frankwatching.com/feed/?post_type=vacature")
+.then(response => response.text())
+.then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+.then(data => {
+  
+  console.log(data);
+
+  const items = data.querySelectorAll("item");
+  let htmlvacature = ``;
+  let counter = 1;
+
+  items.forEach(el => {
+    htmlvacature += `
+      <article>
+        <img src="${el.querySelector("link").innerHTML}" alt="">
+        <h2>
+          <a href="${el.querySelector("link").innerHTML}" target="_blank" rel="noopener">
+            ${el.querySelector("title").innerHTML}
+          </a>
+        </h2>
+      </article>
+    `;
+    counter++;
+  });
+  console.log(htmlvacature);
+});
+*/
+
 "use strict";
 fetch("https://www.frankwatching.com/feed/?post_type=vacature")
 .then(function(respons) {
@@ -1262,7 +1292,6 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
     let vacatureDescription1 = document.getElementById("DescriptionVacature1");
     vacaturedescriptionLink1.textContent = allVacatureDescriptions[1].textContent;
     vacaturedescriptionLink1.setAttribute("href", allVacatureLinks[1].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
 
     let imgVacature2 = document.getElementById("imgVacatureArtikel2");
     imgVacature2.src = allVacatureImages[1].attributes[0].nodeValue;
@@ -1750,337 +1779,25 @@ document.getElementById('headlinesOverlay').ondragstart = function (event) {
     .setData('text/html', headlinesContainer.innerHTML);
     console.log('dragstart');
 }
-document.getElementById('kleinArtikel1').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log("Dragstart");
-//}
-//document.getElementById('kleinArtikel1').ondrop = function (event) {
-  //console.log("drop");
-  //let kleinTD1 = actIframe.getElementsByClassName("tableDivider1");
-  //kleinTD1.setAttribute("style", "mso-hide: all;")
-}
-document.getElementById('kleinArtikel2').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel3').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel4').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel5').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel6').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel7').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel8').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel9').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel10').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel11').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel12').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel13').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel14').ondragstart = function (event) {
-  event
 
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel15').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel16').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel17').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel18').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel19').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel20').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel21').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel22').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel23').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel24').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
-}
-document.getElementById('kleinArtikel25').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log('dragstart');
+while (i < 26) {
+  document.getElementById('kleinArtikel' + i  ).ondragstart = function (event) {
+    event
+      .dataTransfer
+      .setData('text/html', event.target.innerHTML);
+      console.log(event.target.innerHTML);
+  }
+  i++;
 }
 
-
-document.getElementById('artikelGroot1D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot2D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot3D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot4D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot5D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot6D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot7D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot8D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot9D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot10D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot11D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot12D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot13D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot14D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot15D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot16D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot17D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot18D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot19D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot20D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot21D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot22D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot23D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot24D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
-}
-
-document.getElementById('artikelGroot25D').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', event.target.innerHTML);
-        console.log('dragstart');
+while (i < 26) {
+  document.getElementById('artikelGroot' + i + 'D' ).ondragstart = function (event) {
+    event
+      .dataTransfer
+      .setData('text/html', event.target.innerHTML);
+      console.log(event.target.innerHTML);
+  }
+  i++;
 }
 
 document.getElementById('agendaOverlay').ondragstart = function (event) {
@@ -2090,186 +1807,15 @@ document.getElementById('agendaOverlay').ondragstart = function (event) {
         console.log('dragstart');
 }
 
-document.getElementById('vacature1').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
 
-document.getElementById('vacature2').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature3').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature4').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature5').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature6').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature7').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature8').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature9').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature9').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature10').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature11').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature12').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature13').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature14').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature15').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature16').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature17').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature18').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature19').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature20').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature21').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature22').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature23').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature24').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
-}
-
-document.getElementById('vacature25').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
+while (i < 26) {
+  document.getElementById('vacature' + i ).ondragstart = function (event) {
+    event
+      .dataTransfer
+      .setData('text/html', event.target.innerHTML);
+      console.log(event.target.innerHTML);
+  }
+  i++;
 }
 
 document.getElementById('vacature99').ondragstart = function (event) {
