@@ -1228,518 +1228,6 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
 
 
 /*
-"use strict";
-fetch("https://www.frankwatching.com/feed/?post_type=vacature")
-.then(response => response.text())
-.then(str => new window.DOMParser().parseFromString(str, "text/xml"))
-.then(data => {
-  
-  console.log(data);
-
-  const items = data.querySelectorAll("item");
-  let htmlvacature = ``;
-  let counter = 1;
-
-  items.forEach(el => {
-    htmlvacature += `
-      <article>
-        <img src="${el.querySelector("link").innerHTML}" alt="">
-        <h2>
-          <a href="${el.querySelector("link").innerHTML}" target="_blank" rel="noopener">
-            ${el.querySelector("title").innerHTML}
-          </a>
-        </h2>
-      </article>
-    `;
-    counter++;
-  });
-  console.log(htmlvacature);
-});
-*/
-
-"use strict";
-fetch("https://www.frankwatching.com/feed/?post_type=vacature")
-.then(function(respons) {
-  return respons.text();
-})
-.then(function(data) {
-  let parser = new DOMParser(),
-    xmlDoc = parser.parseFromString(data, 'text/xml');
-
-    let allVacatureImages = xmlDoc.getElementsByTagName("enclosure");
-    let allVacatureTitles = xmlDoc.getElementsByTagName("title");
-    let allVacatureDescriptions = xmlDoc.getElementsByTagName("description");
-    let allPoster = xmlDoc.getElementsByTagName("postmeta:vac_org_naam");
-    let allDuur = xmlDoc.getElementsByTagName("postmeta:vac_uur");
-    let allVacatureLocations = xmlDoc.getElementsByTagName("postmeta:vac_standplaats");
-    let allVacatureLinks = xmlDoc.getElementsByTagName("link");
-
-    let imgVacature1 = document.getElementById("imgVacatureArtikel1");
-    imgVacature1.src = allVacatureImages[0].attributes[0].nodeValue;
-    let imgVacatureLink1 = document.getElementById("vacatureImgLink1");
-    imgVacatureLink1.setAttribute("href", allVacatureLinks[1].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature1 = document.getElementById("metaVacature1")
-    let vacatureMeta1a = document.getElementById("vacatureMeta1a");
-    vacatureMeta1a.textContent = allPoster[0].textContent;
-    vacatureMeta1b.textContent = " • " + allVacatureLocations[0].textContent + " • " + allDuur[0].textContent;
-    let vacatureMetaLink1 = document.getElementById("metaVacature1");
-    vacatureMetaLink1.setAttribute("href", allVacatureLinks[1].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink1 = document.getElementById("vacatureLink1title");
-    let titleVacature1 = document.getElementById("titleVacature1");
-    titleVacatureLink1.textContent = allVacatureTitles[1].textContent;
-    titleVacatureLink1.setAttribute("href", allVacatureLinks[1].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink1 = document.getElementById("vacatureLink1description");
-    let vacatureDescription1 = document.getElementById("DescriptionVacature1");
-    vacaturedescriptionLink1.textContent = allVacatureDescriptions[1].textContent;
-    vacaturedescriptionLink1.setAttribute("href", allVacatureLinks[1].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature2 = document.getElementById("imgVacatureArtikel2");
-    imgVacature2.src = allVacatureImages[1].attributes[0].nodeValue;
-    let imgVacatureLink2 = document.getElementById("vacatureImgLink2");
-    imgVacatureLink2.setAttribute("href", allVacatureLinks[2].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature2 = document.getElementById("metaVacature2")
-    let vacatureMeta2a = document.getElementById("vacatureMeta2a");
-    vacatureMeta2a.textContent = allPoster[1].textContent;
-    vacatureMeta2b.textContent = " • " + allVacatureLocations[1].textContent + " • " + allDuur[1].textContent;
-    let vacatureMetaLink2 = document.getElementById("metaVacature2");
-    vacatureMetaLink2.setAttribute("href", allVacatureLinks[2].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink2 = document.getElementById("vacatureLink2title");
-    let titleVacature2 = document.getElementById("titleVacature2");
-    titleVacatureLink2.textContent = allVacatureTitles[2].textContent;
-    titleVacatureLink2.setAttribute("href", allVacatureLinks[2].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink2 = document.getElementById("vacatureLink2description");
-    let vacatureDescription2 = document.getElementById("DescriptionVacature2");
-    vacaturedescriptionLink2.textContent = allVacatureDescriptions[2].textContent;
-    vacaturedescriptionLink2.setAttribute("href", allVacatureLinks[2].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-
-    let imgVacature3 = document.getElementById("imgVacatureArtikel3");
-    imgVacature3.src = allVacatureImages[2].attributes[0].nodeValue;
-    let imgVacatureLink3 = document.getElementById("vacatureImgLink3");
-    imgVacatureLink3.setAttribute("href", allVacatureLinks[3].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature3 = document.getElementById("metaVacature3")
-    let vacatureMeta3a = document.getElementById("vacatureMeta3a");
-    vacatureMeta3a.textContent = allPoster[2].textContent;
-    vacatureMeta3b.textContent = " • " + allVacatureLocations[2].textContent + " • " + allDuur[2].textContent;
-    let vacatureMetaLink3 = document.getElementById("metaVacature3");
-    vacatureMetaLink3.setAttribute("href", allVacatureLinks[3].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink3 = document.getElementById("vacatureLink3title");
-    let titleVacature3 = document.getElementById("titleVacature3");
-    titleVacatureLink3.textContent = allVacatureTitles[3].textContent;
-    titleVacatureLink3.setAttribute("href", allVacatureLinks[3].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink3 = document.getElementById("vacatureLink3description");
-    let vacatureDescription3 = document.getElementById("DescriptionVacature3");
-    vacaturedescriptionLink3.textContent = allVacatureDescriptions[3].textContent;
-    vacaturedescriptionLink3.setAttribute("href", allVacatureLinks[3].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-
-    let imgVacature4 = document.getElementById("imgVacatureArtikel4");
-    imgVacature4.src = allVacatureImages[3].attributes[0].nodeValue;
-    let imgVacatureLink4 = document.getElementById("vacatureImgLink4");
-    imgVacatureLink4.setAttribute("href", allVacatureLinks[4].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature4 = document.getElementById("metaVacature4")
-    let vacatureMeta4a = document.getElementById("vacatureMeta4a");
-    vacatureMeta4a.textContent = allPoster[3].textContent;
-    vacatureMeta4b.textContent = " • " + allVacatureLocations[3].textContent + " • " + allDuur[3].textContent;
-    let vacatureMetaLink4 = document.getElementById("metaVacature4");
-    vacatureMetaLink4.setAttribute("href", allVacatureLinks[4].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink4 = document.getElementById("vacatureLink4title");
-    let titleVacature4 = document.getElementById("titleVacature4");
-    titleVacatureLink4.textContent = allVacatureTitles[4].textContent;
-    titleVacatureLink4.setAttribute("href", allVacatureLinks[4].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink4 = document.getElementById("vacatureLink4description");
-    let vacatureDescription4 = document.getElementById("DescriptionVacature4");
-    vacaturedescriptionLink4.textContent = allVacatureDescriptions[4].textContent;
-    vacaturedescriptionLink4.setAttribute("href", allVacatureLinks[4].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-
-    let imgVacature5 = document.getElementById("imgVacatureArtikel5");
-    imgVacature5.src = allVacatureImages[4].attributes[0].nodeValue;
-    let imgVacatureLink5 = document.getElementById("vacatureImgLink5");
-    imgVacatureLink5.setAttribute("href", allVacatureLinks[5].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature5 = document.getElementById("metaVacature5")
-    let vacatureMeta5a = document.getElementById("vacatureMeta5a");
-    vacatureMeta5a.textContent = allPoster[4].textContent;
-    vacatureMeta5b.textContent = " • " + allVacatureLocations[4].textContent + " • " + allDuur[4].textContent;
-    let vacatureMetaLink5 = document.getElementById("metaVacature5");
-    vacatureMetaLink5.setAttribute("href", allVacatureLinks[5].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink5 = document.getElementById("vacatureLink5title");
-    let titleVacature5 = document.getElementById("titleVacature5");
-    titleVacatureLink5.textContent = allVacatureTitles[5].textContent;
-    titleVacatureLink5.setAttribute("href", allVacatureLinks[5].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink5 = document.getElementById("vacatureLink5description");
-    let vacatureDescription5 = document.getElementById("DescriptionVacature5");
-    vacaturedescriptionLink5.textContent = allVacatureDescriptions[5].textContent;
-    vacaturedescriptionLink5.setAttribute("href", allVacatureLinks[5].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature6 = document.getElementById("imgVacatureArtikel6");
-    imgVacature6.src = allVacatureImages[5].attributes[0].nodeValue;
-    let imgVacatureLink6 = document.getElementById("vacatureImgLink6");
-    imgVacatureLink6.setAttribute("href", allVacatureLinks[6].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature6 = document.getElementById("metaVacature6")
-    let vacatureMeta6a = document.getElementById("vacatureMeta6a");
-    vacatureMeta6a.textContent = allPoster[5].textContent;
-    vacatureMeta6b.textContent = " • " + allVacatureLocations[5].textContent + " • " + allDuur[5].textContent;
-    let vacatureMetaLink6 = document.getElementById("metaVacature6");
-    vacatureMetaLink6.setAttribute("href", allVacatureLinks[6].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink6 = document.getElementById("vacatureLink6title");
-    let titleVacature6 = document.getElementById("titleVacature6");
-    titleVacatureLink6.textContent = allVacatureTitles[6].textContent;
-    titleVacatureLink6.setAttribute("href", allVacatureLinks[6].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink6 = document.getElementById("vacatureLink6description");
-    let vacatureDescription6 = document.getElementById("DescriptionVacature6");
-    vacaturedescriptionLink6.textContent = allVacatureDescriptions[6].textContent;
-    vacaturedescriptionLink6.setAttribute("href", allVacatureLinks[6].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature7 = document.getElementById("imgVacatureArtikel7");
-    imgVacature7.src = allVacatureImages[6].attributes[0].nodeValue;
-    let imgVacatureLink7 = document.getElementById("vacatureImgLink7");
-    imgVacatureLink7.setAttribute("href", allVacatureLinks[7].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature7 = document.getElementById("metaVacature7")
-    let vacatureMeta7a = document.getElementById("vacatureMeta7a");
-    vacatureMeta7a.textContent = allPoster[6].textContent;
-    vacatureMeta7b.textContent = " • " + allVacatureLocations[6].textContent + " • " + allDuur[6].textContent;
-    let vacatureMetaLink7 = document.getElementById("metaVacature7");
-    vacatureMetaLink7.setAttribute("href", allVacatureLinks[7].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink7 = document.getElementById("vacatureLink7title");
-    let titleVacature7 = document.getElementById("titleVacature7");
-    titleVacatureLink7.textContent = allVacatureTitles[7].textContent;
-    titleVacatureLink7.setAttribute("href", allVacatureLinks[7].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink7 = document.getElementById("vacatureLink7description");
-    let vacatureDescription7 = document.getElementById("DescriptionVacature7");
-    vacaturedescriptionLink7.textContent = allVacatureDescriptions[7].textContent;
-    vacaturedescriptionLink7.setAttribute("href", allVacatureLinks[7].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature8 = document.getElementById("imgVacatureArtikel8");
-    imgVacature8.src = allVacatureImages[7].attributes[0].nodeValue;
-    let imgVacatureLink8 = document.getElementById("vacatureImgLink8");
-    imgVacatureLink8.setAttribute("href", allVacatureLinks[8].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature8 = document.getElementById("metaVacature8")
-    let vacatureMeta8a = document.getElementById("vacatureMeta8a");
-    vacatureMeta8a.textContent = allPoster[7].textContent;
-    vacatureMeta8b.textContent = " • " + allVacatureLocations[7].textContent + " • " + allDuur[7].textContent;
-    let vacatureMetaLink8 = document.getElementById("metaVacature8");
-    vacatureMetaLink8.setAttribute("href", allVacatureLinks[8].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink8 = document.getElementById("vacatureLink8title");
-    let titleVacature8 = document.getElementById("titleVacature8");
-    titleVacatureLink8.textContent = allVacatureTitles[8].textContent;
-    titleVacatureLink8.setAttribute("href", allVacatureLinks[8].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink8 = document.getElementById("vacatureLink8description");
-    let vacatureDescription8 = document.getElementById("DescriptionVacature8");
-    vacaturedescriptionLink8.textContent = allVacatureDescriptions[8].textContent;
-    vacaturedescriptionLink8.setAttribute("href", allVacatureLinks[8].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature9 = document.getElementById("imgVacatureArtikel9");
-    imgVacature9.src = allVacatureImages[8].attributes[0].nodeValue;
-    let imgVacatureLink9 = document.getElementById("vacatureImgLink9");
-    imgVacatureLink9.setAttribute("href", allVacatureLinks[9].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature9 = document.getElementById("metaVacature9")
-    let vacatureMeta9a = document.getElementById("vacatureMeta9a");
-    vacatureMeta9a.textContent = allPoster[8].textContent;
-    vacatureMeta9b.textContent = " • " + allVacatureLocations[8].textContent + " • " + allDuur[8].textContent;
-    let vacatureMetaLink9 = document.getElementById("metaVacature9");
-    vacatureMetaLink9.setAttribute("href", allVacatureLinks[9].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink9 = document.getElementById("vacatureLink9title");
-    let titleVacature9 = document.getElementById("titleVacature9");
-    titleVacatureLink9.textContent = allVacatureTitles[9].textContent;
-    titleVacatureLink9.setAttribute("href", allVacatureLinks[9].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink9 = document.getElementById("vacatureLink9description");
-    let vacatureDescription9 = document.getElementById("DescriptionVacature9");
-    vacaturedescriptionLink9.textContent = allVacatureDescriptions[9].textContent;
-    vacaturedescriptionLink9.setAttribute("href", allVacatureLinks[9].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature10 = document.getElementById("imgVacatureArtikel10");
-    imgVacature10.src = allVacatureImages[9].attributes[0].nodeValue;
-    let imgVacatureLink10 = document.getElementById("vacatureImgLink10");
-    imgVacatureLink10.setAttribute("href", allVacatureLinks[10].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature10 = document.getElementById("metaVacature10")
-    let vacatureMeta10a = document.getElementById("vacatureMeta10a");
-    vacatureMeta10a.textContent = allPoster[9].textContent;
-    vacatureMeta10b.textContent = " • " + allVacatureLocations[9].textContent + " • " + allDuur[9].textContent;
-    let vacatureMetaLink10 = document.getElementById("metaVacature10");
-    vacatureMetaLink10.setAttribute("href", allVacatureLinks[10].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink10 = document.getElementById("vacatureLink10title");
-    let titleVacature10 = document.getElementById("titleVacature10");
-    titleVacatureLink10.textContent = allVacatureTitles[10].textContent;
-    titleVacatureLink10.setAttribute("href", allVacatureLinks[10].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink10 = document.getElementById("vacatureLink10description");
-    let vacatureDescription10 = document.getElementById("DescriptionVacature10");
-    vacaturedescriptionLink10.textContent = allVacatureDescriptions[10].textContent;
-    vacaturedescriptionLink10.setAttribute("href", allVacatureLinks[10].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature11 = document.getElementById("imgVacatureArtikel11");
-    imgVacature11.src = allVacatureImages[10].attributes[0].nodeValue;
-    let imgVacatureLink11 = document.getElementById("vacatureImgLink11");
-    imgVacatureLink11.setAttribute("href", allVacatureLinks[11].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature11 = document.getElementById("metaVacature11")
-    let vacatureMeta11a = document.getElementById("vacatureMeta11a");
-    vacatureMeta11a.textContent = allPoster[10].textContent;
-    vacatureMeta11b.textContent = " • " + allVacatureLocations[10].textContent + " • " + allDuur[10].textContent;
-    let vacatureMetaLink11 = document.getElementById("metaVacature11");
-    vacatureMetaLink11.setAttribute("href", allVacatureLinks[11].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink11 = document.getElementById("vacatureLink11title");
-    let titleVacature11 = document.getElementById("titleVacature11");
-    titleVacatureLink11.textContent = allVacatureTitles[11].textContent;
-    titleVacatureLink11.setAttribute("href", allVacatureLinks[11].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink11 = document.getElementById("vacatureLink11description");
-    let vacatureDescription11 = document.getElementById("DescriptionVacature11");
-    vacaturedescriptionLink11.textContent = allVacatureDescriptions[11].textContent;
-    vacaturedescriptionLink11.setAttribute("href", allVacatureLinks[11].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature12 = document.getElementById("imgVacatureArtikel12");
-    imgVacature12.src = allVacatureImages[11].attributes[0].nodeValue;
-    let imgVacatureLink12 = document.getElementById("vacatureImgLink12");
-    imgVacatureLink12.setAttribute("href", allVacatureLinks[12].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature12 = document.getElementById("metaVacature12")
-    let vacatureMeta12a = document.getElementById("vacatureMeta12a");
-    vacatureMeta12a.textContent = allPoster[11].textContent;
-    vacatureMeta12b.textContent = " • " + allVacatureLocations[11].textContent + " • " + allDuur[11].textContent;
-    let vacatureMetaLink12 = document.getElementById("metaVacature12");
-    vacatureMetaLink12.setAttribute("href", allVacatureLinks[12].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink12 = document.getElementById("vacatureLink12title");
-    let titleVacature12 = document.getElementById("titleVacature12");
-    titleVacatureLink12.textContent = allVacatureTitles[12].textContent;
-    titleVacatureLink12.setAttribute("href", allVacatureLinks[12].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink12 = document.getElementById("vacatureLink12description");
-    let vacatureDescription12 = document.getElementById("DescriptionVacature12");
-    vacaturedescriptionLink12.textContent = allVacatureDescriptions[12].textContent;
-    vacaturedescriptionLink12.setAttribute("href", allVacatureLinks[12].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature13 = document.getElementById("imgVacatureArtikel13");
-    imgVacature13.src = allVacatureImages[12].attributes[0].nodeValue;
-    let imgVacatureLink13 = document.getElementById("vacatureImgLink13");
-    imgVacatureLink13.setAttribute("href", allVacatureLinks[13].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature13 = document.getElementById("metaVacature13")
-    let vacatureMeta13a = document.getElementById("vacatureMeta13a");
-    vacatureMeta13a.textContent = allPoster[12].textContent;
-    vacatureMeta13b.textContent = " • " + allVacatureLocations[12].textContent + " • " + allDuur[12].textContent;
-    let vacatureMetaLink13 = document.getElementById("metaVacature13");
-    vacatureMetaLink13.setAttribute("href", allVacatureLinks[13].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink13 = document.getElementById("vacatureLink13title");
-    let titleVacature13 = document.getElementById("titleVacature13");
-    titleVacatureLink13.textContent = allVacatureTitles[13].textContent;
-    titleVacatureLink13.setAttribute("href", allVacatureLinks[13].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink13 = document.getElementById("vacatureLink13description");
-    let vacatureDescription13 = document.getElementById("DescriptionVacature13");
-    vacaturedescriptionLink13.textContent = allVacatureDescriptions[13].textContent;
-    vacaturedescriptionLink13.setAttribute("href", allVacatureLinks[13].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature14 = document.getElementById("imgVacatureArtikel14");
-    imgVacature14.src = allVacatureImages[13].attributes[0].nodeValue;
-    let imgVacatureLink14 = document.getElementById("vacatureImgLink14");
-    imgVacatureLink14.setAttribute("href", allVacatureLinks[14].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature14 = document.getElementById("metaVacature14")
-    let vacatureMeta14a = document.getElementById("vacatureMeta14a");
-    vacatureMeta14a.textContent = allPoster[13].textContent;
-    vacatureMeta14b.textContent = " • " + allVacatureLocations[13].textContent + " • " + allDuur[13].textContent;
-    let vacatureMetaLink14 = document.getElementById("metaVacature14");
-    vacatureMetaLink14.setAttribute("href", allVacatureLinks[14].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink14 = document.getElementById("vacatureLink14title");
-    let titleVacature14 = document.getElementById("titleVacature14");
-    titleVacatureLink14.textContent = allVacatureTitles[14].textContent;
-    titleVacatureLink14.setAttribute("href", allVacatureLinks[14].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink14 = document.getElementById("vacatureLink14description");
-    let vacatureDescription14 = document.getElementById("DescriptionVacature14");
-    vacaturedescriptionLink14.textContent = allVacatureDescriptions[14].textContent;
-    vacaturedescriptionLink14.setAttribute("href", allVacatureLinks[14].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature15 = document.getElementById("imgVacatureArtikel15");
-    imgVacature15.src = allVacatureImages[14].attributes[0].nodeValue;
-    let imgVacatureLink15 = document.getElementById("vacatureImgLink15");
-    imgVacatureLink15.setAttribute("href", allVacatureLinks[15].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature15 = document.getElementById("metaVacature15")
-    let vacatureMeta15a = document.getElementById("vacatureMeta15a");
-    vacatureMeta15a.textContent = allPoster[14].textContent;
-    vacatureMeta15b.textContent = " • " + allVacatureLocations[14].textContent + " • " + allDuur[14].textContent;
-    let vacatureMetaLink15 = document.getElementById("metaVacature15");
-    vacatureMetaLink15.setAttribute("href", allVacatureLinks[15].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink15 = document.getElementById("vacatureLink15title");
-    let titleVacature15 = document.getElementById("titleVacature15");
-    titleVacatureLink15.textContent = allVacatureTitles[15].textContent;
-    titleVacatureLink15.setAttribute("href", allVacatureLinks[15].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink15 = document.getElementById("vacatureLink15description");
-    let vacatureDescription15 = document.getElementById("DescriptionVacature15");
-    vacaturedescriptionLink15.textContent = allVacatureDescriptions[15].textContent;
-    vacaturedescriptionLink15.setAttribute("href", allVacatureLinks[15].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature16 = document.getElementById("imgVacatureArtikel16");
-    imgVacature16.src = allVacatureImages[15].attributes[0].nodeValue;
-    let imgVacatureLink16 = document.getElementById("vacatureImgLink16");
-    imgVacatureLink16.setAttribute("href", allVacatureLinks[16].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature16 = document.getElementById("metaVacature16")
-    let vacatureMeta16a = document.getElementById("vacatureMeta16a");
-    vacatureMeta16a.textContent = allPoster[15].textContent;
-    vacatureMeta16b.textContent = " • " + allVacatureLocations[15].textContent + " • " + allDuur[15].textContent;
-    let vacatureMetaLink16 = document.getElementById("metaVacature16");
-    vacatureMetaLink16.setAttribute("href", allVacatureLinks[16].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink16 = document.getElementById("vacatureLink16title");
-    let titleVacature16 = document.getElementById("titleVacature16");
-    titleVacatureLink16.textContent = allVacatureTitles[16].textContent;
-    titleVacatureLink16.setAttribute("href", allVacatureLinks[16].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink16 = document.getElementById("vacatureLink16description");
-    let vacatureDescription16 = document.getElementById("DescriptionVacature16");
-    vacaturedescriptionLink16.textContent = allVacatureDescriptions[16].textContent;
-    vacaturedescriptionLink16.setAttribute("href", allVacatureLinks[16].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature17 = document.getElementById("imgVacatureArtikel17");
-    imgVacature17.src = allVacatureImages[16].attributes[0].nodeValue;
-    let imgVacatureLink17 = document.getElementById("vacatureImgLink17");
-    imgVacatureLink17.setAttribute("href", allVacatureLinks[17].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature17 = document.getElementById("metaVacature17")
-    let vacatureMeta17a = document.getElementById("vacatureMeta17a");
-    vacatureMeta17a.textContent = allPoster[16].textContent;
-    vacatureMeta17b.textContent = " • " + allVacatureLocations[16].textContent + " • " + allDuur[16].textContent;
-    let vacatureMetaLink17 = document.getElementById("metaVacature17");
-    vacatureMetaLink17.setAttribute("href", allVacatureLinks[17].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink17 = document.getElementById("vacatureLink17title");
-    let titleVacature17 = document.getElementById("titleVacature17");
-    titleVacatureLink17.textContent = allVacatureTitles[17].textContent;
-    titleVacatureLink17.setAttribute("href", allVacatureLinks[17].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink17 = document.getElementById("vacatureLink17description");
-    let vacatureDescription17 = document.getElementById("DescriptionVacature17");
-    vacaturedescriptionLink17.textContent = allVacatureDescriptions[17].textContent;
-    vacaturedescriptionLink17.setAttribute("href", allVacatureLinks[17].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature18 = document.getElementById("imgVacatureArtikel18");
-    imgVacature18.src = allVacatureImages[17].attributes[0].nodeValue;
-    let imgVacatureLink18 = document.getElementById("vacatureImgLink18");
-    imgVacatureLink18.setAttribute("href", allVacatureLinks[18].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature18 = document.getElementById("metaVacature18")
-    let vacatureMeta18a = document.getElementById("vacatureMeta18a");
-    vacatureMeta18a.textContent = allPoster[17].textContent;
-    vacatureMeta18b.textContent = " • " + allVacatureLocations[17].textContent + " • " + allDuur[17].textContent;
-    let vacatureMetaLink18 = document.getElementById("metaVacature18");
-    vacatureMetaLink18.setAttribute("href", allVacatureLinks[18].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink18 = document.getElementById("vacatureLink18title");
-    let titleVacature18 = document.getElementById("titleVacature18");
-    titleVacatureLink18.textContent = allVacatureTitles[18].textContent;
-    titleVacatureLink18.setAttribute("href", allVacatureLinks[18].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink18 = document.getElementById("vacatureLink18description");
-    let vacatureDescription18 = document.getElementById("DescriptionVacature18");
-    vacaturedescriptionLink18.textContent = allVacatureDescriptions[18].textContent;
-    vacaturedescriptionLink18.setAttribute("href", allVacatureLinks[18].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature19 = document.getElementById("imgVacatureArtikel19");
-    imgVacature19.src = allVacatureImages[18].attributes[0].nodeValue;
-    let imgVacatureLink19 = document.getElementById("vacatureImgLink19");
-    imgVacatureLink19.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature19 = document.getElementById("metaVacature19")
-    let vacatureMeta19a = document.getElementById("vacatureMeta19a");
-    vacatureMeta19a.textContent = allPoster[18].textContent;
-    vacatureMeta19b.textContent = " • " + allVacatureLocations[18].textContent + " • " + allDuur[18].textContent;
-    let vacatureMetaLink19 = document.getElementById("metaVacature19");
-    vacatureMetaLink19.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink19 = document.getElementById("vacatureLink19title");
-    let titleVacature19 = document.getElementById("titleVacature19");
-    titleVacatureLink19.textContent = allVacatureTitles[19].textContent;
-    titleVacatureLink19.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink19 = document.getElementById("vacatureLink19description");
-    let vacatureDescription19 = document.getElementById("DescriptionVacature19");
-    vacaturedescriptionLink19.textContent = allVacatureDescriptions[19].textContent;
-    vacaturedescriptionLink19.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-    let imgVacature99 = document.getElementById("imgVacatureArtikel99");
-    imgVacature99.src = allVacatureImages[18].attributes[0].nodeValue;
-    let imgVacatureLink99 = document.getElementById("vacatureImgLink99");
-    imgVacatureLink99.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let metaVacature99 = document.getElementById("metaVacature99")
-    let vacatureMeta99a = document.getElementById("vacatureMeta99a");
-    vacatureMeta99a.textContent = allPoster[18].textContent;
-    vacatureMeta99b.textContent = " • " + allVacatureLocations[18].textContent + " • " + allDuur[18].textContent;
-    let vacatureMetaLink99 = document.getElementById("metaVacature99");
-    vacatureMetaLink99.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let titleVacatureLink99 = document.getElementById("vacatureLink99title");
-    let titleVacature99 = document.getElementById("titleVacature99");
-    titleVacatureLink99.textContent = allVacatureTitles[19].textContent;
-    titleVacatureLink99.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-    let vacaturedescriptionLink99 = document.getElementById("vacatureLink99description");
-    let vacatureDescription99 = document.getElementById("DescriptionVacature99");
-    vacaturedescriptionLink99.textContent = allVacatureDescriptions[19].textContent;
-    vacaturedescriptionLink99.setAttribute("href", allVacatureLinks[19].textContent + `?utm_source=vacaturealert-${dagWeek}&utm_medium=email&utm_campaign=vacature&utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`);
-
-
-/* NOG NIET IN FEED
-    let imgVacature20 = document.getElementById("imgVacatureArtikel20");
-    imgVacature20.src = allVacatureImages[19].attributes[0].nodeValue;
-    let metaVacature20 = document.getElementById("metaVacature20")
-    let vacatureMeta20a = document.getElementById("vacatureMeta20a");
-    let vacatureMeta20b = document.getElementById("vacatureMeta20b");
-    vacatureMeta20a.textContent = allPoster[19].textContent;
-    vacatureMeta20b.textContent = " • " + allVacatureLocations[19].textContent + " • " + allDuur[15].textContent;
-    let titleVacature20 = document.getElementById("titleVacature20");
-    titleVacature20.textContent = allVacatureTitles[20].textContent;
-    titleVacature20.textContent = allVacatureTitles[20].textContent;
-    let descriptionVacature20 = document.getElementById("DescriptionVacature20");
-    descriptionVacature20.textContent = allVacatureDescriptions[20].textContent;
-
-    let imgVacature21 = document.getElementById("imgVacatureArtikel21");
-    imgVacature21.src = allVacatureImages[20].attributes[0].nodeValue;
-    let metaVacature21 = document.getElementById("metaVacature21")
-    let vacatureMeta21a = document.getElementById("vacatureMeta21a");
-    let vacatureMeta21b = document.getElementById("vacatureMeta21b");
-    vacatureMeta21a.textContent = allPoster[20].textContent;
-    vacatureMeta21b.textContent = " • " + allVacatureLocations[20].textContent + " • " + allDuur[15].textContent;
-    let titleVacature21 = document.getElementById("titleVacature21");
-    titleVacature21.textContent = allVacatureTitles[21].textContent;
-    titleVacature21.textContent = allVacatureTitles[21].textContent;
-    let descriptionVacature21 = document.getElementById("DescriptionVacature21");
-    descriptionVacature21.textContent = allVacatureDescriptions[21].textContent;
-
-    let imgVacature22 = document.getElementById("imgVacatureArtikel22");
-    imgVacature22.src = allVacatureImages[21].attributes[0].nodeValue;
-    let metaVacature22 = document.getElementById("metaVacature22")
-    let vacatureMeta22a = document.getElementById("vacatureMeta22a");
-    let vacatureMeta22b = document.getElementById("vacatureMeta22b");
-    vacatureMeta22a.textContent = allPoster[21].textContent;
-    vacatureMeta22b.textContent = " • " + allVacatureLocations[21].textContent + " • " + allDuur[15].textContent;
-    let titleVacature22 = document.getElementById("titleVacature22");
-    titleVacature22.textContent = allVacatureTitles[22].textContent;
-    titleVacature22.textContent = allVacatureTitles[22].textContent;
-    let descriptionVacature22 = document.getElementById("DescriptionVacature22");
-    descriptionVacature22.textContent = allVacatureDescriptions[22].textContent;
-
-    let imgVacature23 = document.getElementById("imgVacatureArtikel23");
-    imgVacature23.src = allVacatureImages[22].attributes[0].nodeValue;
-    let metaVacature23 = document.getElementById("metaVacature23")
-    let vacatureMeta23a = document.getElementById("vacatureMeta23a");
-    let vacatureMeta23b = document.getElementById("vacatureMeta23b");
-    vacatureMeta23a.textContent = allPoster[22].textContent;
-    vacatureMeta23b.textContent = " • " + allVacatureLocations[22].textContent + " • " + allDuur[15].textContent;
-    let titleVacature23 = document.getElementById("titleVacature23");
-    titleVacature23.textContent = allVacatureTitles[23].textContent;
-    titleVacature23.textContent = allVacatureTitles[23].textContent;
-    let descriptionVacature23 = document.getElementById("DescriptionVacature23");
-    descriptionVacature23.textContent = allVacatureDescriptions[23].textContent;
-
-    let imgVacature24 = document.getElementById("imgVacatureArtikel24");
-    imgVacature24.src = allVacatureImages[23].attributes[0].nodeValue;
-    let metaVacature24 = document.getElementById("metaVacature24")
-    let vacatureMeta24a = document.getElementById("vacatureMeta24a");
-    let vacatureMeta24b = document.getElementById("vacatureMeta24b");
-    vacatureMeta24a.textContent = allPoster[23].textContent;
-    vacatureMeta24b.textContent = " • " + allVacatureLocations[23].textContent + " • " + allDuur[15].textContent;
-    let titleVacature24 = document.getElementById("titleVacature24");
-    titleVacature24.textContent = allVacatureTitles[24].textContent;
-    titleVacature24.textContent = allVacatureTitles[24].textContent;
-    let descriptionVacature24 = document.getElementById("DescriptionVacature24");
-    descriptionVacature24.textContent = allVacatureDescriptions[24].textContent;
-
-    let imgVacature25 = document.getElementById("imgVacatureArtikel25");
-    imgVacature25.src = allVacatureImages[24].attributes[0].nodeValue;
-    let metaVacature25 = document.getElementById("metaVacature25")
-    let vacatureMeta25a = document.getElementById("vacatureMeta25a");
-    let vacatureMeta25b = document.getElementById("vacatureMeta25b");
-    vacatureMeta25a.textContent = allPoster[24].textContent;
-    vacatureMeta25b.textContent = " • " + allVacatureLocations[24].textContent + " • " + allDuur[15].textContent;
-    let titleVacature25 = document.getElementById("titleVacature25");
-    titleVacature25.textContent = allVacatureTitles[25].textContent;
-    titleVacature25.textContent = allVacatureTitles[25].textContent;
-    let descriptionVacature25 = document.getElementById("DescriptionVacature25");
-    descriptionVacature25.textContent = allVacatureDescriptions[25].textContent;
-    */
-});
-
-/*
 //Copy functionality
 buttonHeadlines.onclick = function copyClipboard() {
   var elm = document.getElementById("headlinesContainer");
@@ -1754,6 +1242,7 @@ buttonHeadlines.onclick = function copyClipboard() {
 
   };
   */
+
 
 
 //drag and drop
@@ -1779,25 +1268,337 @@ document.getElementById('headlinesOverlay').ondragstart = function (event) {
     .setData('text/html', headlinesContainer.innerHTML);
     console.log('dragstart');
 }
+document.getElementById('kleinArtikel1').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log("Dragstart");
+//}
+//document.getElementById('kleinArtikel1').ondrop = function (event) {
+  //console.log("drop");
+  //let kleinTD1 = actIframe.getElementsByClassName("tableDivider1");
+  //kleinTD1.setAttribute("style", "mso-hide: all;")
+}
+document.getElementById('kleinArtikel2').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel3').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel4').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel5').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel6').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel7').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel8').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel9').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel10').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel11').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel12').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel13').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel14').ondragstart = function (event) {
+  event
 
-while (i < 26) {
-  document.getElementById('kleinArtikel' + i  ).ondragstart = function (event) {
-    event
-      .dataTransfer
-      .setData('text/html', event.target.innerHTML);
-      console.log(event.target.innerHTML);
-  }
-  i++;
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel15').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel16').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel17').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel18').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel19').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel20').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel21').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel22').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel23').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel24').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
+}
+document.getElementById('kleinArtikel25').ondragstart = function (event) {
+  event
+    .dataTransfer
+    .setData('text/html', event.target.innerHTML);
+    console.log('dragstart');
 }
 
-while (i < 26) {
-  document.getElementById('artikelGroot' + i + 'D' ).ondragstart = function (event) {
-    event
-      .dataTransfer
-      .setData('text/html', event.target.innerHTML);
-      console.log(event.target.innerHTML);
-  }
-  i++;
+
+document.getElementById('artikelGroot1D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot2D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot3D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot4D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot5D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot6D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot7D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot8D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot9D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot10D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot11D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot12D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot13D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot14D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot15D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot16D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot17D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot18D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot19D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot20D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot21D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot22D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot23D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot24D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
+}
+
+document.getElementById('artikelGroot25D').ondragstart = function (event) {
+      event
+        .dataTransfer
+        .setData('text/html', event.target.innerHTML);
+        console.log('dragstart');
 }
 
 document.getElementById('agendaOverlay').ondragstart = function (event) {
@@ -1805,24 +1606,6 @@ document.getElementById('agendaOverlay').ondragstart = function (event) {
         .dataTransfer
         .setData('text/html', agendaAcademyContainer.innerHTML);
         console.log('dragstart');
-}
-
-
-while (i < 26) {
-  document.getElementById('vacature' + i ).ondragstart = function (event) {
-    event
-      .dataTransfer
-      .setData('text/html', event.target.innerHTML);
-      console.log(event.target.innerHTML);
-  }
-  i++;
-}
-
-document.getElementById('vacature99').ondragstart = function (event) {
-  event
-    .dataTransfer
-    .setData('text/html', event.target.innerHTML);
-    console.log(event.target.innerHTML);
 }
 
 
@@ -2494,6 +2277,104 @@ document.getElementById('artikelGroot6T').onmousehover = function () {
     document.getElementById('categoryHR').display = "block";
   };
 };
+
+
+
+"use strict";
+fetch("https://www.frankwatching.com/feed/?post_type=vacature")
+.then(response => response.text())
+.then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+.then(data => {
+  
+  //console.log(data);
+
+  const items = data.querySelectorAll("item");
+  
+
+  var existVCC = document.getElementById("vacatureContainerContent");
+  if(existVCC){
+    console.log('List empty');
+    existVCC.innerHTML = ``;
+  }
+  
+  setTimeout(function() {
+    items.forEach(functionVacatureItems);
+ }, 100);
+
+});
+
+
+
+
+
+function functionVacatureItems(item, index) {
+   
+  var description = item.querySelector("description").innerHTML;
+  description = description.replace("<![CDATA[", "").replace("]]>", "");
+  
+  var vac_org_naam = item.querySelector("*|vac_org_naam").innerHTML;
+  vac_org_naam = vac_org_naam.replace("<![CDATA[", "").replace("]]>", "");
+
+  var vac_uur = item.querySelector("*|vac_uur").innerHTML;
+  vac_uur = vac_uur.replace("<![CDATA[", "").replace("]]>", "");
+
+  if( ! vac_uur.includes("uur") ) {
+   vac_uur = vac_uur + " uur";
+  }
+
+  var vac_standplaats = item.querySelector("*|vac_standplaats").innerHTML;
+  vac_standplaats = vac_standplaats.replace("<![CDATA[", "").replace("]]>", "");
+
+  var vac_link = item.querySelector("link").innerHTML + '?utm_source=vacaturealert-dag&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c';
+
+  var enclosure_img = item.querySelector("enclosure").getAttribute("url");
+  
+   const div = document.createElement('div');
+   div.className = 'dragrow vacature';
+   div.id = 'vacature'+index;
+   div.draggable = 'true';
+
+   console.log(dagWeek);
+  var daginzet = '<tr><td id="vacatureTD' + index + 'bMob" class="vacaturetd_mobile" style="display: none;"><a  style="display: none;" id="vacatureImgLink' + index + '" class="vacatureImgLink_mob" href="'+vac_link+'"><img id="imgVacatureArtikel'+index+'mob" class="imgVacature_mobile" style="display: none;" src="'+enclosure_img+'" /></a></td></tr> ';
+   if(dagWeek != 'dag') { 
+    daginzet = '';
+  }
+
+   div.innerHTML = `
+   <table id="vacatureTable${index}" style="margin: 0px 0px 20px;">
+       <tbody>
+           <tr>
+               <td class="vacTableDivider1" width="30%" height="150px" style="vertical-align: top;"><a></a><a id="vacatureImgLink${index}" class="vacatureImgLink" href="${vac_link}"><img id="imgVacatureArtikel${index}" class="imgVacature" style="display: block; height: auto; width: 150px;" src="${enclosure_img}" /></a></td>
+               <td class="vacTableDivider2" height="150px" width="auto" style="vertical-align: top;">
+                   <table>
+                       <tbody>
+                           ${daginzet}
+                           <tr>
+                               <td id="vacatureTD${index}bA" class="vacatureTDbA"><a id="metaVacature${index}"  href="${vac_link}" style="display: block; font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;" class="metaVacature"><span id="vacatureMeta${index}a" class="metaVacatureCompany" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;">${vac_org_naam}</span><span id="vacatureMeta${index}b" class="metaVacature" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;"> • ${vac_standplaats} • ${vac_uur}</span></a></td>
+                           </tr>
+                           <tr>
+                               <td id="vacatureTD${index}bB" style="top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1a1a1a; text-decoration: none; padding: 0px 0px 8px 0px;"><a id="vacatureLink${index}title" class="titleVacature" style="top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1a1a1a; text-decoration: none; padding: 8px 0px 0px 0px;" href="${vac_link}">${item.querySelector("title").innerHTML}</a></td>
+                           </tr>
+                           <tr>
+                               <td id="vacatureTD${index}bC" style="display: block; font-size: 16px; line-height: 22px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10x 0px 15px 0px;" class="vacatureTDbC"><a id="vacatureLink${index}description" class="DescriptionVacature" style="display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 0x 0px 0px 0px;" href="${vac_link}">${description}</a></td>
+                           </tr>
+                       </tbody>
+                   </table>
+               </td>
+           </tr>
+       </tbody>
+   </table> `;
+   vacatureContainerContent.appendChild(div);
+
+   document.getElementById('vacature' + index).ondragstart = function (event) {
+       event
+         .dataTransfer
+         .setData('text/html', event.target.innerHTML);
+         console.log(event.target.innerHTML);
+     }
+}
+
+
 
 };
 getAllContent();

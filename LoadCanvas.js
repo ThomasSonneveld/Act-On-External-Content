@@ -17,6 +17,10 @@ var artikelenKleinContainer = document.createElement( 'div' );
 var artikelenGrootContainer = document.createElement( 'div' );
 var agendaAcademyContainer = document.createElement( 'div' );
 var vacatureContainer = document.createElement( 'div' );
+vacatureContainer.id = 'vacatureContainer';
+var vacatureContainerContent = document.createElement( 'div' );
+vacatureContainerContent.id = 'vacatureContainerContent';
+
 
 //Arikelen Klein
 
