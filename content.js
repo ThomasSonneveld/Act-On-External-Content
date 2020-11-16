@@ -173,13 +173,21 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let headerline5tip = document.getElementById('sheadline5b');
     headerline5tip.textContent="\xa0TIP\xa0";
 
-
+    let headerline1 = document.getElementById('headline1');
+    headerline1.textContent = 'Voorbeeld';
+    headerline1.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    let headerline2 = document.getElementById('headline2');
+    headerline2.textContent = 'Voorbeeld';
+    headerline2.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline3 = document.getElementById('headline3');
     headerline3.textContent = allTitles[1].firstChild.nodeValue;
     headerline3.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline4 = document.getElementById('headline4');
     headerline4.textContent = allTitles[2].firstChild.nodeValue;
     headerline4.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    let headerline5 = document.getElementById('headline5');
+    headerline5.textContent = 'Voorbeeld';
+    headerline5.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline6 = document.getElementById('headline6');
     headerline6.textContent = allTitles[3].firstChild.nodeValue;
     headerline6.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);//campagne);
