@@ -1347,8 +1347,6 @@ vacatureContainer.appendChild(vacatureContainerContent);
 
 
 
-
-
 contentFeed.appendChild( choises );
 choises.appendChild( headlinesButton );
 headlinesButton.appendChild( headlinesButtonImg );
@@ -1360,6 +1358,8 @@ choises.appendChild( artikelKleinButton );
 artikelKleinButton.appendChild( artikelKleinButtonImg );
 choises.appendChild( vacatureButton );
 vacatureButton.appendChild( vacatureButtonImg );
+
+
 
 
 credits.appendChild( categorySEO );

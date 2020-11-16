@@ -1,3 +1,6 @@
+// Set local version
+let versionid = '1.1.0';
+
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
   styleHeadlines[i].style.fontsize = "12px";
@@ -2298,7 +2301,6 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
 
   const items = data.querySelectorAll("item");
   
-
   var existVCC = document.getElementById("vacatureContainerContent");
   if(existVCC){
     console.log('List empty');
@@ -2317,6 +2319,9 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
 
 function functionVacatureItems(item, index) {
    
+  var postid = item.querySelector("guid").innerHTML;
+  postid = postid.substring(postid.indexOf("p=") + 2);
+
   var description = item.querySelector("description").innerHTML;
   description = description.replace("<![CDATA[", "").replace("]]>", "");
   
@@ -2339,32 +2344,32 @@ function functionVacatureItems(item, index) {
   
    const div = document.createElement('div');
    div.className = 'dragrow vacature';
-   div.id = 'vacature'+index;
+   div.id = 'vacature'+postid;
    div.draggable = 'true';
 
-   console.log(dagWeek);
-  var daginzet = '<tr><td id="vacatureTD' + index + 'bMob" class="vacaturetd_mobile" style="display: none;"><a  style="display: none;" id="vacatureImgLink' + index + '" class="vacatureImgLink_mob" href="'+vac_link+'"><img id="imgVacatureArtikel'+index+'mob" class="imgVacature_mobile" style="display: none;" src="'+enclosure_img+'" /></a></td></tr> ';
+  //console.log(dagWeek);
+  var daginzet = '<tr><td id="vacatureTD' + postid + 'bMob" class="vacaturetd_mobile" style="display: none;"><a  style="display: none;" id="vacatureImgLink' + postid + '" class="vacatureImgLink_mob" href="'+vac_link+'"><img id="imgVacatureArtikel'+postid+'mob" class="imgVacature_mobile" style="display: none;" src="'+enclosure_img+'" /></a></td></tr> ';
    if(dagWeek != 'dag') { 
     daginzet = '';
   }
 
    div.innerHTML = `
-   <table id="vacatureTable${index}" style="margin: 0px 0px 20px;">
+   <table id="vacatureTable${postid}" style="margin: 0px 0px 20px;">
        <tbody>
            <tr>
-               <td class="vacTableDivider1" width="30%" height="150px" style="vertical-align: top;"><a></a><a id="vacatureImgLink${index}" class="vacatureImgLink" href="${vac_link}"><img id="imgVacatureArtikel${index}" class="imgVacature" style="display: block; height: auto; width: 150px;" src="${enclosure_img}" /></a></td>
+               <td class="vacTableDivider1" width="30%" height="150px" style="vertical-align: top;"><a></a><a id="vacatureImgLink${postid}" class="vacatureImgLink" href="${vac_link}"><img id="imgVacatureArtikel${postid}" class="imgVacature" style="display: block; height: auto; width: 150px;" src="${enclosure_img}" /></a></td>
                <td class="vacTableDivider2" height="150px" width="auto" style="vertical-align: top;">
                    <table>
                        <tbody>
                            ${daginzet}
                            <tr>
-                               <td id="vacatureTD${index}bA" class="vacatureTDbA"><a id="metaVacature${index}"  href="${vac_link}" style="display: block; font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;" class="metaVacature"><span id="vacatureMeta${index}a" class="metaVacatureCompany" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;">${vac_org_naam}</span><span id="vacatureMeta${index}b" class="metaVacature" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;"> • ${vac_standplaats} • ${vac_uur}</span></a></td>
+                               <td id="vacatureTD${postid}bA" class="vacatureTDbA"><a id="metaVacature${postid}"  href="${vac_link}" style="display: block; font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;" class="metaVacature"><span id="vacatureMeta${postid}a" class="metaVacatureCompany" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;">${vac_org_naam}</span><span id="vacatureMeta${postid}b" class="metaVacature" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;"> • ${vac_standplaats} • ${vac_uur}</span></a></td>
                            </tr>
                            <tr>
-                               <td id="vacatureTD${index}bB" style="top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1a1a1a; text-decoration: none; padding: 0px 0px 8px 0px;"><a id="vacatureLink${index}title" class="titleVacature" style="top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1a1a1a; text-decoration: none; padding: 8px 0px 0px 0px;" href="${vac_link}">${item.querySelector("title").innerHTML}</a></td>
+                               <td id="vacatureTD${postid}bB" style="top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1a1a1a; text-decoration: none; padding: 0px 0px 8px 0px;"><a id="vacatureLink${postid}title" class="titleVacature" style="top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1a1a1a; text-decoration: none; padding: 8px 0px 0px 0px;" href="${vac_link}">${item.querySelector("title").innerHTML}</a></td>
                            </tr>
                            <tr>
-                               <td id="vacatureTD${index}bC" style="display: block; font-size: 16px; line-height: 22px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10x 0px 15px 0px;" class="vacatureTDbC"><a id="vacatureLink${index}description" class="DescriptionVacature" style="display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 0x 0px 0px 0px;" href="${vac_link}">${description}</a></td>
+                               <td id="vacatureTD${postid}bC" style="display: block; font-size: 16px; line-height: 22px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10x 0px 15px 0px;" class="vacatureTDbC"><a id="vacatureLink${postid}description" class="DescriptionVacature" style="display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 0x 0px 0px 0px;" href="${vac_link}">${description}</a></td>
                            </tr>
                        </tbody>
                    </table>
@@ -2374,14 +2379,34 @@ function functionVacatureItems(item, index) {
    </table> `;
    vacatureContainerContent.appendChild(div);
 
-   document.getElementById('vacature' + index).ondragstart = function (event) {
+   document.getElementById('vacature' + postid).ondragstart = function (event) {
        event
          .dataTransfer
          .setData('text/html', event.target.innerHTML);
-         console.log(event.target.innerHTML);
+         //console.log(event.target.innerHTML);
      }
 }
 
+// Check version extension
+fetch('https://raw.githubusercontent.com/ThomasSonneveld/Act-On-External-Content/master/manifest.json')
+    .then(res => res.json())
+    .then((out) => {
+        //console.log('Output: ', out);
+        var text = `Lokale versie: ${versionid}<br>
+                    Online versie: ${out.version}<br>`;
+  
+        const versiediv = document.createElement('div');
+        versiediv.id = 'versiondiv';
+        if(versionid != out.version) {
+          versiediv.className = 'versiondiv-update';
+          text = `Lokale versie: ${versionid}<br>`;
+          text = text + '<a href="https://github.com/ThomasSonneveld/Act-On-External-Content" target="_blank">Nu updaten naar: ' + out.version + '</a>';
+        }
+        versiediv.innerHTML = text;
+      
+      credits.appendChild(versiediv);
+
+}).catch(err => console.error(err));
 
 
 };

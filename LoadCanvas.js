@@ -2315,10 +2315,6 @@ inOutFormLabel.appendChild( inOutFormSpan );
 createCanvas.appendChild( contentIndex );
 createCanvas.appendChild( credits );
 
-
-
-
-
 //test Vacature Items
 
 var vacature99 = document.createElement( 'div' );
