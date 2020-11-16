@@ -14,7 +14,15 @@ var inOutSelect =document.createElement( 'div' );
 
 var headlinesContainer = document.createElement( 'div' );
 var artikelenKleinContainer = document.createElement( 'div' );
+artikelenKleinContainer.id = 'artikelenKleinContainer';
+var artikelenKleinContainerContent = document.createElement( 'div' );
+artikelenKleinContainerContent.id = 'artikelenKleinContainerContent';
+
 var artikelenGrootContainer = document.createElement( 'div' );
+artikelenGrootContainer.id = 'artikelenGrootContainer';
+var artikelenGrootContainerContent = document.createElement( 'div' );
+artikelenGrootContainerContent.id = 'artikelenGrootContainerContent';
+
 var agendaAcademyContainer = document.createElement( 'div' );
 var vacatureContainer = document.createElement( 'div' );
 vacatureContainer.id = 'vacatureContainer';

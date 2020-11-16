@@ -196,9 +196,11 @@ phl6.appendChild( hl6 );
 phl7.appendChild( hl7 );
 
 contentIndex.appendChild( artikelenKleinContainer );
+artikelenKleinContainer.appendChild( artikelenKleinContainerContent );
 
 //artikelKlein
 
+/*
 artikelenKleinContainer.appendChild( artikelKlein1 );
 
 artikelKlein1.appendChild(artikelKleinTable1a);
@@ -912,9 +914,12 @@ artikelKlein25TDcB.appendChild(artikelKleinCTA25);
 artikelKlein25TDbA.appendChild(artikelKlein25TDDiv);
 artikelKlein25TDDiv.appendChild(artikelKleinImg25Link);
 artikelKleinImg25Link.appendChild(artikelKleinImg25);
+*/
 
 contentIndex.appendChild( artikelenGrootContainer );
+artikelenGrootContainer.appendChild(artikelenGrootContainerContent);
 
+/*
 artikelenGrootContainer.appendChild( artikelGroot1D );
 //artikelGroot1.appendChild(artikelGrootAuthor1);
 artikelGroot1D.appendChild(artikelGroot1T);
@@ -1339,6 +1344,7 @@ artikelGroot25TrC.appendChild(artikelGroot25TdC);
 artikelGroot25TdC.appendChild(artikelGrootDescription25);
 artikelGroot25TdC.appendChild(artikelGrootCTA25C);
 artikelGrootCTA25C.appendChild(artikelGrootCTA25);
+*/
 
 //Vacatures
 

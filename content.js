@@ -198,7 +198,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     headerline7.textContent = allTitles[4].firstChild.nodeValue;
     headerline7.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
 
-
+/*
     let imgKlein1 = document.getElementById('imgKleinArtikel1');
     imgKlein1.src = allSmallImages[0].textContent;
     imgKlein1.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
@@ -1053,6 +1053,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let ctaGroot25 = document.getElementById('GrootArtikelCTA25');
     ctaGroot25.textContent = " Lees meer ▸";
     ctaGroot25.setAttribute("href", allLinks[25].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+    */
 });
 
 
@@ -1279,6 +1280,7 @@ document.getElementById('headlinesOverlay').ondragstart = function (event) {
     .setData('text/html', headlinesContainer.innerHTML);
     console.log('dragstart');
 }
+/*
 document.getElementById('kleinArtikel1').ondragstart = function (event) {
   event
     .dataTransfer
@@ -1611,6 +1613,7 @@ document.getElementById('artikelGroot25D').ondragstart = function (event) {
         .setData('text/html', event.target.innerHTML);
         console.log('dragstart');
 }
+*/
 
 document.getElementById('agendaOverlay').ondragstart = function (event) {
       event
@@ -1724,6 +1727,8 @@ document.getElementById('vacatureButton').onclick = function (event5) {
       artikelKleinButtonImg.className = "ButtonImg";
       vacatureButtonImg.className = "ButtonImgPressd"
 }
+
+/*
 
 document.getElementById('artikelGroot1T').onmousehover = function () {
   if (allArtikel1.includes("seo") || allArtikel1.includes("SEO") || allArtikel1.includes("Search Engine Optimization")) {
@@ -2289,7 +2294,110 @@ document.getElementById('artikelGroot6T').onmousehover = function () {
   };
 };
 
+*/
 
+// ## LOAD VACATURES
+
+"use strict";
+fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
+.then(response => response.text())
+.then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+.then(data => {
+  
+  //console.log(data);
+
+  const items = data.querySelectorAll("item");
+  
+  var existVCC = document.getElementById("artikelenKleinContainerContent");
+  if(existVCC){
+    console.log('List kleine items empty');
+    existVCC.innerHTML = ``;
+  }
+  
+  setTimeout(function() {
+    items.forEach(artikelenKleinItems);
+ }, 100);
+
+});
+
+
+function artikelenKleinItems(item, index) {
+   
+  console.log(item);
+  
+  /*
+  var postid = item.querySelector("guid").innerHTML;
+  postid = postid.substring(postid.indexOf("p=") + 2);
+
+  var description = item.querySelector("description").innerHTML;
+  description = description.replace("<![CDATA[", "").replace("]]>", "");
+  
+  var vac_org_naam = item.querySelector("*|vac_org_naam").innerHTML;
+  vac_org_naam = vac_org_naam.replace("<![CDATA[", "").replace("]]>", "");
+
+  var vac_uur = item.querySelector("*|vac_uur").innerHTML;
+  vac_uur = vac_uur.replace("<![CDATA[", "").replace("]]>", "");
+
+  if( ! vac_uur.includes("uur") ) {
+   vac_uur = vac_uur + " uur";
+  }
+
+  var vac_standplaats = item.querySelector("*|vac_standplaats").innerHTML;
+  vac_standplaats = vac_standplaats.replace("<![CDATA[", "").replace("]]>", "");
+
+  var vac_link = item.querySelector("link").innerHTML + '?utm_source=vacaturealert-dag&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c';
+
+  var enclosure_img = item.querySelector("enclosure").getAttribute("url");
+  
+   const div = document.createElement('div');
+   div.className = 'dragrow vacature';
+   div.id = 'vacature'+postid;
+   div.draggable = 'true';
+
+  //console.log(dagWeek);
+  var daginzet = '<tr><td id="vacatureTD' + postid + 'bMob" class="vacaturetd_mobile" style="display: none;"><a  style="display: none;" id="vacatureImgLink' + postid + '" class="vacatureImgLink_mob" href="'+vac_link+'"><img id="imgVacatureArtikel'+postid+'mob" class="imgVacature_mobile" style="display: none;" src="'+enclosure_img+'" /></a></td></tr> ';
+   if(dagWeek != 'dag') { 
+    daginzet = '';
+  }
+
+   div.innerHTML = `
+   <table id="vacatureTable${postid}" style="margin: 0px 0px 20px;">
+       <tbody>
+           <tr>
+               <td class="vacTableDivider1" width="30%" height="150px" style="vertical-align: top;"><a></a><a id="vacatureImgLink${postid}" class="vacatureImgLink" href="${vac_link}"><img id="imgVacatureArtikel${postid}" class="imgVacature" style="display: block; height: auto; width: 150px;" src="${enclosure_img}" /></a></td>
+               <td class="vacTableDivider2" height="150px" width="auto" style="vertical-align: top;">
+                   <table>
+                       <tbody>
+                           ${daginzet}
+                           <tr>
+                               <td id="vacatureTD${postid}bA" class="vacatureTDbA"><a id="metaVacature${postid}"  href="${vac_link}" style="display: block; font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;" class="metaVacature"><span id="vacatureMeta${postid}a" class="metaVacatureCompany" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;">${vac_org_naam}</span><span id="vacatureMeta${postid}b" class="metaVacature" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;"> • ${vac_standplaats} • ${vac_uur}</span></a></td>
+                           </tr>
+                           <tr>
+                               <td id="vacatureTD${postid}bB" style="top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1a1a1a; text-decoration: none; padding: 0px 0px 8px 0px;"><a id="vacatureLink${postid}title" class="titleVacature" style="top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1a1a1a; text-decoration: none; padding: 8px 0px 0px 0px;" href="${vac_link}">${item.querySelector("title").innerHTML}</a></td>
+                           </tr>
+                           <tr>
+                               <td id="vacatureTD${postid}bC" style="display: block; font-size: 16px; line-height: 22px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10x 0px 15px 0px;" class="vacatureTDbC"><a id="vacatureLink${postid}description" class="DescriptionVacature" style="display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 0x 0px 0px 0px;" href="${vac_link}">${description}</a></td>
+                           </tr>
+                       </tbody>
+                   </table>
+               </td>
+           </tr>
+       </tbody>
+   </table> `;
+   vacatureContainerContent.appendChild(div);
+
+   document.getElementById('vacature' + postid).ondragstart = function (event) {
+       event
+         .dataTransfer
+         .setData('text/html', event.target.innerHTML);
+         //console.log(event.target.innerHTML);
+     }
+    */
+}
+
+
+
+// ## LOAD VACATURES
 
 "use strict";
 fetch("https://www.frankwatching.com/feed/?post_type=vacature")
@@ -2312,9 +2420,6 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
  }, 100);
 
 });
-
-
-
 
 
 function functionVacatureItems(item, index) {

@@ -689,7 +689,7 @@ headlinesOverlay.style.zIndex = "19300";
   headlines5Td3.style.verticalAlign = "top";
 
 //kleine artikelen
-
+/*
 artikelKlein1.id = "kleinArtikel1";
 artikelKlein1.className = 'kleinArtikel';
 artikelKlein1.draggable = "true";
@@ -2330,8 +2330,11 @@ artikelKleinImg23Link.id = "imgKlein23Link"
 artikelKleinImg24Link.id = "imgKlein24Link"
 artikelKleinImg25Link.id = "imgKlein25Link"
 
+*/
+
 //Artikelen groot
 
+/*
 artikelGroot1D.id= "artikelGroot1D";
 artikelGroot1D.draggable= "true";
 artikelGroot1D.ondragstart ='onDragStart(event);';
@@ -2374,7 +2377,7 @@ artikelGroot1.style.border="1px solid #b8b8b8";
   artikelGrootDescription1.className = "grootArtikelDescription";
   artikelGrootDescription1.style.display = "inline";
   artikelGrootDescription1.style.fontSize = "12pt";
-  artikelGrootDescription1.setAttribute("style", "color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
+  artikelGrootDescription1.setAttribute("style", "color: #1A1A1A; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;");
 
   artikelGrootCTA1C.id = "GrootArtikelCTA1C";
   artikelGrootCTA1C.className = "GrootArtikelCTAC";
@@ -3715,6 +3718,7 @@ artikelGroot6.style.border="1px solid #b8b8b8";
                                                                           artikelGrootCTA25.style.display = "inline";
                                                                           artikelGrootCTA25.setAttribute("style", " display: inline; font-size: 16px; text-decoration: none; color: #18608B;")
 
+*/
 
 
 categorySEO.id = "categroySEO";
