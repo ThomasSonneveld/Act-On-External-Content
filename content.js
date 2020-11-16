@@ -2324,75 +2324,63 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
 function artikelenKleinItems(item, index) {
    
   console.log(item);
+
+  var postid = 1;
   
-  /*
-  var postid = item.querySelector("guid").innerHTML;
-  postid = postid.substring(postid.indexOf("p=") + 2);
+//  var postid = item.querySelector("guid").innerHTML;
+// postid = postid.substring(postid.indexOf("p=") + 2);
 
-  var description = item.querySelector("description").innerHTML;
-  description = description.replace("<![CDATA[", "").replace("]]>", "");
+  var item_link = item.querySelector("link").innerHTML + '&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c';
   
-  var vac_org_naam = item.querySelector("*|vac_org_naam").innerHTML;
-  vac_org_naam = vac_org_naam.replace("<![CDATA[", "").replace("]]>", "");
+  var item_img = item.querySelector("*|foto").innerHTML;
+  item_img = item_img.replace("<![CDATA[", "").replace("]]>", "");
 
-  var vac_uur = item.querySelector("*|vac_uur").innerHTML;
-  vac_uur = vac_uur.replace("<![CDATA[", "").replace("]]>", "");
-
-  if( ! vac_uur.includes("uur") ) {
-   vac_uur = vac_uur + " uur";
-  }
-
-  var vac_standplaats = item.querySelector("*|vac_standplaats").innerHTML;
-  vac_standplaats = vac_standplaats.replace("<![CDATA[", "").replace("]]>", "");
-
-  var vac_link = item.querySelector("link").innerHTML + '?utm_source=vacaturealert-dag&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c';
-
-  var enclosure_img = item.querySelector("enclosure").getAttribute("url");
+ // var enclosure_img = item.querySelector("enclosure").getAttribute("url");
   
    const div = document.createElement('div');
-   div.className = 'dragrow vacature';
-   div.id = 'vacature'+postid;
+   div.className = 'kleinArtikel';
+   div.id = 'kleinArtikel'+postid;
    div.draggable = 'true';
 
-  //console.log(dagWeek);
-  var daginzet = '<tr><td id="vacatureTD' + postid + 'bMob" class="vacaturetd_mobile" style="display: none;"><a  style="display: none;" id="vacatureImgLink' + postid + '" class="vacatureImgLink_mob" href="'+vac_link+'"><img id="imgVacatureArtikel'+postid+'mob" class="imgVacature_mobile" style="display: none;" src="'+enclosure_img+'" /></a></td></tr> ';
-   if(dagWeek != 'dag') { 
-    daginzet = '';
-  }
 
-   div.innerHTML = `
-   <table id="vacatureTable${postid}" style="margin: 0px 0px 20px;">
-       <tbody>
-           <tr>
-               <td class="vacTableDivider1" width="30%" height="150px" style="vertical-align: top;"><a></a><a id="vacatureImgLink${postid}" class="vacatureImgLink" href="${vac_link}"><img id="imgVacatureArtikel${postid}" class="imgVacature" style="display: block; height: auto; width: 150px;" src="${enclosure_img}" /></a></td>
-               <td class="vacTableDivider2" height="150px" width="auto" style="vertical-align: top;">
-                   <table>
-                       <tbody>
-                           ${daginzet}
-                           <tr>
-                               <td id="vacatureTD${postid}bA" class="vacatureTDbA"><a id="metaVacature${postid}"  href="${vac_link}" style="display: block; font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;" class="metaVacature"><span id="vacatureMeta${postid}a" class="metaVacatureCompany" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;">${vac_org_naam}</span><span id="vacatureMeta${postid}b" class="metaVacature" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;"> • ${vac_standplaats} • ${vac_uur}</span></a></td>
-                           </tr>
-                           <tr>
-                               <td id="vacatureTD${postid}bB" style="top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1a1a1a; text-decoration: none; padding: 0px 0px 8px 0px;"><a id="vacatureLink${postid}title" class="titleVacature" style="top: 0px; display: block; font-size: 18px; font-weight: bold; font-family: Arial; line-height: 1; color: #1a1a1a; text-decoration: none; padding: 8px 0px 0px 0px;" href="${vac_link}">${item.querySelector("title").innerHTML}</a></td>
-                           </tr>
-                           <tr>
-                               <td id="vacatureTD${postid}bC" style="display: block; font-size: 16px; line-height: 22px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 10x 0px 15px 0px;" class="vacatureTDbC"><a id="vacatureLink${postid}description" class="DescriptionVacature" style="display: block; font-size: 16px; font-weight: regular; font-family: Arial; color: #666666; text-decoration: none; padding: 0x 0px 0px 0px;" href="${vac_link}">${description}</a></td>
-                           </tr>
-                       </tbody>
-                   </table>
-               </td>
-           </tr>
-       </tbody>
-   </table> `;
-   vacatureContainerContent.appendChild(div);
+  div.innerHTML = `<table class="table1a">
+  <tbody>
+    <tr>
+      <td class="tableDivider1a"><img id="imgKleinArtikel${postid}a" class="imgKleinArtikela" style="height: auto; width: 100%; display: block;" draggable="true" src="https://cdn.frankwatching.com/app/uploads/2020/11/colofon-600x180.jpg" /></td>
+    </tr>
+  </tbody>
+  </table>
+  <table>
+  <tbody>
+    <tr>
+      <td class="tableDivider1" width="0px" height="auto" style="padding-bottom: 20px;">
+        <div class="tdDiv"><a id="imgKlein${postid}Link" href="${item_link}"><img id="imgKleinArtikel${postid}" class="imgKleinArtikel" style="display: none; height: 150px; width: 150px;" src="${item_img}" /></a></div>
+      </td>
+      <td class="tableDivider2" height="auto" width="auto" style="vertical-align: top; padding-bottom: 20px;">
+        <table class="tableC">
+          <tbody>
+            <tr>
+              <td class="artikelKleinTDcA"><a id="kleinTitleLink${postid}" class="titleKleinArtikel" style="color: #1a1a1a; line-height: 22px; margin-top: 0px; margin-bottom: 7px; top: 0px; display: block; font-size: 14pt; font-weight: regular; font-family: Arial;" href="${item_link}">${item.querySelector("title").innerHTML}</a></td>
+            </tr>
+            <tr>
+              <td><a id="DescriptionKleinArtikel${postid}" class="DescriptionKleinArtikel" style="color: #333333; font-size: 16px; line-height: 22px; font-weight: regular; font-family: Arial;" href="${item_link}">${item.querySelector("description").innerHTML}</a><a id="KleinArtikelCTA${postid}" class="KleinArtikelCTA" style="text-decoration: none; color: #18608b; font-size: 12pt;" href="${item_link}"> Lees meer ▸</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+  </table>`;  
 
-   document.getElementById('vacature' + postid).ondragstart = function (event) {
+   artikelenKleinContainerContent.appendChild(div);
+
+   document.getElementById('kleinArtikel' + postid).ondragstart = function (event) {
        event
          .dataTransfer
          .setData('text/html', event.target.innerHTML);
          //console.log(event.target.innerHTML);
      }
-    */
+    
 }
 
 
