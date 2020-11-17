@@ -954,8 +954,6 @@ document.getElementById('artikelGroot6T').onmousehover = function () {
 */
 
 // ## LOAD AGENDA
-var agenda_item = '';
-
 "use strict";
 fetch("https://www.frankwatching.com/feed/academy/upcoming/")
 .then(response => response.text())
@@ -966,16 +964,18 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
 
   const items = data.querySelectorAll("item");
   
-  var existKCC = document.getElementById("artikelenKleinContainerContent");
-  if(existKCC){
+  
+  var existAAC = document.getElementById("agendaAcademyContainer");
+  if(existAAC){
     console.log('List agenda items empty');
-    existKCC.innerHTML = ``;
+   // existAAC.innerHTML = ``;
+
+    existAAC.innerHTML = `<table id="academyTable" width="100%" style="line-height: 22px; margin: 0px;"><tbody></tbody></table>`;  
+   
   }
   
   
   setTimeout(function() {
-  //  items.slice(0, 5).forEach(agendaItems);
-
     for (var i = 0, len = 15; i < len; i++) {
       agendaItems(items[i]);
     }
@@ -985,33 +985,21 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
 
 });
 
-/*
-const div_agenda = document.createElement('div');
-   //div_agenda.className = 'grootArtikel';
-   div_agenda.id = 'agendaAcademy';
-   div_agenda.draggable = 'true';*/
-   agendaAcademyContainer.innerHTML = `<table id="myTable" width="100%" style="line-height: 22px; margin: 0px;"><tbody></tbody></table>`;  
-   var table = document.getElementById("myTable");
    
 function agendaItems(item, index) {
-  
+
+  var table = document.getElementById("academyTable");
+
   var json = xml2json(item); 
 
   var title = (json["title"]); 
   var link = (json["link"]); 
-  var postid = (json["guid"]); 
-  postid = postid.substring(postid.indexOf("p=") + 2).slice(0,6);
-  
+  var postid = (json["productid"]);   
   var campaign = (json["postmeta:campaign"]); 
   var location = (json["postmeta:location"]); 
   var durration = (json["postmeta:durration"]); 
   var dateMonth = (json["postmeta:dateMonth"]); 
   var dateDay = (json["postmeta:dateDay"]); 
-
-/*
-  var durration = durration.replace("dagen", "sessies");
-  var durration = durration.replace("dag", "sessie");
-*/
 
   var item_link = link + `?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${campaign}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`;
 
@@ -1033,10 +1021,7 @@ document.getElementById('agendaOverlay').ondragstart = function (event) {
       console.log('dragstart');
 }
 
-
-
 // ## LOAD ARTIKELEN
-
 "use strict";
 fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
 .then(response => response.text())
@@ -1049,7 +1034,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
   
   var existGCC = document.getElementById("artikelenGrootContainerContent");
   if(existGCC){
-    console.log('List kleine items empty');
+    console.log('List grote items empty');
     existGCC.innerHTML = ``;
   }
 
