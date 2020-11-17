@@ -1,7 +1,5 @@
-.tox .tox-dialog-wrap { left: 20% !important;}
-a {
+a{
   text-decoration: none;
-  font-size: 16px !important;
   font-family: Arial, sans-serif;
   color: #18608B;
 }
@@ -141,8 +139,6 @@ a {
 }
 
 /* The slider */
-.switch-field .slider { margin-bottom: 0 !important;}
-
 .slider {
   position: absolute !important;
   cursor: pointer !important;
@@ -193,17 +189,4 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50% !important;
-}
-
-#versiondiv { 
-  padding: 5px;
-  font-size: 12px;
-  color: rgba(0,0,0,.6);
-}
-#versiondiv.versiondiv-update a {
-  color: #fff;
-  background: red;
-  font-weight: bold;
-  display: inline-block; 
-  padding: 5px 8px;
 }
