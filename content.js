@@ -480,11 +480,25 @@ function functionVacatureItems(item, index) {
 }
 
 
-var text = `Lokale versie: ${versionid}`;
-const versiediv = document.createElement('div');
-versiediv.id = 'versiondiv';
-versiediv.innerHTML = text;
-credits.appendChild(versiediv);
+// Check version extension
+"use strict";
+fetch("https://raw.githubusercontent.com/ThomasSonneveld/Act-On-External-Content/master/version.txt")
+  .then(response => response.text())
+    .then((out) => {
+        var text = `Lokale versie: ${versionid}<br>
+                    Online versie: ${out}<br>`;
+        const versiediv = document.createElement('div');
+        versiediv.id = 'versiondiv';
+        if(versionid != out) {
+          versiediv.className = 'versiondiv-update';
+          text = `Lokale versie: ${versionid}<br>`;
+          text = text + '<a href="https://github.com/ThomasSonneveld/Act-On-External-Content" target="_blank">Nu updaten naar: ' + out + '</a>';
+        }
+        versiediv.innerHTML = text;
+      
+      credits.appendChild(versiediv);
+
+}).catch(err => console.error(err));
 
 };
 getAllContent();
