@@ -1,5 +1,5 @@
 // Set local version
-let versionid = '2.0.0';
+let versionid = '2.0.1';
 
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
@@ -211,7 +211,7 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
 
   var existAAC = document.getElementById("agendaAcademyContainer");
   if(existAAC){
-    console.log('List agenda items empty');
+    // console.log('List agenda items empty');
     existAAC.innerHTML = `<table id="academyTable" width="100%" style="line-height: 22px; margin: 0px;"><tbody></tbody></table>`;  
    
   }
@@ -259,7 +259,7 @@ document.getElementById('agendaOverlay').ondragstart = function (event) {
     event
       .dataTransfer
       .setData('text/html', agendaAcademyContainer.innerHTML);
-      console.log('dragstart');
+     // console.log('dragstart');
 }
 
 // ## LOAD ARTIKELEN
@@ -273,13 +273,13 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
   
   var existGCC = document.getElementById("artikelenGrootContainerContent");
   if(existGCC){
-    console.log('List grote items empty');
+    // console.log('List grote items empty');
     existGCC.innerHTML = ``;
   }
 
   var existKCC = document.getElementById("artikelenKleinContainerContent");
   if(existKCC){
-    console.log('List kleine items empty');
+    // console.log('List kleine items empty');
     existKCC.innerHTML = ``;
   }
   
@@ -398,7 +398,7 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
   
   var existVCC = document.getElementById("vacatureContainerContent");
   if(existVCC){
-    console.log('List empty');
+    // console.log('List empty');
     existVCC.innerHTML = ``;
   }
   
@@ -432,7 +432,7 @@ function functionVacatureItems(item, index) {
   var vac_standplaats = item.querySelector("*|vac_standplaats").innerHTML;
   vac_standplaats = vac_standplaats.replace("<![CDATA[", "").replace("]]>", "");
 
-  var vac_link = item.querySelector("link").innerHTML + '?utm_source=vacaturealert-dag&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c';
+  var vac_link = item.querySelector("link").innerHTML + `?utm_source=vacaturealert-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`;
 
   var enclosure_img = item.querySelector("enclosure").getAttribute("url");
   
@@ -479,29 +479,17 @@ function functionVacatureItems(item, index) {
      }
 }
 
-// Check version extension
-fetch('https://raw.githubusercontent.com/ThomasSonneveld/Act-On-External-Content/master/manifest.json')
-    .then(res => res.json())
-    .then((out) => {
-        var text = `Lokale versie: ${versionid}<br>
-                    Online versie: ${out.version}<br>`;
-  
-        const versiediv = document.createElement('div');
-        versiediv.id = 'versiondiv';
-        if(versionid != out.version) {
-          versiediv.className = 'versiondiv-update';
-          text = `Lokale versie: ${versionid}<br>`;
-          text = text + '<a href="https://github.com/ThomasSonneveld/Act-On-External-Content" target="_blank">Nu updaten naar: ' + out.version + '</a>';
-        }
-        versiediv.innerHTML = text;
-      
-      credits.appendChild(versiediv);
 
-}).catch(err => console.error(err));
-
+var text = `Lokale versie: ${versionid}`;
+const versiediv = document.createElement('div');
+versiediv.id = 'versiondiv';
+versiediv.innerHTML = text;
+credits.appendChild(versiediv);
 
 };
 getAllContent();
+
+
 
 
 function xml2json(xml) {

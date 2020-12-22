@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "FWAct-On external content v2.0.0",  // Ook aanpassen in content.js
-  "version": "2.0.0",
+  "name": "FWAct-On external content v2.0.1",  // Ook aanpassen in content.js
+  "version": "2.0.1",
   "web_accessible_resources": ["Headlinesicon.png", "Artikelengrooticon.png", "Agendaicon.png", "Artikelenkleinicon.png"],
   "content_scripts": [
     {
