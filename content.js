@@ -1,5 +1,5 @@
 // Set local version
-let versionid = '2.0.1';
+let versionid = '2.0.2';
 
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
@@ -251,7 +251,7 @@ function agendaItems(item, index) {
   cell1.style.fontSize = "12px";
   cell1.style.fontSize = "#18608b";
   cell1.style.verticalAlign = "top";
-  cell2.innerHTML = `<p style="margin: 0px;"><a id="agendaAcademy${postid}" class="agendaItem" href="${item_link}" style="display: inline; margin: 0px; text-decoration: none;"><span  style="color: rgb(24, 96, 139);">${title}</span><span style="font-size: 12px; color: rgb(158, 158, 158);"> ${dateDay} ${dateMonth} | ${location} | ${durration}</span></a></p>`;
+  cell2.innerHTML = `<p style="margin: 0px;"><a id="agendaAcademy${postid}" class="agendaItem" href="${item_link}" style="display: inline; margin: 0px; text-decoration: none;"><span class="agendaAcademyTitle" style="color: rgb(24, 96, 139);">${title}</span><span style="font-size: 12px; color: rgb(158, 158, 158);"> ${dateDay} ${dateMonth} | ${location} | ${durration}</span></a></p>`;
 
 }
 
