@@ -1,5 +1,5 @@
 // Set local version
-let versionid = '2.0.2';
+let versionid = '2.0.3';
 
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
@@ -416,11 +416,9 @@ function functionVacatureItems(item, index) {
 
   var description = item.querySelector("description").innerHTML;
   description = description.replace("<![CDATA[", "").replace("]]>", "");
-  
+    
   var vac_org_naam = item.querySelector("*|vac_org_naam").innerHTML;
-  
-  var vac_org_naam = item.querySelector("*|vac_org_naam").innerHTML;
-  vac_org_naam = vac_org_naam.replace("<![CDATA[", "").replace("]]>", "");
+  vac_org_naam = htmlDecode(vac_org_naam.replace("<![CDATA[", "").replace("]]>", ""));
 
   var vac_uur = item.querySelector("*|vac_uur").innerHTML;
   vac_uur = vac_uur.replace("<![CDATA[", "").replace("]]>", "");
@@ -533,4 +531,9 @@ function xml2json(xml) {
   } catch (e) {
       console.log(e.message);
   }
+}
+
+function htmlDecode(input) {
+  var doc = new DOMParser().parseFromString(input, "text/html");
+  return doc.documentElement.textContent;
 }
