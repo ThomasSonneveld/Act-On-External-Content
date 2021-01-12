@@ -427,14 +427,27 @@ function functionVacatureItems(item, index) {
    vac_uur = vac_uur + " uur";
   }
 
+
   var vac_standplaats = item.querySelector("*|vac_standplaats").innerHTML;
   vac_standplaats = vac_standplaats.replace("<![CDATA[", "").replace("]]>", "");
 
+  var vac_categorie = '<span class="vacatureClassDag">'+dagWeek[0]+'</span>';
+  var vac_categories = item.querySelectorAll("category");
+  vac_categories_nodes = Array.prototype.slice.call(vac_categories,0);
+  vac_categories_nodes.forEach(function(element) {
+    let formName = element;
+    vac_categorie = vac_categorie + '<span class="vacatureClass'+formName.textContent+'">' + formName.textContent + '</span>';
+  });
+  
   var vac_link = item.querySelector("link").innerHTML + `?utm_source=vacaturealert-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`;
 
   var enclosure_img = item.querySelector("enclosure").getAttribute("url");
   
-   const div = document.createElement('div');
+  const divCat = document.createElement('div');
+  divCat.className = 'vacatureClass';
+  divCat.innerHTML = vac_categorie;
+
+  const div = document.createElement('div');
    div.className = 'dragrow vacature';
    div.id = 'vacature'+postid;
    div.draggable = 'true';
@@ -452,6 +465,7 @@ function functionVacatureItems(item, index) {
                <td class="vacTableDivider2" height="150px" width="auto" style="vertical-align: top;">
                    <table>
                        <tbody>
+                           
                            ${daginzet}
                            <tr>
                                <td id="vacatureTD${postid}bA" class="vacatureTDbA"><a id="metaVacature${postid}"  href="${vac_link}" style="display: block; font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;" class="metaVacature"><span id="vacatureMeta${postid}a" class="metaVacatureCompany" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;">${vac_org_naam}</span><span id="vacatureMeta${postid}b" class="metaVacature" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;"> • ${vac_standplaats} • ${vac_uur}</span></a></td>
@@ -468,6 +482,7 @@ function functionVacatureItems(item, index) {
            </tr>
        </tbody>
    </table> `;
+   vacatureContainerContent.appendChild(divCat);
    vacatureContainerContent.appendChild(div);
 
    document.getElementById('vacature' + postid).ondragstart = function (event) {

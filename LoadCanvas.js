@@ -32,7 +32,6 @@ var vacatureContainerContent = document.createElement( 'div' );
 vacatureContainerContent.id = 'vacatureContainerContent';
 
 //headlines
-
 var headlinesOverlay = document.createElement ( "div" );
 var phl1 = document.createElement ( 'p' );
 var hl1 = document.createElement ( 'a' );
