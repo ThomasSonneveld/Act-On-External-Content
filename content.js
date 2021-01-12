@@ -1,5 +1,5 @@
 // Set local version
-let versionid = '2.0.3';
+let versionid = '2.0.4';
 
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
