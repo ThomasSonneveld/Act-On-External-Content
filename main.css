@@ -208,9 +208,14 @@ input:checked + .slider:before {
   padding: 5px 8px;
 }
 
-.vacatureClass { padding-top: 20px; background: rgba(0,0,0,.1);}
-.vacatureClass span { display: inline-block; padding: 4px; line-height: 15px;text-transform: uppercase; font-size: 12px; }
-.vacatureClassDag { background: #000; color: #fff; font-weight: bold; padding-left: 7px; padding-right: 7px; }
-.vacatureClassCustomer { background: #6843A3; color: #fff; }
-.vacatureClassMarketing { background: #196EA3; color: #fff; }
-.vacatureClassCommunicatie { background: #019000; color: #fff; }
+#artikelenKleinContainerContent .titleKleinArtikel { font-size: 14px !important; line-height: 110% !important; font-weight: bold; }
+
+.categoryClass { padding-top: 20px; background: rgba(0,0,0,.1);}
+.categoryClass span { display: inline-block; padding: 4px; line-height: 15px;text-transform: uppercase; font-size: 11px; }
+.categoryClassDag { background: #000; color: #fff; font-weight: bold; padding-left: 7px; padding-right: 7px; }
+.categoryClassElement { border:1px solid rgba(0,0,0,.5)  }
+.categoryClassCustomer { background: #6843A3; color: #fff; }
+.categoryClassMarketing { background: #196EA3; color: #fff; }
+.categoryClassCommunicatie { background: #019000; color: #fff; }
+
+

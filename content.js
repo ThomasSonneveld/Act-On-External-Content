@@ -1,5 +1,5 @@
 // Set local version
-let versionid = '2.0.4';
+let versionid = '2.0.5';
 
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
@@ -255,6 +255,14 @@ function agendaItems(item, index) {
 
 }
 
+   /* add category */
+   var item_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
+ 
+   const divCat = document.createElement('div');
+   divCat.className = 'categoryClass';
+   divCat.innerHTML = item_categorie;
+   agendaAcademyContainer.appendChild(divCat);
+
 document.getElementById('agendaOverlay').ondragstart = function (event) {
     event
       .dataTransfer
@@ -298,6 +306,20 @@ function artikelenGrootItems(item, index) {
   var item_img_groot = item.querySelector("*|afbeelding").innerHTML;
   item_img_groot = item_img_groot.replace("<![CDATA[", "").replace("]]>", "");
  
+  /* add category */
+  var item_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
+  var item_categories = item.querySelector("categoriesName").innerHTML;
+  var item_categories_array = removeDuplicates(item_categories.split("|"));
+  item_categories_array.forEach(function(element) {    
+    item_categorie = item_categorie + '<span class="categoryClassElement categoryClass'+element+'">' + element + '</span>';
+  });
+
+  const divCat = document.createElement('div');
+  divCat.className = 'categoryClass';
+  divCat.innerHTML = item_categorie;
+  artikelenGrootContainerContent.appendChild(divCat);
+
+
    const div = document.createElement('div');
    div.className = 'grootArtikel';
    div.id = 'grootArtikel'+postid;
@@ -340,6 +362,19 @@ function artikelenKleinItems(item, index) {
 
   var item_img_klein = item.querySelector("*|foto").innerHTML;
   item_img_klein = item_img_klein.replace("<![CDATA[", "").replace("]]>", "");
+
+   /* add category */
+   var item_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
+   var item_categories = item.querySelector("categoriesName").innerHTML;
+   var item_categories_array = removeDuplicates(item_categories.split("|"));
+   item_categories_array.forEach(function(element) {    
+     item_categorie = item_categorie + '<span class="categoryClassElement categoryClass'+element+'">' + element + '</span>';
+   });
+ 
+   const divCat = document.createElement('div');
+   divCat.className = 'categoryClass';
+   divCat.innerHTML = item_categorie;
+   artikelenKleinContainerContent.appendChild(divCat);
 
    const div = document.createElement('div');
    div.className = 'kleinArtikel';
@@ -431,12 +466,12 @@ function functionVacatureItems(item, index) {
   var vac_standplaats = item.querySelector("*|vac_standplaats").innerHTML;
   vac_standplaats = vac_standplaats.replace("<![CDATA[", "").replace("]]>", "");
 
-  var vac_categorie = '<span class="vacatureClassDag">'+dagWeek[0]+'</span>';
+  var vac_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
   var vac_categories = item.querySelectorAll("category");
   vac_categories_nodes = Array.prototype.slice.call(vac_categories,0);
   vac_categories_nodes.forEach(function(element) {
     let formName = element;
-    vac_categorie = vac_categorie + '<span class="vacatureClass'+formName.textContent+'">' + formName.textContent + '</span>';
+    vac_categorie = vac_categorie + '<span class="categoryClassElement categoryClass'+formName.textContent+'">' + formName.textContent + '</span>';
   });
   
   var vac_link = item.querySelector("link").innerHTML + `?utm_source=vacaturealert-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`;
@@ -444,7 +479,7 @@ function functionVacatureItems(item, index) {
   var enclosure_img = item.querySelector("enclosure").getAttribute("url");
   
   const divCat = document.createElement('div');
-  divCat.className = 'vacatureClass';
+  divCat.className = 'categoryClass';
   divCat.innerHTML = vac_categorie;
 
   const div = document.createElement('div');
@@ -552,3 +587,7 @@ function htmlDecode(input) {
   var doc = new DOMParser().parseFromString(input, "text/html");
   return doc.documentElement.textContent;
 }
+
+function removeDuplicates(array) {
+  return array.filter((a, b) => array.indexOf(a) === b)
+};
