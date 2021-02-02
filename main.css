@@ -219,3 +219,6 @@ input:checked + .slider:before {
 .categoryClassCommunicatie { background: #019000; color: #fff; }
 
 
+.slider.round:before { content:"D" !important; font-weight: bold; font-size: 16px; color: #333; text-align: center; line-height: 30px; }
+input:checked + .slider.round:before { content:"W" !important; color: #333; }
+#dagWeekText { display: none;}
