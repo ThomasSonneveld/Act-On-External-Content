@@ -1,5 +1,5 @@
 // Set local version
-let versionid = '2.0.5';
+let versionid = '2.0.6';
 
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
@@ -11,7 +11,7 @@ window.onload = function () {
     var input = document.getElementById('dagWeekSwitch');
 
     function check() {
-        dagWeek = input.checked ? "week" : "dag";
+        dagWeek = input.checked ? "wekelijks" : "dagelijks";
         document.getElementById('dagWeekText').innerHTML = dagWeek;
     }
     input.onchange = check;
@@ -126,25 +126,25 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
 
     let headerline1 = document.getElementById('headline1');
     headerline1.textContent = 'Voorbeeld';
-    headerline1.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline1.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline2 = document.getElementById('headline2');
     headerline2.textContent = 'Voorbeeld';
-    headerline2.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline2.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline3 = document.getElementById('headline3');
     headerline3.textContent = allTitles[1].firstChild.nodeValue;
-    headerline3.setAttribute("href", allLinks[1].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline3.setAttribute("href", allLinks[1].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline4 = document.getElementById('headline4');
     headerline4.textContent = allTitles[2].firstChild.nodeValue;
-    headerline4.setAttribute("href", allLinks[2].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline4.setAttribute("href", allLinks[2].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline5 = document.getElementById('headline5');
     headerline5.textContent = 'Voorbeeld';
-    headerline5.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline5.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline6 = document.getElementById('headline6');
     headerline6.textContent = allTitles[3].firstChild.nodeValue;
-    headerline6.setAttribute("href", allLinks[3].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);//campagne);
+    headerline6.setAttribute("href", allLinks[3].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);//campagne);
     let headerline7 = document.getElementById('headline7');
     headerline7.textContent = allTitles[4].firstChild.nodeValue;
-    headerline7.setAttribute("href", allLinks[4].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline7.setAttribute("href", allLinks[4].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
 
 });
 
@@ -242,7 +242,7 @@ function agendaItems(item, index) {
   var dateMonth = (json["postmeta:dateMonth"]); 
   var dateDay = (json["postmeta:dateDay"]); 
 
-  var item_link = link + `?utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=${campaign}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`;
+  var item_link = link + `?utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=${campaign}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`;
 
   var row = table.insertRow(-1);
   var cell1 = row.insertCell(0);
@@ -301,7 +301,7 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
 function artikelenGrootItems(item, index) {
 
   var postid = item.querySelector("postid").innerHTML;
-  var item_link = item.querySelector("link").innerHTML + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`;
+  var item_link = item.querySelector("link").innerHTML + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`;
   
   var item_img_groot = item.querySelector("*|afbeelding").innerHTML;
   item_img_groot = item_img_groot.replace("<![CDATA[", "").replace("]]>", "");
@@ -355,7 +355,7 @@ function artikelenKleinItems(item, index) {
    
   var postid = item.querySelector("postid").innerHTML;
 
-  var item_link = item.querySelector("link").innerHTML + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`;
+  var item_link = item.querySelector("link").innerHTML + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`;
   
   var item_img_groot = item.querySelector("*|afbeelding").innerHTML;
   item_img_groot = item_img_groot.replace("<![CDATA[", "").replace("]]>", "");
@@ -385,7 +385,7 @@ function artikelenKleinItems(item, index) {
   div.innerHTML = `<table class="table1a">
   <tbody>
     <tr>
-      <td class="tableDivider1a"><img id="imgKleinArtikel${postid}a" class="imgKleinArtikela" style="height: auto; width: 100%; display: block;" draggable="true" src="${item_img_groot}" /></td>
+      <td class="tableDivider1a"><a id="imgKleinArtikel${postid}Link" href="${item_link}"><img id="imgKleinArtikel${postid}a" class="imgKleinArtikela" style="height: auto; width: 100%; display: block;" src="${item_img_groot}" /></a></td>
     </tr>
   </tbody>
   </table>
@@ -462,10 +462,17 @@ function functionVacatureItems(item, index) {
    vac_uur = vac_uur + " uur";
   }
 
-
   var vac_standplaats = item.querySelector("*|vac_standplaats").innerHTML;
   vac_standplaats = vac_standplaats.replace("<![CDATA[", "").replace("]]>", "");
 
+  var vac_link = item.querySelector("link").innerHTML + `?utm_source=al-jobs-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`;
+  if(dagWeek != 'dagelijks') { 
+    var vac_link = item.querySelector("link").innerHTML + `?utm_source=nb-jobs-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`;
+  }
+
+  var enclosure_img = item.querySelector("enclosure").getAttribute("url");
+
+  /* add category */
   var vac_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
   var vac_categories = item.querySelectorAll("category");
   vac_categories_nodes = Array.prototype.slice.call(vac_categories,0);
@@ -473,10 +480,6 @@ function functionVacatureItems(item, index) {
     let formName = element;
     vac_categorie = vac_categorie + '<span class="categoryClassElement categoryClass'+formName.textContent+'">' + formName.textContent + '</span>';
   });
-  
-  var vac_link = item.querySelector("link").innerHTML + `?utm_source=vacaturealert-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`;
-
-  var enclosure_img = item.querySelector("enclosure").getAttribute("url");
   
   const divCat = document.createElement('div');
   divCat.className = 'categoryClass';
@@ -488,7 +491,7 @@ function functionVacatureItems(item, index) {
    div.draggable = 'true';
 
   var daginzet = '<tr><td id="vacatureTD' + postid + 'bMob" class="vacaturetd_mobile" style="display: none;"><a  style="display: none;" id="vacatureImgLink' + postid + '" class="vacatureImgLink_mob" href="'+vac_link+'"><img id="imgVacatureArtikel'+postid+'mob" class="imgVacature_mobile" style="display: none;" src="'+enclosure_img+'" /></a></td></tr> ';
-   if(dagWeek != 'dag') { 
+   if(dagWeek != 'dagelijks') { 
     daginzet = '';
   }
 
@@ -551,9 +554,7 @@ fetch("https://raw.githubusercontent.com/ThomasSonneveld/Act-On-External-Content
 };
 getAllContent();
 
-
-
-
+// RSS/XML omzetten
 function xml2json(xml) {
   try {
     var obj = {};
