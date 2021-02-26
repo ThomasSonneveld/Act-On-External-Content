@@ -357,68 +357,12 @@ headlinesOverlay.style.zIndex = "19300";
   headlines2Td3.style.verticalAlign = "top";
   headlines5Td3.style.verticalAlign = "top";
 
-//Categorieën artikelen
-categorySEO.id = "categroySEO";
-categorySEO.style.width = "100%";
-categorySEO.style.height = "100%";
-categorySEO.style.display = "none";
-categorySEO.style.backgroundColor = "#ffffba";
-
-categoryConversie.id = "categoryConversie";
-categoryConversie.style.width = "100%";
-categoryConversie.style.height = "100%";
-categoryConversie.style.display = "none";
-categoryConversie.style.backgroundColor = "#bae1ff";
-
-categoryAdvertising.id = "categoryAdvertising";
-categoryAdvertising.style.width = "100%";
-categoryAdvertising.style.height = "100%";
-categoryAdvertising.style.display = "none";
-categoryAdvertising.style.backgroundColor = "#ffb3ba";
-
-categoryContent.id = "categoryContent";
-categoryContent.style.width = "100%";
-categoryContent.style.height = "100%";
-categoryContent.style.display = "none";
-categoryContent.style.backgroundColor = "#eecbff";
-
-categoryCommunicatie.id = "categoryCommunicatie";
-categoryCommunicatie.style.width = "100%";
-categoryCommunicatie.style.height = "100%";
-categoryCommunicatie.style.display = "none";
-categoryCommunicatie.style.backgroundColor = "#baffc9";
-
-categorySocial.id = "categorySocial";
-categorySocial.style.width = "100%";
-categorySocial.style.height = "100%";
-categorySocial.style.display = "none";
-categorySocial.style.backgroundColor = "#d4ffea";
-
-categoryUX.id = "categoryUX";
-categoryUX.style.width = "100%";
-categoryUX.style.height = "100%";
-categoryUX.style.display = "none";
-categoryUX.style.backgroundColor = "#a8e6cf";
-
-categoryTech.id = "categoryTech";
-categoryTech.style.width = "100%";
-categoryTech.style.height = "100%";
-categoryTech.style.display = "none";
-categoryTech.style.backgroundColor = "#ff8b94";
-
-categoryHR.id = "categoryHR";
-categoryHR.style.width = "100%";
-categoryHR.style.height = "100%";
-categoryHR.style.display = "none";
-categoryHR.style.backgroundColor = "#dfa290";
-
-
 //form styling
 dagWeekForm.id = "dagWeekForm";
 dagWeekForm.className = "dagWeekForm";
 dagWeekFormDiv.class = "switch-field"
 dagWeekFormInput.type = "checkbox";
-dagWeekFormInput.value = "week";
+dagWeekFormInput.value = "wekelijks";
 dagWeekFormInput.id= "dagWeekSwitch";
 document.getElementById ("dagWeekSwitch").addEventListener ("click", switchFunction, false);
 dagWeekFormLabel.className = "switch";
@@ -430,20 +374,20 @@ dagWeekFormText.top = "0px";
 dagWeekFormText.color = "#CCCCCC";
 dagWeekFormText.margin = "7px 5px 5px 10px";
 
-
 function switchFunction()
 {
   if (document.getElementById('dagWeekSwitch').checked)
   {
-      dagWeek = 'week';
+      dagWeek = 'wekelijks';
       getAllContent();
   } else {
-      dagWeek = 'dag';
+      dagWeek = 'dagelijks';
       getAllContent();
   }
 };
 
 inOutForm.id = "inOutForm";
+
 inOutForm.style.bottom = "0px !important";
 inOutForm.style.left = "20% !important;";
 inOutForm.style.height = "20px !important;";

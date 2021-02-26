@@ -81,7 +81,6 @@ var headlines7Td1 = document.createElement( 'td' );
 var headlines7Td2 = document.createElement( 'td' );
 var headlines7Td3 = document.createElement( 'td' );
 
-
 var agendaOverlay = document.createElement ( "div" );
 
 var choises = document.createElement ('div');
@@ -96,36 +95,6 @@ var artikelKleinButtonImg = document.createElement ('p');
 var vacatureButton = document.createElement ('div');
 var vacatureButtonImg = document.createElement ('p');
 
-var categorySEO = document.createElement ('div');
-var categoryConversie = document.createElement ('div');
-var categoryAdvertising = document.createElement ('div');
-var categoryContent = document.createElement ('div');
-var categoryCommunicatie = document.createElement ('div');
-var categorySocial = document.createElement ('div');
-var categoryUX = document.createElement ('div');
-var categoryTech = document.createElement ('div');
-var categoryHR = document.createElement ('div');
-
-var categorySEOText = document.createElement ('p');
-var categoryConversieText = document.createElement ('p');
-var categoryAdvertisingText = document.createElement ('p');
-var categoryContentText = document.createElement ('p');
-var categoryCommunicatieText = document.createElement ('p');
-var categorySocialText = document.createElement ('p');
-var categoryUXText = document.createElement ('p');
-var categoryTechText = document.createElement ('p');
-var categoryHRText = document.createElement ('p');
-
-categorySEOText.innerHTML = "Marketing & SEO!";
-categoryConversieText.innerHTML = "Analytics en Conversie";
-categoryAdvertisingText.innerHTML = "Advertising en Ecommerce";
-categoryContentText.innerHTML = "Content en contentmarketing";
-categoryCommunicatieText.innerHTML = "Communicatie en branding";
-categorySocialText.innerHTML = "Social media en conversational";
-categoryUXText.innerHTML = "UX en design";
-categoryTechText.innerHTML = "Digital Business en tech";
-categoryHRText.innerHTML = "Carrier en HR";
-
 var dagWeekForm = document.createElement('form');
 var dagWeekFormDiv = document.createElement('div');
 var dagWeekFormLabel = document.createElement('label');
@@ -133,8 +102,7 @@ var dagWeekFormInput = document.createElement('input');
 var dagWeekFormSpan = document.createElement('span');
 var dagWeekFormText = document.createElement('span');
 
-
-let dagWeek = "dag";
+let dagWeek = "dagelijks";
 
 var inOutForm = document.createElement('form');
 var inOutFormDiv = document.createElement('div');

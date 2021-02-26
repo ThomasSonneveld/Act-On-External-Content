@@ -1,5 +1,5 @@
 // Set local version
-let versionid = '2.0.6';
+let versionid = '2.0.7';
 
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
@@ -17,7 +17,6 @@ window.onload = function () {
     input.onchange = check;
     check();
 }
-
 
 console.log(dagWeek);
 

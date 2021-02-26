@@ -75,23 +75,3 @@ choises.appendChild( artikelKleinButton );
 artikelKleinButton.appendChild( artikelKleinButtonImg );
 choises.appendChild( vacatureButton );
 vacatureButton.appendChild( vacatureButtonImg );
-
-
-credits.appendChild( categorySEO );
-categorySEO.appendChild( categorySEOText );
-credits.appendChild( categoryConversie );
-categoryConversie.appendChild( categoryConversieText );
-credits.appendChild( categoryAdvertising );
-categoryAdvertising.appendChild( categoryAdvertisingText );
-credits.appendChild( categoryContent );
-categoryContent.appendChild( categoryContentText );
-credits.appendChild( categoryCommunicatie );
-categoryCommunicatie.appendChild( categoryCommunicatieText);
-credits.appendChild( categorySocial );
-categorySocial.appendChild( categorySocialText );
-credits.appendChild( categoryUX );
-categoryUX.appendChild( categoryUXText );
-credits.appendChild( categoryTech );
-categoryTech .appendChild( categoryTechText );
-credits.appendChild( categoryHR );
-categoryHR.appendChild( categoryHRText );
