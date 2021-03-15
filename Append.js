@@ -64,6 +64,7 @@ artikelenKleinContainer.appendChild( artikelenKleinContainerContent );
 contentIndex.appendChild(vacatureContainer);
 vacatureContainer.appendChild(vacatureContainerContent);
 
+//Menu
 contentFeed.appendChild( choises );
 choises.appendChild( headlinesButton );
 headlinesButton.appendChild( headlinesButtonImg );

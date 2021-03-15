@@ -218,6 +218,15 @@ input:checked + .slider:before {
 .categoryClassMarketing { background: #196EA3; color: #fff; }
 .categoryClassCommunicatie { background: #019000; color: #fff; }
 
+.categoryClass span.w100 { width: 100%; padding: 0; line-height: 1px; display: block;  }
+.categoryClass span.postPubDate {  border:1px solid rgba(0,0,0,.5); background: rgba(255,255,255,1);  }
+.categoryClass span.postStatus { border:1px solid rgba(0,0,0,.5); background: rgba(255,255,255,1); }
+.categoryClass span.postScore {  border:1px solid rgba(0,0,0,.5); background: rgba(255,255,255,1); }
+
+#headingArtikelGroot { padding: 10px; border-bottom: 1px solid #000; font-weight: bold; font-size: 16px; }
+#switchListForm { padding: 5px; border-bottom: 1px solid #000; }
+#switchListForm #switchListSwitchText p { display: inline-block; font-weight: bold; margin: 0; padding: 0 10px; font-size: 16px; }
+
 #dagWeekForm .slider.round:before { content:"D" !important; font-weight: bold; font-size: 16px; color: #333; text-align: center; line-height: 30px; }
 #dagWeekForm input:checked + .slider.round:before { content:"W" !important; color: #333; }
 #dagWeekForm  #dagWeekText { display: none;}

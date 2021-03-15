@@ -135,3 +135,20 @@ inOutFormLabel.appendChild( inOutFormSpan );
 createCanvas.appendChild( contentIndex );
 createCanvas.appendChild( credits );
 
+var switchListFormSelect = document.createElement( 'div' );
+var switchListForm = document.createElement('form');
+var switchListFormDiv = document.createElement('div');
+var switchListFormLabel = document.createElement('label');
+var switchListFormInput = document.createElement('input');
+var switchListFormSpan = document.createElement('span');
+var switchListFormText = document.createElement('span');
+
+let listSort = "normal";
+
+artikelenKleinContainer.appendChild( switchListFormSelect );
+switchListFormSelect.appendChild( switchListForm );
+switchListForm.appendChild( switchListFormDiv );
+switchListFormDiv.appendChild( switchListFormLabel );
+switchListFormDiv.appendChild( switchListFormText );
+switchListFormLabel.appendChild( switchListFormInput );
+switchListFormLabel.appendChild( switchListFormSpan );

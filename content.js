@@ -1,5 +1,5 @@
 // Set local version
-let versionid = '2.0.7';
+let versionid = '2.1.1';
 
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
@@ -9,10 +9,14 @@ let allLinks;
 
 window.onload = function () {
     var input = document.getElementById('dagWeekSwitch');
+    var inputList = document.getElementById('switchListSwitch');
 
     function check() {
         dagWeek = input.checked ? "wekelijks" : "dagelijks";
         document.getElementById('dagWeekText').innerHTML = dagWeek;
+
+        listSort = inputList.checked ? "popularity" : "normal";
+        //document.getElementById('dagWeekText').innerHTML = listSort;
     }
     input.onchange = check;
     check();
@@ -37,7 +41,7 @@ document.getElementById('headlinesButton').onclick = function (event2) {
   artikelGrootButtonImg.className = "ButtonImg";
   agendaAcademyButtonImg.className = "ButtonImg";
   artikelKleinButtonImg.className = "ButtonImg";
-  vacatureButtonImg.className = "ButtonImg"
+  vacatureButtonImg.className = "ButtonImg";
 }
 
 document.getElementById("artikelGrootButton").onclick = function (event3) {
@@ -53,7 +57,7 @@ document.getElementById("artikelGrootButton").onclick = function (event3) {
   artikelGrootButtonImg.className = "ButtonImgPressd";
   agendaAcademyButtonImg.className = "ButtonImg";
   artikelKleinButtonImg.className = "ButtonImg";
-  vacatureButtonImg.className = "ButtonImg"
+  vacatureButtonImg.className = "ButtonImg";
 }
 
 document.getElementById('agendaAcademyButton').onclick = function (event4) {
@@ -69,7 +73,7 @@ document.getElementById('agendaAcademyButton').onclick = function (event4) {
   artikelGrootButtonImg.className = "ButtonImg";
   agendaAcademyButtonImg.className = "ButtonImgPressd";
   artikelKleinButtonImg.className = "ButtonImg";
-  vacatureButtonImg.className = "ButtonImg"
+  vacatureButtonImg.className = "ButtonImg";
 }
 
 document.getElementById('artikelKleinButton').onclick = function (event5) {
@@ -85,10 +89,10 @@ document.getElementById('artikelKleinButton').onclick = function (event5) {
   artikelGrootButtonImg.className = "ButtonImg";
   agendaAcademyButtonImg.className = "ButtonImg";
   artikelKleinButtonImg.className = "ButtonImgPressd";
-  vacatureButtonImg.className = "ButtonImg"
+  vacatureButtonImg.className = "ButtonImg";
 }
 
-document.getElementById('vacatureButton').onclick = function (event5) {
+document.getElementById('vacatureButton').onclick = function (event6) {
   headlinesContainer.style.display = "none";
   headlinesOverlay.style.display = "none";
   artikelenGrootContainer.style.display = "none";
@@ -101,7 +105,7 @@ document.getElementById('vacatureButton').onclick = function (event5) {
   artikelGrootButtonImg.className = "ButtonImg";
   agendaAcademyButtonImg.className = "ButtonImg";
   artikelKleinButtonImg.className = "ButtonImg";
-  vacatureButtonImg.className = "ButtonImgPressd"
+  vacatureButtonImg.className = "ButtonImgPressd";
 }
 
 "use strict";
@@ -269,9 +273,15 @@ document.getElementById('agendaOverlay').ondragstart = function (event) {
      // console.log('dragstart');
 }
 
+newsrss = 'https://www.frankwatching.com/feed-nieuwsbrief-v2/';
+
+if ( listSort === 'popularity') {
+  newsrss = 'https://www.frankwatching.com/feed-nieuwsbrief-v2/?popularity';
+} 
+
 // ## LOAD ARTIKELEN
 "use strict";
-fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
+fetch(newsrss)
 .then(response => response.text())
 .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
 .then(data => {
@@ -289,6 +299,13 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     // console.log('List kleine items empty');
     existKCC.innerHTML = ``;
   }
+
+  if ( listSort === 'popularity') {
+    const div = document.createElement('div');
+    div.id = 'headingArtikelGroot';
+    div.innerHTML =  `Gesorteerd op populariteit`;  
+    existGCC.appendChild(div);
+  } 
   
   setTimeout(function() {
     items.forEach(artikelenGrootItems);
@@ -305,8 +322,16 @@ function artikelenGrootItems(item, index) {
   var item_img_groot = item.querySelector("*|afbeelding").innerHTML;
   item_img_groot = item_img_groot.replace("<![CDATA[", "").replace("]]>", "");
  
+  var pubdate = item.querySelector("pubdate").innerHTML;
+  var poststatus = item.querySelector("poststatus").innerHTML;
+  var popularityscore = item.querySelector("popularityscore").innerHTML;
+
   /* add category */
   var item_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
+  var item_categorie = item_categorie + '<span class="postPubDate">'+pubdate+'</span>';
+  var item_categorie = item_categorie + '<span class="postStatus">'+poststatus+'</span>';
+  var item_categorie = item_categorie + '<span class="postScore">&#9733; '+popularityscore+'</span><span class="w100"></span>';
+  
   var item_categories = item.querySelector("categoriesName").innerHTML;
   var item_categories_array = removeDuplicates(item_categories.split("|"));
   item_categories_array.forEach(function(element) {    
@@ -318,12 +343,10 @@ function artikelenGrootItems(item, index) {
   divCat.innerHTML = item_categorie;
   artikelenGrootContainerContent.appendChild(divCat);
 
-
-   const div = document.createElement('div');
-   div.className = 'grootArtikel';
-   div.id = 'grootArtikel'+postid;
-   div.draggable = 'true';
-
+  const div = document.createElement('div');
+  div.className = 'grootArtikel';
+  div.id = 'grootArtikel'+postid;
+  div.draggable = 'true';
 
   div.innerHTML = `
   <table id="artikelGroot${postid}T"> 
@@ -362,8 +385,16 @@ function artikelenKleinItems(item, index) {
   var item_img_klein = item.querySelector("*|foto").innerHTML;
   item_img_klein = item_img_klein.replace("<![CDATA[", "").replace("]]>", "");
 
+  var pubdate = item.querySelector("pubdate").innerHTML;
+  var poststatus = item.querySelector("poststatus").innerHTML;
+  var popularityscore = item.querySelector("popularityscore").innerHTML;
+
    /* add category */
    var item_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
+   var item_categorie = item_categorie + '<span class="postPubDate">'+pubdate+'</span>';
+   var item_categorie = item_categorie + '<span class="postStatus">'+poststatus+'</span>';
+   var item_categorie = item_categorie + '<span class="postScore">&#9733; '+popularityscore+'</span><span class="w100"></span>';
+  
    var item_categories = item.querySelector("categoriesName").innerHTML;
    var item_categories_array = removeDuplicates(item_categories.split("|"));
    item_categories_array.forEach(function(element) {    
@@ -381,7 +412,7 @@ function artikelenKleinItems(item, index) {
    div.draggable = 'true';
 
 
-  div.innerHTML = `<table class="table1a">
+  div.innerHTML =  `<table class="table1a">
   <tbody>
     <tr>
       <td class="tableDivider1a"><a id="imgKleinArtikel${postid}Link" href="${item_link}"><img id="imgKleinArtikel${postid}a" class="imgKleinArtikela" style="height: auto; width: 100%; display: block;" src="${item_img_groot}" /></a></td>

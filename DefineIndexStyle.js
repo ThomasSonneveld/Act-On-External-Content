@@ -429,3 +429,41 @@ function switchFunctionInOut()
       console.log (inOut)
   }
 };
+
+
+
+//form styling
+switchListForm.id = "switchListForm";
+switchListForm.className = "switchListForm";
+switchListFormDiv.class = "switch-field"
+switchListFormInput.type = "checkbox";
+switchListFormInput.value = "wekelijks";
+switchListFormInput.id= "switchListSwitch";
+document.getElementById ("switchListSwitch").addEventListener ("click", switchListFunction, false);
+switchListFormLabel.className = "switch";
+switchListFormSpan.className = "slider round";
+switchListFormText.id = "switchListSwitchText";
+switchListFormText.innerHTML = "<p>Gesorteerd op datum</p>";
+switchListFormText.display = "inline";
+switchListFormText.width = "auto";
+switchListFormText.top = "0px";
+switchListFormText.color = "#CCCCCC";
+switchListFormText.margin = "7px 5px 5px 10px";
+
+function switchListFunction()
+{
+  var div = document.getElementById('switchListSwitchText');
+  if (document.getElementById('switchListSwitch').checked)
+  {
+    listSort = 'popularity';
+    div.innerHTML = "<p>Gesorteerd op populariteit</p>";
+    getAllContent();
+  } else {
+    listSort = 'normal';
+    div.innerHTML = "<p>Gesorteerd op datum</p>";
+    getAllContent();
+  }
+};
+
+
+
