@@ -173,11 +173,11 @@ a {
 }
 
 input:checked + .slider {
-  background-color: #2196F3 !important;
+  background-color: #148acb !important;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3 !important;
+  box-shadow: 0 0 1px #148acb !important;
 }
 
 input:checked + .slider:before {
@@ -240,4 +240,9 @@ input:checked + .slider:before {
   padding-top: 10px;
   margin-top: 10px;
   border-top: 1px solid rgba(0,0,0,.2);
+  height: 65px;
 }
+.divSearchKader label { width: 100%; float: left; }
+.divSearchKader input { width: 73%; float: left; padding: 0 4px; line-height: 28px; }
+.divSearchKader div.button { width: 25%; float: right; cursor: pointer; background: #148acb; border: 1px solid #2e6da4; color: #fff; text-align: center;  line-height: 28px;}
+.divSearchKader div.button:hover { background: #2e6da4; }

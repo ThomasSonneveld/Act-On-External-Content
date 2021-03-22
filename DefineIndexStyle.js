@@ -470,7 +470,7 @@ let searchID = '';
 const divSearch = document.createElement('div');
 divSearch.className = 'divSearchKader';
 divSearch.id = 'divSearchKader';
-divSearch.innerHTML = `<label>Zoek op postid: <input type="text" placeholder="Zoek op postid..." id="divSearchKaderInput"><label>`;  
+divSearch.innerHTML = `<label for="divSearchKaderInput">Zoek op postid:</label><input type="text" placeholder="Zoek op postid..." id="divSearchKaderInput"><div class="button">Zoek</div>`;  
 switchListForm.appendChild(divSearch);
 
 document.getElementById ("divSearchKaderInput").addEventListener ("change", inputSearch, false);
