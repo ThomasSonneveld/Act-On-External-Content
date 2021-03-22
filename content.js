@@ -1,4 +1,4 @@
-// Set local version
+// ##  Set local version
 let versionid = '2.1.1';
 
 let styleHeadlines = document.getElementsByClassName('headline');
@@ -22,11 +22,11 @@ window.onload = function () {
     check();
 }
 
-console.log(dagWeek);
+// console.log(dagWeek);
 
 function getAllContent(){
 
-//buttons
+// ## buttons
 
 document.getElementById('headlinesButton').onclick = function (event2) {
   headlinesContainer.style.display = "block";
@@ -108,9 +108,54 @@ document.getElementById('vacatureButton').onclick = function (event6) {
   vacatureButtonImg.className = "ButtonImgPressd";
 }
 
+// ## LOAD HEADLINES - 8 uur artikel
 "use strict";
+fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/?poststatus=future-publish")
+.then(response => response.text())
+.then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+.then(data => {
+  
+  const items = data.querySelectorAll("item");
 
+  setTimeout(function() {
+    for (var i = 0, len = 4; i < len; i++) {
+      headlineFutureItems(items[i]);
+    }
+  }, 100);
 
+});
+  
+var futureHeadlineText = 'Voorbeeld';
+var futureHeadlineLink = 'https://voorbeeld.frankwatching.com/?';
+
+function headlineFutureItems(item, index) {  
+  var json = xml2json(item); 
+  var jsonpoststatus = (json["poststatus"]); 
+  var jsonpubdate = (json["pubdate"]); 
+  var jsontitle = (json["title"]); 
+  var jsonlink = (json["link"]); 
+  
+  var today = new Date();
+  var tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  if(today.getDay() == 5) tomorrow.setDate(tomorrow.getDate() + 3);
+  var dd = String(tomorrow.getDate()).padStart(2, '0');
+  var mm = String(tomorrow.getMonth() + 1).padStart(2, '0'); //January is 0!
+  var yyyy = tomorrow.getFullYear();
+  tomorrow = dd + '-' + mm + '-' + yyyy;
+  
+  var pubTime =  tomorrow + ' 08:00';
+  
+  if ( jsonpoststatus === 'future' ) {
+    if ( jsonpubdate === pubTime ) {
+      futureHeadlineText = jsontitle;
+      futureHeadlineLink = jsonlink;
+    }
+  }
+}
+
+// ## LOAD HEADLINES
+"use strict";
 fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
 .then(function(respons) {
   return respons.text();
@@ -128,8 +173,8 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     headerline5tip.textContent="\xa0TIP\xa0";
 
     let headerline1 = document.getElementById('headline1');
-    headerline1.textContent = 'Voorbeeld';
-    headerline1.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline1.textContent = futureHeadlineText;
+    headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline2 = document.getElementById('headline2');
     headerline2.textContent = 'Voorbeeld';
     headerline2.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
@@ -170,38 +215,7 @@ document.getElementById('headlinesOverlay').ondragstart = function (event) {
     .setData('text/html', headlinesContainer.innerHTML);
     console.log('dragstart');
 }
-/*
-document.getElementById('agendaOverlay').ondragstart = function (event) {
-      event
-        .dataTransfer
-        .setData('text/html', agendaAcademyContainer.innerHTML);
-        console.log('dragstart');
-}
-*/
 
-
-/*
-function onDragStart(event) {
-  event.preventDefault();
-  console.log("dragover");
-}
-
-function onDrop(event) {
-  event.preventDefault();
-  const id = event
-    .dataTransfer
-    .getData('text');
-
-  const draggableElement = document.getElementById(id);
-  const dropzone = event.target;
-
-  dropzone.appendChild(draggableElement);
-
-  event
-    .dataTransfer
-    .clearData();
-}
-*/
 
 // ## LOAD AGENDA
 "use strict";
@@ -230,8 +244,6 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
   
 function agendaItems(item, index) {
 
-  //console.log(item)
-  
   var table = document.getElementById("academyTable");
 
   var json = xml2json(item); 
@@ -273,11 +285,17 @@ document.getElementById('agendaOverlay').ondragstart = function (event) {
      // console.log('dragstart');
 }
 
-newsrss = 'https://www.frankwatching.com/feed-nieuwsbrief-v2/';
+newsrss = 'https://www.frankwatching.com/feed-nieuwsbrief-v2/?poststatus=future-publish';
 
 if ( listSort === 'popularity') {
   newsrss = 'https://www.frankwatching.com/feed-nieuwsbrief-v2/?popularity';
 } 
+
+if ( searchID ) {
+  newsrss = 'https://www.frankwatching.com/feed-nieuwsbrief-v2/?postid='+ searchID;
+} 
+
+console.log('RSS:' + newsrss);
 
 // ## LOAD ARTIKELEN
 "use strict";
@@ -290,13 +308,11 @@ fetch(newsrss)
   
   var existGCC = document.getElementById("artikelenGrootContainerContent");
   if(existGCC){
-    // console.log('List grote items empty');
     existGCC.innerHTML = ``;
   }
 
   var existKCC = document.getElementById("artikelenKleinContainerContent");
   if(existKCC){
-    // console.log('List kleine items empty');
     existKCC.innerHTML = ``;
   }
 
@@ -328,8 +344,9 @@ function artikelenGrootItems(item, index) {
 
   /* add category */
   var item_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
+  var item_categorie = item_categorie + '<span class="postStatus">'+poststatus[0]+'</span>';
   var item_categorie = item_categorie + '<span class="postPubDate">'+pubdate+'</span>';
-  var item_categorie = item_categorie + '<span class="postStatus">'+poststatus+'</span>';
+  var item_categorie = item_categorie + '<span class="postPostID">&#9783 '+postid+'</span>';  
   var item_categorie = item_categorie + '<span class="postScore">&#9733; '+popularityscore+'</span><span class="w100"></span>';
   
   var item_categories = item.querySelector("categoriesName").innerHTML;
@@ -391,8 +408,9 @@ function artikelenKleinItems(item, index) {
 
    /* add category */
    var item_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
+   var item_categorie = item_categorie + '<span class="postStatus">'+poststatus[0]+'</span>';
    var item_categorie = item_categorie + '<span class="postPubDate">'+pubdate+'</span>';
-   var item_categorie = item_categorie + '<span class="postStatus">'+poststatus+'</span>';
+   var item_categorie = item_categorie + '<span class="postPostID">&#9783 '+postid+'</span>';  
    var item_categorie = item_categorie + '<span class="postScore">&#9733; '+popularityscore+'</span><span class="w100"></span>';
   
    var item_categories = item.querySelector("categoriesName").innerHTML;
@@ -447,7 +465,6 @@ function artikelenKleinItems(item, index) {
        event
          .dataTransfer
          .setData('text/html', event.target.innerHTML);
-         //console.log(event.target.innerHTML);
      }
     
 }
@@ -463,7 +480,6 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
   
   var existVCC = document.getElementById("vacatureContainerContent");
   if(existVCC){
-    // console.log('List empty');
     existVCC.innerHTML = ``;
   }
   
@@ -478,6 +494,9 @@ function functionVacatureItems(item, index) {
    
   var postid = item.querySelector("guid").innerHTML;
   postid = postid.substring(postid.indexOf("p=") + 2);
+
+  var pubdate = item.querySelector("pubDate").innerHTML;
+  var pubdateArray = pubdate.split("+");
 
   var description = item.querySelector("description").innerHTML;
   description = description.replace("<![CDATA[", "").replace("]]>", "");
@@ -504,6 +523,11 @@ function functionVacatureItems(item, index) {
 
   /* add category */
   var vac_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
+  var vac_categorie = vac_categorie + '<span class="postPubDate">'+pubdateArray[0]+'</span>';
+  var vac_categorie = vac_categorie + '<span class="postPostID">&#9783 '+postid+'</span>';  
+  
+
+
   var vac_categories = item.querySelectorAll("category");
   vac_categories_nodes = Array.prototype.slice.call(vac_categories,0);
   vac_categories_nodes.forEach(function(element) {

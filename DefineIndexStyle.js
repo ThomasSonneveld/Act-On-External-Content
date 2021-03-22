@@ -466,4 +466,22 @@ function switchListFunction()
 };
 
 
+let searchID = '';
+const divSearch = document.createElement('div');
+divSearch.className = 'divSearchKader';
+divSearch.id = 'divSearchKader';
+divSearch.innerHTML = `<label>Zoek op postid: <input type="text" placeholder="Zoek op postid..." id="divSearchKaderInput"><label>`;  
+switchListForm.appendChild(divSearch);
+
+document.getElementById ("divSearchKaderInput").addEventListener ("change", inputSearch, false);
+
+function inputSearch()
+{
+//   var searchValue = document.getElementById("divSearchKaderInput").value;
+//   console.log (searchValue);
+//   getAllContent();
+console.log('This Value is', this.value);
+  searchID = this.value;
+  getAllContent();
+};
 

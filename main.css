@@ -216,11 +216,13 @@ input:checked + .slider:before {
 .categoryClassElement { border:1px solid rgba(0,0,0,.5); background: rgba(255,255,255,.5);  }
 .categoryClassCustomer { background: #6843A3; color: #fff; }
 .categoryClassMarketing { background: #196EA3; color: #fff; }
-.categoryClassCommunicatie { background: #019000; color: #fff; }
+.categoryClassCommunicatie, 
+.categoryClassCommunicatie­management { background: #019000; color: #fff; }
 
 .categoryClass span.w100 { width: 100%; padding: 0; line-height: 1px; display: block;  }
-.categoryClass span.postPubDate {  border:1px solid rgba(0,0,0,.5); background: rgba(255,255,255,1);  }
-.categoryClass span.postStatus { border:1px solid rgba(0,0,0,.5); background: rgba(255,255,255,1); }
+.categoryClass span.postPubDate,
+.categoryClass span.postPostID,
+.categoryClass span.postStatus,
 .categoryClass span.postScore {  border:1px solid rgba(0,0,0,.5); background: rgba(255,255,255,1); }
 
 #headingArtikelGroot { padding: 10px; border-bottom: 1px solid #000; font-weight: bold; font-size: 16px; }
@@ -230,3 +232,12 @@ input:checked + .slider:before {
 #dagWeekForm .slider.round:before { content:"D" !important; font-weight: bold; font-size: 16px; color: #333; text-align: center; line-height: 30px; }
 #dagWeekForm input:checked + .slider.round:before { content:"W" !important; color: #333; }
 #dagWeekForm  #dagWeekText { display: none;}
+
+.kleinArtikel { border-bottom: 1px solid rgba(0,0,0,.2);}
+
+.divSearchKader {
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid rgba(0,0,0,.2);
+}
