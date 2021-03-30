@@ -109,6 +109,12 @@ document.getElementById('vacatureButton').onclick = function (event6) {
 }
 
 // ## LOAD HEADLINES - 8 uur artikel
+var futureHeadlineText = 'Voorbeeld';
+var futureHeadlineLink = 'https://voorbeeld.frankwatching.com/?';
+let headerline1 = document.getElementById('headline1');
+headerline1.textContent = futureHeadlineText;
+headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+  
 "use strict";
 fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/?poststatus=future-publish")
 .then(response => response.text())
@@ -124,9 +130,6 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/?poststatus=future-publ
   }, 100);
 
 });
-  
-var futureHeadlineText = 'Voorbeeld';
-var futureHeadlineLink = 'https://voorbeeld.frankwatching.com/?';
 
 function headlineFutureItems(item, index) {  
   var json = xml2json(item); 
@@ -137,19 +140,23 @@ function headlineFutureItems(item, index) {
   
   var today = new Date();
   var tomorrow = new Date();
-  tomorrow.setDate(tomorrow.getDate() + 1);
-  if(today.getDay() == 5) tomorrow.setDate(tomorrow.getDate() + 3);
+  var hour = today.getHours();
+  if ( hour > 9 )  tomorrow.setDate(tomorrow.getDate() + 1);
+  if( today.getDay() == 5 ) tomorrow.setDate(tomorrow.getDate() + 3);
   var dd = String(tomorrow.getDate()).padStart(2, '0');
-  var mm = String(tomorrow.getMonth() + 1).padStart(2, '0'); //January is 0!
+  var mm = String(tomorrow.getMonth() + 1).padStart(2, '0'); 
   var yyyy = tomorrow.getFullYear();
   tomorrow = dd + '-' + mm + '-' + yyyy;
   
-  var pubTime =  tomorrow + ' 08:00';
-  
+  var pubTime =  tomorrow + ' 08:00'; // 8 uur artikel
+    
   if ( jsonpoststatus === 'future' ) {
     if ( jsonpubdate === pubTime ) {
-      futureHeadlineText = jsontitle;
-      futureHeadlineLink = jsonlink;
+      var futureHeadlineText = jsontitle;
+      var futureHeadlineLink = jsonlink;
+      let headerline1 = document.getElementById('headline1');
+      headerline1.textContent = futureHeadlineText;
+      headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     }
   }
 }
@@ -172,9 +179,9 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
     let headerline5tip = document.getElementById('sheadline5b');
     headerline5tip.textContent="\xa0TIP\xa0";
 
-    let headerline1 = document.getElementById('headline1');
-    headerline1.textContent = futureHeadlineText;
-    headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    // let headerline1 = document.getElementById('headline1');
+    // headerline1.textContent = futureHeadlineText;
+    // headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline2 = document.getElementById('headline2');
     headerline2.textContent = 'Voorbeeld';
     headerline2.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
