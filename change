@@ -1,17 +1,16 @@
-let imgKlein25 = document.getElementById('imgKleinArtikel25');
-imgKlein25.src =  allSmallImages[24].textContent;
-let titleKleinLink25 = document.getElementById('kleinTitleLink25');
-titleKleinLink25.textContent = allTitles[25].firstChild.nodeValue;
-titleKleinLink25.setAttribute("href", allLinks[25].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
-let descriptionKlein25 = document.getElementById('DescriptionKleinArtikel25');
-descriptionKlein25.textContent = allDescriptions[25].firstChild.nodeValue;
-descriptionKlein25.setAttribute("href", allLinks[25].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
-let imgKlein25a = document.getElementById('imgKleinArtikel25a');
-imgKlein25a.src = allImages[24].attributes.url.nodeValue;
-let imgKlein25aLink = document.getElementById('imgKlein25ALink');
-imgKlein25a.setAttribute("href", allLinks[25].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
-let imgKlein25Link = document.getElementById('imgKlein25Link');
-imgKlein25a.setAttribute("href", allLinks[25].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
-let ctaKlein25 = document.getElementById('KleinArtikelCTA25');
-ctaKlein25.textContent = " Lees meer ▸";
-ctaKlein25.setAttribute("href", allLinks[25].textContent + `&utm_source=nieuwsbrief-fw-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`);
+//form styling
+sendDateForm.id = "sendDateForm";
+sendDateForm.className = "sendDateForm";
+sendDateFormDiv.class = "switch-field"
+sendDateFormInput.type = "checkbox";
+sendDateFormInput.value = "wekelijks";
+sendDateFormInput.id= "sendDateSwitch";
+document.getElementById ("sendDateSwitch").addEventListener ("click", switchFunction, false);
+sendDateFormLabel.className = "switch";
+sendDateFormSpan.className = "slider round";
+sendDateFormText.id = "sendDateText";
+sendDateFormText.display = "inline";
+sendDateFormText.width = "auto";
+sendDateFormText.top = "0px";
+sendDateFormText.color = "#CCCCCC";
+sendDateFormText.margin = "7px 5px 5px 10px";
