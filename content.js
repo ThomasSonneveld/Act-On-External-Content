@@ -1,5 +1,25 @@
 // ##  Set local version
-let versionid = '2.1.1';
+let versionid = '2.1.2';
+
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = yyyy + mm + dd;
+
+var sendDate = today;
+
+var defaultDate = new Date();
+var dd = String(defaultDate.getDate()).padStart(2, '0');
+var mm = String(defaultDate.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = defaultDate.getFullYear();
+
+defaultDate = dd +"-"+ mm +"-"+ yyyy;
+
+sendDateFormInput.setAttribute("value", defaultDate);
+
+sendDateFormInput.addEventListener("change", getAllContent);
 
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
@@ -10,6 +30,8 @@ let allLinks;
 window.onload = function () {
     var input = document.getElementById('dagWeekSwitch');
     var inputList = document.getElementById('switchListSwitch');
+
+    sendDate = document.getElementById("sendDateSelector").value;
 
     function check() {
         dagWeek = input.checked ? "wekelijks" : "dagelijks";
@@ -26,7 +48,9 @@ window.onload = function () {
 
 function getAllContent(){
 
+sendDate = document.getElementById("sendDateSelector").value;
 // ## buttons
+console.log("kent u die uitdrukking");
 
 document.getElementById('headlinesButton').onclick = function (event2) {
   headlinesContainer.style.display = "block";
@@ -113,14 +137,14 @@ var futureHeadlineText = 'Voorbeeld';
 var futureHeadlineLink = 'https://voorbeeld.frankwatching.com/?';
 let headerline1 = document.getElementById('headline1');
 headerline1.textContent = futureHeadlineText;
-headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
-  
+headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
+
 "use strict";
 fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/?poststatus=future-publish")
 .then(response => response.text())
 .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
 .then(data => {
-  
+
   const items = data.querySelectorAll("item");
 
   setTimeout(function() {
@@ -131,32 +155,32 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/?poststatus=future-publ
 
 });
 
-function headlineFutureItems(item, index) {  
-  var json = xml2json(item); 
-  var jsonpoststatus = (json["poststatus"]); 
-  var jsonpubdate = (json["pubdate"]); 
-  var jsontitle = (json["title"]); 
-  var jsonlink = (json["link"]); 
-  
+function headlineFutureItems(item, index) {
+  var json = xml2json(item);
+  var jsonpoststatus = (json["poststatus"]);
+  var jsonpubdate = (json["pubdate"]);
+  var jsontitle = (json["title"]);
+  var jsonlink = (json["link"]);
+
   var today = new Date();
   var tomorrow = new Date();
   var hour = today.getHours();
   if ( hour > 9 )  tomorrow.setDate(tomorrow.getDate() + 1);
   if( today.getDay() == 5 ) tomorrow.setDate(tomorrow.getDate() + 3);
   var dd = String(tomorrow.getDate()).padStart(2, '0');
-  var mm = String(tomorrow.getMonth() + 1).padStart(2, '0'); 
+  var mm = String(tomorrow.getMonth() + 1).padStart(2, '0');
   var yyyy = tomorrow.getFullYear();
   tomorrow = dd + '-' + mm + '-' + yyyy;
-  
+
   var pubTime =  tomorrow + ' 08:00'; // 8 uur artikel
-    
+
   if ( jsonpoststatus === 'future' ) {
     if ( jsonpubdate === pubTime ) {
       var futureHeadlineText = jsontitle;
       var futureHeadlineLink = jsonlink;
       let headerline1 = document.getElementById('headline1');
       headerline1.textContent = futureHeadlineText;
-      headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+      headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
     }
   }
 }
@@ -181,25 +205,25 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
 
     // let headerline1 = document.getElementById('headline1');
     // headerline1.textContent = futureHeadlineText;
-    // headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    // headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
     let headerline2 = document.getElementById('headline2');
     headerline2.textContent = 'Voorbeeld';
-    headerline2.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline2.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
     let headerline3 = document.getElementById('headline3');
     headerline3.textContent = allTitles[1].firstChild.nodeValue;
-    headerline3.setAttribute("href", allLinks[1].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline3.setAttribute("href", allLinks[1].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
     let headerline4 = document.getElementById('headline4');
     headerline4.textContent = allTitles[2].firstChild.nodeValue;
-    headerline4.setAttribute("href", allLinks[2].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline4.setAttribute("href", allLinks[2].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
     let headerline5 = document.getElementById('headline5');
     headerline5.textContent = 'Voorbeeld';
-    headerline5.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline5.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
     let headerline6 = document.getElementById('headline6');
     headerline6.textContent = allTitles[3].firstChild.nodeValue;
-    headerline6.setAttribute("href", allLinks[3].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);//campagne);
+    headerline6.setAttribute("href", allLinks[3].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c${sendDate}%7cheadline%7c`);//campagne);
     let headerline7 = document.getElementById('headline7');
     headerline7.textContent = allTitles[4].firstChild.nodeValue;
-    headerline7.setAttribute("href", allLinks[4].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
+    headerline7.setAttribute("href", allLinks[4].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
 
 });
 
@@ -230,16 +254,16 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
 .then(response => response.text())
 .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
 .then(data => {
-  
+
   const items = data.querySelectorAll("item");
 
   var existAAC = document.getElementById("agendaAcademyContainer");
   if(existAAC){
     // console.log('List agenda items empty');
-    existAAC.innerHTML = `<table id="academyTable" width="100%" style="line-height: 22px; margin: 0px;"><tbody></tbody></table>`;  
-   
+    existAAC.innerHTML = `<table id="academyTable" width="100%" style="line-height: 22px; margin: 0px;"><tbody></tbody></table>`;
+
   }
-  
+
   setTimeout(function() {
     for (var i = 0, len = 15; i < len; i++) {
       agendaItems(items[i]);
@@ -248,23 +272,23 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
  }, 100);
 
 });
-  
+
 function agendaItems(item, index) {
 
   var table = document.getElementById("academyTable");
 
-  var json = xml2json(item); 
+  var json = xml2json(item);
 
-  var title = (json["title"]); 
-  var link = (json["link"]); 
-  var postid = (json["productid"]);   
-  var campaign = (json["postmeta:campaign"]); 
-  var location = (json["postmeta:location"]); 
-  var durration = (json["postmeta:durration"]); 
-  var dateMonth = (json["postmeta:dateMonth"]); 
-  var dateDay = (json["postmeta:dateDay"]); 
+  var title = (json["title"]);
+  var link = (json["link"]);
+  var postid = (json["productid"]);
+  var campaign = (json["postmeta:campaign"]);
+  var location = (json["postmeta:location"]);
+  var durration = (json["postmeta:durration"]);
+  var dateMonth = (json["postmeta:dateMonth"]);
+  var dateDay = (json["postmeta:dateDay"]);
 
-  var item_link = link + `?utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=${campaign}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`;
+  var item_link = link + `?utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=${campaign}&utm_content=%7c${sendDate}%7cagenda%7c`;
 
   var row = table.insertRow(-1);
   var cell1 = row.insertCell(0);
@@ -279,7 +303,7 @@ function agendaItems(item, index) {
 
    /* add category */
    var item_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
- 
+
    const divCat = document.createElement('div');
    divCat.className = 'categoryClass';
    divCat.innerHTML = item_categorie;
@@ -296,11 +320,11 @@ newsrss = 'https://www.frankwatching.com/feed-nieuwsbrief-v2/?poststatus=future-
 
 if ( listSort === 'popularity') {
   newsrss = 'https://www.frankwatching.com/feed-nieuwsbrief-v2/?popularity';
-} 
+}
 
 if ( searchID ) {
   newsrss = 'https://www.frankwatching.com/feed-nieuwsbrief-v2/?postid='+ searchID;
-} 
+}
 
 console.log('RSS:' + newsrss);
 
@@ -310,9 +334,9 @@ fetch(newsrss)
 .then(response => response.text())
 .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
 .then(data => {
-  
+
   const items = data.querySelectorAll("item");
-  
+
   var existGCC = document.getElementById("artikelenGrootContainerContent");
   if(existGCC){
     existGCC.innerHTML = ``;
@@ -326,10 +350,10 @@ fetch(newsrss)
   if ( listSort === 'popularity') {
     const div = document.createElement('div');
     div.id = 'headingArtikelGroot';
-    div.innerHTML =  `Gesorteerd op populariteit`;  
+    div.innerHTML =  `Gesorteerd op populariteit`;
     existGCC.appendChild(div);
-  } 
-  
+  }
+
   setTimeout(function() {
     items.forEach(artikelenGrootItems);
     items.forEach(artikelenKleinItems);
@@ -340,11 +364,11 @@ fetch(newsrss)
 function artikelenGrootItems(item, index) {
 
   var postid = item.querySelector("postid").innerHTML;
-  var item_link = item.querySelector("link").innerHTML + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`;
-  
+  var item_link = item.querySelector("link").innerHTML + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c${sendDate}%7cartikel%7c`;
+
   var item_img_groot = item.querySelector("*|afbeelding").innerHTML;
   item_img_groot = item_img_groot.replace("<![CDATA[", "").replace("]]>", "");
- 
+
   var pubdate = item.querySelector("pubdate").innerHTML;
   var poststatus = item.querySelector("poststatus").innerHTML;
   var popularityscore = item.querySelector("popularityscore").innerHTML;
@@ -353,12 +377,12 @@ function artikelenGrootItems(item, index) {
   var item_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
   var item_categorie = item_categorie + '<span class="postStatus">'+poststatus[0]+'</span>';
   var item_categorie = item_categorie + '<span class="postPubDate">'+pubdate+'</span>';
-  var item_categorie = item_categorie + '<span class="postPostID">&#9783 '+postid+'</span>';  
+  var item_categorie = item_categorie + '<span class="postPostID">&#9783 '+postid+'</span>';
   var item_categorie = item_categorie + '<span class="postScore">&#9733; '+popularityscore+'</span><span class="w100"></span>';
-  
+
   var item_categories = item.querySelector("categoriesName").innerHTML;
   var item_categories_array = removeDuplicates(item_categories.split("|"));
-  item_categories_array.forEach(function(element) {    
+  item_categories_array.forEach(function(element) {
     item_categorie = item_categorie + '<span class="categoryClassElement categoryClass'+element+'">' + element + '</span>';
   });
 
@@ -373,19 +397,19 @@ function artikelenGrootItems(item, index) {
   div.draggable = 'true';
 
   div.innerHTML = `
-  <table id="artikelGroot${postid}T"> 
- <tbody id="artikelGroot${postid}Tb"> 
-  <tr id="artikelGroot${postid}TrA"> 
-   <td id="artikelGroot${postid}TdA"><a class="grootArtikelTitle" style="color: #1a1a1a; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px;" href="${item_link}">${item.querySelector("title").innerHTML}</a></td> 
-  </tr> 
-  <tr id="artikelGroot${postid}TrB"> 
-   <td id="artikelGroot${postid}TdB"><a style="padding: 0px;" id="ct11_1" href="${item_link}"><img id="grootArtikelImg1" class="grootArtikelImg" style="display: block; width: 100%; padding-bottom: 10px; height: auto;" src="${item_img_groot}" width="600" height="180"></a></td> 
-  </tr> 
-  <tr id="artikelGroot${postid}TrC"> 
-   <td id="artikelGroot${postid}TdC" style="padding-bottom: 5px;"><a class="grootArtikelDescription" style="color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;" id="ct11_2" href="${item_link}"><span style="font-size: 12pt; color: #333333;">${item.querySelector("description").innerHTML}</span></a><a class="GrootArtikelCTA" style="display: inline; font-size: 16px; text-decoration: none; color: #18608b;"  href="${item_link}"> Lees meer ▸</a></td> 
-  </tr> 
- </tbody> 
-</table>`;  
+  <table id="artikelGroot${postid}T">
+ <tbody id="artikelGroot${postid}Tb">
+  <tr id="artikelGroot${postid}TrA">
+   <td id="artikelGroot${postid}TdA"><a class="grootArtikelTitle" style="color: #1a1a1a; display: block; line-height: 22px; font-size: 14pt; padding: 0px 0px 10px 0px;" href="${item_link}">${item.querySelector("title").innerHTML}</a></td>
+  </tr>
+  <tr id="artikelGroot${postid}TrB">
+   <td id="artikelGroot${postid}TdB"><a style="padding: 0px;" id="ct11_1" href="${item_link}"><img id="grootArtikelImg1" class="grootArtikelImg" style="display: block; width: 100%; padding-bottom: 10px; height: auto;" src="${item_img_groot}" width="600" height="180"></a></td>
+  </tr>
+  <tr id="artikelGroot${postid}TrC">
+   <td id="artikelGroot${postid}TdC" style="padding-bottom: 5px;"><a class="grootArtikelDescription" style="color: #666666; font-size: 16px; display: inline; padding: 0px 0px 0px 0px;" id="ct11_2" href="${item_link}"><span style="font-size: 12pt; color: #333333;">${item.querySelector("description").innerHTML}</span></a><a class="GrootArtikelCTA" style="display: inline; font-size: 16px; text-decoration: none; color: #18608b;"  href="${item_link}"> Lees meer ▸</a></td>
+  </tr>
+ </tbody>
+</table>`;
 
    artikelenGrootContainerContent.appendChild(div);
 
@@ -394,15 +418,15 @@ function artikelenGrootItems(item, index) {
          .dataTransfer
          .setData('text/html', event.target.innerHTML);
      }
-    
+
 }
 
 function artikelenKleinItems(item, index) {
-   
+
   var postid = item.querySelector("postid").innerHTML;
 
-  var item_link = item.querySelector("link").innerHTML + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`;
-  
+  var item_link = item.querySelector("link").innerHTML + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c${sendDate}%7cartikel%7c`;
+
   var item_img_groot = item.querySelector("*|afbeelding").innerHTML;
   item_img_groot = item_img_groot.replace("<![CDATA[", "").replace("]]>", "");
 
@@ -417,15 +441,15 @@ function artikelenKleinItems(item, index) {
    var item_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
    var item_categorie = item_categorie + '<span class="postStatus">'+poststatus[0]+'</span>';
    var item_categorie = item_categorie + '<span class="postPubDate">'+pubdate+'</span>';
-   var item_categorie = item_categorie + '<span class="postPostID">&#9783 '+postid+'</span>';  
+   var item_categorie = item_categorie + '<span class="postPostID">&#9783 '+postid+'</span>';
    var item_categorie = item_categorie + '<span class="postScore">&#9733; '+popularityscore+'</span><span class="w100"></span>';
-  
+
    var item_categories = item.querySelector("categoriesName").innerHTML;
    var item_categories_array = removeDuplicates(item_categories.split("|"));
-   item_categories_array.forEach(function(element) {    
+   item_categories_array.forEach(function(element) {
      item_categorie = item_categorie + '<span class="categoryClassElement categoryClass'+element+'">' + element + '</span>';
    });
- 
+
    const divCat = document.createElement('div');
    divCat.className = 'categoryClass';
    divCat.innerHTML = item_categorie;
@@ -464,7 +488,7 @@ function artikelenKleinItems(item, index) {
       </td>
     </tr>
   </tbody>
-  </table>`;  
+  </table>`;
 
    artikelenKleinContainerContent.appendChild(div);
 
@@ -473,7 +497,7 @@ function artikelenKleinItems(item, index) {
          .dataTransfer
          .setData('text/html', event.target.innerHTML);
      }
-    
+
 }
 
 // ## LOAD VACATURES
@@ -482,14 +506,14 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
 .then(response => response.text())
 .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
 .then(data => {
-  
+
   const items = data.querySelectorAll("item");
-  
+
   var existVCC = document.getElementById("vacatureContainerContent");
   if(existVCC){
     existVCC.innerHTML = ``;
   }
-  
+
   setTimeout(function() {
     items.forEach(functionVacatureItems);
  }, 100);
@@ -498,7 +522,7 @@ fetch("https://www.frankwatching.com/feed/?post_type=vacature")
 
 
 function functionVacatureItems(item, index) {
-   
+
   var postid = item.querySelector("guid").innerHTML;
   postid = postid.substring(postid.indexOf("p=") + 2);
 
@@ -507,7 +531,7 @@ function functionVacatureItems(item, index) {
 
   var description = item.querySelector("description").innerHTML;
   description = description.replace("<![CDATA[", "").replace("]]>", "");
-    
+
   var vac_org_naam = item.querySelector("*|vac_org_naam").innerHTML;
   vac_org_naam = htmlDecode(vac_org_naam.replace("<![CDATA[", "").replace("]]>", ""));
 
@@ -521,9 +545,9 @@ function functionVacatureItems(item, index) {
   var vac_standplaats = item.querySelector("*|vac_standplaats").innerHTML;
   vac_standplaats = vac_standplaats.replace("<![CDATA[", "").replace("]]>", "");
 
-  var vac_link = item.querySelector("link").innerHTML + `?utm_source=al-jobs-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`;
-  if(dagWeek != 'dagelijks') { 
-    var vac_link = item.querySelector("link").innerHTML + `?utm_source=nb-jobs-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`;
+  var vac_link = item.querySelector("link").innerHTML + `?utm_source=al-jobs-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c${sendDate}%7cvacature%7c`;
+  if(dagWeek != 'dagelijks') {
+    var vac_link = item.querySelector("link").innerHTML + `?utm_source=nb-jobs-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c${sendDate}%7cvacature%7c`;
   }
 
   var enclosure_img = item.querySelector("enclosure").getAttribute("url");
@@ -531,8 +555,8 @@ function functionVacatureItems(item, index) {
   /* add category */
   var vac_categorie = '<span class="categoryClassDag">'+dagWeek[0]+'</span>';
   var vac_categorie = vac_categorie + '<span class="postPubDate">'+pubdateArray[0]+'</span>';
-  var vac_categorie = vac_categorie + '<span class="postPostID">&#9783 '+postid+'</span>';  
-  
+  var vac_categorie = vac_categorie + '<span class="postPostID">&#9783 '+postid+'</span>';
+
 
 
   var vac_categories = item.querySelectorAll("category");
@@ -541,7 +565,7 @@ function functionVacatureItems(item, index) {
     let formName = element;
     vac_categorie = vac_categorie + '<span class="categoryClassElement categoryClass'+formName.textContent+'">' + formName.textContent + '</span>';
   });
-  
+
   const divCat = document.createElement('div');
   divCat.className = 'categoryClass';
   divCat.innerHTML = vac_categorie;
@@ -552,7 +576,7 @@ function functionVacatureItems(item, index) {
    div.draggable = 'true';
 
   var daginzet = '<tr><td id="vacatureTD' + postid + 'bMob" class="vacaturetd_mobile" style="display: none;"><a  style="display: none;" id="vacatureImgLink' + postid + '" class="vacatureImgLink_mob" href="'+vac_link+'"><img id="imgVacatureArtikel'+postid+'mob" class="imgVacature_mobile" style="display: none;" src="'+enclosure_img+'" /></a></td></tr> ';
-   if(dagWeek != 'dagelijks') { 
+   if(dagWeek != 'dagelijks') {
     daginzet = '';
   }
 
@@ -564,7 +588,7 @@ function functionVacatureItems(item, index) {
                <td class="vacTableDivider2" height="150px" width="auto" style="vertical-align: top;">
                    <table>
                        <tbody>
-                           
+
                            ${daginzet}
                            <tr>
                                <td id="vacatureTD${postid}bA" class="vacatureTDbA"><a id="metaVacature${postid}"  href="${vac_link}" style="display: block; font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;" class="metaVacature"><span id="vacatureMeta${postid}a" class="metaVacatureCompany" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #019000;">${vac_org_naam}</span><span id="vacatureMeta${postid}b" class="metaVacature" style="font-size: 12px; font-weight: bold; font-family: Arial; color: #666666;"> • ${vac_standplaats} • ${vac_uur}</span></a></td>
@@ -607,13 +631,14 @@ fetch("https://raw.githubusercontent.com/ThomasSonneveld/Act-On-External-Content
           text = text + '<a href="https://github.com/ThomasSonneveld/Act-On-External-Content" target="_blank">Nu updaten naar: ' + out + '</a>';
         }
         versiediv.innerHTML = text;
-      
+
       credits.appendChild(versiediv);
 
 }).catch(err => console.error(err));
 
 };
-getAllContent();
+
+//hier werd eerst getAllContent aangeroepen
 
 // RSS/XML omzetten
 function xml2json(xml) {
