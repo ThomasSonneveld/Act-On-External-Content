@@ -271,7 +271,7 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
   }
 
   setTimeout(function() {
-    for (var i = 0, len = 15; i < len; i++) {
+    for (var i = 0, len = 25; i < len; i++) {
       agendaItems(items[i]);
     }
 
