@@ -1,5 +1,5 @@
 // ##  Set local version
-let versionid = '2.1.3';
+let versionid = '2.1.2';
 
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
@@ -271,7 +271,7 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
   }
 
   setTimeout(function() {
-    for (var i = 0, len = 15; i < len; i++) {
+    for (var i = 0, len = 35; i < len; i++) {
       agendaItems(items[i]);
     }
 
