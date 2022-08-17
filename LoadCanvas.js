@@ -8,7 +8,6 @@ document.body.style.width = '100%';
 var createCanvas = document.createElement( 'div' );
 var contentFeed = document.createElement( 'div' );
 var dagWeekSelect = document.createElement( 'div' );
-var sendDateSelect = document.createElement( 'div' );
 var contentIndex = document.createElement( 'div' );
 var credits = document.createElement( 'div' );
 var inOutSelect =document.createElement( 'div' );
@@ -105,11 +104,6 @@ var dagWeekFormText = document.createElement('span');
 
 let dagWeek = "dagelijks";
 
-var sendDateForm = document.createElement('form');
-var sendDateFormDiv = document.createElement('div');
-var sendDatekFormLabel = document.createElement('label');
-var sendDateFormInput = document.createElement('input');
-
 var inOutForm = document.createElement('form');
 var inOutFormDiv = document.createElement('div');
 var inOutFormLabel = document.createElement('label');
@@ -129,13 +123,6 @@ dagWeekFormDiv.appendChild( dagWeekFormLabel );
 dagWeekFormDiv.appendChild( dagWeekFormText );
 dagWeekFormLabel.appendChild( dagWeekFormInput );
 dagWeekFormLabel.appendChild( dagWeekFormSpan );
-
-document.body.appendChild( createCanvas );
-createCanvas.appendChild( contentFeed );
-createCanvas.appendChild( sendDateSelect );
-sendDateSelect.appendChild( sendDateForm );
-sendDateForm.appendChild( sendDateFormDiv );
-sendDateForm.appendChild( sendDateFormInput );
 
 document.body.appendChild( inOutSelect );
 inOutSelect.appendChild( inOutForm );
@@ -165,3 +152,5 @@ switchListFormDiv.appendChild( switchListFormLabel );
 switchListFormDiv.appendChild( switchListFormText );
 switchListFormLabel.appendChild( switchListFormInput );
 switchListFormLabel.appendChild( switchListFormSpan );
+
+

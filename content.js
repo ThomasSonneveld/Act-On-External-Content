@@ -1,25 +1,5 @@
 // ##  Set local version
-let versionid = '2.1.2';
-
-var today = new Date();
-var dd = String(today.getDate()).padStart(2, '0');
-var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-var yyyy = today.getFullYear();
-
-today = yyyy + mm + dd;
-
-var sendDate = today;
-
-var defaultDate = new Date();
-var dd = String(defaultDate.getDate()).padStart(2, '0');
-var mm = String(defaultDate.getMonth() + 1).padStart(2, '0'); //January is 0!
-var yyyy = defaultDate.getFullYear();
-
-defaultDate = dd +"-"+ mm +"-"+ yyyy;
-
-sendDateFormInput.setAttribute("value", defaultDate);
-
-sendDateFormInput.addEventListener("change", getAllContent);
+let versionid = '3.0.0';
 
 let styleHeadlines = document.getElementsByClassName('headline');
 for (var i = 0; i < styleHeadlines.length; i++) {
@@ -30,9 +10,6 @@ let allLinks;
 window.onload = function () {
     var input = document.getElementById('dagWeekSwitch');
     var inputList = document.getElementById('switchListSwitch');
-
-    sendDate = document.getElementById("sendDateSelector").value;
-    console.log(sendDate);
 
     function check() {
         dagWeek = input.checked ? "wekelijks" : "dagelijks";
@@ -48,10 +25,6 @@ window.onload = function () {
 // console.log(dagWeek);
 
 function getAllContent(){
-
-sendDate = document.getElementById("sendDateSelector").value;
-sendDate = sendDate.replace("-","");
-sendDate = sendDate.replace("-","");
 
 // ## buttons
 
@@ -140,7 +113,7 @@ var futureHeadlineText = 'Voorbeeld';
 var futureHeadlineLink = 'https://voorbeeld.frankwatching.com/?';
 let headerline1 = document.getElementById('headline1');
 headerline1.textContent = futureHeadlineText;
-headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
+headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
 
 "use strict";
 fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/?poststatus=future-publish")
@@ -183,7 +156,7 @@ function headlineFutureItems(item, index) {
       var futureHeadlineLink = jsonlink;
       let headerline1 = document.getElementById('headline1');
       headerline1.textContent = futureHeadlineText;
-      headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
+      headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     }
   }
 }
@@ -208,28 +181,25 @@ fetch("https://www.frankwatching.com/feed-nieuwsbrief-v2/")
 
     // let headerline1 = document.getElementById('headline1');
     // headerline1.textContent = futureHeadlineText;
-    // headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
-    let headerline1 = document.getElementById('headline1');
-    headerline1.textContent = allTitles[1].firstChild.nodeValue;
-    headerline1.setAttribute("href", allLinks[1].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
+    // headerline1.setAttribute("href", futureHeadlineLink + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline2 = document.getElementById('headline2');
     headerline2.textContent = 'Voorbeeld';
-    headerline2.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
+    headerline2.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline3 = document.getElementById('headline3');
-    headerline3.textContent = allTitles[2].firstChild.nodeValue;
-    headerline3.setAttribute("href", allLinks[2].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
+    headerline3.textContent = allTitles[1].firstChild.nodeValue;
+    headerline3.setAttribute("href", allLinks[1].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline4 = document.getElementById('headline4');
-    headerline4.textContent = allTitles[3].firstChild.nodeValue;
-    headerline4.setAttribute("href", allLinks[3].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
+    headerline4.textContent = allTitles[2].firstChild.nodeValue;
+    headerline4.setAttribute("href", allLinks[2].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline5 = document.getElementById('headline5');
     headerline5.textContent = 'Voorbeeld';
-    headerline5.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
+    headerline5.setAttribute("href", 'https://voorbeeld.frankwatching.com/?' + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
     let headerline6 = document.getElementById('headline6');
-    headerline6.textContent = allTitles[4].firstChild.nodeValue;
-    headerline6.setAttribute("href", allLinks[4].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c${sendDate}%7cheadline%7c`);//campagne);
+    headerline6.textContent = allTitles[3].firstChild.nodeValue;
+    headerline6.setAttribute("href", allLinks[3].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);//campagne);
     let headerline7 = document.getElementById('headline7');
-    headerline7.textContent = allTitles[5].firstChild.nodeValue;
-    headerline7.setAttribute("href", allLinks[5].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c${sendDate}%7cheadline%7c`);
+    headerline7.textContent = allTitles[4].firstChild.nodeValue;
+    headerline7.setAttribute("href", allLinks[4].textContent + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=headline&utm_content=%7c{{^Account.DATE(SHORT)}}%7cheadline%7c`);
 
 });
 
@@ -271,7 +241,7 @@ fetch("https://www.frankwatching.com/feed/academy/upcoming/")
   }
 
   setTimeout(function() {
-    for (var i = 0, len = 35; i < len; i++) {
+    for (var i = 0, len = 15; i < len; i++) {
       agendaItems(items[i]);
     }
 
@@ -294,7 +264,7 @@ function agendaItems(item, index) {
   var dateMonth = (json["postmeta:dateMonth"]);
   var dateDay = (json["postmeta:dateDay"]);
 
-  var item_link = link + `?utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=${campaign}&utm_content=%7c${sendDate}%7cagenda%7c`;
+  var item_link = link + `?utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=${campaign}&utm_content=%7c{{^Account.DATE(SHORT)}}%7cagenda%7c`;
 
   var row = table.insertRow(-1);
   var cell1 = row.insertCell(0);
@@ -370,7 +340,7 @@ fetch(newsrss)
 function artikelenGrootItems(item, index) {
 
   var postid = item.querySelector("postid").innerHTML;
-  var item_link = item.querySelector("link").innerHTML + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c${sendDate}%7cartikel%7c`;
+  var item_link = item.querySelector("link").innerHTML + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`;
 
   var item_img_groot = item.querySelector("*|afbeelding").innerHTML;
   item_img_groot = item_img_groot.replace("<![CDATA[", "").replace("]]>", "");
@@ -431,7 +401,7 @@ function artikelenKleinItems(item, index) {
 
   var postid = item.querySelector("postid").innerHTML;
 
-  var item_link = item.querySelector("link").innerHTML + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c${sendDate}%7cartikel%7c`;
+  var item_link = item.querySelector("link").innerHTML + `&utm_source=nb-blog-${dagWeek}&utm_medium=email&utm_campaign=artikel&utm_content=%7c{{^Account.DATE(SHORT)}}%7cartikel%7c`;
 
   var item_img_groot = item.querySelector("*|afbeelding").innerHTML;
   item_img_groot = item_img_groot.replace("<![CDATA[", "").replace("]]>", "");
@@ -551,9 +521,9 @@ function functionVacatureItems(item, index) {
   var vac_standplaats = item.querySelector("*|vac_standplaats").innerHTML;
   vac_standplaats = vac_standplaats.replace("<![CDATA[", "").replace("]]>", "");
 
-  var vac_link = item.querySelector("link").innerHTML + `?utm_source=al-jobs-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c${sendDate}%7cvacature%7c`;
+  var vac_link = item.querySelector("link").innerHTML + `?utm_source=al-jobs-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`;
   if(dagWeek != 'dagelijks') {
-    var vac_link = item.querySelector("link").innerHTML + `?utm_source=nb-jobs-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c${sendDate}%7cvacature%7c`;
+    var vac_link = item.querySelector("link").innerHTML + `?utm_source=nb-jobs-${dagWeek}&amp;utm_medium=email&amp;utm_campaign=vacature&amp;utm_content=%7c{{^Account.DATE(SHORT)}}%7cvacature%7c`;
   }
 
   var enclosure_img = item.querySelector("enclosure").getAttribute("url");
@@ -643,8 +613,7 @@ fetch("https://raw.githubusercontent.com/ThomasSonneveld/Act-On-External-Content
 }).catch(err => console.error(err));
 
 };
-
-//hier werd eerst getAllContent aangeroepen
+getAllContent();
 
 // RSS/XML omzetten
 function xml2json(xml) {

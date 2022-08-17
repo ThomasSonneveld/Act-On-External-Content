@@ -32,18 +32,6 @@ dagWeekSelect.style.backgroundColor = '#f8f8f8';
 dagWeekSelect.style.color = '#FFF';
 dagWeekSelect.style.display = "block";
 
-sendDateSelect.id = 'sendDateSelect';
-sendDateSelect.style.position = 'fixed';
-sendDateSelect.style.top = '0px';
-sendDateSelect.style.marginTop = '7px';
-sendDateSelect.style.left = '38%';
-sendDateSelect.style.width = '114px';
-sendDateSelect.style.minWidth= '114px';
-sendDateSelect.style.height = '30px';
-sendDateSelect.style.backgroundColor = '#f8f8f8';
-sendDateSelect.style.color = '#FFF';
-sendDateSelect.style.display = "block";
-
 inOutSelect.id = 'contentStyle';
 inOutSelect.style.position = 'fixed';
 inOutSelect.style.bottom = '0px';
@@ -370,15 +358,6 @@ headlinesOverlay.style.zIndex = "19300";
   headlines5Td3.style.verticalAlign = "top";
 
 //form styling
-
-sendDateForm.id = "sendDateForm";
-sendDateForm.className = "sendDateForm";
-sendDateFormDiv.class = "switch-field"
-sendDateFormInput.type = "date";
-sendDateFormInput.id= "sendDateSelector";
-//document.getElementById ("sendDateSwitch").addEventListener ("click", switchFunction, false);
-
-
 dagWeekForm.id = "dagWeekForm";
 dagWeekForm.className = "dagWeekForm";
 dagWeekFormDiv.class = "switch-field"
@@ -491,7 +470,7 @@ let searchID = '';
 const divSearch = document.createElement('div');
 divSearch.className = 'divSearchKader';
 divSearch.id = 'divSearchKader';
-divSearch.innerHTML = `<label for="divSearchKaderInput">Zoek op postid:</label><input type="text" placeholder="Zoek op postid..." id="divSearchKaderInput"><div class="button">Zoek</div>`;
+divSearch.innerHTML = `<label for="divSearchKaderInput">Zoek op postid:</label><input type="text" placeholder="Zoek op postid..." id="divSearchKaderInput"><div class="button">Zoek</div>`;  
 switchListForm.appendChild(divSearch);
 
 document.getElementById ("divSearchKaderInput").addEventListener ("change", inputSearch, false);
@@ -505,3 +484,4 @@ console.log('This Value is', this.value);
   searchID = this.value;
   getAllContent();
 };
+

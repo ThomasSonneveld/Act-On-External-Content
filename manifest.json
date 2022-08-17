@@ -1,8 +1,7 @@
 {
-  "manifest_version": 2,
-  "name": "FWAct-On external content v2.1.4", // Ook aanpassen in content.js en version.txt
-  "version": "2.1.4",
-  "web_accessible_resources": ["Headlinesicon.png", "Artikelengrooticon.png", "Agendaicon.png", "Artikelenkleinicon.png"],
+  "manifest_version": 3,
+  "name": "FWAct-On external content v3.0.0", // Ook aanpassen in content.js en version.txt
+  "version": "3.0.0",
   "content_scripts": [
     {
       "matches": [
@@ -14,9 +13,10 @@
     }
   ],
   "background": {
-      "scripts": ["browser.js"]
+      "service_worker": "browser.js",
+      "type": "module"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "ActOnPlusIcon.png"
   }
 }
