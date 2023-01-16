@@ -627,6 +627,8 @@ function functionVacatureItems(item, index) {
 fetch("https://raw.githubusercontent.com/ThomasSonneveld/Act-On-External-Content/master/version.txt")
   .then(response => response.text())
     .then((out) => {
+        console.log(out);
+        console.log(versionid);
         var text = `Lokale versie: ${versionid}<br>
                     Online versie: ${out}<br>`;
         const versiediv = document.createElement('div');
