@@ -627,15 +627,11 @@ function functionVacatureItems(item, index) {
 fetch("https://raw.githubusercontent.com/ThomasSonneveld/Act-On-External-Content/master/version.txt")
   .then(response => response.text())
     .then((out) => {
-        console.log(out);
-        console.log(versionid);
-        let isGelijk = versionid === out;
-        console.log(isGelijk);
         var text = `Lokale versie: ${versionid}<br>
                     Online versie: ${out}<br>`;
         const versiediv = document.createElement('div');
         versiediv.id = 'versiondiv';
-        if(versionid != out) {
+        if(versionid < out) {
           versiediv.className = 'versiondiv-update';
           text = `Lokale versie: ${versionid}<br>`;
           text = text + '<a href="https://github.com/ThomasSonneveld/Act-On-External-Content" target="_blank">Nu updaten naar: ' + out + '</a>';
