@@ -629,7 +629,8 @@ fetch("https://raw.githubusercontent.com/ThomasSonneveld/Act-On-External-Content
     .then((out) => {
         console.log(out);
         console.log(versionid);
-        versionid != out;
+        let isGelijk = versionid == out;
+        console.log(isGelijk);
         var text = `Lokale versie: ${versionid}<br>
                     Online versie: ${out}<br>`;
         const versiediv = document.createElement('div');
