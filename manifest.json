@@ -2,9 +2,6 @@
   "manifest_version": 3,
   "name": "FWAct-On external content v3.0.0", // Ook aanpassen in content.js en version.txt
   "version": "3.0.0",
-  "web_accessible_resources": [{
-    "resources": ["Headlinesicon.png", "Artikelengrooticon.png", "Agendaicon.png", "Artikelenkleinicon.png"]
-  }],
   "content_scripts": [
     {
       "matches": [
@@ -16,7 +13,8 @@
     }
   ],
   "background": {
-      "service_worker": "browser.js"
+      "service_worker": "browser.js",
+      "type": "module"
   },
   "action": {
     "default_icon": "ActOnPlusIcon.png"
