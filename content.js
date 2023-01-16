@@ -627,8 +627,8 @@ function functionVacatureItems(item, index) {
 fetch("https://raw.githubusercontent.com/ThomasSonneveld/Act-On-External-Content/master/version.txt")
   .then(response => response.text())
     .then((out) => {
-        console.log(out);
-        console.log(versionid);
+        console.log(typeof out);
+        console.log(typeof versionid);
         let isGelijk = versionid == out;
         console.log(isGelijk);
         var text = `Lokale versie: ${versionid}<br>
