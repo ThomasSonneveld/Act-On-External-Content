@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "FWAct-On external content v3.0.0", // Ook aanpassen in content.js en version.txt
-  "version": "3.0.0",
+  "name": "FWAct-On external content v3.0.1", // Ook aanpassen in content.js en version.txt
+  "version": "3.0.1",
   "content_scripts": [
     {
       "matches": [
