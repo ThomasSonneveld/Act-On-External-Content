@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.actonsoftware.com/acton/_compose/*"
+        "*://*.actonsoftware.com/app/classic/if/_compose/*"
       ],
 
       "js": ["LoadCanvas.js", "Append.js", "DefineIndexStyle.js", "content.js"],
